@@ -7,8 +7,8 @@ Checked 2026-11-20. Scripture is RSV-CE, checked word for word on BibleGateway v
 | Ref | Text quoted on the page | Source |
 |---|---|---|
 | Luke 18:1 | that they ought always to pray and not lose heart | https://www.biblegateway.com/verse/en/luke+18:1 |
-| Acts 1:14 | All these with one accord devoted themselves to prayer, together with the women and Mary the mother of Jesus, and with his brethren | https://www.biblegateway.com/verse/en/acts+1:14 (first draft said "brothers"; fixed) |
-| Luke 22:42 | not my will, but thine, be done | https://www.biblegateway.com/verse/en/luke+22:42 |
+| Acts 1:14 | All these with one accord devoted themselves to prayer, together with the women and Mary the mother of Jesus (quoted up to here; the verse ends "and with his brethren", left out on 2026-11-21 to avoid old English) | https://www.biblegateway.com/verse/en/acts+1:14 (first draft said "brothers"; fixed) |
+| Luke 22:42 | paraphrased since 2026-11-21 (the RSV-CE says "not my will, but thine, be done"; no thee/thou on the site) | https://www.biblegateway.com/verse/en/luke+22:42 |
 | 1 Timothy 2:5 | one mediator between God and men | https://www.biblegateway.com/verse/en/1tim+2:5 |
 | James 5:16 | pray for one another / the prayer of a righteous man has great power in its effects | https://www.biblegateway.com/verse/en/james+5:16 |
 | Luke 20:38 | is not God of the dead, but of the living; for all live to him | https://www.biblegateway.com/verse/en/luke+20:38 |

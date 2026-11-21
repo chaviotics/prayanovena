@@ -100,7 +100,8 @@ Each day has these fields:
 
 - Fetch each passage, including the epigraph and closing verse, from BibleGateway with WebFetch: `https://www.biblegateway.com/passage/?search=<Book+c:v-v>&version=RSVCE`. Ask for the exact text with no verse numbers, footnote letters or headings.
 - A URL you build yourself may need the user's approval to fetch. If nobody is there to approve, run WebSearch first (for example "Mark 2:3-5 RSVCE") and fetch only URLs that appear in its results. BibleGateway's verse pages (`/verse/en/<ref>`) list the RSVCE text, and EWTN's online Bible is labeled RSV-CE. For the Old Testament (except the deuterocanonical books), `biblestudytools.com/rsv/...` has the same text as RSV-CE. The New Testament has Catholic Edition changes, so use an RSVCE source there.
-- Copy punctuation exactly, including "LORD" and "thee/thou" in Psalms. Check the verse range: the passage must not start or end in the middle of a quotation (a dangling quote mark means choose a different range).
+- **No thee/thou verses.** Choose passages whose RSV-CE text has no archaic address to God ("thee", "thou", "thy", "thine", "hast", "didst", "art" as a verb, "doth"); if the verse you want has them, pick another RSV-CE verse on the same theme (Chav, 2026-11-21: they feel off to younger readers). Never modernize the words yourself: the RSV-CE permission requires the text unchanged. The traditional prayers (Hail Mary, Memorare) keep their own wording.
+- Copy punctuation exactly, including "LORD". Check the verse range: the passage must not start or end in the middle of a quotation (a dangling quote mark means choose a different range).
 - If a fetch looks paraphrased or partial, fetch it again or use a second RSV-CE source. Record what you verified in `novenas/<slug>/sources.md`.
 - **Permission limits:** under 500 verses in total, no whole book, under 25% of any book. The required notice is already in the template.
 

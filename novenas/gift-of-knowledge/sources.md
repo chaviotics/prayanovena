@@ -2,6 +2,8 @@
 
 All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 
+**No thee/thou (2026-11-21, Chav).** Psalm 104:24 (closing verse) used "thee/thou/thy"; they were replaced with the RSV-CE verses marked in the table, checked word for word on 2026-11-21 (BibleGateway RSVCE and/or EWTN RSV-CE). Reflections, prayers and steps that echoed the old verses were adjusted. Psalm line breaks follow the standard RSV lineation.
+
 **How they were checked.** Each verse was checked on its BibleGateway **verse page** (`/verse/en/…`), which lists the RSVCE text next to other versions; long verses came back in two halves. Old Testament texts with the divine name were checked on EWTN's online Bible (labeled RSV-CE), which prints "LORD" in capitals. Ecclesiastes 3:11: the first half was read on BibleGateway (RSVCE); the second half on biblestudytools.com (RSV, whose Old Testament text is the same as RSV-CE).
 
 **Line breaks.** Neither source shows poetry line breaks in the fetched text. The " / " break in Psalm 19:1 follows the standard RSV lineation. The words and punctuation are verified, but the break is not. The epigraph and closing verse are given as prose, like the other novenas.
@@ -9,7 +11,7 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 | Where | Ref | Verified text | Source(s) |
 |---|---|---|---|
 | Epigraph | Isaiah 11:2 | And the Spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and the fear of the LORD. | https://www.biblegateway.com/verse/en/Isaiah%2011:2 (RSVCE); https://www.ewtn.com/bible/38-isaiah/11 (RSV-CE, "LORD") |
-| Closing verse | Psalm 104:24 | O LORD, how manifold are thy works! In wisdom hast thou made them all; the earth is full of thy creatures. | https://www.ewtn.com/bible/63-psalms/104 (RSV-CE, "LORD") |
+| Closing verse | Psalm 111:2 | Great are the works of the LORD, studied by all who have pleasure in them. | https://www.ewtn.com/bible/63-psalms/111 (RSV-CE, "LORD") |
 | Day 1 | Ecclesiastes 3:11 | He has made everything beautiful in its time; also he has put eternity into man’s mind, yet so that he cannot find out what God has done from the beginning to the end. | https://www.biblegateway.com/verse/en/Ecclesiastes%203:11 (RSVCE, first half); https://www.biblestudytools.com/rsv/ecclesiastes/3.html (RSV, whole verse) |
 | Day 2 | Wisdom 7:17 | For it is he who gave me unerring knowledge of what exists, to know the structure of the world and the activity of the elements. | https://www.biblegateway.com/verse/en/Wisdom%207:17 (RSVCE, verified 2026-11-20; the verse ends with a semicolon and continues in 7:18, so the excerpt closes with a period) |
 | Day 3 | Psalm 19:1 | The heavens are telling the glory of God; / and the firmament proclaims his handiwork. | https://www.ewtn.com/bible/63-psalms/19 (RSV-CE) |

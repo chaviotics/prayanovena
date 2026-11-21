@@ -2,14 +2,16 @@
 
 All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 
+**No thee/thou (2026-11-21, Chav).** Psalm 90:17 (closing verse) used "thee/thou/thy"; they were replaced with the RSV-CE verses marked in the table, checked word for word on 2026-11-21 (BibleGateway RSVCE and/or EWTN RSV-CE). Reflections, prayers and steps that echoed the old verses were adjusted. Psalm line breaks follow the standard RSV lineation.
+
 **How they were checked.** Each verse was read on its BibleGateway verse page (`/verse/en/…`, which lists RSVCE beside other versions) or on a BibleGateway passage page with `version=RSVCE` that was confirmed as RSVCE in the page heading. Matthew 7:8 could not be matched to the RSVCE line on the verse page, so it was checked on the RSVCE passage page. Long verses came back in two pieces and were joined. BibleGateway shows the divine name as plain "Lord", so "LORD" capitals in the Old Testament (Proverbs 16:3, Proverbs 11:1, Genesis 2:15) and the lowercase "Lord" in Psalm 90:17 were confirmed on biblestudytools.com/rsv, whose RSV text matches RSV-CE in the protocanonical Old Testament. (EWTN's Bible page failed to load this session.)
 
-**Line breaks.** Psalm 127:2 follows the line breaks shown on the BibleGateway RSVCE passage page. Psalm 90:17 is printed without breaks in the closing verse, as in the examples.
+**Line breaks.** Psalm 127:2 follows the line breaks shown on the BibleGateway RSVCE passage page. The closing verse (Philippians 1:6) is prose.
 
 | Where | Ref | Verified text | Source(s) |
 |---|---|---|---|
 | Epigraph | Proverbs 16:3 | Commit your work to the LORD, and your plans will be established. | https://www.biblegateway.com/verse/en/Proverbs%2016:3 ; https://www.biblestudytools.com/rsv/proverbs/16-3.html ("LORD") |
-| Closing verse | Psalm 90:17 | Let the favor of the Lord our God be upon us, and establish thou the work of our hands upon us, yea, the work of our hands establish thou it. | https://www.biblegateway.com/passage/?search=Psalm%2090%3A17&version=RSVCE ; https://www.biblestudytools.com/rsv/psalms/90-17.html ("Lord", lowercase) |
+| Closing verse | Philippians 1:6 | And I am sure that he who began a good work in you will bring it to completion at the day of Jesus Christ. | https://www.biblegateway.com/passage/?search=Philippians+1:6&version=RSVCE (RSVCE) |
 | Day 1 | Matthew 11:28 | Come to me, all who labor and are heavy laden, and I will give you rest. | https://www.biblegateway.com/verse/en/Matthew%2011:28 |
 | Day 2 | Psalm 127:2 | It is in vain that you rise up early and go late to rest, / eating the bread of anxious toil; / for he gives to his beloved sleep. | https://www.biblegateway.com/verse/en/Psalm%20127:2 (RSVCE); https://www.biblegateway.com/passage/?search=Psalm%20127%3A1-2&version=RSVCE (lineation; footnote marker after "for" omitted) |
 | Day 3 | Matthew 7:7–8 | Ask, and it will be given you; seek, and you will find; knock, and it will be opened to you. For every one who asks receives, and he who seeks finds, and to him who knocks it will be opened. | v.7 https://www.biblegateway.com/verse/en/Matthew%207:7 ; v.8 https://www.biblegateway.com/passage/?search=Matthew%207%3A7-8&version=RSVCE |

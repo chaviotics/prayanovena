@@ -2,21 +2,23 @@
 
 All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 
+**No thee/thou (2026-11-21, Chav).** Psalm 130:1–2 (Day 1) and Luke 22:41–42 (Day 7) used "thee/thou/thy"; they were replaced with the RSV-CE verses marked in the table, checked word for word on 2026-11-21 (BibleGateway RSVCE and/or EWTN RSV-CE). Reflections, prayers and steps that echoed the old verses were adjusted. Psalm line breaks follow the standard RSV lineation.
+
 **How they were checked.** Each verse was checked on its BibleGateway **verse page** (`/verse/en/…`), which lists the RSVCE text beside other versions, one verse per fetch. BibleGateway rate-limited some fetches, so several passages were checked on Biblia's RSVCE chapter pages (`biblia.com/bible/rsvce/…`, labeled "The Revised Standard Version, Catholic Edition", © 1965, 1966 NCC), found through WebSearch. BibleGateway prints the divine name as plain "Lord", so "LORD" capitals in the Psalms were confirmed on EWTN's online Bible (labeled RSV-CE).
 
-**Line breaks.** The Psalm 130:1–2 breaks follow Biblia's RSVCE lineation. Isaiah 43:19 follows Biblia's lineation too, which keeps "I will make a way in the wilderness and rivers in the desert." on one line. The epigraph (Psalm 34:18) is written as prose, like the healing novena's epigraph.
+**Line breaks.** The Psalm 18:6 breaks follow the standard RSV lineation. Isaiah 43:19 follows Biblia's lineation too, which keeps "I will make a way in the wilderness and rivers in the desert." on one line. The epigraph (Psalm 34:18) is written as prose, like the healing novena's epigraph.
 
 | Where | Ref | Verified text | Source(s) |
 |---|---|---|---|
 | Epigraph | Psalm 34:18 | The LORD is near to the brokenhearted, and saves the crushed in spirit. | https://www.biblegateway.com/verse/en/Psalm%2034:18 (RSVCE); https://www.ewtn.com/bible/63-psalms/34 (RSV-CE, "LORD") |
 | Closing verse | Romans 15:13 | May the God of hope fill you with all joy and peace in believing, so that by the power of the Holy Spirit you may abound in hope. | https://www.biblegateway.com/verse/en/Romans%2015:13 ; https://biblia.com/bible/rsvce/romans/15 (full verse) |
-| Day 1 | Psalm 130:1–2 | Out of the depths I cry to thee, O LORD! / Lord, hear my voice! / Let thy ears be attentive / to the voice of my supplications! | v.1–2 https://www.ewtn.com/bible/63-psalms/130 (RSV-CE: "LORD" in v.1, "Lord" in v.2); v.2 https://www.biblegateway.com/verse/en/Psalm%20130:2 ; lineation https://biblia.com/bible/rsvce/psalms/130 |
+| Day 1 | Psalm 18:6 | In my distress I called upon the LORD; / to my God I cried for help. / From his temple he heard my voice, / and my cry to him reached his ears. | https://www.ewtn.com/bible/63-psalms/18 (RSV-CE, "LORD"; numbered 18:6) |
 | Day 2 | Mark 9:24 | Immediately the father of the child cried out and said, “I believe; help my unbelief!” | https://www.biblegateway.com/verse/en/Mark%209:24 |
 | Day 3 | Matthew 19:26 | But Jesus looked at them and said to them, “With men this is impossible, but with God all things are possible.” | https://www.biblegateway.com/verse/en/Matthew%2019:26 |
 | Day 4 | Isaiah 43:19 | Behold, I am doing a new thing; / now it springs forth, do you not perceive it? / I will make a way in the wilderness and rivers in the desert. | https://www.biblegateway.com/verse/en/Isaiah%2043:19 (RSVCE, in two parts); https://biblia.com/bible/rsvce/isaiah/43 (lineation) |
 | Day 5 | Luke 18:1 | And he told them a parable, to the effect that they ought always to pray and not lose heart. | https://www.biblegateway.com/verse/en/Luke%2018:1 |
 | Day 6 | Ephesians 4:31–32 | Let all bitterness and wrath and anger and clamor and slander be put away from you, with all malice, and be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you. | v.31 https://www.biblegateway.com/verse/en/Ephesians%204:31 ; v.32 https://www.biblegateway.com/verse/en/Ephesians%204:32 |
-| Day 7 | Luke 22:41–42 | And he withdrew from them about a stone’s throw, and knelt down and prayed, “Father, if thou art willing, remove this cup from me; nevertheless not my will, but thine, be done.” | v.41 https://www.biblegateway.com/verse/en/Luke%2022:41 ; v.42 https://www.biblegateway.com/verse/en/Luke%2022:42 |
+| Day 7 | Hebrews 5:7 | In the days of his flesh, Jesus offered up prayers and supplications, with loud cries and tears, to him who was able to save him from death, and he was heard for his godly fear. | https://www.biblegateway.com/verse/en/Hebrews%205:7 (RSVCE row) |
 | Day 8 | Jude 20–21 | But you, beloved, build yourselves up on your most holy faith; pray in the Holy Spirit; keep yourselves in the love of God; wait for the mercy of our Lord Jesus Christ unto eternal life. | v.20 https://www.biblegateway.com/verse/en/Jude%201:20 ; v.20–21 https://biblia.com/bible/rsvce/jude |
 | Day 9 | Ephesians 3:20–21 | Now to him who by the power at work within us is able to do far more abundantly than all that we ask or think, to him be glory in the church and in Christ Jesus to all generations, for ever and ever. Amen. | https://biblia.com/bible/rsvce/ephesians/3 |
 
@@ -24,7 +26,7 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 
 - No passage starts or ends in the middle of a quotation.
   - Luke 1:37 was not used as a day verse because it ends the angel's speech mid-quotation; Matthew 19:26 (a complete quotation) carries the "nothing is impossible with God" theme instead, and Luke 1:37 is quoted inside the Day 3 reflection.
-  - Mark 9:24, Matthew 19:26 and Luke 22:41–42 each open and close their quotation.
+  - Mark 9:24 and Matthew 19:26 each open and close their quotation; Hebrews 5:7 is one complete sentence.
   - Isaiah 43:19 is an oracle with no quotation marks in the RSV.
   - Ephesians 4:31–32, Jude 20–21 and Ephesians 3:20–21 are complete sentences.
 - Text quoted in reflections, prayers and steps comes from verified passages: "I believe; help my unbelief!" (Mark 9:24) and "with God nothing will be impossible" (Luke 1:37, verified at https://biblia.com/bible/rsvce/luke/1 : "For with God nothing will be impossible.”").

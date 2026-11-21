@@ -2,15 +2,17 @@
 
 All texts are RSV-CE. Checked word for word on 2026-11-21 against BibleGateway passage pages (`/passage/?search=…&version=RSVCE`, each page header confirmed as "Revised Standard Version Catholic Edition (RSVCE)"). BibleGateway's extracted text prints the divine name as plain "Lord"; "LORD" was confirmed on EWTN's RSV-CE Bible (Psalms) and in BibleGateway's own page metadata (Numbers 6, Psalm 34).
 
+**No thee/thou (2026-11-21, Chav).** Psalm 139:13 (epigraph) and Psalm 56:3 (Day 1) used "thee/thou/thy"; they were replaced with the RSV-CE verses marked in the table, checked word for word on 2026-11-21 (BibleGateway RSVCE and/or EWTN RSV-CE). Reflections, prayers and steps that echoed the old verses were adjusted. Psalm line breaks follow the standard RSV lineation.
+
 **Line breaks.** The " / " breaks in the Psalms and Numbers 6 follow the standard RSV lineation; the words and punctuation are verified, the breaks are not.
 
 **Pronunciation marks.** The RSV prints a stress mark in some proper names (BibleGateway shows "Zechari′ah" in Luke 1:40). Like other pronunciation aids it is left out here: "Zechariah".
 
 | Where | Ref | Verified text | Source(s) |
 |---|---|---|---|
-| Epigraph | Psalm 139:13 | For thou didst form my inward parts, / thou didst knit me together in my mother’s womb. | https://www.biblegateway.com/passage/?search=Psalm+139:13&version=RSVCE |
+| Epigraph | Isaiah 49:1 (second half) | The LORD called me from the womb, from the body of my mother he named my name. | https://www.biblegateway.com/passage/?search=Isaiah+49:1&version=RSVCE (RSVCE, 4 printed lines; no quotation marks in v.1); https://www.ewtn.com/bible/38-isaiah/49 (RSV-CE, "LORD") |
 | Closing verse | Numbers 6:24–26 | The LORD bless you and keep you: / The LORD make his face to shine upon you, and be gracious to you: / The LORD lift up his countenance upon you, and give you peace. | https://www.biblegateway.com/passage/?search=Numbers+6:24-26&version=RSVCE (body and metadata) |
-| Day 1 | Psalm 56:3 | When I am afraid, / I put my trust in thee. | https://www.biblegateway.com/passage/?search=Psalm+56:3&version=RSVCE ; https://www.ewtn.com/bible/63-psalms/56 |
+| Day 1 | Psalm 27:1 | The LORD is my light and my salvation; / whom shall I fear? / The LORD is the stronghold of my life; / of whom shall I be afraid? | https://www.ewtn.com/bible/63-psalms/27 (RSV-CE, "LORD") |
 | Day 2 | Jeremiah 1:5 | “Before I formed you in the womb I knew you, and before you were born I consecrated you; I appointed you a prophet to the nations.” | https://www.biblegateway.com/passage/?search=Jeremiah+1:4-5&version=RSVCE |
 | Day 3 | Luke 1:39–40 | In those days Mary arose and went with haste into the hill country, to a city of Judah, and she entered the house of Zechariah and greeted Elizabeth. | https://www.biblegateway.com/passage/?search=Luke+1:39-40&version=RSVCE |
 | Day 4 | Matthew 1:20–21 | But as he considered this, behold, an angel of the Lord appeared to him in a dream, saying, “Joseph, son of David, do not fear to take Mary your wife, for that which is conceived in her is of the Holy Spirit; she will bear a son, and you shall call his name Jesus, for he will save his people from their sins.” | https://www.biblegateway.com/passage/?search=Matthew+1:20-21&version=RSVCE |
