@@ -20,5 +20,4 @@ Live at https://prayanovena.com
 
 The original debt novena at novena-finances.netlify.app (repo `chaviotics/novena-finances`) is a separate site that people are using. This repo never deploys to it.
 
-Scripture quotations are from the Revised Standard Version, Catholic Edition (RSV-CE), copyright © 1965, 1966
-National Council of the Churches of Christ in the United States of America. Used by permission. All rights reserved worldwide.
+Scripture texts in this work are taken from the New American Bible, revised edition © 2010, 1991, 1986, 1970 Confraternity of Christian Doctrine, Washington, D.C. and are used by permission of the copyright owner. All Rights Reserved. No part of the New American Bible may be reproduced in any form without permission in writing from the copyright owner.

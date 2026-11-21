@@ -1,36 +1,44 @@
 # Novena for a Desperate or Impossible Case: Scripture sources
 
-All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
+All texts are NABRE (New American Bible, revised edition), checked word for word on 2026-11-21 against bible.usccb.org.
 
-**How they were checked.** Each verse was checked on its BibleGateway **verse page** (`/verse/en/…`), which lists the RSVCE text beside other versions, one verse per fetch. BibleGateway rate-limited some fetches, so several passages were checked on Biblia's RSVCE chapter pages (`biblia.com/bible/rsvce/…`, labeled "The Revised Standard Version, Catholic Edition", © 1965, 1966 NCC), found through WebSearch. BibleGateway prints the divine name as plain "Lord", so "LORD" capitals in the Psalms were confirmed on EWTN's online Bible (labeled RSV-CE).
+**How they were checked.** Each passage was read on its bible.usccb.org chapter page with WebFetch (one fetch per chapter; longer verses were read in consecutive short parts). The divine name is printed "LORD" as on the page. NABRE's own lowercase "holy Spirit" (Romans 15:13, Jude 20) and its bracketed "[And]" (Ephesians 4:32) are kept.
 
-**Line breaks.** The Psalm 130:1–2 breaks follow Biblia's RSVCE lineation. Isaiah 43:19 follows Biblia's lineation too, which keeps "I will make a way in the wilderness and rivers in the desert." on one line. The epigraph (Psalm 34:18) is written as prose, like the healing novena's epigraph.
+**Line breaks.** Poetry lines are separated by " / " (rendered as line breaks), following the USCCB page: Psalm 34:19 (epigraph, 2 lines), Psalm 130:1–2 (4 lines) and Isaiah 43:19 (4 lines). The others are prose.
 
-| Where | Ref | Verified text | Source(s) |
+| Where | Ref | Text | Source |
 |---|---|---|---|
-| Epigraph | Psalm 34:18 | The LORD is near to the brokenhearted, and saves the crushed in spirit. | https://www.biblegateway.com/verse/en/Psalm%2034:18 (RSVCE); https://www.ewtn.com/bible/63-psalms/34 (RSV-CE, "LORD") |
-| Closing verse | Romans 15:13 | May the God of hope fill you with all joy and peace in believing, so that by the power of the Holy Spirit you may abound in hope. | https://www.biblegateway.com/verse/en/Romans%2015:13 ; https://biblia.com/bible/rsvce/romans/15 (full verse) |
-| Day 1 | Psalm 130:1–2 | Out of the depths I cry to thee, O LORD! / Lord, hear my voice! / Let thy ears be attentive / to the voice of my supplications! | v.1–2 https://www.ewtn.com/bible/63-psalms/130 (RSV-CE: "LORD" in v.1, "Lord" in v.2); v.2 https://www.biblegateway.com/verse/en/Psalm%20130:2 ; lineation https://biblia.com/bible/rsvce/psalms/130 |
-| Day 2 | Mark 9:24 | Immediately the father of the child cried out and said, “I believe; help my unbelief!” | https://www.biblegateway.com/verse/en/Mark%209:24 |
-| Day 3 | Matthew 19:26 | But Jesus looked at them and said to them, “With men this is impossible, but with God all things are possible.” | https://www.biblegateway.com/verse/en/Matthew%2019:26 |
-| Day 4 | Isaiah 43:19 | Behold, I am doing a new thing; / now it springs forth, do you not perceive it? / I will make a way in the wilderness and rivers in the desert. | https://www.biblegateway.com/verse/en/Isaiah%2043:19 (RSVCE, in two parts); https://biblia.com/bible/rsvce/isaiah/43 (lineation) |
-| Day 5 | Luke 18:1 | And he told them a parable, to the effect that they ought always to pray and not lose heart. | https://www.biblegateway.com/verse/en/Luke%2018:1 |
-| Day 6 | Ephesians 4:31–32 | Let all bitterness and wrath and anger and clamor and slander be put away from you, with all malice, and be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you. | v.31 https://www.biblegateway.com/verse/en/Ephesians%204:31 ; v.32 https://www.biblegateway.com/verse/en/Ephesians%204:32 |
-| Day 7 | Luke 22:41–42 | And he withdrew from them about a stone’s throw, and knelt down and prayed, “Father, if thou art willing, remove this cup from me; nevertheless not my will, but thine, be done.” | v.41 https://www.biblegateway.com/verse/en/Luke%2022:41 ; v.42 https://www.biblegateway.com/verse/en/Luke%2022:42 |
-| Day 8 | Jude 20–21 | But you, beloved, build yourselves up on your most holy faith; pray in the Holy Spirit; keep yourselves in the love of God; wait for the mercy of our Lord Jesus Christ unto eternal life. | v.20 https://www.biblegateway.com/verse/en/Jude%201:20 ; v.20–21 https://biblia.com/bible/rsvce/jude |
-| Day 9 | Ephesians 3:20–21 | Now to him who by the power at work within us is able to do far more abundantly than all that we ask or think, to him be glory in the church and in Christ Jesus to all generations, for ever and ever. Amen. | https://biblia.com/bible/rsvce/ephesians/3 |
+| Epigraph | Psalm 34:19 | The LORD is close to the brokenhearted, / saves those whose spirit is crushed. | https://bible.usccb.org/bible/psalms/34 |
+| Closing verse | Romans 15:13 | May the God of hope fill you with all joy and peace in believing, so that you may abound in hope by the power of the holy Spirit. | https://bible.usccb.org/bible/romans/15 |
+| Day 1 | Psalm 130:1–2 | Out of the depths I call to you, LORD; / Lord, hear my cry! / May your ears be attentive / to my cry for mercy. | https://bible.usccb.org/bible/psalms/130 |
+| Day 2 | Mark 9:24 | Then the boy’s father cried out, “I do believe, help my unbelief!” | https://bible.usccb.org/bible/mark/9 |
+| Day 3 | Matthew 19:26 | Jesus looked at them and said, “For human beings this is impossible, but for God all things are possible.” | https://bible.usccb.org/bible/matthew/19 |
+| Day 4 | Isaiah 43:19 | See, I am doing something new! / Now it springs forth, do you not perceive it? / In the wilderness I make a way, / in the wasteland, rivers. | https://bible.usccb.org/bible/isaiah/43 |
+| Day 5 | Luke 18:1 | Then he told them a parable about the necessity for them to pray always without becoming weary. | https://bible.usccb.org/bible/luke/18 |
+| Day 6 | Ephesians 4:31–32 | All bitterness, fury, anger, shouting, and reviling must be removed from you, along with all malice. [And] be kind to one another, compassionate, forgiving one another as God has forgiven you in Christ. | https://bible.usccb.org/bible/ephesians/4 |
+| Day 7 | Luke 22:41–42 | After withdrawing about a stone’s throw from them and kneeling, he prayed, saying, “Father, if you are willing, take this cup away from me; still, not my will but yours be done.” | https://bible.usccb.org/bible/luke/22 |
+| Day 8 | Jude 20–21 | But you, beloved, build yourselves up in your most holy faith; pray in the holy Spirit. Keep yourselves in the love of God and wait for the mercy of our Lord Jesus Christ that leads to eternal life. | https://bible.usccb.org/bible/jude/1 |
+| Day 9 | Ephesians 3:20–21 | Now to him who is able to accomplish far more than all we ask or imagine, by the power at work within us, to him be glory in the church and in Christ Jesus to all generations, forever and ever. Amen. | https://bible.usccb.org/bible/ephesians/3 |
+
+## Numbering and range changes
+
+- Numbering: epigraph Psalm 34:18 (RSV) → **Psalm 34:19** (NABRE; the psalm's title is verse 1). Psalm 130 has no shift (its superscription "A song of ascents." is unnumbered; 130:1–2 is the same text). No other reference changed.
+- Ranges: all eleven passages keep their old ranges; each NABRE range passes the checks below.
 
 ## Range checks
 
-- No passage starts or ends in the middle of a quotation.
-  - Luke 1:37 was not used as a day verse because it ends the angel's speech mid-quotation; Matthew 19:26 (a complete quotation) carries the "nothing is impossible with God" theme instead, and Luke 1:37 is quoted inside the Day 3 reflection.
-  - Mark 9:24, Matthew 19:26 and Luke 22:41–42 each open and close their quotation.
-  - Isaiah 43:19 is an oracle with no quotation marks in the RSV.
-  - Ephesians 4:31–32, Jude 20–21 and Ephesians 3:20–21 are complete sentences.
-- Text quoted in reflections, prayers and steps comes from verified passages: "I believe; help my unbelief!" (Mark 9:24) and "with God nothing will be impossible" (Luke 1:37, verified at https://biblia.com/bible/rsvce/luke/1 : "For with God nothing will be impossible.”").
-- Permission limits: 16 verses in total (epigraph 1, closing 1, days 14). No whole book is quoted, and no book beyond 25%. Jude has 25 verses; 2 are used (8%).
-- The closing verse has 28 words, against the skill's "up to about 25". Kept: it ends the novena on hope, which is the point of this intention.
-- No passage repeats one used in the debt novena (1 Peter 5:7; Matthew 6:31–33; Luke 1:38; Psalm 128:1–2; Luke 14:28; Lamentations 3:25–26; Colossians 3:14–15; Philippians 4:6–7; Romans 13:8; 1 Thessalonians 5:16–18). Lamentations 3 and Colossians 3 were avoided altogether.
+- No passage starts or ends in the middle of a quotation, and every passage ends at the end of a sentence.
+  - Luke 1:37 is still not used as a day verse: in the NABRE it is the lowercase end of the angel's speech ("for nothing will be impossible for God.”"). Matthew 19:26 (a complete quotation) carries the theme instead.
+  - Mark 9:24, Matthew 19:26 and Luke 22:41–42 each open and close their quotation (Luke 22:41 begins the sentence "After withdrawing…"; 22:42 closes the quote with ”).
+  - Psalm 130:1–2 ends at "mercy." (verse 1 ends on a semicolon, so verse 2 is needed); Isaiah 43:19 is an oracle with no quotation marks and ends at "rivers."
+  - Ephesians 4:31–32, Jude 20–21 and Ephesians 3:20–21 end on full stops.
+- The closing verse has 28 words, against "up to about 25". Kept: it ends the novena on hope, which is the point of this intention. The epigraph has 13 words.
+- Text quoted in reflections, prayers and steps (NABRE verbatim):
+  - "I do believe, help my unbelief!" (Mark 9:24), Day 2 reflection and step. The Day 2 prayer adapts it without quote marks ("we do believe, help our unbelief").
+  - "nothing will be impossible for God." (Luke 1:37, https://bible.usccb.org/bible/luke/1 : "for nothing will be impossible for God.”"), Day 3 reflection.
+- Wording in reflections and prayers aligned with the NABRE text: Day 1 prayer "we call to You… Hear our cry"; Day 4 prayer "rivers in the wasteland"; Day 5 title "Pray Always & Do Not Grow Weary" and prayer "pray always without becoming weary"; Day 6 reflection "removed from us… as God has forgiven us in Christ"; Day 7 title "Not My Will but Yours" and prayer "take the cup away"; Day 9 reflection "far more than all we ask or imagine". The printed closing (printClosing) matches Romans 15:13.
+- Permission: the NABRE may be quoted up to 5,000 words site-wide without written permission, provided no complete book is quoted and the quotations are under 40% of the work. This novena quotes 16 verses (epigraph 1, closing 1, days 14), about 280 words, plus about 20 words repeated in reflections (Mark 9:24, Luke 1:37). No whole book is quoted; Jude has 25 verses and 2 are used (8%). Scripture is a small fraction of the novena's text.
+- No passage repeats one used in the debt novena (1 Peter 5:7; Matthew 6:31–33; Luke 1:38; Psalm 128:1–2; Luke 14:28; Lamentations 3:25–26; Colossians 3:14–15; Philippians 4:6–7; Romans 13:8; 1 Thessalonians 5:16–18). Lamentations 3 and Colossians 3 were avoided altogether. (Those references are as listed when this check was written; the debt novena's NABRE numbering is recorded in its own sources.md.)
 
 ## Other Scripture referenced (paraphrased or cited by reference only)
 
@@ -49,7 +57,7 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 
 ## Self-review (strict Catholic editor pass)
 
-- No promise of outcomes anywhere; "nothing is impossible with God" is always paired with "this does not mean God will do whatever we ask" (Day 3) and the Gethsemane day (Day 7), which says plainly that an unanswered prayer is not a sign of weak faith.
+- No promise of outcomes anywhere; "nothing will be impossible for God" (and the title "Nothing Is Impossible with God") is always paired with "this does not mean God will do whatever we ask" (Day 3) and the Gethsemane day (Day 7), which says plainly that an unanswered prayer is not a sign of weak faith.
 - Explicitly rejects chain-prayer superstition: the "Alongside prayer" tip and Day 9 say there is nothing to copy, pass on or publish and no prayer comes with a guarantee.
 - Sacraments: Confession (tip, Day 6), Mass (tip, Day 8). Wise counsel and professionals (tip, Day 4). Helpline note for anyone thinking of self-harm (tip, Day 1).
 - Forgiveness day says forgiveness does not always mean trusting again or staying in danger, and prays for reconciliation only "where that is possible and safe".
@@ -64,4 +72,3 @@ An independent Catholic review (review.md) found 4 errors and 7 improvements, ap
 - Day 1 and the tip: the self-harm line says "you are not alone"; the tip links to findahelpline.com (lists lines by country), warns against fortune-tellers, charms and "sure fixes" (CCC 2116–2117), and says no novena guarantees a particular outcome.
 - Name order in descriptions and Day 9 so "Our Lady, Undoer of Knots" reads as one title.
 - Images: no public-domain reproduction of the Augsburg painting large enough for a face was found (the Commons file is 202×347 px), so the litany shows no avatar for Our Lady, Undoer of Knots.
-- Not re-fetched in the review (web budget): Ephesians 3:20–21, Jude 20–21, Isaiah 43:19, Luke 22:41–42; verified when written.

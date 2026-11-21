@@ -1,37 +1,50 @@
 # Novena for Work and Livelihood: Scripture sources
 
-All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
+All texts are NABRE (New American Bible, revised edition), checked word for word on 2026-11-21 against bible.usccb.org.
 
-**How they were checked.** Each verse was read on its BibleGateway verse page (`/verse/en/…`, which lists RSVCE beside other versions) or on a BibleGateway passage page with `version=RSVCE` that was confirmed as RSVCE in the page heading. Matthew 7:8 could not be matched to the RSVCE line on the verse page, so it was checked on the RSVCE passage page. Long verses came back in two pieces and were joined. BibleGateway shows the divine name as plain "Lord", so "LORD" capitals in the Old Testament (Proverbs 16:3, Proverbs 11:1, Genesis 2:15) and the lowercase "Lord" in Psalm 90:17 were confirmed on biblestudytools.com/rsv, whose RSV text matches RSV-CE in the protocanonical Old Testament. (EWTN's Bible page failed to load this session.)
+**How they were checked.** Each chapter page on bible.usccb.org was fetched once with WebFetch and the verses were read off it line by line, with the page's punctuation, capitals, quotation marks and poetry lines. The divine name is printed "LORD" as on the page; Psalm 90:17 has "Lord" in mixed case. Proverbs 16:3, Psalm 127:2 and James 1:5 are shared with the Passing an Exam novena and use identical text there.
 
-**Line breaks.** Psalm 127:2 follows the line breaks shown on the BibleGateway RSVCE passage page. Psalm 90:17 is printed without breaks in the closing verse, as in the examples.
+**Line breaks.** The " / " breaks follow the poetry lines on the USCCB pages (Proverbs 16:3, Psalm 90:17, Psalm 127:2, Proverbs 11:1). New Testament passages and Genesis 2:15 are prose. NABRE capitalizes the first word of some poetry lines even after a comma ("To eat bread…"); this is kept as printed.
 
-| Where | Ref | Verified text | Source(s) |
+| Where | Ref | Text | Source |
 |---|---|---|---|
-| Epigraph | Proverbs 16:3 | Commit your work to the LORD, and your plans will be established. | https://www.biblegateway.com/verse/en/Proverbs%2016:3 ; https://www.biblestudytools.com/rsv/proverbs/16-3.html ("LORD") |
-| Closing verse | Psalm 90:17 | Let the favor of the Lord our God be upon us, and establish thou the work of our hands upon us, yea, the work of our hands establish thou it. | https://www.biblegateway.com/passage/?search=Psalm%2090%3A17&version=RSVCE ; https://www.biblestudytools.com/rsv/psalms/90-17.html ("Lord", lowercase) |
-| Day 1 | Matthew 11:28 | Come to me, all who labor and are heavy laden, and I will give you rest. | https://www.biblegateway.com/verse/en/Matthew%2011:28 |
-| Day 2 | Psalm 127:2 | It is in vain that you rise up early and go late to rest, / eating the bread of anxious toil; / for he gives to his beloved sleep. | https://www.biblegateway.com/verse/en/Psalm%20127:2 (RSVCE); https://www.biblegateway.com/passage/?search=Psalm%20127%3A1-2&version=RSVCE (lineation; footnote marker after "for" omitted) |
-| Day 3 | Matthew 7:7–8 | Ask, and it will be given you; seek, and you will find; knock, and it will be opened to you. For every one who asks receives, and he who seeks finds, and to him who knocks it will be opened. | v.7 https://www.biblegateway.com/verse/en/Matthew%207:7 ; v.8 https://www.biblegateway.com/passage/?search=Matthew%207%3A7-8&version=RSVCE |
-| Day 4 | Genesis 2:15 | The LORD God took the man and put him in the garden of Eden to till it and keep it. | https://www.biblegateway.com/verse/en/Genesis%202:15 ; https://www.biblestudytools.com/rsv/genesis/2-15.html ("LORD") |
-| Day 5 | Sirach 38:31 | All these rely upon their hands, and each is skilful in his own work. | https://www.biblegateway.com/passage/?search=Sirach%2038%3A31-34&version=RSVCE |
-| Day 6 | Proverbs 11:1 | A false balance is an abomination to the LORD, but a just weight is his delight. | https://www.biblegateway.com/verse/en/Proverbs%2011:1 ; https://www.biblestudytools.com/rsv/proverbs/11-1.html ("LORD") |
-| Day 7 | James 1:5 | If any of you lacks wisdom, let him ask God, who gives to all men generously and without reproaching, and it will be given him. | https://www.biblegateway.com/verse/en/James%201:5 ; https://www.biblegateway.com/passage/?search=James%201%3A5&version=RSVCE |
-| Day 8 | Ephesians 4:28 | Let the thief no longer steal, but rather let him labor, doing honest work with his hands, so that he may be able to give to those in need. | https://www.biblegateway.com/passage/?search=Ephesians%204%3A28&version=RSVCE |
-| Day 9 | Colossians 3:17 | And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him. | https://www.biblegateway.com/verse/en/Colossians%203:17 ; https://www.biblegateway.com/passage/?search=Colossians%203%3A17&version=RSVCE |
+| Epigraph | Proverbs 16:3 | Entrust your works to the LORD, / and your plans will succeed. | https://bible.usccb.org/bible/proverbs/16 |
+| Closing verse | Psalm 90:17 | May the favor of the Lord our God be ours. / Prosper the work of our hands! / Prosper the work of our hands! | https://bible.usccb.org/bible/psalms/90 |
+| Day 1 | Matthew 11:28–30 | “Come to me, all you who labor and are burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am meek and humble of heart; and you will find rest for yourselves. For my yoke is easy, and my burden light.” | https://bible.usccb.org/bible/matthew/11 |
+| Day 2 | Psalm 127:2 | It is vain for you to rise early / and put off your rest at night, / To eat bread earned by hard toil— / all this God gives to his beloved in sleep. | https://bible.usccb.org/bible/psalms/127 |
+| Day 3 | Matthew 7:7–8 | Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. For everyone who asks, receives; and the one who seeks, finds; and to the one who knocks, the door will be opened. | https://bible.usccb.org/bible/matthew/7 |
+| Day 4 | Genesis 2:15 | The LORD God then took the man and settled him in the garden of Eden, to cultivate and care for it. | https://bible.usccb.org/bible/genesis/2 |
+| Day 5 | 1 Peter 4:10 | As each one has received a gift, use it to serve one another as good stewards of God’s varied grace. | https://bible.usccb.org/bible/1peter/4 |
+| Day 6 | Proverbs 11:1 | False scales are an abomination to the LORD, / but an honest weight, his delight. | https://bible.usccb.org/bible/proverbs/11 |
+| Day 7 | James 1:5 | But if any of you lacks wisdom, he should ask God who gives to all generously and ungrudgingly, and he will be given it. | https://bible.usccb.org/bible/james/1 |
+| Day 8 | Ephesians 4:28 | The thief must no longer steal, but rather labor, doing honest work with his [own] hands, so that he may have something to share with one in need. | https://bible.usccb.org/bible/ephesians/4 |
+| Day 9 | Colossians 3:17 | And whatever you do, in word or in deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him. | https://bible.usccb.org/bible/colossians/3 |
+
+## Numbering and range changes from the RSV-CE version
+
+- **Numbering.** No reference changes from numbering. The NABRE prints the psalm titles as part of verse 1 in Psalms 90 ("A prayer of Moses, the man of God.") and 127 ("A song of ascents. Of Solomon."), so 90:17 and 127:2 keep their RSV numbers; checked on each chapter page.
+- **Day 1: Matthew 11:28 → Matthew 11:28–30.** The NABRE opens Jesus' words at v.28 with “ and closes them only at the end of v.30 (“…my burden light.”), so v.28 alone would leave a dangling quote mark. The whole invitation is now used.
+- **Day 3: Matthew 7:7–8**, range unchanged. The NABRE prints the Sermon on the Mount as one long quotation (closing at 7:27) and repeats an opening “ at the start of each paragraph, including 7:7. That continued-speech mark is omitted here, so no unclosed quote mark is shown; the Lectionary also prints Jesus' words without quote marks. All words and other punctuation are as printed.
+- **Day 5: Sirach 38:31 → 1 Peter 4:10.** In the NABRE, Sirach 38:31 ("All these are skilled with their hands, / each one an expert at his own work;") ends on a semicolon, and its sentence runs on to 38:34 through verses saying the craftsmen are not found in the council or on the judge's bench (about 96 words). 1 Peter 4:10 ends with a full stop in the NABRE and fits the day's theme (Work That Fits Our Gifts); the reflection was rewritten to match.
+- **printClosing** now follows the NABRE lines of Psalm 90:17.
 
 ## Range checks
 
 - No passage starts or ends in the middle of a quotation, and each ends at the end of a sentence.
-  - Matthew 7:7–8 is two full sentences inside the Sermon on the Mount; the RSV prints the sermon without enclosing quote marks, so no quote mark dangles.
-  - Acts 20:35 was considered for Day 8 and dropped: it ends inside Paul's speech (’”), a dangling quote. Ephesians 4:28 replaced it.
-  - 1 Peter 4:10 was considered for Day 5 and dropped: it ends with a colon, mid-sentence. Sirach 38:31 replaced it.
+  - Matthew 11:28–30 opens and closes Jesus' words (“…”).
+  - Matthew 7:7–8: see above (continued-speech mark omitted).
+  - 1 Peter 4:10 was dropped for Day 5 in the RSV version because the RSV ends it with a colon; the NABRE ends it with a full stop, so it is now used.
+  - Acts 20:35 was considered for Day 8 and dropped (in the RSV it ends inside Paul's speech, a dangling quote). Ephesians 4:28 is used; NABRE's brackets in "[own]" are kept.
+  - James 1:5 begins "But", as the verse does in the NABRE; it is a full sentence.
 - No overlap with the debt novena's Scripture (1 Peter 5:7, Matthew 6:33, Matthew 6:31–32, Luke 1:38, Psalm 128:1–2, Luke 14:28, Lamentations 3:25–26, Colossians 3:14–15, Philippians 4:6–7, Romans 13:8, 1 Thessalonians 5:16–18).
-- Text quoted in reflections, prayers and bios comes from verified passages:
-  - "all who labor and are heavy laden" (Matthew 11:28), "the bread of anxious toil" (Psalm 127:2).
-  - "the carpenter’s son" (Matthew 13:55, first sentence: "Is not this the carpenter’s son?"), verified at https://www.biblegateway.com/passage/?search=Matthew%2013%3A55&version=RSVCE
-  - "their prayer is in the practice of their trade" (Sirach 38:34: "But they keep stable the fabric of the world, and their prayer is in the practice of their trade."), verified at https://www.biblegateway.com/passage/?search=Sirach%2038%3A31-34&version=RSVCE and https://www.biblegateway.com/verse/en/Sirach%2038:34
-- Permission limits: 12 verses in total (2 + 10). No whole book is quoted, and no book beyond 25%.
+- Text quoted in reflections, prayers and bios is NABRE verbatim:
+  - "all you who labor and are burdened" (Matthew 11:28, Day 1 reflection; was "all who labor and are heavy laden").
+  - "bread earned by hard toil" (Psalm 127:2, Day 2 reflection; was "the bread of anxious toil").
+  - "the carpenter’s son" (Matthew 13:55, first sentence: "Is he not the carpenter’s son?"), Day 4 reflection and St. Joseph's bio; checked at https://bible.usccb.org/bible/matthew/13
+  - "as good stewards of God’s varied grace" (1 Peter 4:10, Day 5 reflection).
+  - Sirach 38:34 is no longer quoted. The RSV "their prayer is in the practice of their trade" reads in the NABRE "Yet they maintain the fabric of the world, / and their concern is for exercise of their skill." (https://bible.usccb.org/bible/sirach/38), so the Day 5 reflection no longer uses it.
+- Echoed without quote marks: "to cultivate the garden and care for it" (Genesis 2:15, Day 4); "false scales", "an honest weight" (Proverbs 11:1, Day 6); "generously and ungrudgingly" (James 1:5, Day 7); "God gives to His beloved even in sleep" (Psalm 127:2, Day 2 reflection and prayer; the prayer's "anxious toil" became "restless toil", and the Day 2 title "Trust, Not Anxious Toil" became "Trust, Not Restless Toil").
+- **Permission.** The NABRE may be quoted up to 5,000 words site-wide without written permission, provided no complete book is quoted and the quotations are under 40% of the work. This novena quotes 15 verses, about 290 words of NABRE text (plus about 20 words quoted in reflections and the bio). No complete book is quoted.
 
 ## Church teaching cited
 
@@ -48,4 +61,6 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 
 ## Review
 
-An independent Catholic review (review.md) found 2 errors and 4 improvements, applied 2026-11-20: Homobonus bio no longer claims he was "among the first" lay saints; the Naples monte di pietà claim for St. Cajetan is replaced by his hospital for incurables at Vicenza; the "(Day 3)" pointer in the tip moved; "long invoked" softened; Theatine poverty wording sharpened. Psalm 127:2 and Ephesians 4:28 were not re-fetched in the review (web budget); they were verified when written.
+An independent Catholic review (review.md) found 2 errors and 4 improvements, applied 2026-11-20: Homobonus bio no longer claims he was "among the first" lay saints; the Naples monte di pietà claim for St. Cajetan is replaced by his hospital for incurables at Vicenza; the "(Day 3)" pointer in the tip moved; "long invoked" softened; Theatine poverty wording sharpened.
+
+On 2026-11-21 all Scripture was switched from the RSV-CE to the NABRE (owner's decision for the whole site); Day 1 and Day 5 passages changed as noted above, and the reflections, prayers and one title that echoed RSV wording were adjusted (Days 1, 2, 4, 5, 6, 7).

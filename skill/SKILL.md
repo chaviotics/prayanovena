@@ -63,7 +63,7 @@ Copy an example's shape. Field rules:
 | `ogDescription` | Link-preview description, under 125 characters: "9 days of prayer for …, through …" with short saint names |
 | `status` | `"draft"` (page builds, no library card) until the user approves, then `"published"` |
 | `order` | Position on the library page |
-| `epigraph`, `closingVerse` | RSV-CE text, up to about 25 words each: `{"text", "ref"}` |
+| `epigraph`, `closingVerse` | NABRE text, up to about 25 words each: `{"text", "ref"}`. Put " / " between poetry lines here too |
 | `printTitle`, `printClosing` | Two lines each, for the print title and the closing verse |
 | `saints[]` | `id` (image file stem), `name`, `dates`, `feast`, `patron`, `bio` (up to 35 words, facts only), `alt` (describes the artwork), `openingRole` |
 | `litany[]` | `{"img", "text"}`, Marian title first. `img` is optional and points to `img/<img>_face.jpg` |
@@ -77,8 +77,8 @@ Copy an example's shape. Field rules:
 Each day has these fields:
 
 - `title`: 2–5 words.
-- `ref`: "Book c:v–v" with an en dash. Never add a version label ("RSV-CE") after a reference, in the app or in print; the RSV-CE permission notice appears once, in the footer and on print page 1.
-- `verse`: RSV-CE, exact. Put " / " between poetry lines, and keep "LORD" in capitals (it shows in small caps).
+- `ref`: "Book c:v–v" with an en dash, in NABRE numbering. Never add a version label ("NABRE") after a reference, in the app or in print; the NABRE permission notice appears once, in the footer and on print page 1.
+- `verse`: NABRE, exact (words, punctuation, capitals). Put " / " between poetry lines (the USCCB terms require poetic line breaks to be kept), and keep "LORD" and "GOD" in capitals (they show in small caps). Use curly quotes and apostrophes.
 - `refl`: paragraph 1, 75–95 words. It is printed. It opens from the verse into the person's life.
 - `more`: paragraph 2, 55–75 words, app only. A saint's story, a teaching of the Church (cite CCC numbers only if certain), or a gentle application.
 - `prayer`: 70–90 words. Says "we", names at least one intercessor, and stops before "(Name your intention.)".
@@ -96,13 +96,13 @@ Each day has these fields:
 - **Only quote a saint with a well-attested line.** Otherwise paraphrase ("St. Pio often told people to pray, hope and not worry").
 - Facts about saints must be ones you would stake your name on. If unsure, leave them out.
 
-## 4. Verify every Scripture text (RSV-CE, word for word)
+## 4. Verify every Scripture text (NABRE, word for word)
 
-- Fetch each passage, including the epigraph and closing verse, from BibleGateway with WebFetch: `https://www.biblegateway.com/passage/?search=<Book+c:v-v>&version=RSVCE`. Ask for the exact text with no verse numbers, footnote letters or headings.
-- A URL you build yourself may need the user's approval to fetch. If nobody is there to approve, run WebSearch first (for example "Mark 2:3-5 RSVCE") and fetch only URLs that appear in its results. BibleGateway's verse pages (`/verse/en/<ref>`) list the RSVCE text, and EWTN's online Bible is labeled RSV-CE. For the Old Testament (except the deuterocanonical books), `biblestudytools.com/rsv/...` has the same text as RSV-CE. The New Testament has Catholic Edition changes, so use an RSVCE source there.
-- Copy punctuation exactly, including "LORD" and "thee/thou" in Psalms. Check the verse range: the passage must not start or end in the middle of a quotation (a dangling quote mark means choose a different range).
-- If a fetch looks paraphrased or partial, fetch it again or use a second RSV-CE source. Record what you verified in `novenas/<slug>/sources.md`.
-- **Permission limits:** under 500 verses in total, no whole book, under 25% of any book. The required notice is already in the template.
+- Fetch each passage, including the epigraph and closing verse, from the USCCB online Bible with WebFetch, one chapter per fetch: `https://bible.usccb.org/bible/<book>/<chapter>` (for example `psalms/34`, `1corinthians/13`, `3john/1`, `sirach/38`). Ask for the exact text with each poetry line on its own line and no verse numbers, footnote letters, asterisks or headings. curl can't reach the site from the cloud workspace; WebFetch can.
+- A URL you build yourself may need the user's approval to fetch. If it is refused, run WebSearch first (for example "Psalm 34 NABRE bible.usccb.org") and fetch a URL from its results. **Numbering:** NABRE counts a psalm's title as verse 1, so many Psalm references are one higher than in other Bibles (Psalm 34:18 elsewhere is NABRE Psalm 34:19). Always use the number on the USCCB page.
+- Copy punctuation and capitals exactly, including "LORD". Check the verse range: the passage must not start or end in the middle of a quotation (a dangling quote mark means choose a different range), and it should end at the end of a sentence. When a reflection or prayer quotes the verse, quote the NABRE words exactly or paraphrase without quote marks.
+- If a fetch looks paraphrased or partial, fetch it again. Record what you verified in `novenas/<slug>/sources.md` (text and the bible.usccb.org chapter URL).
+- **Permission limits (USCCB):** the NABRE may be quoted without written permission up to 5,000 words across the whole site, as long as no complete book is quoted and the quotations are under 40% of the work. Keep a running total in mind (about 2,200 words in 2026-11). The required notice is already in the site footer and print template.
 
 ## 5. Images (public domain only)
 

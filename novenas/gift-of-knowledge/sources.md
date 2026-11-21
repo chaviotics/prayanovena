@@ -1,39 +1,63 @@
-# Novena for Wisdom and Understanding: Scripture sources
+# Novena for the Gift of Knowledge: Scripture sources
 
-All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
+All texts are NABRE (New American Bible, revised edition), checked word for word on 2026-11-21 against bible.usccb.org.
 
-**How they were checked.** Each verse was checked on its BibleGateway **verse page** (`/verse/en/…`), which lists the RSVCE text next to other versions; long verses came back in two halves. Old Testament texts with the divine name were checked on EWTN's online Bible (labeled RSV-CE), which prints "LORD" in capitals. Ecclesiastes 3:11: the first half was read on BibleGateway (RSVCE); the second half on biblestudytools.com (RSV, whose Old Testament text is the same as RSV-CE).
+**How they were checked.** Each chapter page was fetched once (WebFetch) and every verse needed was read from it, word for word, with its punctuation, capitals and poetry lines. Verses longer than the fetch tool's quote limit were read in two halves and joined. The divine name is printed "LORD" as on the site. Poetry lines are kept with " / " (the build renders them as line breaks), as the USCCB terms require.
 
-**Line breaks.** Neither source shows poetry line breaks in the fetched text. The " / " break in Psalm 19:1 follows the standard RSV lineation. The words and punctuation are verified, but the break is not. The epigraph and closing verse are given as prose, like the other novenas.
-
-| Where | Ref | Verified text | Source(s) |
+| Where | Ref | Text | Source |
 |---|---|---|---|
-| Epigraph | Isaiah 11:2 | And the Spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and the fear of the LORD. | https://www.biblegateway.com/verse/en/Isaiah%2011:2 (RSVCE); https://www.ewtn.com/bible/38-isaiah/11 (RSV-CE, "LORD") |
-| Closing verse | Psalm 104:24 | O LORD, how manifold are thy works! In wisdom hast thou made them all; the earth is full of thy creatures. | https://www.ewtn.com/bible/63-psalms/104 (RSV-CE, "LORD") |
-| Day 1 | Ecclesiastes 3:11 | He has made everything beautiful in its time; also he has put eternity into man’s mind, yet so that he cannot find out what God has done from the beginning to the end. | https://www.biblegateway.com/verse/en/Ecclesiastes%203:11 (RSVCE, first half); https://www.biblestudytools.com/rsv/ecclesiastes/3.html (RSV, whole verse) |
-| Day 2 | Wisdom 7:17 | For it is he who gave me unerring knowledge of what exists, to know the structure of the world and the activity of the elements. | https://www.biblegateway.com/verse/en/Wisdom%207:17 (RSVCE, verified 2026-11-20; the verse ends with a semicolon and continues in 7:18, so the excerpt closes with a period) |
-| Day 3 | Psalm 19:1 | The heavens are telling the glory of God; / and the firmament proclaims his handiwork. | https://www.ewtn.com/bible/63-psalms/19 (RSV-CE) |
-| Day 4 | Wisdom 13:5 | For from the greatness and beauty of created things comes a corresponding perception of their Creator. | https://www.biblegateway.com/verse/en/Wisdom%2013:5 (RSVCE) |
-| Day 5 | Colossians 1:17 | He is before all things, and in him all things hold together. | https://www.biblegateway.com/verse/en/Colossians%201:17 (RSVCE) |
-| Day 6 | Luke 24:32 | They said to each other, “Did not our hearts burn within us while he talked to us on the road, while he opened to us the scriptures?” | https://www.biblegateway.com/verse/en/Luke%2024:32 (RSVCE) |
-| Day 7 | John 14:23 | Jesus answered him, “If a man loves me, he will keep my word, and my Father will love him, and we will come to him and make our home with him.” | https://www.biblegateway.com/verse/en/john+14:23 (RSVCE) |
-| Day 8 | 1 Corinthians 13:2 | And if I have prophetic powers, and understand all mysteries and all knowledge, and if I have all faith, so as to remove mountains, but have not love, I am nothing. | https://www.biblegateway.com/verse/en/1%20Corinthians%2013:2 (RSVCE) |
-| Day 9 | Romans 11:33 | O the depth of the riches and wisdom and knowledge of God! How unsearchable are his judgments and how inscrutable his ways! | https://www.biblegateway.com/verse/en/rom+11:33 (RSVCE) |
+| Epigraph | Isaiah 11:2–3 (11:2–3a) | The spirit of the LORD shall rest upon him: / a spirit of wisdom and of understanding, / A spirit of counsel and of strength, / a spirit of knowledge and of fear of the LORD, / and his delight shall be the fear of the LORD. | https://bible.usccb.org/bible/isaiah/11 |
+| Closing verse | Psalm 104:24 | How varied are your works, LORD! / In wisdom you have made them all; / the earth is full of your creatures. | https://bible.usccb.org/bible/psalms/104 |
+| Day 1 | Ecclesiastes 3:11 | God has made everything appropriate to its time, but has put the timeless into their hearts so they cannot find out, from beginning to end, the work which God has done. | https://bible.usccb.org/bible/ecclesiastes/3 |
+| Day 2 | Wisdom 7:21–22 (7:21–22a) | Whatever is hidden or plain I learned, / for Wisdom, the artisan of all, taught me. | https://bible.usccb.org/bible/wisdom/7 |
+| Day 3 | Psalm 19:2 | The heavens declare the glory of God; / the firmament proclaims the works of his hands. | https://bible.usccb.org/bible/psalms/19 |
+| Day 4 | Wisdom 13:5 | For from the greatness and the beauty of created things / their original author, by analogy, is seen. | https://bible.usccb.org/bible/wisdom/13 |
+| Day 5 | Colossians 1:17 | He is before all things, / and in him all things hold together. | https://bible.usccb.org/bible/colossians/1 |
+| Day 6 | Luke 24:32 | Then they said to each other, “Were not our hearts burning [within us] while he spoke to us on the way and opened the scriptures to us?” | https://bible.usccb.org/bible/luke/24 |
+| Day 7 | John 14:23 | Whoever loves me will keep my word, and my Father will love him, and we will come to him and make our dwelling with him. | https://bible.usccb.org/bible/john/14 |
+| Day 8 | 1 Corinthians 13:2 | And if I have the gift of prophecy and comprehend all mysteries and all knowledge; if I have all faith so as to move mountains but do not have love, I am nothing. | https://bible.usccb.org/bible/1corinthians/13 |
+| Day 9 | Romans 11:33 | Oh, the depth of the riches and wisdom and knowledge of God! How inscrutable are his judgments and how unsearchable his ways! | https://bible.usccb.org/bible/romans/11 |
+
+**Lineation.** Isaiah 11, Psalms 104 and 19, Wisdom 7 and 13 and Colossians 1:15–20 are printed as poetry on bible.usccb.org; their lines are kept with " / ". Ecclesiastes 3:11, Luke 24:32, John 14:23, 1 Corinthians 13:2 and Romans 11:33 are prose there (the fetch reported Romans 11:33 as prose with no break between "God!" and "How"; worth a glance on the page, since printed NABREs often set Romans 11:33–36 as a hymn).
+
+## Numbering and range changes (RSV-CE → NABRE)
+
+- **Psalm 19:1 → Psalm 19:2.** NABRE counts the title ("For the leader. A psalm of David.") as verse 1. The Day 3 step now says "Psalm 19:2".
+- **Psalm 104:24** has no title, so the number is unchanged.
+- **Isaiah 11:2 → Isaiah 11:2–3 (11:2–3a).** In NABRE, 11:2 ends with a comma and the sentence runs on to "and his delight shall be the fear of the LORD." (11:3a), so that line was added. Note NABRE has "strength" where the RSV had "might".
+- **Wisdom 7:17 → Wisdom 7:21–22 (7:21–22a).** In NABRE, 7:17 ends with a comma and the sentence runs on through a list (7:18–20) to "for Wisdom, the artisan of all, taught me." in 7:22a: about 85 words, longer than any day verse on the site. The passage now starts at the natural point in 7:21 ("Whatever is hidden or plain I learned,") and ends with that sentence in 7:22a. Same theme (Solomon's God-given knowledge of created things); the Day 2 reflection paraphrases 7:17–22 without quote marks.
+- **John 14:23.** In NABRE, Jesus' speech that opens in 14:23 ("Jesus answered and said to him, “Whoever loves me…") runs on to 14:24 and beyond without a closing quotation mark. To avoid a dangling quote, the passage starts at Jesus' words ("Whoever loves me…") and gives them without the narrative frame or quote marks.
+- All other references are unchanged.
 
 ## Range checks
 
 - No passage starts or ends in the middle of a quotation.
-  - Luke 24:32 and John 14:23 each hold one complete quotation.
-  - Colossians 1:17, Wisdom 9:17, Wisdom 13:5, 1 Corinthians 13:2 and Romans 11:33 are complete sentences.
-- Passages rejected for range reasons: Luke 24:45 ends in a comma (it is cited by reference only on Day 6); Proverbs 2:6 ends in a semicolon.
+  - Luke 24:32 holds one complete quotation, closed within the verse.
+  - John 14:23 is Jesus' words alone, without quote marks (see above).
+  - Ecclesiastes 3:11, Wisdom 7:21–22a, Wisdom 13:5, Colossians 1:17, 1 Corinthians 13:2 and Romans 11:33 end with a full stop or exclamation mark; Psalm 19:2 ends at the end of its verse (a semicolon closes its first line, a period the second); Isaiah 11:2–3a and Psalm 104:24 end with a period.
+- Passages rejected for range reasons: Luke 24:45 (cited by reference only on Day 6); Proverbs 2:6 ends in a semicolon.
 - No passage repeats one used in the other novenas in the library (in particular James 1:5, Wisdom 7:7 and Proverbs 3:5–6 from the exam novena are not used).
-- The text quoted in reflections and prayers comes from these verified passages: "put eternity into man’s mind" (Ecclesiastes 3:11, paraphrased as "put eternity into the human mind"), "in Him all things hold together" (Colossians 1:17), "make their home" (John 14:23), "all mysteries and all knowledge" (1 Corinthians 13:2). Other Scripture is paraphrased and cited by reference only.
-- Permission limits: 11 verses in total. No whole book is quoted, and no book is quoted beyond 25%.
-- The epigraph has 32 words, against the skill's "up to about 25". Kept, because Isaiah 11:2 is the classic source of the gifts of the Holy Spirit, the heart of this novena. It could be swapped for Wisdom 9:17 or Psalm 104:24 if print space is tight.
+- The epigraph has 43 words, against "up to about 25". Kept, because Isaiah 11:2 is the classic source of the gifts of the Holy Spirit, the heart of this novena, and NABRE's 11:2 cannot end at a sentence without 11:3a. It could be swapped for a shorter verse if print space is tight. The closing verse has 20 words.
+
+## Text quoted or echoed in reflections and prayers (now NABRE)
+
+- "put the timeless into our hearts" (Day 1 reflection and prayer), from Ecclesiastes 3:11 ("has put the timeless into their hearts"); was "put eternity into man’s mind". The reflection's "we cannot find out all the work God has done" follows the same verse.
+- "in Him all things hold together" (Day 5 reflection and prayer), Colossians 1:17; "all things were created through Christ and for Him" follows Colossians 1:16 ("all things were created through him and for him").
+- "make their dwelling with anyone who loves Him" (Day 7 reflection) and "make Your dwelling with all who love Him" (Day 7 prayer), from John 14:23 ("make our dwelling with him"); was "make their/Your home".
+- "comprehend all mysteries and all knowledge" (Day 8 reflection), 1 Corinthians 13:2; was "understand".
+- "the work of His hands" (Day 3 reflection) and "the heavens declare Your glory" (Day 3 prayer), from Psalm 19:2; were "His handiwork" and "the skies tell Your glory". Day 3 title "The Heavens Tell His Glory" → "The Heavens Declare His Glory".
+- Day 4 reflection now echoes Wisdom 13:5 ("in the greatness and beauty of creation we glimpse its Author").
+- Day 9 "more": "for now we see indistinctly, as in a mirror" follows 1 Corinthians 13:12 ("At present we see indistinctly, as in a mirror, but then face to face."), read on the same chapter page; was "as in a dim mirror".
+- Luke 24:45 (Day 6 reflection, paraphrased): NABRE "Then he opened their minds to understand the scriptures."
+- None of these use quote marks; other Scripture is paraphrased and cited by reference only.
+
+## Permission
+
+NABRE may be quoted up to 5,000 words site-wide without written permission, provided no complete book is quoted and the quotations are under 40% of the work. This novena quotes 11 passages (about 13 verses, counting partial verses) and about 260 words of NABRE text. No complete book is quoted.
 
 ## Other Scripture referenced (paraphrased or cited by reference only)
 
-- 1 Kings 3 (Solomon asks for an understanding mind, not riches or long life; 3:7, 3:9, 3:11), Isaiah 11:2 (Day 2), John 1:3, Luke 24:45, Romans 13:13–14, 1 Corinthians 8:1, 1 Corinthians 13:12, Luke 2:19 (Mary pondering, Day 6 prayer), Colossians 1:16.
+- 1 Kings 3 (Solomon asks for an understanding mind, not riches or long life; 3:7, 3:9, 3:11), Wisdom 7:17–20 (Day 2 reflection), John 1:3, Luke 24:45, Romans 13:13–14, 1 Corinthians 8:1, 1 Corinthians 13:12, Luke 2:19 (Mary pondering, Day 6 prayer), Colossians 1:16.
 
 ## Church teaching cited
 
@@ -58,4 +82,4 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 - "Stones" cut from Hildegard's writings on Day 3 (avoids pointing readers to New Age gem healing); "secret powers" now appears once (Day 7 reflection); tip covers the unbaptized; Albert's bio no longer repeats Day 4.
 
 ## Refocus on the gift of knowledge (2026-11-20)
-Chav's friend asks above all for knowledge, so the novena was renamed "Novena for the Gift of Knowledge" (slug gift-of-knowledge). Day 2 now uses Wisdom 7:17 (verified above) instead of Wisdom 9:17, and its "more" gives the seven gifts (CCC 1831) and St. Thomas Aquinas's teaching that the gift of knowledge judges created things rightly, in relation to God, while wisdom concerns God Himself (Summa Theologiae II-II, q. 9, a. 2). The opening prayer and Day 9 prayer now ask for "knowledge and wisdom". The rest of the novena (creation, faith and science, the Logos, knowledge serving love) already fits the gift of knowledge.
+Chav's friend asks above all for knowledge, so the novena was renamed "Novena for the Gift of Knowledge" (slug gift-of-knowledge). Day 2 now uses Wisdom 7:17 instead of Wisdom 9:17 (in the 2026-11-21 NABRE switch it became Wisdom 7:21–22; see above), and its "more" gives the seven gifts (CCC 1831) and St. Thomas Aquinas's teaching that the gift of knowledge judges created things rightly, in relation to God, while wisdom concerns God Himself (Summa Theologiae II-II, q. 9, a. 2). The opening prayer and Day 9 prayer now ask for "knowledge and wisdom". The rest of the novena (creation, faith and science, the Logos, knowledge serving love) already fits the gift of knowledge.

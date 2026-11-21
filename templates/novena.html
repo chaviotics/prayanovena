@@ -623,7 +623,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     });
   }
   function esc(t){ return t.replace(/[&<>]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]; }); }
-  function fmtVerse(t){ var h = esc(t).replace(/LORD/g, '<span class="sc">Lord</span>'); var parts = h.split(" / "); return parts.length > 1 ? parts.map(function(l){ return '<span class="ln">' + l + '</span>'; }).join("") : h; }
+  function fmtVerse(t){ var h = esc(t).replace(/LORD/g, '<span class="sc">Lord</span>').replace(/GOD/g, '<span class="sc">God</span>'); var parts = h.split(" / "); return parts.length > 1 ? parts.map(function(l){ return '<span class="ln">' + l + '</span>'; }).join("") : h; }
   function choose(k){ sel = k; render(); }
   function toast(msg, ms){ var el = $("toast"); el.textContent = msg; el.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(function(){ el.classList.remove("show"); }, ms || 2400); }
   /* move to the prayer and put focus on its heading, so keyboard and screen-reader users land where everyone else does */

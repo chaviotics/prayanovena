@@ -1,22 +1,26 @@
 # About page: sources
 
-Checked 2026-11-20. Scripture is RSV-CE, checked word for word on BibleGateway verse pages (RSVCE row). Catechism quotes checked on vatican.va.
+Scripture checked 2026-11-21: all Scripture is NABRE (New American Bible, revised edition), checked word for word against bible.usccb.org (one chapter page per passage). Catechism quotes checked 2026-11-20 on vatican.va.
 
 ## Scripture quoted
 
-| Ref | Text quoted on the page | Source |
-|---|---|---|
-| Luke 18:1 | that they ought always to pray and not lose heart | https://www.biblegateway.com/verse/en/luke+18:1 |
-| Acts 1:14 | All these with one accord devoted themselves to prayer, together with the women and Mary the mother of Jesus, and with his brethren | https://www.biblegateway.com/verse/en/acts+1:14 (first draft said "brothers"; fixed) |
-| Luke 22:42 | not my will, but thine, be done | https://www.biblegateway.com/verse/en/luke+22:42 |
-| 1 Timothy 2:5 | one mediator between God and men | https://www.biblegateway.com/verse/en/1tim+2:5 |
-| James 5:16 | pray for one another / the prayer of a righteous man has great power in its effects | https://www.biblegateway.com/verse/en/james+5:16 |
-| Luke 20:38 | is not God of the dead, but of the living; for all live to him | https://www.biblegateway.com/verse/en/luke+20:38 |
-| Revelation 5:8 | golden bowls full of incense, which are the prayers of the saints | https://www.biblegateway.com/verse/en/rev+5:8 |
-| John 2:5 | Do whatever he tells you | https://www.biblegateway.com/verse/en/john+2:5 |
-| Hebrews 12:1 | Since we are surrounded by so great a cloud of witnesses, … let us run with perseverance the race that is set before us | https://www.biblegateway.com/verse/en/heb+12:1 |
+| Where | Ref | Text quoted on the page (NABRE, verbatim) | Source |
+|---|---|---|---|
+| 9 days | Luke 18:1 | about the necessity for them to pray always without becoming weary | https://bible.usccb.org/bible/luke/18 |
+| Where it began | Acts 1:14 | All these devoted themselves with one accord to prayer, together with some women, and Mary the mother of Jesus, and his brothers | https://bible.usccb.org/bible/acts/1 |
+| How to pray, step 4 | Luke 22:42 | not my will but yours be done | https://bible.usccb.org/bible/luke/22 |
+| Why we ask the saints | 1 Timothy 2:5 | one mediator between God and the human race | https://bible.usccb.org/bible/1timothy/2 (NABRE sets 2:5–6 as verse; the phrase sits within one line) |
+| Why we ask the saints | James 5:16 | pray for one another / the fervent prayer of a righteous person is very powerful | https://bible.usccb.org/bible/james/5 |
+| Why we ask the saints | Luke 20:38 | is not God of the dead, but of the living, for to him all are alive | https://bible.usccb.org/bible/luke/20 |
+| Why we ask the saints | Revelation 5:8 | gold bowls filled with incense, which are the prayers of the holy ones | https://bible.usccb.org/bible/revelation/5 |
+| Mary, first among the saints | John 2:5 | Do whatever he tells you | https://bible.usccb.org/bible/john/2 |
+| Closing quote | Hebrews 12:1 | Since we are surrounded by so great a cloud of witnesses, let us rid ourselves of every burden and sin that clings to us and persevere in running the race that lies before us | https://bible.usccb.org/bible/hebrews/12 (verse opens "Therefore,", dropped; the sentence runs on into 12:2, so the page closes it with a period, as before) |
 
-Cited by reference or paraphrase only: Acts 1:4–5, Acts 2:1–4, Matthew 6:7, Acts 8:1–3.
+Wording changes from the RSV-CE version: Luke 18:1 is now introduced as "Jesus told His disciples a parable …" to fit NABRE's wording; Acts 1:14 is quoted in full as before; John 2:5 prose now says "servers" (NABRE) instead of "servants"; Hebrews 12:1 is quoted without the old ellipsis. No reference numbers changed.
+
+Cited by reference or paraphrase only: Acts 1:4–5, Acts 2:1–4, Matthew 6:7, Acts 8:1–3, Luke 22:54–62, John 21:15–17, Matthew 16:18. Augustine's "but not yet" is from the *Confessions*, not Scripture.
+
+Permission: about 130 words of NABRE on this page. The USCCB permissions page (read 2026-11-21) allows under 5,000 words without permission, under 40% of any single book and of the work, but words that rule for "print, sound, or eBook formats (for web usage, see below)"; its digital section says digital permissions for the NABRE "are no longer being granted" ahead of the 2027 Catholic American Bible. Open question for Chav, not settled here.
 
 ## Catechism of the Catholic Church
 

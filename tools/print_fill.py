@@ -171,18 +171,18 @@ def main():
     _, sub = D.find("through the intercession of")
     whole(sub, "through the intercession of " + saint_line(saints))
     def sc_lord(text, offset):
-        """small caps for LORD (written as Lord), as the RSV prints the divine name"""
+        """small caps for LORD and GOD (written as Lord, God), as the NABRE prints the divine name"""
         def f(a, L):
             reqs = [{"updateTextStyle": {"range": T((a, a + L)), "textStyle": {"smallCaps": False}, "fields": "smallCaps"}}]
-            for m in re.finditer("LORD", text):
+            for m in re.finditer("LORD|GOD", text):
                 s0 = a + offset + u16(text[:m.start()])
-                reqs.append({"updateTextStyle": {"range": T((s0, s0 + 4)), "textStyle": {"smallCaps": True}, "fields": "smallCaps"}})
+                reqs.append({"updateTextStyle": {"range": T((s0, s0 + len(m.group()))), "textStyle": {"smallCaps": True}, "fields": "smallCaps"}})
             return reqs
         return f
 
     _, epi = D.find("“")
-    et = n["epigraph"]["text"]
-    whole(epi, "“" + et.replace("LORD", "Lord") + "”", sc_lord(et, 1))
+    et = n["epigraph"]["text"].replace(" / ", "\u000b")  # NABRE poetry lines keep their breaks (soft line breaks)
+    whole(epi, "“" + et.replace("LORD", "Lord").replace("GOD", "God") + "”", sc_lord(et, 1))
     ei = D.paras.index(epi)
     whole(D.paras[ei + 1], n["epigraph"]["ref"].upper())
     _, ih = D.find("The 3 Intercessors")
@@ -258,7 +258,7 @@ def main():
         a, b = run_span(prayer, 0); replace(a, b, d["prayer"])
         whole(refl, d["refl"])
         a, b = run_span(ref, 0); replace(a, b, d["ref"].upper())
-        lines = d["verse"].replace("LORD", "Lord").split(" / ")
+        lines = d["verse"].replace("LORD", "Lord").replace("GOD", "God").split(" / ")
         vt = "".join(("" if j == 0 else ("\u000b " if j % 2 else "\u000b")) + l for j, l in enumerate(lines))
 
         def vstyle(a, L, vt=vt, orig=d["verse"]):
@@ -268,9 +268,9 @@ def main():
             for j, l in enumerate(src):
                 if j:
                     pos += 2 if j % 2 else 1
-                for m in re.finditer("LORD", l):
+                for m in re.finditer("LORD|GOD", l):
                     s0 = pos + u16(l[:m.start()])
-                    reqs.append({"updateTextStyle": {"range": T((s0, s0 + 4)), "textStyle": {"smallCaps": True}, "fields": "smallCaps"}})
+                    reqs.append({"updateTextStyle": {"range": T((s0, s0 + len(m.group()))), "textStyle": {"smallCaps": True}, "fields": "smallCaps"}})
                 pos += u16(l)
             return reqs
         whole(verse, vt, vstyle)

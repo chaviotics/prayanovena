@@ -56,8 +56,9 @@ def sw_register(up):
             '.then(function(){ var n = document.getElementById("offlineNote"); if (n) n.hidden = false; }).catch(function(){}); }catch(e){}\n}\n</script>') % up
 
 
-RSV_NOTICE = ("Scripture quotations are from The Catholic Edition of the Revised Standard Version of the Bible, copyright © 1965, 1966 "
-              "National Council of the Churches of Christ in the United States of America. Used by permission. All rights reserved worldwide.")
+NABRE_NOTICE = ("Scripture texts in this work are taken from the New American Bible, revised edition © 2010, 1991, 1986, 1970 "
+                "Confraternity of Christian Doctrine, Washington, D.C. and are used by permission of the copyright owner. All Rights Reserved. "
+                "No part of the New American Bible may be reproduced in any form without permission in writing from the copyright owner.")
 CCC_NOTICE = "Catechism quotations are from the <i>Catechism of the Catholic Church</i>, 2nd edition, © Libreria Editrice Vaticana."
 FOOT_NAV = [("index.html", "All novenas"), ("about/index.html", "About"), ("privacy/index.html", "Privacy")]
 # one footer for every page (styles in FOOTER_CSS): site links, the offline note, a can't-save warning (novena pages), credits, and a closing line
@@ -92,7 +93,7 @@ def site_footer(up, current=None, credits=(), store_id=False, scripture=True):
             '%s'
             '    <p class="amdg">To God be the glory</p>\n'
             '  </div>\n</footer>') % ('<span aria-hidden="true">·</span>'.join(links), '    <p class="fnote warn" id="storeFoot" hidden></p>\n' if store_id else "", notes,
-                                       '    <p class="fnote credits">%s</p>\n' % RSV_NOTICE if scripture else "")
+                                       '    <p class="fnote credits">%s</p>\n' % NABRE_NOTICE if scripture else "")
 
 
 def read(p):
@@ -162,8 +163,9 @@ def validate(n):
 
 
 def scripture(t):
-    """escape, and show the divine name LORD in small caps as the RSV prints it"""
-    return esc(t).replace("LORD", '<span class="sc">Lord</span>')
+    """escape; show the divine name (LORD, GOD) in small caps as the NABRE prints it; " / " marks a poetry line break"""
+    t = esc(t).replace("LORD", '<span class="sc">Lord</span>').replace("GOD", '<span class="sc">God</span>')
+    return t.replace(" / ", "<br>")
 
 
 def saint_line(saints):
