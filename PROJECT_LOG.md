@@ -52,6 +52,7 @@ Two phases, so the new name can go live before the domain exists:
 | `healing` | Healing of the Sick | Our Lady of Lourdes, St. Raphael, St. Camillus de Lellis, St. Bernadette (Marian Memorare) | Published | 4 pages |
 | `expectant-parents` | Expectant Parents | Our Lady of the Visitation, St. Gerard Majella, St. Elizabeth, St. Joseph (Marian Memorare) | Published 2026-11-21 | A4 PDF made (4 pages) with the unmerged print-pdf tooling; no Google Doc |
 | `finding-love` | Finding Love | Mary, Mother of Fairest Love, St. Raphael, St. Louis Martin, St. Zélie Martin (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
+| `life-decisions` | Big Life Decisions | Our Lady of Good Counsel, St. Ignatius of Loyola, St. Francis Xavier, St. John Henry Newman (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 
 ## Decisions and rules
 
@@ -152,6 +153,12 @@ Two phases, so the new name can go live before the domain exists:
 - Images: Carmel of Lisieux montage of 2 19th-century photos (Louis, Zélie) and Giotto's Cana fresco (Mary's face), uploaded by Chav. Sources in `novenas/finding-love/images.md` and `sources.md`; Catholic review and the changes it led to in `review.md`.
 - **No PDF:** Chav (2026-11-22) asked that new novenas get no PDF or print link until the printable format is final.
 - Open: the Healing novena's St. Raphael bio quotes Tobit 12:15 word for word (paraphrase rule); not changed.
+
+### 2026-11-22 (Novena for Big Life Decisions)
+- **New novena `life-decisions`, "Novena for Big Life Decisions"** (Chav approved, pushed live; Chav picked the name over "Life Decisions", "Important Decisions", "Discernment" and others). For anyone lost about what course or degree, which college or what work, especially someone who tends to drift; category Wisdom & decisions. Distinct from the exam and work novenas, which pray about a path already chosen. Intercessors chosen by Chav on a decision card: St. Ignatius of Loyola (discernment), St. Francis Xavier (the Paris student whose plans changed), St. John Henry Newman ("one step enough for me"), with Our Lady of Good Counsel in the litany.
+- Arc: feeling lost (Jeremiah 29:11, framed in the exile), the gift of counsel (John 14:26), made for a purpose (Ephesians 2:10, Newman's "definite service"), knowing our gifts (1 Corinthians 12:4–6), where peace is found (Galatians 5:22–23, Ignatius at Loyola), seeking wise counsel (Proverbs 15:22), what truly matters (Matthew 16:26, Xavier), courage to choose (1 Corinthians 16:13; don't decide in desolation), trust (Luke 1:38, the Suscipe). Each day's step is practical (write the decision down, list gifts, an evening review, talk to someone who does the work, take one concrete step).
+- Tips: Confession, Mass, time before the Blessed Sacrament; research, career tests "helps, not verdicts", no fortune-tellers or horoscopes (CCC 2116); a counselor, priest or spiritual director if it gets too heavy; for parents, CCC 2230 (grown children choose their profession and state of life; parents should not pressure).
+- Scripture verified on BibleGateway one passage per page (`sources.md`); 1 Peter 4:10, Joshua 1:9, Deuteronomy 30:19 and 2 Timothy 1:7 turned down for mid-sentence or dangling-quote ranges. Independent Catholic review applied (`review.md`). Images (`images.md`): Rubens Ignatius (Chav's earlier upload), the Kobe City Museum Xavier portrait and the Millais Newman, fetched from upload.wikimedia.org now that the environment allows it. About's Ignatius card now links "Pray with him: Big Life Decisions". No PDF.
 
 ## Open items
 
