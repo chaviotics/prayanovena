@@ -196,6 +196,9 @@ Two phases, so the new name can go live before the domain exists:
 - Scripture verified word for word (`sources.md`; BibleGateway and vatican.va are blocked by the workspace proxy, the RSVCE files of `andrewheekin/obsidian-holy-bible` work, and `gh api search/code` finds their paths). Isaiah 25:8 was swapped for Psalm 34:18 and Revelation 21:4 turned down (dangling quote). Independent Catholic review applied (`review.md`).
 - Images (`images.md`): Giotto's Scrovegni frescoes for Joachim (Expulsion detail) and Anne (Annunciation to St Anne, small figure upscaled 1.4x, slightly soft), and a Dutch master's c. 1510 copy after Rogier van der Weyden at the Städel (Zechariah writing John's name, Public Domain Mark). Mary's face reused from unrequited-love. Wikimedia rate-limited hard; a slow retry loop got the 1280px thumbnails. No PDF.
 
+### 2026-11-22 (verse reference inside the bar)
+- **Day Scripture reference moved inside the gold bar** (Chav's idea; Chav chose "inside the bar, left-aligned" over right-aligning it; preview https://claude.ai/artifact/6TbAcypZMMdw9mMDjBSoMA, approved). `templates/novena.html`: the verse and reference are one `<figure class="scripture">` (gold left bar) holding `blockquote.passage` and `figcaption.ref`, so they read as one quotation. Matches the hero verse on desktop (`.epi`), which already had its reference inside the bar. Light and dark both checked. Web only: the print PDF keeps its right-aligned reference.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).

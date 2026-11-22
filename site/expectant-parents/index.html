@@ -169,11 +169,12 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
 .dayicon svg{font-size:20px;color:var(--gold)}
 .dayicon span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .daytitle{font-family:var(--display);font-weight:700;color:var(--wine);font-size:calc(27px * var(--scale));line-height:1.15;margin:0 0 14px;text-wrap:balance}
-.passage{margin:0;font-style:italic;font-size:calc(19.5px * var(--scale));line-height:1.55;padding-left:14px;border-left:2px solid var(--gold);text-wrap:pretty}
+.scripture{margin:0 0 14px;padding-left:14px;border-left:2px solid var(--gold)}  /* the verse and its reference share one gold bar */
+.passage{margin:0;font-style:italic;font-size:calc(19.5px * var(--scale));line-height:1.55;text-wrap:pretty}
 .passage .ln{display:block;padding-left:1.5em;text-indent:-1.5em;text-wrap:balance}
 .passage .ln:nth-child(even){padding-left:2.6em}
 .sc{font-variant:small-caps;letter-spacing:.02em}
-.ref{font-size:calc(12.5px * var(--scale));letter-spacing:.12em;font-weight:400;margin:6px 0 12px}
+.ref{font-size:calc(12.5px * var(--scale));letter-spacing:.12em;font-weight:400;margin:8px 0 0}
 .refl{font-size:calc(20px * var(--scale));line-height:1.6;margin:0}
 .refl2{margin-top:.75em}
 .litany p{position:relative;margin:0 0 .25em;padding-left:calc(38px * var(--scale))}
@@ -445,8 +446,8 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
         <h3 class="label"><span class="num" aria-hidden="true">2</span>Scripture &amp; Reflection</h3>
         <div class="dayicon" id="dIconLabel"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-hands-praying"/></svg><span>DAY 1</span></div>
         <h4 class="daytitle" id="dTitle">Bringing Our Hopes &amp; Fears</h4>
-        <blockquote class="passage" id="dVerse"></blockquote>
-        <p class="ref"><span id="dRef"></span></p>
+        <figure class="scripture"><blockquote class="passage" id="dVerse"></blockquote>
+        <figcaption class="ref"><span id="dRef"></span></figcaption></figure>
         <p class="refl" id="dRefl"></p>
         <p class="refl refl2" id="dMore"></p>
       </li>
