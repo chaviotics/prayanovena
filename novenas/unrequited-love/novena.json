@@ -1,0 +1,225 @@
+{
+ "slug": "unrequited-love",
+ "storageKey": "novena-unrequited-love",
+ "status": "published",
+ "order": 10,
+ "category": "love-friendship",
+ "title": "Novena for When Love Is Not Returned",
+ "cardTitle": "When Love Is Not Returned",
+ "icon": "heart-break",
+ "barTitle": "When Love Is Not Returned",
+ "barShort": "Heart Novena",
+ "kicker": "9 days of healing and freedom to love",
+ "card": "For anyone who loves someone who does not love them back: 9 days asking for healing, freedom and a heart ready to love.",
+ "ogDescription": "9 days of prayer when love is not returned, through Our Lady, St. Pier Giorgio, St. Augustine and St. Joseph.",
+ "description": "A 9-day Catholic novena for anyone whose love is not returned, through Our Lady of Sorrows, St. Pier Giorgio Frassati, St. Augustine and St. Joseph.",
+ "keywords": [
+  "unrequited love",
+  "love not returned",
+  "one-sided love",
+  "heartbreak",
+  "broken heart",
+  "brokenhearted",
+  "rejection",
+  "moving on",
+  "crush",
+  "waiting for love",
+  "vocation",
+  "single",
+  "sawi sa pag-ibig",
+  "pag-ibig",
+  "basted",
+  "move on",
+  "pusong sugatan",
+  "st. joseph",
+  "pier giorgio frassati",
+  "frassati",
+  "st. augustine",
+  "josephine bakhita"
+ ],
+ "ogSaints": [
+  "frassati",
+  "joseph"
+ ],
+ "epigraph": {
+  "text": "We love, because he first loved us.",
+  "ref": "1 John 4:19"
+ },
+ "closingVerse": {
+  "text": "For I know the plans I have for you, says the LORD, plans for welfare and not for evil, to give you a future and a hope.",
+  "ref": "Jeremiah 29:11"
+ },
+ "printTitle": [
+  "Novena for When Love",
+  "Is Not Returned"
+ ],
+ "printClosing": [
+  "For I know the plans I have for you, says the LORD,",
+  "plans for welfare and not for evil, to give you a future and a hope."
+ ],
+ "saints": [
+  {
+   "id": "frassati",
+   "name": "St. Pier Giorgio Frassati",
+   "dates": "1901–1925",
+   "feast": "Feast · Jul 4",
+   "patron": "Patron of young people",
+   "bio": "Young man of Turin from a wealthy family, who loved the mountains, his friends and the poor. He gave up a young woman he loved, unsure his parents would accept her, and died at 24.",
+   "alt": "Photograph: Pier Giorgio Frassati as a young man in a suit, arms crossed",
+   "openingRole": "who knew the pain of letting love go"
+  },
+  {
+   "id": "augustine",
+   "name": "St. Augustine of Hippo",
+   "dates": "354–430",
+   "feast": "Feast · Aug 28",
+   "patron": "Doctor of the Church",
+   "bio": "Son of St. Monica. Parting from the woman he had loved for years left his heart, he wrote, wounded and bleeding. He found rest in Christ and became Bishop of Hippo.",
+   "alt": "Painting: St. Augustine as a bishop, by Justus of Ghent",
+   "openingRole": "whose restless heart found rest in You"
+  },
+  {
+   "id": "joseph",
+   "name": "St. Joseph",
+   "dates": "1st century",
+   "feast": "Feasts · Mar 19 & May 1",
+   "patron": "Patron of the Church & of families",
+   "bio": "A just man of Nazareth, betrothed to Mary. When his plans were overturned, he trusted the word God sent him in a dream, and became Mary’s husband and the foster father of Jesus.",
+   "alt": "Painting: St. Joseph holding the Infant Jesus, by Guido Reni",
+   "openingRole": "who trusted You when his plans changed"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Our Lady of Sorrows"
+  },
+  {
+   "img": "frassati",
+   "text": "St. Pier Giorgio Frassati"
+  },
+  {
+   "img": "augustine",
+   "text": "St. Augustine of Hippo"
+  },
+  {
+   "img": "joseph",
+   "text": "St. Joseph"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You know N.’s heart: the love they carry for someone who does not love them in return, and the ache it brings. We do not ask You to force any heart, for You made every person free. Heal N.’s heart, free it from bitterness and fear, and make it ready to love as You will. Today we ask Our Lady of Sorrows; St. Pier Giorgio Frassati, who knew the pain of letting love go; St. Augustine, whose restless heart found rest in You; and St. Joseph, who trusted You when his plans changed, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, Your Sacred Heart knows what it is to love and not be loved in return. Heal N.’s heart, make it free and generous, and let Your holy will be done.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Confession and attend Mass during these 9 days, and share the hurt with someone you trust. Give the other person space; if they are married, in a relationship or have asked for distance, honor that fully. If it is your own spouse whose love has cooled, also seek help from a priest or a marriage counselor. No prayer, charm or “love spell” can or should bend another person’s will. At “N.”, say the name of the person you pray for, or “me” and “my” if you pray for yourself."
+  },
+  {
+   "h": "If it weighs too heavily",
+   "p": "Heartache can turn into depression. If the sadness lasts for weeks or keeps you from sleeping, eating or working, or if you ever think of harming yourself, reach out right away to someone you trust, a doctor or a <a href=\"https://findahelpline.com\" rel=\"noopener noreferrer\" target=\"_blank\">crisis helpline</a>."
+  }
+ ],
+ "intentionPlaceholder": "Write who you are praying for (or your own name) and the graces you ask.",
+ "icons": [
+  "heart-break",
+  "drop",
+  "bird",
+  "heart",
+  "hand-heart",
+  "sparkle",
+  "plant",
+  "mountains",
+  "sun-horizon"
+ ],
+ "credits": "Images: Pier Giorgio Frassati, photograph, 1920s, from Luciana Frassati’s <em>Une vie en images</em> · Justus of Ghent, <em>St Augustine</em>, c. 1474, from the studiolo of Federico da Montefeltro, Urbino · Guido Reni, <em>St Joseph with the Infant Jesus</em>, c. 1635, Hermitage Museum · Sassoferrato, <em>The Virgin in Prayer</em>, 17th century. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Naming the Hurt",
+   "ref": "Psalm 147:3",
+   "verse": "He heals the brokenhearted, / and binds up their wounds.",
+   "refl": "The psalmist does not tell the brokenhearted to cheer up or hurry on. He says that God heals them and binds up their wounds, like a nurse with gentle hands. To love someone who does not love us back is a real wound. It can bring loneliness, embarrassment and questions we keep asking late at night. We begin these nine days by being honest with God. We name the hurt, without pretending it is small and without blaming ourselves for feeling it, and we let Him see the wound.",
+   "more": "St. Pier Giorgio Frassati knew a similar ache. As a student in Turin, he came to love a young woman in his circle of friends. His parents’ marriage was strained, and he was unsure they would ever accept her, so he chose not to pursue her and never told her. He confided the sorrow to his sister and brought it to God. No heartache is too small or too foolish for God’s attention.",
+   "prayer": "Heavenly Father, You heal the brokenhearted and bind up their wounds. Here is N.’s heart, just as it is: the love, the hope, the disappointment and the ache. We hide none of it from You. Through the prayers of St. Pier Giorgio, who knew the sorrow of a love given up, touch this wound with Your gentle hands. Keep N. from bitterness and from shame, stay close to them in the lonely hours, and help them carry this sorrow one day at a time.",
+   "step": "Name the hurt to God in your own words, aloud or on paper, without making it smaller than it is."
+  },
+  {
+   "title": "A Time to Grieve",
+   "ref": "John 11:35",
+   "verse": "Jesus wept.",
+   "refl": "“Jesus wept.” On His way to the tomb of His friend Lazarus, the Son of God let His tears fall, even though He was about to raise him. Grief is not a lack of faith. When love is not returned, we lose something real: a hope, a picture of the future, sometimes a friendship as it used to be. That loss deserves to be grieved. Tears, quiet and a slower pace for a while are part of how a heart heals. Today we let ourselves mourn, and we let Jesus mourn with us.",
+   "more": "St. Augustine knew this grief. For many years he shared his life with a woman he loved, and they had a son. When she was sent back to Africa to clear the way for a marriage arranged for him, he wrote that his heart, which clung to her, was left wounded and bleeding (Confessions 6.15). He did not pretend the pain away, and in time God led that wounded heart to Himself.",
+   "prayer": "Lord Jesus, You wept for Your friend Lazarus, and You call those who mourn blessed. Comfort N. in this loss. Let them grieve honestly, without hurry and without despair, and send them friends who will listen. Our Lady of Sorrows, you knew a sorrow that pierced your heart: stay close to N. in the hard moments. With St. Augustine and St. Pier Giorgio, pray that this grief may soften N.’s heart and never harden it.",
+   "step": "Give yourself one quiet moment today to feel the sadness. Then pray a Hail Mary, asking Our Lady to hold it with you."
+  },
+  {
+   "title": "Letting Go of Bitterness",
+   "ref": "Ephesians 4:31–32",
+   "verse": "Let all bitterness and wrath and anger and clamor and slander be put away from you, with all malice, and be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.",
+   "refl": "Love that is not returned can turn sour if we let it. We may feel anger at the other person, at ourselves for hoping, or even at God. St. Paul is practical: put bitterness away, and be kind and tenderhearted instead. The one we love did nothing wrong by not loving us back, because love cannot be owed or forced. If they were unkind, we can forgive them as God forgives us. And we can make peace with ourselves for having hoped. Freedom begins when resentment loosens its grip.",
+   "more": "St. Joseph knew a moment when his hopes seemed to fall apart. Before the angel spoke to him, he learned that Mary was with child, and because he was a just man, he decided to part from her quietly rather than expose her to shame (Matthew 1:19). Even in confusion and pain, he wanted no harm for her. We ask him to teach us that same quiet kindness when we are hurt.",
+   "prayer": "Merciful Father, You have forgiven us so much. Take from N. every trace of bitterness: toward the one they love, toward themselves, and toward You. Where N. was treated unkindly, give them the grace to forgive; where they simply hoped, let them be at peace with having hoped. Through the prayers of St. Joseph, just and gentle, make N.’s heart tender and kind again, and let no root of resentment grow there.",
+   "step": "If you are holding a grudge against them, yourself or God, name it, and pray: “Lord, I want to let this go. Help me.”"
+  },
+  {
+   "title": "Love Does Not Insist",
+   "ref": "1 Corinthians 13:4–7",
+   "verse": "Love is patient and kind; love is not jealous or boastful; it is not arrogant or rude. Love does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrong, but rejoices in the right. Love bears all things, believes all things, hopes all things, endures all things.",
+   "refl": "St. Paul’s portrait of love is a mirror for every heart. Love is patient and kind, and it does not insist on its own way. Real love wants what is truly good for the other person, and that includes their freedom. God Himself never forces anyone to love Him. Pressing on, hoping to change someone’s mind, can quietly turn love into a demand. Today we ask for the grace to love in a way that lets go, and to respect the other’s answer even when it is not the one we wanted.",
+   "more": "Pier Giorgio’s love never became a demand. Writing to a friend, he said that in giving up the young woman he loved, he wished for her happiness. He turned his heart outward, giving his time, money and strength to the poor of Turin through the St. Vincent de Paul Society, and thousands lined the streets at his funeral. Love that cannot be returned in one direction can still be given generously in another.",
+   "prayer": "Lord God, You made us free, and You never force anyone to love You. Teach N. to love as You love: patiently, kindly, not insisting on their own way. Help them to respect the freedom of the one they love and to accept their answer with grace. Through the prayers of St. Pier Giorgio, who loved without grasping, purify N.’s love of every demand, so that it may become a free gift.",
+   "step": "Let go of one thing you do to try to change their mind: a message, a hint, checking their profile. Offer that small sacrifice to God."
+  },
+  {
+   "title": "Blessing the One We Love",
+   "ref": "Numbers 6:24–26",
+   "verse": "The LORD bless you and keep you: / The LORD make his face to shine upon you, and be gracious to you: / The LORD lift up his countenance upon you, and give you peace.",
+   "refl": "This blessing, which God gave Aaron to speak over His people, can become our prayer for the one we love. We cannot make them love us, but we can ask God to keep them, to shine on them and to give them peace. Blessing someone who has not chosen us is hard, and it may take many tries before we fully mean it. Yet it frees the heart. When we wish them well, even a happiness that does not include us, we begin to love as God loves.",
+   "more": "At the wedding at Cana, Mary saw that the wine had run out and brought the couple’s need to her Son (John 2:1–5). Her eyes were on their joy, not on herself. She can teach us to want good things for the one we love, and to pray for them generously even while our own feelings are still sore.",
+   "prayer": "Lord, bless the one N. loves, and keep them. Make Your face shine on them, be gracious to them, and give them peace. Lead them to every good You have planned for their life, whether or not that includes N. Our Lady of Sorrows, teach N. to wish them well with a sincere heart. With St. Pier Giorgio and St. Joseph, help N. to love without possessing, and to find their own peace in Yours.",
+   "step": "Pray today’s blessing over the one you love, by name, even if for now you can only half mean it."
+  },
+  {
+   "title": "Loved With an Everlasting Love",
+   "ref": "Jeremiah 31:3",
+   "verse": "I have loved you with an everlasting love; therefore I have continued my faithfulness to you.",
+   "refl": "God says to His people: I have loved you with an everlasting love. When someone does not return our love, we can start to wonder whether we are lovable at all. But our worth was never theirs to give or to take away. It comes from God, who loved us before anyone else did and will never stop loving us. Today we let that truth sink in. We are not less because one person does not love us back. We are loved and wanted by God.",
+   "more": "St. Josephine Bakhita was kidnapped as a child in Sudan, sold into slavery and treated as worthless. Later, in Italy, she came to know God and discovered that she was loved by Him completely and forever. Pope Benedict XVI wrote that this knowledge gave her hope and set her free (Spe Salvi 3). The Church teaches that God created each of us out of love and calls each of us to love (CCC 1604).",
+   "prayer": "Heavenly Father, You have loved N. with an everlasting love, since before anyone else knew their name. When this rejection makes N. doubt their worth, remind them whose they are, and silence every lie that says they are not enough. Through the prayers of St. Joseph, hidden and humble yet chosen by You, help N. to rest in Your love, so that they no longer need anyone’s yes to know that they are precious.",
+   "step": "Write down “I am loved by God with an everlasting love,” and read it each morning and night for the rest of this novena."
+  },
+  {
+   "title": "Growing in Virtue",
+   "ref": "Colossians 3:12–14",
+   "verse": "Put on then, as God’s chosen ones, holy and beloved, compassion, kindness, lowliness, meekness, and patience, forbearing one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive. And above all these put on love, which binds everything together in perfect harmony.",
+   "refl": "St. Paul tells us to put on compassion, kindness, lowliness, meekness and patience, like clothes we choose each morning. A season of unreturned love can become a season of growth. Instead of asking what is wrong with us, we can ask what God wants to grow in us: deeper prayer, self-control, generosity, good friendships, honest work. This is not about becoming impressive enough to be chosen. It is about becoming the person God made us to be, ready to love well in whatever vocation He gives.",
+   "more": "St. Joseph lived his holiness in ordinary things: the work of his hands, the care of his family, faithful prayer and obedience to God. His virtue was built day after day, not in a single moment. So is ours. Small daily choices to be patient, honest and generous shape a heart that can love well, whether in marriage, in the priesthood or religious life, or in a single life given to others.",
+   "prayer": "Lord Jesus, clothe N. with compassion, kindness, humility, meekness and patience, and above all with love. Use this season to make N. stronger, wiser and freer. Show them one virtue to grow in now, and give them the grace to practice it each day. Through the prayers of St. Joseph, faithful in small things, and of St. Pier Giorgio, shape N. into the person You created them to be, ready for the vocation You are preparing.",
+   "step": "Choose one virtue from today’s verse and one small daily practice for it, like a kind word or a task done well, and begin today."
+  },
+  {
+   "title": "Trusting God With the Road",
+   "ref": "Lamentations 3:25–26",
+   "verse": "The LORD is good to those who wait for him, / to the soul that seeks him. / It is good that one should wait quietly / for the salvation of the LORD.",
+   "refl": "The Lord is good to those who wait for Him. Waiting is hard when we long for love, and it is easy to measure our lives against friends who seem further along. But God knows the road each of us must walk, and He knows our vocation better than we do: marriage, the priesthood, consecrated life, or a single life given in love. His timing is part of His care for us. Today we hand Him our timeline and our plans, and ask for the grace to wait quietly.",
+   "more": "Pier Giorgio loved the mountains, and his motto was “Verso l’alto,” “To the heights.” Climbing teaches patience: one step at a time, trusting the path and the friends roped beside us. His life shows that a heart can be full of love and joy in every season, while God unfolds the rest. Whatever our vocation and its timing, God is leading us upward too.",
+   "prayer": "Lord, You are good to those who wait for You. We give You N.’s plans, timeline and longing. Free them from comparing their life with anyone else’s, and show them, in Your time, the vocation You have prepared for them. Through the prayers of St. Pier Giorgio, who climbed toward the heights one step at a time, guide N.’s steps, and bring into their life the people who will lead them closer to You.",
+   "step": "Ask God, “Lord, what do You want for my life?” Then talk about your vocation with a priest, a mentor or a trusted friend."
+  },
+  {
+   "title": "Gratitude & Surrender",
+   "ref": "Luke 1:38",
+   "verse": "And Mary said, “Behold, I am the handmaid of the Lord; let it be to me according to your word.” And the angel departed from her.",
+   "refl": "Mary’s yes was not a yes to a plan she fully understood. It was trust in the God who loved her. We end these nine days by giving thanks and placing our hearts in His hands. We may still feel the ache, and that is all right; hearts heal slowly. No prayer of these nine days was wasted, and God has heard every one. With Our Lady of Sorrows, St. Pier Giorgio, St. Augustine and St. Joseph, we give God our own yes, and trust His will for our lives.",
+   "more": "Looking back, we may notice small graces: a lighter morning, a kind friend, a moment of peace in prayer, a little more freedom from old thoughts. St. Augustine told God that He made us for Himself, and that our heart is restless until it rests in Him (Confessions 1.1). Surrendering to God’s will does not mean we stop hoping to love and be loved. It means trusting our hearts to Him.",
+   "prayer": "Lord, on this ninth day we thank You for staying close to N. through every hour of this novena, and for every grace, seen and unseen. Thank you, Our Lady of Sorrows, St. Pier Giorgio, St. Augustine and St. Joseph, for carrying our prayers to Jesus. We place N.’s heart, their hopes, their future and their vocation in Your hands. Let Your will be done, and give N. the peace of a heart that belongs to You.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}
