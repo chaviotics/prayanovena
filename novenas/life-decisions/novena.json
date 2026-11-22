@@ -1,0 +1,222 @@
+{
+ "slug": "life-decisions",
+ "storageKey": "novena-life-decisions",
+ "status": "draft",
+ "order": 8,
+ "category": "decisions-growth",
+ "title": "Novena for Big Life Decisions",
+ "cardTitle": "Big Life Decisions",
+ "barTitle": "Novena for Big Life Decisions",
+ "barShort": "Life Decisions",
+ "icon": "compass",
+ "kicker": "9 days of counsel, clarity and courage",
+ "card": "For anyone unsure what to study, where to go or what work to choose: 9 days asking for counsel, self-knowledge and courage to decide.",
+ "ogDescription": "9 days of prayer for big choices, through Our Lady of Good Counsel and Sts. Ignatius, Francis Xavier and John Henry Newman.",
+ "description": "A 9-day Catholic novena for big life decisions, through Our Lady of Good Counsel, St. Ignatius, St. Francis Xavier and St. John Henry Newman.",
+ "keywords": [
+  "decision",
+  "life decisions",
+  "discernment",
+  "choosing a course",
+  "degree program",
+  "college",
+  "university",
+  "career",
+  "what to study",
+  "job",
+  "vocation",
+  "direction",
+  "lost",
+  "counsel",
+  "kurso",
+  "kolehiyo",
+  "desisyon",
+  "pagpapasya",
+  "landas"
+ ],
+ "epigraph": {
+  "text": "And your ears shall hear a word behind you, saying, “This is the way, walk in it,” when you turn to the right or when you turn to the left.",
+  "ref": "Isaiah 30:21"
+ },
+ "closingVerse": {
+  "text": "A man’s mind plans his way, / but the LORD directs his steps.",
+  "ref": "Proverbs 16:9"
+ },
+ "printTitle": [
+  "Novena for",
+  "Big Life Decisions"
+ ],
+ "printClosing": [
+  "A man’s mind plans his way,",
+  "but the LORD directs his steps."
+ ],
+ "saints": [
+  {
+   "id": "ignatius",
+   "name": "St. Ignatius of Loyola",
+   "dates": "1491–1556",
+   "feast": "Feast · Jul 31",
+   "patron": "Patron of spiritual exercises & retreats",
+   "bio": "Basque soldier wounded at Pamplona in 1521. While he healed, he noticed which hopes left a lasting peace, the seed of his Spiritual Exercises. He founded the Jesuits.",
+   "alt": "Painting: St. Ignatius of Loyola in red vestments, looking up, by Peter Paul Rubens",
+   "openingRole": "teacher of discernment"
+  },
+  {
+   "id": "xavier",
+   "name": "St. Francis Xavier",
+   "dates": "1506–1552",
+   "feast": "Feast · Dec 3",
+   "patron": "Patron of missions",
+   "bio": "Student at the University of Paris who shared rooms with Ignatius. He set aside the career he had planned, joined the first Jesuits and carried the Gospel to India and Japan.",
+   "alt": "Japanese portrait: St. Francis Xavier with his hands on his burning heart, looking up toward the cross",
+   "openingRole": "the student who found his true calling"
+  },
+  {
+   "id": "newman",
+   "name": "St. John Henry Newman",
+   "dates": "1801–1890",
+   "feast": "Feast · Oct 9",
+   "patron": "Co-patron of Catholic education",
+   "bio": "English scholar and priest who, after years of study and prayer, became a Catholic in 1845 at great cost. Made a cardinal in 1879, canonized in 2019, named a Doctor of the Church in 2025.",
+   "alt": "Painting: Cardinal John Henry Newman in red, by John Everett Millais",
+   "openingRole": "who asked for one step at a time"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Our Lady of Good Counsel"
+  },
+  {
+   "img": "ignatius",
+   "text": "St. Ignatius of Loyola"
+  },
+  {
+   "img": "xavier",
+   "text": "St. Francis Xavier"
+  },
+  {
+   "img": "newman",
+   "text": "St. John Henry Newman"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You know N. better than they know themselves: their gifts and fears, their hopes, and the choices that feel too big to make. We bring You this decision about study, work and the road ahead. Send Your Holy Spirit with the gift of counsel, show N. what gives them life, and give them the courage to choose instead of drifting. Today we ask Our Lady of Good Counsel; St. Ignatius of Loyola, teacher of discernment; St. Francis Xavier, the student who found his true calling; and St. John Henry Newman, who asked for one step at a time, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, the Way, the Truth and the Life, walk beside N. in this decision. Light the next step, give them peace in choosing, and let Your holy will be done in their life.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Confession and attend Mass during these 9 days, and spend some quiet time before the Blessed Sacrament. Pair prayer with homework: read about courses, schools and jobs, talk to people who do the work (Day&nbsp;6), and treat career tests as helps, not verdicts. Skip fortune-tellers and horoscopes (CCC 2116); God guides us through prayer, reason and good counsel. If worry or indecision becomes too heavy, talk to a counselor, a priest or a spiritual director. At “N.”, say the name of the person deciding; if you are praying for yourself, say “me”."
+  },
+  {
+   "h": "Praying for someone else’s choice",
+   "p": "If you pray for a son, daughter or friend, pray for their freedom too. The Church teaches that grown children have the right and duty to choose their profession and state of life, welcoming their parents’ advice, and that parents should not pressure them (CCC 2230). Share your hopes honestly, then listen more than you advise."
+  }
+ ],
+ "intentionPlaceholder": "Write the name of the person deciding, the choices in front of them, and the graces you ask.",
+ "icons": [
+  "hands-praying",
+  "bird",
+  "sparkle",
+  "gift",
+  "heart",
+  "users",
+  "scales",
+  "footprints",
+  "sun-horizon"
+ ],
+ "credits": "Images: Peter Paul Rubens, <em>Saint Ignatius of Loyola</em>, c. 1620–1622, Norton Simon Museum · <em>Portrait of St. Francis Xavier</em>, early 17th century, Kobe City Museum · John Everett Millais, <em>John Henry Newman</em>, 1881, National Portrait Gallery, London · <em>Our Lady of Good Counsel</em>, 15th-century fresco, Genazzano. Public domain, via Wikimedia Commons.",
+ "ogSaints": [
+  "ignatius",
+  "newman"
+ ],
+ "days": [
+  {
+   "title": "When We Feel Lost",
+   "ref": "Jeremiah 29:11",
+   "verse": "For I know the plans I have for you, says the LORD, plans for welfare and not for evil, to give you a future and a hope.",
+   "refl": "Some people know exactly what they want to study or do. Many of us do not. Choosing a course, a school or a job can feel like standing at a crossroads in the fog while everyone else seems sure of the way. God spoke these words to His people in exile, far from home, with years of waiting still ahead. He had not forgotten them, and He has not forgotten us. We begin these nine days by telling Him honestly that we feel lost.",
+   "more": "In 1833 a young Anglican priest named John Henry Newman fell gravely ill in Sicily, homesick and uncertain of the road ahead. On the voyage back, while his ship lay becalmed, he wrote the prayer that became the hymn “Lead, Kindly Light.” He did not ask to see the distant scene, only the next step: “one step enough for me.” Feeling lost did not mean God had left him.",
+   "prayer": "Heavenly Father, You know how lost N. feels before this choice, and how loud the voices around them can be: family hopes, friends’ plans, money worries and their own doubts. We do not need to see the whole road today. Through the prayers of St. John Henry Newman, who asked only for the next step, and of Our Lady of Good Counsel, St. Ignatius of Loyola and St. Francis Xavier, quiet N.’s fear and lead them, one step at a time.",
+   "step": "Write the decision in front of you in one sentence, with the date you need to decide by, if there is one. Keep it where you pray."
+  },
+  {
+   "title": "The Spirit of Counsel",
+   "ref": "John 14:26",
+   "verse": "But the Counselor, the Holy Spirit, whom the Father will send in my name, he will teach you all things, and bring to your remembrance all that I have said to you.",
+   "refl": "Jesus did not leave His friends to work out their lives alone. He promised them the Counselor, the Holy Spirit, who would teach them and remind them of all He had said. The same Spirit is given to us in Baptism and Confirmation, and with Him the gift of counsel: the grace to judge rightly what to do. Counsel rarely comes as a voice from the sky. More often it comes as clearer thinking, a growing peace, or a word from someone wise.",
+   "more": "The Church counts counsel among the seven gifts of the Holy Spirit (CCC 1831), named in Isaiah’s prophecy of the Messiah: “the spirit of counsel and might” (Isaiah 11:2). Before the Spirit came at Pentecost, Mary waited and prayed with the apostles in the upper room (Acts 1:14). She is a good companion for anyone waiting for light: she asks for the Spirit with us, and she teaches us to listen.",
+   "prayer": "Come, Holy Spirit, Counselor promised by Jesus. Fill N. with Your gift of counsel, so that they may judge rightly and choose well. Clear away confusion and the pressure to please everyone, and teach them to recognize Your quiet voice. With Our Lady of Good Counsel, who waited for You in prayer, and with St. Ignatius of Loyola and St. John Henry Newman praying for us, open N.’s mind and heart to the way You are showing them.",
+   "step": "Before you look into a course, a school or a job today, pause and pray, “Come, Holy Spirit, give me counsel.”"
+  },
+  {
+   "title": "Made for a Purpose",
+   "ref": "Ephesians 2:10",
+   "verse": "For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them.",
+   "refl": "St. Paul calls us God’s workmanship, made with care for good works that He prepared beforehand. No one is an accident, and no life is meant simply to drift. That does not mean there is one hidden answer we must guess or be punished for missing. It means God has given each of us a shape: gifts, desires, a story and people to serve. Discernment is learning to read that shape and to say yes to it.",
+   "more": "In 1848 St. John Henry Newman wrote: “God has created me to do Him some definite service; He has committed some work to me which He has not committed to another. I have my mission.” He might not know it in this life, he added, but would in the next. Our studies and work belong to that mission, and so does our deeper call to love, in marriage, priesthood, religious life or single life.",
+   "prayer": "Creator God, You made N. with care, and You have prepared good works for them to walk in. Free them from the fear of choosing wrongly and from the lie that their life does not matter. Through the prayers of St. John Henry Newman, who trusted that You had a definite service for him, and of Our Lady of Good Counsel, St. Ignatius of Loyola and St. Francis Xavier, help N. believe that their life has a purpose in Your plan.",
+   "step": "Pray slowly with St. John Henry Newman’s words, “God has created me to do Him some definite service,” and ask God what yours might be."
+  },
+  {
+   "title": "Knowing Our Gifts",
+   "ref": "1 Corinthians 12:4–6",
+   "verse": "Now there are varieties of gifts, but the same Spirit; and there are varieties of service, but the same Lord; and there are varieties of working, but it is the same God who inspires them all in every one.",
+   "refl": "St. Paul reminds us there are many kinds of gifts, service and work, all coming from the same God, and our natural talents come from Him too. Some are easy to see, like a talent for numbers, drawing or sports. Others are quieter: patience with children, a knack for fixing things, a gift for listening. Our gifts are clues to how God may want us to serve, and so are the things that make us lose track of time. Knowing ourselves, without pride and without putting ourselves down, is the beginning of a good choice.",
+   "more": "In St. Ignatius’s Spiritual Exercises, each time of prayer begins by asking God for the grace one desires. Those who follow his way have learned that passing wishes come and go, but deeper desires, to help, to heal, to build, to teach, to create, often point to where our gifts and God’s call meet. They are worth noticing, writing down and bringing to prayer.",
+   "prayer": "Generous Father, every good gift comes from You. Help N. see their gifts clearly, neither boasting of them nor hiding them, and show them how to use those gifts for others. Through the prayers of St. Ignatius of Loyola, who taught us to bring our desires to You, and of Our Lady of Good Counsel, St. Francis Xavier and St. John Henry Newman, let N. discover what gives them life and how it can serve Your people.",
+   "step": "Write down three things you do well and three things that make you lose track of time. Ask someone who knows you well what they would add."
+  },
+  {
+   "title": "Where Peace Is Found",
+   "ref": "Galatians 5:22–23",
+   "verse": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such there is no law.",
+   "refl": "When the Holy Spirit is at work, He leaves a trace: love, joy, peace, patience and the rest. That gives us a way to listen. As we picture each path before God, we can ask which one brings a deep and lasting peace, even if it is hard, and which leaves us restless or empty. Peace is not the same as comfort, and excitement is not the same as joy, but the fruit of the Spirit is a sign worth heeding, tested over time and with wise counsel.",
+   "more": "St. Ignatius discovered this in 1521, while he was healing from a cannonball wound. Stuck in bed, he daydreamed about worldly honors and also about following Christ like the saints. He noticed that the first dreams delighted him for a while and then left him dry, while the second left him consoled and joyful long afterward. That small discovery became the heart of his teaching on discernment.",
+   "prayer": "Holy Spirit, You leave Your fruit in every heart that welcomes You. Teach N. to notice where Your peace is found and where it is missing, and to trust that lasting peace more than passing excitement or fear. With St. Ignatius of Loyola, who learned to read the movements of his heart, and with Our Lady of Good Counsel, St. Francis Xavier and St. John Henry Newman, guide N. toward the path that bears Your fruit.",
+   "step": "Tonight, spend five minutes looking back on your day. When did you feel most alive and at peace? When did you feel drained? Tell God about both."
+  },
+  {
+   "title": "Seeking Wise Counsel",
+   "ref": "Proverbs 15:22",
+   "verse": "Without counsel plans go wrong, / but with many advisers they succeed.",
+   "refl": "Proverbs is practical: plans go wrong without counsel. God usually guides us through other people, not around them. A parent, a teacher, a priest, a guidance counselor, an older friend, or someone already doing the work we are curious about can see what we cannot. Good counsel does not decide for us; it leaves us free. But a choice made alone, out of pride or the fear of being judged, is much harder to make well.",
+   "more": "At the University of Paris, Francis Xavier shared rooms with Peter Faber, and later with an older student, Ignatius of Loyola. Xavier kept his distance from Ignatius at first. In time the friendship changed all three lives: with a few companions they became the first Jesuits. God’s guidance came to them through friendship, long conversations and patience with one another. He often guides us the same way.",
+   "prayer": "Lord, You guide us through the people You place in our lives. Lead N. to wise and honest counselors, and give them the humility to ask for help and the freedom to weigh what they hear. Through the prayers of St. Francis Xavier and St. Ignatius of Loyola, whose friendship changed both their lives, and of Our Lady of Good Counsel and St. John Henry Newman, let the right words reach N. at the right time.",
+   "step": "Talk with one person you trust about this choice: a parent, teacher, priest or someone who does that work. Ask what they see in you."
+  },
+  {
+   "title": "What Truly Matters",
+   "ref": "Matthew 16:26",
+   "verse": "For what will it profit a man, if he gains the whole world and forfeits his life? Or what shall a man give in return for his life?",
+   "refl": "Jesus asks a question that cuts through every brochure and salary chart: what good is the whole world if we lose our life? Money, prestige and other people’s hopes are real, and it is wise to weigh them. Others may have sacrificed for our schooling, and bills must be paid. But they cannot be the deepest reason for a choice. The better question is which path will help us become who God made us to be, and love Him and others well.",
+   "more": "Francis Xavier came to Paris ambitious for an academic career and the honor it would bring his family. Tradition says Ignatius kept repeating this very verse to him, and over time it took hold. Xavier did not throw his gifts away; he gave them to God, and they carried him to India and Japan. The same question can free us from choosing only to impress others.",
+   "prayer": "Lord Jesus, You ask what it would profit us to gain the whole world and lose our life. Help N. weigh this choice by what lasts: love of God, love of neighbor and the person You made them to be. Free them from choosing only for money, status or to please others. With St. Francis Xavier, who heard this question and changed his life, and with Our Lady of Good Counsel, St. Ignatius of Loyola and St. John Henry Newman, give N. a clear heart.",
+   "step": "Imagine a friend facing your exact choice. What would you honestly advise them? Write it down, and see whether you can take your own advice."
+  },
+  {
+   "title": "Courage to Choose",
+   "ref": "1 Corinthians 16:13",
+   "verse": "Be watchful, stand firm in your faith, be courageous, be strong.",
+   "refl": "There comes a time to stop circling and decide. Drifting can feel safe, but not choosing is also a choice: it lets others or circumstances choose for us. St. Paul’s words are short: be watchful, stand firm, be courageous. We will rarely have perfect certainty. When we have prayed, listened and found some peace, we can choose with courage. And if a path we chose before now feels wrong, nothing is wasted: changing course after prayer and counsel is not failure.",
+   "more": "St. Ignatius gave practical advice for deciding. Do not make or change a big decision in a time of desolation, when we feel low, anxious or far from God; wait for steadier days. And when a choice is hard, imagine yourself at the end of your life: which choice would you then be glad to have made? Then, as St. John Henry Newman prayed, take the next step.",
+   "prayer": "Lord God, give N. the courage to choose. When they are tempted to wait forever or simply drift, give them a steady heart, and once they have chosen, keep them faithful. Through the prayers of St. Ignatius of Loyola, who taught us how to decide, of St. John Henry Newman, who walked one step at a time, and of Our Lady of Good Counsel and St. Francis Xavier, let N. take the next step without fear.",
+   "step": "Take one concrete step this week: send an inquiry, visit a campus or workplace, start an application, or set a date by which you will decide."
+  },
+  {
+   "title": "Gratitude & Trust in God’s Will",
+   "ref": "Luke 1:38",
+   "verse": "And Mary said, “Behold, I am the handmaid of the Lord; let it be to me according to your word.”",
+   "refl": "Mary did not see the whole road when she said yes. She asked an honest question first, then gave her yes and trusted God with the rest. We end these nine days the same way: grateful for every light we have received, and placing our choice, made or still unfolding, in God’s hands. God is not waiting for us to fail. He walks with us on the road we choose in good faith, and He can bring good from every step.",
+   "more": "At the end of his Spiritual Exercises, St. Ignatius offers a prayer of surrender that begins, “Take, Lord, and receive all my liberty, my memory, my understanding, and my entire will.” It is not giving up; it is giving over. Our Lady of Good Counsel, whose own counsel at Cana was “Do whatever he tells you” (John 2:5), helps us pray it with a free and grateful heart.",
+   "prayer": "Heavenly Father, on this ninth day we thank You for every grace of these days: each moment of clarity, each wise word, each step taken. Thank you, Our Lady of Good Counsel, St. Ignatius of Loyola, St. Francis Xavier and St. John Henry Newman, for praying with us. With Mary we say: let it be according to Your word. We place N.’s choice and their whole future in Your hands, trusting that You will lead them in the way that is truly good.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}
