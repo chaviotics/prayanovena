@@ -28,6 +28,15 @@ Cited by reference or paraphrase only: Acts 1:4–5, Acts 2:1–4, Matthew 6:7, 
 | 2111 | paraphrased (superstition: prayers working by outward form alone) | vatican.va, Part 3, "You shall have no other gods before me" |
 | 970 | paraphrased (Mary's role shows, and does not obscure, Christ's unique mediation) | vatican.va, Part 1, Paragraph 6 |
 | 954 | paraphrased (the three states of the Church) | vatican.va, Part 1, Paragraph 5 |
+| 1324 | quoted: "the source and summit of the Christian life" (checked 2026-11-22) | https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_one/article_3/i_the_eucharist_source_and_summit_of_ecclesial_life.html |
+| 1366 | paraphrased (the Eucharist makes present the one sacrifice of the Cross) | vatican.va, Part 2, Article 3 |
+| 1675 | cited (popular devotions extend the liturgy and do not replace it) | vatican.va, Part 2, Article 2 |
+
+## Second Vatican Council
+
+| Ref | Use | Source |
+|---|---|---|
+| *Sacrosanctum Concilium* 13 | quoted: "since, in fact, the liturgy by its very nature far surpasses any of them" (checked 2026-11-22) | https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html |
 | 1675 | paraphrased (devotions extend the liturgy, never replace it) | not re-read online this session |
 
 ## Other

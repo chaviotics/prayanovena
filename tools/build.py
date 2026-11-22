@@ -338,7 +338,7 @@ def library(novenas, search=None):
     t = t.replace("{{OG_VER}}", og_ver(os.path.join(ROOT, "site", "og.jpg")))
     t = t.replace("{{FONTS}}", local_fonts("")).replace("{{SW}}", sw_register(""))
     t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer("", current="index.html"))
-    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-right", "hands-praying", "calendar-check", "house-line", "magnifying-glass", "x"] + icons))
+    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-right", "hands-praying", "calendar-check", "house-line", "church", "magnifying-glass", "x"] + icons))
     left = re.findall(r"\{\{[A-Z0-9_]+\}\}", t)
     assert not left, left
     return t
