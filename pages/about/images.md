@@ -22,14 +22,12 @@
 
 Public-domain alternatives, if ever needed: Commons `Don_Bosco_@_Torino,_1880_(original).jpg` (photograph, Turin, 1880) and `Life_of_Dominic_Savio_(page_6_crop).jpg` (oval portrait from an early printed Life). Carlo Acutis: no openly licensed portrait exists on Commons; Chav chose the family photograph above.
 
-**Peter and Ignatius (2026-11-21, Chav's choice): shown straight from Wikimedia Commons, not stored here.** The sandbox cannot download from Wikimedia, so Chav chose to hotlink. `netlify.toml` allows `img-src https://upload.wikimedia.org`, the Privacy page says so, and these 2 images do not work offline (the service worker ignores other origins; the card shows its wash background).
+**Peter and Ignatius (stored here since 2026-11-22):** first hotlinked from Wikimedia (2026-11-21), but the pictures did not show on the live site, so Chav uploaded the 960px files and they are now local.
 
-| Card | Commons file | Work | Why public domain |
+| File here | Commons file | Work | Why public domain |
 |---|---|---|---|
-| St. Peter | El_Greco_-_Saint_Peter_in_Tears_-_Google_Art_Project.jpg (500px/960px thumbs) | El Greco (1541–1614), *Saint Peter in Tears*, about 1580–1589, Bowes Museum | Artist died 1614; faithful photo of a 2D work |
-| St. Ignatius of Loyola | St._Ignatius_of_Loyola_by_Peter_Paul_Rubens.jpg (500px/960px thumbs) | Peter Paul Rubens (1577–1640), *Saint Ignatius of Loyola*, about 1620–1622, Norton Simon Museum | Artist died 1640; faithful photo of a 2D work |
-
-To store them locally later: save the 960px thumbs as `img/peter.jpg` and `img/ignatius.jpg` (3:2 crop on the face), switch the cards to `{{IMG:peter}}` / `{{IMG:ignatius}}`, then remove the Wikimedia host from the CSP and the Privacy line.
+| peter.jpg | El_Greco_-_Saint_Peter_in_Tears_-_Google_Art_Project.jpg (960px, uploaded by Chav) | El Greco (1541–1614), *Saint Peter in Tears*, about 1580–1589, Bowes Museum | Artist died 1614; faithful photo of a 2D work. Cropped 3:2 on face and hands, 720×480 |
+| ignatius.jpg | St._Ignatius_of_Loyola_by_Peter_Paul_Rubens.jpg (960px, uploaded by Chav) | Peter Paul Rubens (1577–1640), *Saint Ignatius of Loyola*, about 1620–1622, Norton Simon Museum | Artist died 1640; faithful photo of a 2D work. Cropped 720×480 on head and upper body |
 
 Thumbnails were fetched through a temporary Google Doc (tools/wm_images.py), then cropped with PIL: arched paintings at 720 px wide, story cards at 3:2 (720×480, smaller where the source is smaller). The temporary Docs were trashed afterwards.
 
