@@ -140,6 +140,11 @@ Two phases, so the new name can go live before the domain exists:
 - **The diagram** (`figure.honor`) replaced the 3 cards (Worship / Intercession / Honor): God alone in a panel at the top (Trinity symbol, "Worship *latria*"), a bold gold line labelled "Different in kind, not only in degree" (phones: "Different in kind"), then Mary ("Special honor *hyperdulia*") and the saints ("Honor *dulia*") together under "Honored, never worshipped". Deliberately not a ladder or bar chart: worship differs in kind, not degree. "Every grace comes from God, through Christ" lives in the saints card; caption cites CCC 971 (paraphrased). A first version with arrows across the line was dropped as too busy on phones; photos for God, Mary and the saints were considered and left out (the section already has a painting; portraits would make the 3 look like the same kind of thing).
 - **"Why we ask the saints"** now opens "Why turn to the saints at all?" and ends with "Mary, first among the saints" beside Sassoferrato's *The Virgin in Prayer* (`pages/about/img/mary.jpg`, uploaded by Chav, self-hosted, credited in the About footer and `pages/about/images.md`).
 
+### 2026-11-22 (security and legal review)
+- Review report: https://claude.ai/artifact/SNGPszqfQx2v4BhGJnJ2a3. No urgent security hole; top legal risk was the Carlo Acutis photo (Britannica credits it to Independent Photo Agency Srl/Alamy, a stock agency).
+- **About: Carlo Acutis back to the gold cross** (Chav). The same photo is on the official site of the Associazione Amici di Carlo Acutis; Chav emailed info@carloacutis.com for permission. Put it back only with their written yes and exact credit. Editing or cropping a copyrighted photo does not make it usable.
+- Still awaiting Chav: Bosco and Savio swap to public domain; Privacy page "If you email us" and "Your rights"; care disclaimer on About; HSTS, Permissions-Policy and COOP headers; script-safe JSON in build.py (preview https://claude.ai/artifact/B7bu4orH15bQJVb9LRbq32). Chav's own steps: protect `main`, Netlify deploy previews off, Cloudflare SPF/DMARC/null MX/CAA/DNSSEC.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).

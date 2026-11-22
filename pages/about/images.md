@@ -18,9 +18,8 @@
 |---|---|---|---|
 | bosco.jpg | https://ius-sdb.com/about-us/don-bosco/ | Painted portrait of St. John Bosco, artist unknown (modern, based on his photographs) | Credited, not public domain; cropped to 3:2 (582×388) |
 | savio.jpg | https://anastpaul.com/2022/03/09/saint-of-the-day-9-march-st-dominic-savio-1842-1857-the-little-giant/ | Devotional painting of St. Dominic Savio with halo, artist unknown | Credited, not public domain; cropped to 3:2 (479×319) |
-| acutis.jpg | https://www.britannica.com/biography/Carlo-Acutis (added 2026-11-21, Chav) | The well-known photograph of Carlo Acutis in a red polo shirt, released by his family | Credited, not public domain; cropped to 3:2 and resized to 720×480 |
 
-Public-domain alternatives, if ever needed: Commons `Don_Bosco_@_Torino,_1880_(original).jpg` (photograph, Turin, 1880) and `Life_of_Dominic_Savio_(page_6_crop).jpg` (oval portrait from an early printed Life). Carlo Acutis: no openly licensed portrait exists on Commons; Chav chose the family photograph above.
+Public-domain alternatives, if ever needed: Commons `Don_Bosco_@_Torino,_1880_(original).jpg` (photograph, Turin, 1880) and `Life_of_Dominic_Savio_(page_6_crop).jpg` (oval portrait from an early printed Life). Carlo Acutis: no openly licensed portrait exists on Commons. The red polo photograph (taken from britannica.com) was removed on 2026-11-22: Britannica credits it to Independent Photo Agency Srl/Alamy. The same photo is on the official site of the Associazione Amici di Carlo Acutis ("Chi è Carlo Acutis" gallery, img03.jpg); Chav emailed info@carloacutis.com for permission on 2026-11-22. Gold cross until they say yes; then use their exact credit.
 
 **Peter and Ignatius (stored here since 2026-11-22):** first hotlinked from Wikimedia (2026-11-21), but the pictures did not show on the live site, so Chav uploaded the 960px files and they are now local.
 
