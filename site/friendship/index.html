@@ -23,7 +23,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preload" href="../fonts/eb-garamond.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../fonts/fonts.css">
+<link rel="stylesheet" href="../fonts/fonts.css?v=2">
 <style>
 /* Novena page. Phone first: one prayer-book column (a "today" card, the 9 days, then the day's prayers
    in the order you pray them). Phones put the 9 days in a bottom bar; from 1024px a sidebar holds them.
@@ -34,8 +34,8 @@
 :root{
   --paper:#FFFDF9;      /* page */
   --sheet:#FFFFFF;      /* raised surfaces */
-  --ink:#2A2521;        /* text */
-  --muted:#675E57;      /* secondary text */
+  --ink:#221D1A;        /* text */
+  --muted:#5C534C;      /* secondary text */
   --wine:#6E1F2B;       /* spoken responses, headings */
   --gold:#94702A;       /* icons, rules of emphasis */
   --gold-text:#896725;  /* gold for small text (4.5:1) */
@@ -47,24 +47,25 @@
   --display:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
   --body:"EB Garamond",Garamond,Georgia,"Times New Roman",serif;
   --scale:1;            /* text size: 1, 1.15 or 1.35, shared across the site */
+  --text-weight:450; --smooth:auto;  /* light mode: a touch heavier, and the OS's normal smoothing (antialiased thins dark-on-light text on Macs) */
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]):not([data-mode="light"]){
     --paper:#0E1524; --sheet:#162036; --ink:#ECE6DA; --muted:#A7B0C2; --wine:#EBCF95; --gold:#C9A45A; --gold-text:#D0AD66;
-    --rule:#26324C; --rule-strong:#5E6E90; --wash:#1B2740; --frame:color-mix(in srgb,#C9A45A 75%,transparent); --cta:#C9A45A; --on-cta:#0E1524; color-scheme:dark;
+    --rule:#26324C; --rule-strong:#5E6E90; --wash:#1B2740; --frame:color-mix(in srgb,#C9A45A 75%,transparent); --cta:#C9A45A; --on-cta:#0E1524; --text-weight:400; --smooth:antialiased; color-scheme:dark;
   }
 }
 :root[data-theme="dark"]:not([data-mode="light"]),:root[data-mode="dark"]{
   --paper:#0E1524; --sheet:#162036; --ink:#ECE6DA; --muted:#A7B0C2; --wine:#EBCF95; --gold:#C9A45A; --gold-text:#D0AD66;
-  --rule:#26324C; --rule-strong:#5E6E90; --wash:#1B2740; --frame:color-mix(in srgb,#C9A45A 75%,transparent); --cta:#C9A45A; --on-cta:#0E1524; color-scheme:dark;
+  --rule:#26324C; --rule-strong:#5E6E90; --wash:#1B2740; --frame:color-mix(in srgb,#C9A45A 75%,transparent); --cta:#C9A45A; --on-cta:#0E1524; --text-weight:400; --smooth:antialiased; color-scheme:dark;
 }
 
 /* ---- base ---- */
 *{box-sizing:border-box}
 html,body{margin:0}
 html{scroll-padding-top:124px}
-body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:calc(18px * var(--scale));line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:calc(18px * var(--scale));line-height:1.55;font-weight:var(--text-weight);-webkit-font-smoothing:var(--smooth);text-rendering:optimizeLegibility;
   font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1} /* modern numerals, so "1" never reads as Roman "I" */
 button,input,textarea{font:inherit;color:inherit}
 a{color:var(--wine)}

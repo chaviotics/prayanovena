@@ -31,7 +31,7 @@ def font_css():
     # weights as the site's fonts.css declares them (the italic is a single 500 face, as in the TTF set)
     for fam, st, w, f in [("Cormorant Garamond", "normal", "500 700", "cormorant-garamond.woff2"),
                           ("Cormorant Garamond", "italic", "500", "cormorant-garamond-italic.woff2"),
-                          ("EB Garamond", "normal", "400 600", "eb-garamond.woff2"), ("EB Garamond", "italic", "400", "eb-garamond-italic.woff2")]:
+                          ("EB Garamond", "normal", "400 600", "eb-garamond.woff2"), ("EB Garamond", "italic", "400 600", "eb-garamond-italic-var.woff2")]:
         with open(os.path.join(d, f), "rb") as fh:
             out.append("@font-face{font-family:'%s';font-style:%s;font-weight:%s;src:url(data:font/woff2;base64,%s)}"
                        % (fam, st, w, base64.b64encode(fh.read()).decode()))

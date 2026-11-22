@@ -182,6 +182,11 @@ Two phases, so the new name can go live before the domain exists:
 - Images: Basil and Gregory cut from the 1192 wall painting at Panagia tou Arakos, Lagoudera, Cyprus, where they stand side by side (Dumbarton Oaks photo, CC0); Frassati photo copied from unrequited-love. 11 RSV-CE passages checked word for word (`sources.md`); independent Catholic review and a Frassati fact check applied.
 - Learned: Wikimedia rate-limits the shared IP; the 960 and 1280 px thumbnail URLs came through when originals and other sizes returned 429. A full RSVCE text on GitHub (`andrewheekin/obsidian-holy-bible`, via raw.githubusercontent.com) works when BibleGateway rate-limits.
 
+### 2026-11-22 (sturdier light-mode text)
+- **Light-mode body text made easier to read** (Chav found it too thin; dark mode was "perfect" and is unchanged, checked pixel for pixel; preview https://claude.ai/artifact/BY1LbaZsV1TiJmdULCdF4s, Chav approved). Causes: every page set `-webkit-font-smoothing:antialiased` (thins dark text on cream on Macs), and EB Garamond sat at 400 with only a static 400 italic.
+- New tokens in all 4 templates: `--text-weight` (450 light, 400 dark) and `--smooth` (auto light, antialiased dark); body uses both. Light ink `#2A2521` → `#221D1A`, muted `#675E57` → `#5C534C`.
+- `fonts.css`: EB Garamond roman and italic are one variable face each with `font-weight: 400 600` (separate single-weight faces made 450 snap to 500). New variable italic `eb-garamond-italic-var.woff2` (Google Fonts, v1.003, same version as the roman) replaces the static italic. Fonts are cached 30 days, so `build.py` links `fonts.css?v=2`; bump it again whenever fonts.css changes. `og.py` points at the new italic.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).

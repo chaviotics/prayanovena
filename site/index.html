@@ -24,33 +24,34 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preload" href="fonts/eb-garamond.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="fonts/fonts.css?v=2">
 <style>
 :root{
-  --paper:#FFFDF9; --sheet:#FFFFFF; --ink:#2A2521; --muted:#675E57; --wine:#6E1F2B; --gold:#94702A;
+  --paper:#FFFDF9; --sheet:#FFFFFF; --ink:#221D1A; --muted:#5C534C; --wine:#6E1F2B; --gold:#94702A;
   --rule:#E3D8C6; --wash:#F6F0E6; --gold-text:#896725; --rule-strong:#9C8B70;
   --display:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
   --body:"EB Garamond",Garamond,Georgia,"Times New Roman",serif;
   --scale:1;
   --card-shadow:0 1px 2px rgb(42 37 33 / .05),0 4px 14px rgb(42 37 33 / .05);
+  --text-weight:450; --smooth:auto;  /* light mode: a touch heavier, and the OS's normal smoothing (antialiased thins dark-on-light text on Macs) */
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-mode="light"]){
     --paper:#0E1524; --sheet:#162036; --ink:#ECE6DA; --muted:#A7B0C2; --wine:#EBCF95; --gold:#C9A45A;
-    --rule:#26324C; --wash:#1B2740; --gold-text:#D0AD66; --rule-strong:#5E6E90; --card-shadow:none; color-scheme:dark;
+    --rule:#26324C; --wash:#1B2740; --gold-text:#D0AD66; --rule-strong:#5E6E90; --card-shadow:none; --text-weight:400; --smooth:antialiased; color-scheme:dark;
   }
 }
 :root[data-mode="dark"]{
   --paper:#0E1524; --sheet:#162036; --ink:#ECE6DA; --muted:#A7B0C2; --wine:#EBCF95; --gold:#C9A45A;
-  --rule:#26324C; --wash:#1B2740; --gold-text:#D0AD66; --rule-strong:#5E6E90; --card-shadow:none; color-scheme:dark;
+  --rule:#26324C; --wash:#1B2740; --gold-text:#D0AD66; --rule-strong:#5E6E90; --card-shadow:none; --text-weight:400; --smooth:antialiased; color-scheme:dark;
 }
 *{box-sizing:border-box}
 html,body{margin:0}
 html{scroll-padding-top:68px}
 .skip{position:absolute;left:12px;top:-60px;z-index:20;padding:10px 16px;border-radius:999px;background:var(--wine);color:var(--paper);font-weight:600;text-decoration:none}
 .skip:focus{top:8px}
-body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:calc(18px * var(--scale));line-height:1.55;-webkit-font-smoothing:antialiased;font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:calc(18px * var(--scale));line-height:1.55;font-weight:var(--text-weight);-webkit-font-smoothing:var(--smooth);font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
 a{color:var(--wine)}
 svg.i{width:1em;height:1em;fill:currentColor;flex:none}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}

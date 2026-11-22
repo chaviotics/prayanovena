@@ -47,7 +47,7 @@ def local_fonts(up):
     """the site's own copies of the fonts (site/fonts), so pages look right offline"""
     return ('<link rel="preload" href="{0}fonts/eb-garamond.woff2" as="font" type="font/woff2" crossorigin>\n'
             '<link rel="preload" href="{0}fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>\n'
-            '<link rel="stylesheet" href="{0}fonts/fonts.css">').format(up)
+            '<link rel="stylesheet" href="{0}fonts/fonts.css?v=2">').format(up)
 
 
 def sw_register(up):
