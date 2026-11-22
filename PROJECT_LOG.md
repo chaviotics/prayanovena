@@ -51,6 +51,7 @@ Two phases, so the new name can go live before the domain exists:
 | `relief-from-debt` | Relief from Debt and Financial Hardship | St. Joseph, St. Rita of Cascia, St. Jude Thaddeus (Memorare to St. Joseph) | Published | 4 pages, tab "With Intention" |
 | `healing` | Healing of the Sick | Our Lady of Lourdes, St. Raphael, St. Camillus de Lellis, St. Bernadette (Marian Memorare) | Published | 4 pages |
 | `expectant-parents` | Expectant Parents | Our Lady of the Visitation, St. Gerard Majella, St. Elizabeth, St. Joseph (Marian Memorare) | Published 2026-11-21 | A4 PDF made (4 pages) with the unmerged print-pdf tooling; no Google Doc |
+| `finding-love` | Finding Love | Mary, Mother of Fairest Love, St. Raphael, St. Louis Martin, St. Zélie Martin (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 
 ## Decisions and rules
 
@@ -144,6 +145,13 @@ Two phases, so the new name can go live before the domain exists:
 - Review report: https://claude.ai/artifact/SNGPszqfQx2v4BhGJnJ2a3. No urgent security hole; top legal risk was the Carlo Acutis photo (Britannica credits it to Independent Photo Agency Srl/Alamy, a stock agency).
 - **About: Carlo Acutis back to the gold cross** (Chav). The same photo is on the official site of the Associazione Amici di Carlo Acutis; Chav emailed info@carloacutis.com for permission. Put it back only with their written yes and exact credit. Editing or cropping a copyrighted photo does not make it usable.
 - Still awaiting Chav: Bosco and Savio swap to public domain; Privacy page "If you email us" and "Your rights"; care disclaimer on About; HSTS, Permissions-Policy and COOP headers; script-safe JSON in build.py (preview https://claude.ai/artifact/B7bu4orH15bQJVb9LRbq32). Chav's own steps: protect `main`, Netlify deploy previews off, Cloudflare SPF/DMARC/null MX/CAA/DNSSEC.
+
+### 2026-11-22 (Novena for Finding Love)
+- **New novena `finding-love`** (Chav approved, pushed live). One novena for anyone hoping for someone to share life with (girlfriend, boyfriend, partner, spouse), gently oriented toward marriage. Intercessors: St. Raphael (Tobias and Sarah; painting reused from healing), St. Louis Martin and St. Zélie Martin as separate cards (Chav found one joint card odd), litany title "Mary, Mother of Fairest Love" (the Church's English wording, Collection of Masses no. 36). Link preview shows Zélie and Louis.
+- **New library category** `("love-friendship", "Love & friendship")` after Family, shared with the sister novenas for unrequited love (order 9) and friendship (order 10), built in other threads.
+- Images: Carmel of Lisieux montage of 2 19th-century photos (Louis, Zélie) and Giotto's Cana fresco (Mary's face), uploaded by Chav. Sources in `novenas/finding-love/images.md` and `sources.md`; Catholic review and the changes it led to in `review.md`.
+- **No PDF:** Chav (2026-11-22) asked that new novenas get no PDF or print link until the printable format is final.
+- Open: the Healing novena's St. Raphael bio quotes Tobit 12:15 word for word (paraphrase rule); not changed.
 
 ## Open items
 

@@ -32,6 +32,7 @@ CATEGORIES = [
     ("work-money", "Work & money"),
     ("healing", "Health & healing"),
     ("family", "Family"),
+    ("love-friendship", "Love & friendship"),
     ("decisions-growth", "Wisdom & decisions"),
     ("travel", "Travel & abroad"),
     ("hard-times", "Hard times"),
