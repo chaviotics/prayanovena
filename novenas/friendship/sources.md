@@ -27,7 +27,7 @@ Verses used: 18 (well under the 500-verse permission limit).
 - Gregory's line "two bodies with a single spirit" and the two roads ("the first and more precious" to the churches, the other to their teachers) are from his Oration 43 on St. Basil, read in the Liturgy of the Hours (Office of Readings) on January 2.
 - Sasima (around 372): Basil had Gregory consecrated bishop of this small post-town against his wishes; Gregory never really took up the see and wrote of the hurt.
 - Basil preferred monks to live in community rather than alone (his Longer Rules, question 7, "whose feet will you wash?"); the house of care for the poor, sick and travelers outside Caesarea in Cappadocia is often called the Basiliad.
-- Philip Neri: Florentine, came to Rome with almost nothing, spoke with young men in the streets and shops, the gatherings in his room grew into the Oratory (Congregation approved 1575); known for humor and joy.
+- Pier Giorgio Frassati (1901–1925, canonized 7 September 2025): Turin student, mountaineer; in 1924 he and his friends founded the "Società dei Tipi Loschi" (Society of Shady Characters); St. Vincent de Paul Society, FUCI and Catholic Action; daily Communion; died of polio at 24; crowds of the poor at his funeral surprised his family. Chav chose him in place of St. Philip Neri (decision card, 2026-11-22).
 
 ## Review
 
