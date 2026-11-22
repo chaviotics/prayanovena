@@ -308,7 +308,9 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   /* the page is a grid: the sidebar on the left, and the title opens the prayer column like a book page */
   main.wrap{display:grid;grid-template-columns:300px minmax(0,660px);grid-template-areas:"side hero" "side col" "side close";column-gap:64px;justify-content:center;align-items:start}
   .layout{display:contents}
-  .side{grid-area:side;position:sticky;top:72px;max-height:calc(100vh - 88px);overflow:auto;padding:4px;margin:32px -4px -4px;scrollbar-width:thin}
+  /* the sidebar never scrolls on its own: when it is taller than the window it moves with the page and stops when
+     its top or bottom edge comes into view (script below sets --side-top), so there is no second scrollbar */
+  .side{grid-area:side;position:sticky;top:var(--side-top,72px);padding:4px;margin:32px -4px -4px}
   .col{grid-area:col}
   .close{grid-area:close}
   .hero{grid-area:hero;text-align:left;padding:28px 0 36px;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:16px}
@@ -329,13 +331,13 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   .grid9 button{height:38px}
   .startrow{gap:4px 10px}
   .startrow input{flex:1 1 130px}
-  .toc{display:block;margin:20px 0 0;padding:0 4px}
-  .toc-h{margin:0 0 6px;font-size:calc(12px * min(var(--scale),1.15))}
+  .toc{display:block;margin:20px 0 0}
+  .toc-h{margin:0 0 6px;padding:0 4px;font-size:calc(12px * min(var(--scale),1.15))}
   .toc ol,.toc ul{list-style:none;margin:0 0 16px;padding:0}
-  .toc a{display:flex;align-items:center;gap:10px;min-height:36px;padding:4px 10px;margin:0 -10px;border-radius:8px;color:var(--ink);text-decoration:none;font-size:calc(16.5px * min(var(--scale),1.15));line-height:1.25}
+  .toc a{display:flex;align-items:center;gap:10px;min-height:36px;padding:4px 10px 4px 4px;border-radius:8px;color:var(--ink);text-decoration:none;font-size:calc(16.5px * min(var(--scale),1.15));line-height:1.25}
   .toc a:hover{background:var(--wash)}
   .toc a[aria-current]{color:var(--wine);font-weight:600;background:var(--wash)}
-  .toc ul a{padding-left:44px}
+  .toc ul a{padding-left:38px}
   /* the PDF button sits right under the 9-day card, so it is in view without scrolling the sidebar */
   .side-pdf{display:block;margin:14px 0 0}
   .toc .num{flex:none;width:24px;height:24px;border-radius:50%;border:1.5px solid var(--gold);color:var(--gold-text);display:grid;place-items:center;font-size:12.5px;font-weight:600}
@@ -347,6 +349,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     .grid9{margin-top:12px}
     .grid9 button{height:34px}
     .startrow{margin-top:10px;padding-top:10px}
+    .startrow input,.startrow .link{min-height:38px}
     .toc{margin-top:14px}
     .toc a{min-height:32px;padding-top:2px;padding-bottom:2px}
     .toc ol,.toc ul{margin-bottom:10px}
@@ -770,6 +773,21 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   window.addEventListener("scroll", function(){ if (!tocTick){ tocTick = true; requestAnimationFrame(paintToc); } }, {passive: true});
   window.addEventListener("resize", paintToc);
   paintToc();
+
+  /* desktop sidebar taller than the window: let it ride along with the page instead of scrolling inside itself.
+     Scrolling down shows its lower part (the prayer list), scrolling up brings the 9 days back. */
+  var side = document.querySelector(".side"), sideTop = 72, sideY = window.scrollY, sideAt = sideTop, wide = matchMedia("(min-width:1024px)");
+  function placeSide(){
+    var y = window.scrollY, dy = y - sideY; sideY = y;
+    if (!wide.matches){ side.style.removeProperty("--side-top"); sideAt = sideTop; return; }
+    var low = Math.min(sideTop, window.innerHeight - side.offsetHeight - 16);
+    sideAt = Math.max(low, Math.min(sideTop, sideAt - dy));
+    side.style.setProperty("--side-top", Math.round(sideAt) + "px");
+  }
+  window.addEventListener("scroll", placeSide, {passive: true});
+  window.addEventListener("resize", placeSide);
+  if (window.ResizeObserver) new ResizeObserver(placeSide).observe(side);
+  placeSide();
 
   paintTheme(); paintScale(); render();
 })();
