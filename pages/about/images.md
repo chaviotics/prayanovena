@@ -28,6 +28,7 @@ Public-domain alternatives, if ever needed: Commons `Don_Bosco_@_Torino,_1880_(o
 |---|---|---|---|
 | peter.jpg | El_Greco_-_Saint_Peter_in_Tears_-_Google_Art_Project.jpg (960px, uploaded by Chav) | El Greco (1541–1614), *Saint Peter in Tears*, about 1580–1589, Bowes Museum | Artist died 1614; faithful photo of a 2D work. Cropped 3:2 on face and hands, 720×480 |
 | ignatius.jpg | St._Ignatius_of_Loyola_by_Peter_Paul_Rubens.jpg (960px, uploaded by Chav) | Peter Paul Rubens (1577–1640), *Saint Ignatius of Loyola*, about 1620–1622, Norton Simon Museum | Artist died 1640; faithful photo of a 2D work. Cropped 720×480 on head and upper body |
+| mary.jpg | Sassoferrato_-_Jungfrun_i_bön.jpg (500px, uploaded by Chav 2026-11-22) | Giovanni Battista Salvi da Sassoferrato (1609–1685), *The Virgin in Prayer*, 17th century (Swedish file name suggests the Nationalmuseum, Stockholm copy; museum not confirmed, so the caption names none) | Artist died 1685; faithful photo of a 2D work. Used uncropped, 500×629 |
 
 Thumbnails were fetched through a temporary Google Doc (tools/wm_images.py), then cropped with PIL: arched paintings at 720 px wide, story cards at 3:2 (720×480, smaller where the source is smaller). The temporary Docs were trashed afterwards.
 

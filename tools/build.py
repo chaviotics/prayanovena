@@ -350,7 +350,7 @@ ABOUT_IMAGES = ("Images: El Greco, <i>Pentecost</i>, Museo del Prado; Jean-Fran√
                 "Santa Maria del Popolo; Philippe de Champaigne, <i>Saint Augustine</i>, Los Angeles County Museum of Art; Carlo Crivelli, "
                 "<i>Saint Thomas Aquinas</i>, National Gallery, London; Crist√≥bal Lozano, <i>Ecstasy of Saint Camillus de Lellis</i>; "
                 "Placido Costanzi, <i>A Miracle of Saint Joseph of Cupertino</i>, Metropolitan Museum of Art; photograph of Bartolo Longo; El Greco, <i>Saint Peter in Tears</i>, Bowes Museum; "
-                "Peter Paul Rubens, <i>Saint Ignatius of Loyola</i>, Norton Simon Museum. "
+                "Peter Paul Rubens, <i>Saint Ignatius of Loyola</i>, Norton Simon Museum; Sassoferrato, <i>The Virgin in Prayer</i>. "
                 "Public domain, via Wikimedia Commons. Portrait of St. John Bosco via ius-sdb.com; painting of St. Dominic Savio via "
                 "anastpaul.com (artists unknown); photograph of St. Carlo Acutis via britannica.com.")
 
