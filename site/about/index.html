@@ -133,6 +133,31 @@ q,.q{font-style:italic}
 .three p{margin:0;font-size:calc(17px * var(--scale));line-height:1.5}
 .three li.god{border-color:var(--gold);border-top-width:3px}
 
+/* ---- worship and honor: God set apart above the line, Mary and the saints below ---- */
+.honor{margin:26px auto 8px;max-width:860px}
+.honor .ic{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 8px;border-radius:50%;border:1.5px solid var(--gold);color:var(--gold);background:var(--sheet)}
+.honor .ic svg{width:34px;height:34px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.honor .lbl{display:block;font-size:12px;letter-spacing:.14em;font-weight:600;color:var(--gold-text);text-transform:uppercase}
+.honor .la{font-style:italic;font-size:calc(15px * var(--scale));color:var(--muted);letter-spacing:0;text-transform:none;font-weight:400}
+.honor h3{margin:2px 0 6px;font-family:var(--display);font-size:calc(26px * var(--scale));font-weight:700;line-height:1.15;color:var(--wine)}
+.honor p{margin:0;font-size:calc(17px * var(--scale));line-height:1.5}
+.honor .god{text-align:center;background:var(--sheet);border:1.5px solid var(--gold);border-top-width:4px;border-radius:16px;padding:22px 20px 20px;box-shadow:var(--card-shadow)}
+.honor .god .ic{width:64px;height:64px;background:var(--wash)}
+.honor .god .ic svg{width:44px;height:44px}
+.honor .god h3{font-size:calc(30px * var(--scale))}
+.honor .god p{max-width:44ch;margin:0 auto}
+.honor .gap{position:relative;display:flex;justify-content:center;padding:22px 0}
+.honor .gap::before{content:"";position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;background:var(--gold)}
+.honor .kind{position:relative;padding:7px 16px;border:2px solid var(--gold);border-radius:999px;background:var(--paper);font-size:calc(14.5px * var(--scale));font-weight:600;letter-spacing:.02em;color:var(--gold-text);text-align:center;line-height:1.25}
+.honor .below{background:var(--wash);border:1px solid var(--rule);border-radius:16px;padding:14px 14px 14px}
+.honor .tag{display:block;text-align:center;font-family:var(--display);font-style:italic;font-size:calc(19px * var(--scale));color:var(--muted);margin:0 0 12px}
+.honor .pair{display:grid;gap:12px}
+.honor .pair > div{text-align:center;background:var(--sheet);border:1px solid var(--rule);border-radius:14px;padding:18px 16px 16px;box-shadow:var(--card-shadow)}
+.honor figcaption{margin:14px auto 0;max-width:60ch;font-size:calc(15px * var(--scale));line-height:1.5;color:var(--muted);text-align:center;text-wrap:pretty}
+.honor figcaption i{font-style:italic}
+@media (min-width:560px){.honor .pair{grid-template-columns:1fr 1fr}}
+@media (max-width:559px){.honor .deg{display:none}}
+
 /* ---- the intercessors ---- */
 .people{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:10px}
 .people a{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:center;padding:10px 14px 10px 10px;background:var(--sheet);border:1px solid var(--rule);border-radius:14px;text-decoration:none;color:inherit;box-shadow:var(--card-shadow);transition:border-color .15s}
@@ -315,11 +340,33 @@ q,.q{font-style:italic}
       </figure>
     </div>
 
-    <ul class="three">
-      <li class="god"><span class="lbl">Worship</span><h3>For God alone</h3><p>Adoration belongs to God alone. The saints do not receive it; they give it, adoring God with us, as the painting shows.</p></li>
-      <li><span class="lbl">Intercession</span><h3>Asking their prayers</h3><p>We ask the saints to pray for us and with us, just as we ask one another. Every grace comes from God, through Christ.</p></li>
-      <li><span class="lbl">Honor</span><h3>Loving the saints</h3><p>We honor the saints and learn from their lives. Their holiness is God’s work in them, so honoring them gives glory to Him.</p></li>
-    </ul>
+    <figure class="honor" aria-labelledby="honor-cap">
+      <div class="god">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 9.5 23 21.5H9z"/><path d="M16 2.5v3M16 26.5v3M4.3 9.3l2.6 1.5M25.1 21.2l2.6 1.5M27.7 9.3l-2.6 1.5M6.9 21.2l-2.6 1.5"/></svg></div>
+        <span class="lbl">Worship <span class="la" lang="la">latria</span></span>
+        <h3>God alone</h3>
+        <p>Father, Son and Holy Spirit. Adoration belongs to God alone. The saints do not receive it; they give it, adoring God with us, as the painting shows.</p>
+      </div>
+      <div class="gap"><span class="kind">Different in kind<span class="deg">, not only in degree</span></span></div>
+      <div class="below">
+        <span class="tag">Honored, never worshipped</span>
+        <div class="pair">
+          <div>
+            <div class="ic" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 3v7M12.5 6.2h7"/><path d="M7 26V13.5l9 9 9-9V26"/><path d="M5 10.5h22"/></svg></div>
+            <span class="lbl">Special honor <span class="la" lang="la">hyperdulia</span></span>
+            <h3>Mary</h3>
+            <p>Honored above all the saints, because God chose her to be the Mother of His Son. She is still a creature, saved by her Son, and she points us to Him.</p>
+          </div>
+          <div>
+            <div class="ic" aria-hidden="true"><svg viewBox="0 0 32 32"><ellipse cx="16" cy="6" rx="6" ry="2.2"/><circle cx="16" cy="13" r="4.2"/><path d="M7 28c0-5.5 4-9.5 9-9.5s9 4 9 9.5"/></svg></div>
+            <span class="lbl">Honor <span class="la" lang="la">dulia</span></span>
+            <h3>The saints</h3>
+            <p>We honor them and learn from their lives, and ask them to pray for us, as we ask one another. Every grace comes from God, through Christ.</p>
+          </div>
+        </div>
+      </div>
+      <figcaption id="honor-cap">God alone is adored. Mary and the saints are honored for what God has done in them. Devotion to Mary differs in kind from the adoration given to God, and leads us to it <span class="ref">(CCC 971)</span>.</figcaption>
+    </figure>
 
     <div class="body">
       <h3 class="h3">Mary, first among the saints</h3>
