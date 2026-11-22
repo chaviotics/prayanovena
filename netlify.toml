@@ -37,3 +37,9 @@
   for = "/*.jpg"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+# Printable PDFs (tools/print_pdf.py) always revalidate, so a corrected PDF is what people download.
+[[headers]]
+  for = "/*.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

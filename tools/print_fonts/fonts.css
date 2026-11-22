@@ -1,0 +1,9 @@
+/* Static instances of the site's fonts for the printable PDFs (SIL Open Font License; latin subset).
+   Chromium embeds variable fonts in a PDF as Type 3 glyphs, which some printers and readers render badly, so
+   tools/print_pdf.py uses these fixed weights instead. Made from site/fonts with fontTools' instancer. */
+@font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400; src: url(eb-garamond-400.woff2) format('woff2'); }
+@font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 500; src: url(eb-garamond-500.woff2) format('woff2'); }
+@font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 600; src: url(eb-garamond-600.woff2) format('woff2'); }
+@font-face { font-family: 'EB Garamond'; font-style: italic; font-weight: 400; src: url(eb-garamond-italic.woff2) format('woff2'); }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 700; src: url(cormorant-garamond-700.woff2) format('woff2'); }
+@font-face { font-family: 'Cormorant Garamond'; font-style: italic; font-weight: 500; src: url(cormorant-garamond-italic.woff2) format('woff2'); }

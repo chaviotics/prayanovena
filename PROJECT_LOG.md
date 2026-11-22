@@ -1,6 +1,6 @@
 # Pray a Novena — project log
 
-**Pray a Novena** (formerly Catholic Novenas; tagline "Catholic novenas for every intention") is a library of 9-day Catholic novenas. Each novena has a phone prayer page (light and dark, day-by-day progress) and a print layout in Google Docs. New novenas are made from just an intention with the **novena-maker** skill.
+**Pray a Novena** (formerly Catholic Novenas; tagline "Catholic novenas for every intention") is a library of 9-day Catholic novenas. Each novena has a phone prayer page (light and dark, day-by-day progress) and a printable 4-page A4 PDF made from the same text. New novenas are made from just an intention with the **novena-maker** skill.
 
 Read this at the start of a work session. Update it at the end when something changed: add a log entry, move finished items out of "Open items".
 
@@ -12,7 +12,8 @@ Read this at the start of a work session. Update it at the end when something ch
 | Repo | `chaviotics/prayanovena` (renamed from catholic-novenas on 2026-11-21; GitHub forwards the old address), branch `main` |
 | Netlify project | `prayanovena` (id `3902d84c-0c49-48e4-a0ed-e1a0c45e5d75`, renamed from catholic-novenas): publishes `site/` on every push, no build step on Netlify (run `tools/build.py` and commit `site/`) |
 | How to make a novena | `skill/SKILL.md` (the novena-maker skill) |
-| Print docs | Google Drive folder "[12] 🙏 Faith". IDs are in `README.md` |
+| Printable PDFs | `novenas/<slug>/<slug>-novena.pdf` from `tools/print_pdf.py`, linked on each novena page |
+| Older print docs | Google Drive folder "[12] 🙏 Faith" (debt and healing only). IDs are in `README.md` |
 | Original debt novena (v1) | novena-finances.netlify.app, repo `chaviotics/novena-finances`. **Separate and in use. Never change or deploy to it.** |
 
 ## Rename to Pray a Novena (done 2026-11-21; live at prayanovena.com)
@@ -48,8 +49,8 @@ Two phases, so the new name can go live before the domain exists:
 
 | Slug | Card title | Intercessors | Status | Print |
 |---|---|---|---|---|
-| `relief-from-debt` | Relief from Debt and Financial Hardship | St. Joseph, St. Rita of Cascia, St. Jude Thaddeus (Memorare to St. Joseph) | Published | 4 pages, tab "With Intention" |
-| `healing` | Healing of the Sick | Our Lady of Lourdes, St. Raphael, St. Camillus de Lellis, St. Bernadette (Marian Memorare) | Published | 4 pages |
+| `relief-from-debt` | Relief from Debt and Financial Hardship | St. Joseph, St. Rita of Cascia, St. Jude Thaddeus (Memorare to St. Joseph) | Published | PDF 4 pages; old Doc 4 pages, tab "With Intention" |
+| `healing` | Healing of the Sick | Our Lady of Lourdes, St. Raphael, St. Camillus de Lellis, St. Bernadette (Marian Memorare) | Published | PDF 4 pages; old Doc 4 pages |
 | `expectant-parents` | Expectant Parents | Our Lady of the Visitation, St. Gerard Majella, St. Elizabeth, St. Joseph (Marian Memorare) | Published 2026-11-21 | A4 PDF made (4 pages) with the unmerged print-pdf tooling; no Google Doc |
 | `finding-love` | Finding Love | Mary, Mother of Fairest Love, St. Raphael, St. Louis Martin, St. Zélie Martin (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 | `life-decisions` | Big Life Decisions | Our Lady of Good Counsel, St. Ignatius of Loyola, St. Francis Xavier, St. John Henry Newman (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
@@ -64,7 +65,7 @@ Two phases, so the new name can go live before the domain exists:
 - **Numbers:** digits in anything the reader scans (kickers, cards, headings, labels, tips, how-to): "9 days", "Day 3", "10 minutes". Prayers, reflections and steps, which are read aloud, keep words ("these nine days").
 - **Saints:** 1–3 per novena, suggested from the intention. Public-domain images in both the app and print. Facts only when certain; quote a saint only with a well-attested line.
 - **Faith:** never promise outcomes, no prosperity-gospel framing. Pray for God's will; for healing, also for strength, peace, doctors and caregivers.
-- **Print:** 3 pages, 4 at most. Made by copying the template doc and filling it with `tools/print_fill.py`; one tab per doc (the PDF export prints every tab).
+- **Print:** 3 pages, 4 at most, A4 (Chav, 2026-11-21). `tools/print_pdf.py` fills `templates/print.html` from novena.json and prints it with Chromium to `novenas/<slug>/<slug>-novena.pdf`; `build.py` copies it next to the page and adds "Print or download (PDF)" under How to Pray and in the desktop sidebar. The render fails past 4 pages or when page 1 overflows; `build.py` warns when a PDF is older than its novena.json (`novenas/print_versions.json`). Fonts: static weights in `tools/print_fonts/` (Chromium embeds variable fonts as Type 3 glyphs, which print badly). PDFs are not precached by the service worker; `netlify.toml` makes them revalidate. No new Google Docs; the template and `tools/print_fill.py` stay for one-off personalised copies.
 - **Link previews:** made by `tools/og.py` from each novena's title, kicker and 2 saints (`"ogSaints": [left, right]` in novena.json so they face inward). Cream background, wine and gold accents; no URL or call to action on the image. The site's 9 days mark (from `tools/app_icons.py`, so it always matches the icon) sits above the title in place of a plain cross. The words sit in a 520px column with at least 44px of clear cream from each arch; the subtitle stays on one line (38px at the smallest) or goes to 2 balanced lines; on tall cards the mark shrinks first, then the title, so nothing touches the frame. Chav compared a one-saint-plus-icon card and a ring-of-9-days card and kept this one (2026-11-21). Without Python Playwright: `python3 tools/og.py --html DIR`, then `node tools/og_render.js DIR`.
 - **Library cards:** title without "Novena for" (the section heading already says it), icon on the left, saints' faces top right, progress line and "Pray" / "Continue Day N" button.
 - **Theme and text size** are shared across the whole site (`novenas-mode`, `novenas-scale`); progress is saved per novena (`novena-<slug>`).
@@ -155,7 +156,7 @@ Two phases, so the new name can go live before the domain exists:
 - **New novena `finding-love`** (Chav approved, pushed live). One novena for anyone hoping for someone to share life with (girlfriend, boyfriend, partner, spouse), gently oriented toward marriage. Intercessors: St. Raphael (Tobias and Sarah; painting reused from healing), St. Louis Martin and St. Zélie Martin as separate cards (Chav found one joint card odd), litany title "Mary, Mother of Fairest Love" (the Church's English wording, Collection of Masses no. 36). Link preview shows Zélie and Louis.
 - **New library category** `("love-friendship", "Love & friendship")` after Family, shared with the sister novenas for unrequited love (order 9) and friendship (order 10), built in other threads.
 - Images: Carmel of Lisieux montage of 2 19th-century photos (Louis, Zélie) and Giotto's Cana fresco (Mary's face), uploaded by Chav. Sources in `novenas/finding-love/images.md` and `sources.md`; Catholic review and the changes it led to in `review.md`.
-- **No PDF:** Chav (2026-11-22) asked that new novenas get no PDF or print link until the printable format is final.
+- **PDF:** the printable format is final (2026-11-22, layout `flow4`); every new novena gets its PDF with `tools/print_pdf.py <slug>` (skill section 7).
 - Open: the Healing novena's St. Raphael bio quotes Tobit 12:15 word for word (paraphrase rule); not changed.
 
 ### 2026-11-22 (Novena for Big Life Decisions)
@@ -194,10 +195,16 @@ Two phases, so the new name can go live before the domain exists:
 - Arc: pouring out our hearts (1 Samuel 1:10), not a punishment (Luke 1:6–7), the strain on the marriage (1 Samuel 1:8, Elkanah), careless questions and christenings (Romans 12:15), the long wait (Psalm 130:5–6), wisdom for medical choices (James 1:5), children lost to miscarriage or stillbirth (Psalm 34:18, CCC 1261), a love that bears fruit and adoption (John 15:5, CCC 1654, 2379), into God's hands (Philippians 4:6–7). Epigraph Psalm 62:8, closing Romans 15:13. Never promises a child; Day 9 trusts God's "love and wisdom", not "timing".
 - Church teaching on infertility checked on vatican.va (CCC 2374–2379, Dignitas Personae 12–13, Donum Vitae II.B.5 and II.B.8): Day 6 encourages care that treats the causes (restorative reproductive medicine, named in the tip), states that IVF is not morally acceptable, and adds that every child, however conceived, is a gift from God and His mercy is open to every couple. Tips also name the blessing for parents after a miscarriage or stillbirth and a "Praying for a couple you love" tip for friends.
 - Scripture verified word for word (`sources.md`; BibleGateway and vatican.va are blocked by the workspace proxy, the RSVCE files of `andrewheekin/obsidian-holy-bible` work, and `gh api search/code` finds their paths). Isaiah 25:8 was swapped for Psalm 34:18 and Revelation 21:4 turned down (dangling quote). Independent Catholic review applied (`review.md`).
-- Images (`images.md`): Giotto's Scrovegni frescoes for Joachim (Expulsion detail) and Anne (Annunciation to St Anne, small figure upscaled 1.4x, slightly soft), and a Dutch master's c. 1510 copy after Rogier van der Weyden at the Städel (Zechariah writing John's name, Public Domain Mark). Mary's face reused from unrequited-love. Wikimedia rate-limited hard; a slow retry loop got the 1280px thumbnails. No PDF.
+- Images (`images.md`): Giotto's Scrovegni frescoes for Joachim (Expulsion detail) and Anne (Annunciation to St Anne, small figure upscaled 1.4x, slightly soft), and a Dutch master's c. 1510 copy after Rogier van der Weyden at the Städel (Zechariah writing John's name, Public Domain Mark). Mary's face reused from unrequited-love. Wikimedia rate-limited hard; a slow retry loop got the 1280px thumbnails. PDF added when the print layout went live (same day).
 
 ### 2026-11-22 (verse reference inside the bar)
-- **Day Scripture reference moved inside the gold bar** (Chav's idea; Chav chose "inside the bar, left-aligned" over right-aligning it; preview https://claude.ai/artifact/6TbAcypZMMdw9mMDjBSoMA, approved). `templates/novena.html`: the verse and reference are one `<figure class="scripture">` (gold left bar) holding `blockquote.passage` and `figcaption.ref`, so they read as one quotation. Matches the hero verse on desktop (`.epi`), which already had its reference inside the bar. Light and dark both checked. Web only: the print PDF keeps its right-aligned reference.
+- **Day Scripture reference moved inside the gold bar** (Chav's idea; Chav chose "inside the bar, left-aligned" over right-aligning it; preview https://claude.ai/artifact/6TbAcypZMMdw9mMDjBSoMA, approved). `templates/novena.html`: the verse and reference are one `<figure class="scripture">` (gold left bar) holding `blockquote.passage` and `figcaption.ref`, so they read as one quotation. Matches the hero verse on desktop (`.epi`), which already had its reference inside the bar. Light and dark both checked. The print PDF does the same (verse and reference inside a gold bar, layout `flow4`).
+
+### 2026-11-22 (printable PDF layout chosen)
+- After 6 rounds of versions with Chav (comparison page https://claude.ai/artifact/S4m2nC6vcBGLydr3nCia26) the site links the **flow4** layout ("Easy flow 3" with the Today's step callout): page 1 = everything prayed every day; pages 2–4 = 3 days each with saint-story and closing-verse cards; full-width Graces box; footnotes at the foot of page 3 or 4, whichever allows larger type (Chav's choice). White page, A4, 4 pages, 9.0–9.8pt across the published novenas. An outside design review scored it 8.5/10 before the last fixes. Other layouts (`classic`, `full`, `compact`, `flow`, `flow2`, `flow3`) stay in `print_pdf.py --layout` for comparison.
+
+### 2026-11-21 (printable PDFs)
+- **Printable PDF for every novena** (Chav): plan and sample https://claude.ai/artifact/S4m2nC6vcBGLydr3nCia26. Built from novena.json instead of exporting Google Docs (only 2 of 6 had Docs, each needing hand page-break fixes). Same layout as the Docs plus the 9 days mark, "Praying with others" (the Docs still say "As a family") and a footer with the novena's address and page numbers. Chav chose A4 only. All 6 are 4 pages with every word checked. `tools/check_print.py` now reads text in content order and skips the footer (still works on Docs exports).
 
 ## Open items
 
@@ -211,4 +218,4 @@ Two phases, so the new name can go live before the domain exists:
 
 - From the audit: a priest review of the new prayers (then update the About disclosure), an "add to calendar" reminder for the 9 days, novenas timed to feast days.
 - When the family finishes their current round, point novena-finances to the library's debt novena so there is one version to maintain.
-- Next intentions to consider: see the roadmap doc (https://claude.ai/artifact/Nuhwhpne8JEqxcwkwA9nDA). Print docs for the 4 new novenas are still to make.
+- Next intentions to consider: see the roadmap doc (https://claude.ai/artifact/Nuhwhpne8JEqxcwkwA9nDA). Print: every novena now has its PDF.

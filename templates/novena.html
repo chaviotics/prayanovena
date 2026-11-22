@@ -196,6 +196,12 @@ ol.how{margin:0;padding-left:1.3em}
 ol.how li{margin:0 0 6px;padding-left:4px}
 ol.how li::marker{color:var(--gold-text);font-weight:600}
 .tips{display:grid;gap:14px}
+.printrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:16px 0 4px}
+.printlink{display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:8px 16px;border:1.5px solid var(--gold);border-radius:999px;color:var(--wine);text-decoration:none;font-weight:500;font-size:calc(16.5px * min(var(--scale),1.15))}
+.printlink .i{width:20px;height:20px;color:var(--gold-text)}
+.printlink:hover{background:var(--wash)}
+.side-pdf{display:none}
+.printmeta{font-size:calc(14px * min(var(--scale),1.15));color:var(--muted)}
 .tip h3{font-size:calc(12.5px * var(--scale));margin:0 0 4px}
 .tip p{margin:0;font-size:calc(17px * var(--scale))}
 .saints{display:grid;gap:12px}
@@ -298,6 +304,8 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   .toc a:hover{background:var(--wash)}
   .toc a[aria-current]{color:var(--wine);font-weight:600;background:var(--wash)}
   .toc ul a{padding-left:44px}
+  /* the PDF button sits right under the 9-day card, so it is in view without scrolling the sidebar */
+  .side-pdf{display:block;margin:14px 0 0}
   .toc .num{flex:none;width:24px;height:24px;border-radius:50%;border:1.5px solid var(--gold);color:var(--gold-text);display:grid;place-items:center;font-size:12.5px;font-weight:600}
   .toc a[aria-current] .num{background:var(--gold);color:var(--sheet)}
   .wake{margin:0 0 6px}
@@ -324,7 +332,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   details.prayer summary:hover{color:var(--wine)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
-@media print{.bar,.days,.toc,.today .cta,.markdone,.donenote,.daynav,.intent,.startrow,.barshare,.sharerow,.foot-nav{display:none}}
+@media print{.printrow,.side-pdf,.bar,.days,.toc,.today .cta,.markdone,.donenote,.daynav,.intent,.startrow,.barshare,.sharerow,.foot-nav{display:none}}
 </style>
 </head>
 <body>
@@ -376,6 +384,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
       <button class="link" type="button" id="resetAll" hidden>Reset</button>
     </div>
   </div>
+{{PRINT_SIDE}}
   <nav class="toc" aria-label="On this page">
     <p class="toc-h">Today’s prayers</p>
     <ol>
@@ -480,6 +489,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
       <li>Pray the <strong>Closing Prayer</strong> and the {{HOW_MEMORARE}}.</li>
       <li>End with an Our Father, a Hail Mary and a Glory Be, and the Sign of the Cross. Then take <strong>today’s step</strong> with you.</li>
     </ol>
+{{PRINT_HOW}}
     <div class="tips" style="margin-top:18px">
 {{TIPS}}
     </div>

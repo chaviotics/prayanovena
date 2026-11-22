@@ -3,6 +3,7 @@
 
   python3 tools/check_print.py <exported.pdf> <slug>
 
+Works for the Google Docs export and for tools/print_pdf.py's PDFs (text in content order, footer dropped).
 Compares with whitespace, soft breaks and indents removed, so line wrapping doesn't matter.
 Needs pdftotext (poppler-utils) and pypdf.
 """
@@ -18,7 +19,9 @@ def norm(s):
 def main(pdf, slug):
     import pypdf
     pages = len(pypdf.PdfReader(pdf).pages)
-    txt = subprocess.run(["pdftotext", "-f", "1", "-l", str(min(pages, 4)), pdf, "-"], capture_output=True, text=True).stdout
+    txt = subprocess.run(["pdftotext", "-raw", "-f", "1", "-l", str(min(pages, 4)), pdf, "-"], capture_output=True, text=True).stdout
+    # drop the running footer of the site PDFs (tools/print_pdf.py), which can fall inside text that crosses a page
+    txt = re.sub(r"(?m)^\f?(Page \d+ of \d+|Pray a Novena · prayanovena\.com/\S*)$", "", txt)
     T = norm(txt)
     n = json.load(open(os.path.join(ROOT, "novenas", slug, "novena.json"), encoding="utf-8"))
     miss = []
@@ -31,7 +34,7 @@ def main(pdf, slug):
         if norm(n[k]) not in T:
             miss.append(k)
     for k in ("epigraph", "closingVerse"):
-        if norm(n[k]["text"]) not in T:
+        if norm(n[k]["text"].replace(" / ", " ")) not in T:
             miss.append(k)
     for s in n["saints"]:
         if norm(s["bio"]) not in T:

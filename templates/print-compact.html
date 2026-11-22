@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{TITLE}} | Pray a Novena</title>
+<style>
+{{FONTS}}
+/* "Compact" layout: 3 pages (4 only if the text cannot fit), no intention box, each saint a small portrait with the
+   text beside it, day number and title on one line. One continuous flow; tools/print_render.js picks the largest
+   type that fits. Every size is in rem, and 1rem = 10pt × --k. */
+:root{--k:1;--ink:#2A2521;--muted:#6B5F57;--wine:#6E1F2B;--gold:#94702A;--gold-text:#8A6624;--rule:#C9AE74;--wash:#F7F0E2;
+  --display:'Cormorant Garamond',Georgia,serif;--body:'EB Garamond',Georgia,serif}
+html{font-size:calc(10pt * var(--k));-webkit-print-color-adjust:exact;print-color-adjust:exact}
+@page{size:{{PAGE_W}} {{PAGE_H}};margin:10mm 11mm 12mm;
+  @bottom-left{content:"Pray a Novena · prayanovena.com/{{SLUG}}";font-family:'EB Garamond',Georgia,serif;font-size:7pt;color:#6B5F57;vertical-align:top;padding-top:6pt}
+  @bottom-right{content:"Page " counter(page) " of " counter(pages);font-family:'EB Garamond',Georgia,serif;font-size:7pt;color:#6B5F57;vertical-align:top;padding-top:6pt}}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--body);font-size:1rem;line-height:1.27;color:var(--ink);font-kerning:normal}
+p{margin:0 0 .38rem}
+em{font-style:italic}
+.resp,.amen{color:var(--wine);font-style:italic}
+.sc{font-variant:small-caps}
+.cap{font-weight:600;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-text)}
+
+/* masthead: mark beside the title block, epigraph on the right */
+.top{display:grid;grid-template-columns:auto 1fr minmax(0,15rem);gap:1rem;align-items:center;padding-bottom:.55rem;border-bottom:.75pt solid var(--gold)}
+.top .mark{width:3.2rem;height:3.2rem;color:var(--wine)}
+.top .kick{margin:0 0 .1rem}
+.top h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:2.35rem;line-height:1;margin:0 0 .2rem;text-wrap:balance}
+.top .sub{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.1rem;color:var(--muted);margin:0;text-wrap:balance}
+.top .epi{font-style:italic;font-size:.88rem;line-height:1.25;margin:0 0 .1rem;padding-left:.9rem;border-left:.6pt solid var(--rule)}
+.top .epi-ref{margin:0;padding-left:.9rem}
+h2{font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.45rem;line-height:1.1;margin:.7rem 0 .4rem;padding-bottom:.15rem;border-bottom:.6pt solid var(--gold);break-after:avoid}
+
+/* saints: portrait on the left, text on the right */
+.saints{display:grid;grid-template-columns:repeat({{SAINT_COUNT}},1fr);gap:.9rem;margin-top:.7rem;break-inside:avoid}
+.saint{display:grid;grid-template-columns:5.24rem 1fr;gap:.6rem;align-items:start;font-size:.85rem;line-height:1.24}
+/* each portrait in an arched gold frame, like the site's link previews and About pictures */
+.saint img{width:4.8rem;height:6rem;object-fit:cover;object-position:50% 20%;display:block;margin:.22rem;border-radius:2.4rem 2.4rem .2rem .2rem;outline:.7pt solid var(--gold);outline-offset:.2rem}
+.saint h3{font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.15rem;margin:0;line-height:1.05}
+.saint .meta{font-size:.7rem;color:var(--muted);margin:.08rem 0 .1rem}
+.saint .pat{font-style:italic;color:var(--gold-text);margin:0 0 .15rem}
+.saint p{margin:0}
+
+.how{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;break-inside:avoid}
+.how ol{margin:0;padding-left:1.25rem}
+.how li{margin:0 0 .1rem;padding-left:.1rem}
+.how li strong{font-weight:500;color:var(--wine)}
+.how .tips .cap{margin:0 0 .05rem}
+.how .tips .tip{margin:0 0 .35rem}
+.notice{text-align:center;font-size:.66rem;line-height:1.28;color:var(--muted);margin:.5rem 0 0}
+.notice p{margin:0 0 .15rem}
+
+.prayers{column-count:2;column-gap:1.7rem}
+.prayers h3{font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.18rem;margin:0 0 .2rem;break-after:avoid}
+.prayers .colbreak{break-before:column}
+.lit p{margin:0}
+.lit{margin-bottom:.35rem}
+.label{margin:.4rem 0 .05rem;break-after:avoid}
+.then{font-style:italic;color:var(--muted);font-size:.9rem;margin-top:.4rem}
+.then strong{font-style:normal;font-weight:600;color:var(--wine)}
+.flow{font-size:.76rem;color:var(--muted);margin:-.2rem 0 .55rem}
+.cols{column-count:2;column-gap:1.7rem;column-rule:.5pt solid var(--wash)}
+/* the heading opens the first column and stays with Day 1 */
+.span{break-inside:avoid;break-after:avoid}
+.span h2{margin-top:0}
+.day{padding-bottom:.5rem;margin-bottom:.55rem;border-bottom:.6pt solid var(--rule)}
+.dhead{break-inside:avoid;break-after:avoid}
+/* day number and title on one line, the Done box at the right */
+.dnum{display:flex;align-items:baseline;gap:.4rem;margin-bottom:.15rem}
+.dnum svg{width:1.1rem;height:1.1rem;color:var(--gold);align-self:center}
+.dnum .n{font-weight:600;font-size:.85rem;letter-spacing:.06em;color:var(--gold-text);white-space:nowrap}
+.dnum h3{flex:1;font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.22rem;line-height:1.05;margin:0}
+.dnum .box{flex:none;width:.72rem;height:.72rem;border:.7pt solid var(--muted);align-self:center}
+.verse{font-style:italic;margin:0 0 .05rem}
+.verse .in{padding-left:1.1rem}
+.ref{margin:0 0 .3rem}
+.pblock{break-inside:avoid}
+.step{break-inside:avoid;border-left:2pt solid var(--gold);background:var(--wash);padding:.2rem .45rem .2rem .55rem;margin:.35rem 0 0;font-size:.84rem;line-height:1.24}
+.step .cap{font-size:.66rem;margin-right:.3rem}
+.endbox{break-inside:avoid}
+.graces{border:.75pt solid var(--gold);padding:.45rem .7rem .2rem}
+.graces .cap{margin:0}
+.graces .hint{font-style:italic;font-size:.8rem;color:var(--muted);margin:.05rem 0 0}
+.graces .lines div{border-bottom:.6pt solid var(--rule);height:1.6rem}
+.closing{text-align:center;margin-top:.7rem}
+.closing p{font-family:var(--display);font-style:italic;font-weight:500;color:var(--wine);font-size:1.15rem;line-height:1.18;margin:0}
+.closing .cap{margin-top:.25rem}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path fill="none" stroke="#94702A" stroke-width="4" stroke-linecap="round" d="{{RING}}"/><path fill="currentColor" d="{{CROSS}}"/></svg>
+  <div>
+    <p class="cap kick">{{KICKER}}</p>
+    <h1>{{TITLE}}</h1>
+    <p class="sub">through the intercession of {{SAINT_LINE}}</p>
+  </div>
+  <div>
+    <p class="epi">“{{EPI_TEXT}}”</p>
+    <p class="cap epi-ref">{{EPI_REF}}</p>
+  </div>
+</header>
+
+<div class="saints">
+{{SAINTS}}
+</div>
+
+<h2>How to Pray This Novena</h2>
+<div class="how">
+  <ol>
+    <li>Pause for a moment of silence before God.</li>
+    <li>Pray the <strong>Opening Prayer</strong>, beginning with the Sign of the Cross.</li>
+    <li>Read the day’s <strong>Scripture</strong> and reflection, then pray the day’s <strong>prayer</strong>, naming your intention.</li>
+    <li>Pray the <strong>Closing Prayer</strong> and the {{HOW_MEMORARE}}.</li>
+    <li>End with an Our Father, a Hail Mary and a Glory Be, and the Sign of the Cross. Then take <strong>today’s step</strong> with you.</li>
+  </ol>
+  <div class="tips">
+{{TIPS}}
+  </div>
+</div>
+
+<div class="notice">
+  <p>{{RSV_NOTICE}}</p>
+  <p>{{CREDITS}}</p>
+</div>
+
+<h2>Daily Prayers</h2>
+<div class="prayers">
+  <h3>Opening Prayer</h3>
+  <p>In the name of the Father, and of the Son, and of the Holy Spirit. <span class="amen">Amen.</span></p>
+  <p><em>Come, Holy Spirit, fill the hearts of Your faithful and kindle in them the fire of Your love.</em></p>
+  <p>{{OPENING_PRAYER}} <span class="amen">Amen.</span></p>
+  <h3 class="colbreak">Closing Prayer</h3>
+  <div class="lit">
+{{LITANY}}
+  </div>
+  <p>{{CLOSING_PRAYER}} <span class="amen">Amen.</span></p>
+  <p class="cap label">{{MEMORARE_TITLE}}</p>
+  <p>{{MEMORARE_TEXT}} <span class="amen">Amen.</span></p>
+  <p class="then">Then pray together <strong>Our Father · Hail Mary · Glory Be</strong>, and close with the Sign of the Cross.</p>
+</div>
+
+<div class="cols">
+<div class="span"><h2>The 9 Days</h2>
+<p class="flow">Each day: Opening Prayer › Scripture &amp; Reflection › Prayer › Closing Prayer &amp; Memorare › Our Father · Hail Mary · Glory Be</p></div>
+{{DAYS}}
+  <div class="endbox">
+    <div class="graces">
+      <p class="cap">Graces I have noticed</p>
+      <p class="hint">Small mercies, open doors, moments of peace: write them down and give thanks.</p>
+      <div class="lines"><div></div><div></div><div></div></div>
+    </div>
+    <div class="closing">
+      <p>“{{CLOSE1}}</p>
+      <p>{{CLOSE2}}”</p>
+      <p class="cap">{{CLOSE_REF}}</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

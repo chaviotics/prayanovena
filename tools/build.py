@@ -12,7 +12,7 @@ import base64, hashlib, html, json, os, re, shutil, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://prayanovena.com"
 ICON_DIRS = [os.path.join(ROOT, "tools", "icons")]
-BASE_ICONS = ["logo", "cross", "sun", "moon", "text-aa", "check", "caret-down", "footprints", "hands-praying", "arrow-left", "book-open", "paper-plane-tilt"]
+BASE_ICONS = ["logo", "cross", "sun", "moon", "text-aa", "check", "caret-down", "footprints", "hands-praying", "arrow-left", "book-open", "paper-plane-tilt", "printer"]
 NUMWORD = {1: "The Intercessor", 2: "The 2 Intercessors", 3: "The 3 Intercessors"}
 MARIAN_MEMORARE = ("Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to your protection, "
                    "implored your help, or sought your intercession was left unaided. Inspired by this confidence, I fly unto you, "
@@ -240,6 +240,7 @@ def page(n, mode):
     # a rubric for "N." wherever a prayer asks for a name, so nobody stumbles over it when praying aloud
     texts = [n["openingPrayer"], n["closingPrayer"]] + [d["prayer"] for d in n["days"]]
     name_rubric = " Where you see N., say the name of the person you are praying for." if any(re.search(r"\bN\.", t) for t in texts) else ""
+    printing = print_link(n, mode)
     vals = {
         "TITLE_TAG": title_tag, "HEAD_META": head, "BAR_TITLE": esc(n["barTitle"]), "BAR_SHORT": esc(n["barShort"]),
         "BACK_LINK": back, "NAME_RUBRIC": name_rubric, "HOME_LABEL": "All novenas" if mode == "site" else "",
@@ -257,6 +258,7 @@ def page(n, mode):
         "FONTS": local_fonts("../") if mode == "site" else GOOGLE_FONTS,
         "SW": sw_register("../") if mode == "site" else "",
         "SHARE": json.dumps(share(n), ensure_ascii=False),
+        "PRINT_HOW": printing[0], "PRINT_SIDE": printing[1],
     }
     t = read(os.path.join(ROOT, "templates", "novena.html"))
     for k, v in vals.items():
@@ -264,6 +266,35 @@ def page(n, mode):
     left = re.findall(r"\{\{[A-Z0-9_]+\}\}", t)
     assert not left, left
     return t
+
+
+def pdf_path(n):
+    """the printable PDF made by tools/print_pdf.py (novenas/<slug>/<slug>-novena.pdf), or None; warns when it is out of date"""
+    p = os.path.join(ROOT, "novenas", n["slug"], n["slug"] + "-novena.pdf")
+    if not os.path.exists(p):
+        return None
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from print_pdf import print_version, VERSIONS
+    made = json.loads(read(VERSIONS)).get(n["slug"]) if os.path.exists(VERSIONS) else None
+    if made != print_version(n["slug"]):
+        print("WARNING: %s PDF is out of date; run python3 tools/print_pdf.py %s" % (n["slug"], n["slug"]))
+    return p
+
+
+def print_link(n, mode):
+    """the "Print or download (PDF)" link: under How to pray, and in the desktop sidebar"""
+    p = pdf_path(n)
+    if not p:
+        return "", ""
+    name = os.path.basename(p)
+    href = name if mode == "site" else "%s/%s/%s" % (SITE_URL, n["slug"], name)
+    kb = os.path.getsize(p) // 1024
+    how = ('    <p class="printrow"><a class="printlink" href="%s" type="application/pdf" target="_blank" rel="noopener"><svg class="i" aria-hidden="true" focusable="false">'
+           '<use href="#i-printer"/></svg>Print or download (PDF)</a><span class="printmeta">4 pages, A4 · %d KB</span></p>' % (href, kb))
+    # opens in a new tab: an installed (home-screen) app has no back button, so a PDF in the same view would trap the reader
+    side = ('  <p class="side-pdf"><a class="printlink" href="%s" type="application/pdf" target="_blank" rel="noopener"><svg class="i" aria-hidden="true" focusable="false">'
+            '<use href="#i-printer"/></svg>Print or download (PDF)</a></p>' % href)
+    return how, side
 
 
 def share(n):
@@ -492,6 +523,9 @@ def build_site(search=None):
         og = os.path.join(ROOT, "novenas", n["slug"], "og.jpg")
         if os.path.exists(og):
             shutil.copy(og, os.path.join(d, "og.jpg"))
+        pdf = pdf_path(n)
+        if pdf:
+            shutil.copy(pdf, os.path.join(d, os.path.basename(pdf)))
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f:
             f.write(page(n, "site"))
         print("built", n["slug"], n.get("status"))
@@ -504,12 +538,17 @@ def build_site(search=None):
 
 
 def build_sw(site):
-    """site/sw.js: precache every page, image, font and icon (not the link-preview images); the version is a hash of them"""
+    """site/sw.js: precache every page, image, font and icon (not the link-preview images or the PDFs, which a phone
+    keeps only once someone opens one); the version is a hash of them"""
     files, h = [], hashlib.sha256()
     for d, _, fs in sorted(os.walk(site)):
         for f in sorted(fs):
             rel = os.path.relpath(os.path.join(d, f), site).replace(os.sep, "/")
             if f in ("sw.js", "og.png", "og.jpg", "_headers", "_redirects"):
+                continue
+            if f.endswith(".pdf"):  # not precached, but still part of the version so a new PDF reaches phones
+                with open(os.path.join(d, f), "rb") as fh:
+                    h.update(rel.encode() + fh.read())
                 continue
             files.append(rel)
             with open(os.path.join(d, f), "rb") as fh:

@@ -1,6 +1,6 @@
 ---
 name: novena-maker
-description: Make a new 9-day Catholic novena for an intention (phone app page in the Pray a Novena library plus a 4-page Google Docs print layout). Use when the user names an intention for a novena.
+description: Make a new 9-day Catholic novena for an intention (phone app page in the Pray a Novena library plus a 4-page printable PDF). Use when the user names an intention for a novena.
 ---
 
 # Novena maker
@@ -9,7 +9,7 @@ From one intention, produce a novena in the **Pray a Novena** library (Catholic 
 
 1. `novenas/<slug>/novena.json` and `novenas/<slug>/img/` in the repo
 2. A page at `https://prayanovena.com/<slug>/`, with a card on the library home page
-3. A Google Doc print layout of 4 pages or fewer, copied from the template doc
+3. A printable A4 PDF of 4 pages or fewer, made from novena.json and linked from the page
 4. A short report: saints chosen and why, links, anything to decide
 
 Every novena uses the same prayer structure and design. Only the content changes, so put the effort into the content and the checks.
@@ -19,7 +19,7 @@ Every novena uses the same prayer structure and design. Only the content changes
 - **Repo:** `chaviotics/prayanovena` (branch `main`; Netlify deploys every push). Never push to `chaviotics/novena-finances`: it is the family's live debt novena.
 - **Netlify:** project `prayanovena` (id `3902d84c-0c49-48e4-a0ed-e1a0c45e5d75`). Never deploy to `novena-finances` unless the user asks.
 - **Read first:** `PROJECT_LOG.md` (decisions, history, open items), then `novenas/relief-from-debt/novena.json` and `novenas/healing/novena.json`. They are the approved examples: match their tone, lengths and polish.
-- **Tools:** `tools/build.py` (site and artifact), `tools/print_fill.py` (print doc requests), `tools/check_print.py` (print text check), `tools/shots.py` (screenshots), `tools/og.py` (link-preview images), `tools/wm_images.py` (Wikimedia images). Read each one's docstring before using it.
+- **Tools:** `tools/build.py` (site and artifact), `tools/print_pdf.py` (printable PDF), `tools/check_print.py` (print text check), `tools/shots.py` (screenshots), `tools/og.py` (link-preview images), `tools/wm_images.py` (Wikimedia images). Read each one's docstring before using it.
 
 ## 1. Intention → saints
 
@@ -77,7 +77,7 @@ Copy an example's shape. Field rules:
 Each day has these fields:
 
 - `title`: 2–5 words.
-- `ref`: "Book c:v–v" with an en dash. Never add a version label ("RSV-CE") after a reference, in the app or in print; the RSV-CE permission notice appears once, in the footer and on print page 1.
+- `ref`: "Book c:v–v" with an en dash. Never add a version label ("RSV-CE") after a reference, in the app or in print; the RSV-CE permission notice appears once, in the footer and in the PDF's footnotes.
 - `verse`: RSV-CE, exact. Put " / " between poetry lines, and keep "LORD" in capitals (it shows in small caps).
 - `refl`: paragraph 1, 75–95 words. It is printed. It opens from the verse into the person's life.
 - `more`: paragraph 2, 55–75 words, app only. A saint's story, a teaching of the Church (cite CCC numbers only if certain), or a gentle application.
@@ -103,7 +103,7 @@ Each day has these fields:
 - **No thee/thou verses.** Choose passages whose RSV-CE text has no archaic address to God ("thee", "thou", "thy", "thine", "hast", "didst", "art" as a verb, "doth"); if the verse you want has them, pick another RSV-CE verse on the same theme (Chav, 2026-11-21: they feel off to younger readers). Never modernize the words yourself: the RSV-CE permission requires the text unchanged. The traditional prayers (Hail Mary, Memorare) keep their own wording.
 - Copy punctuation exactly, including "LORD". Check the verse range: the passage must not start or end in the middle of a quotation (a dangling quote mark means choose a different range).
 - If a fetch looks paraphrased or partial, fetch it again or use a second RSV-CE source. Record what you verified in `novenas/<slug>/sources.md`.
-- **Permission limits:** under 500 verses in total, no whole book, under 25% of any book. The required notice is already in the template.
+- **Permission limits:** under 500 verses in total, no whole book, under 25% of any book. The required notice is already in the templates.
 
 ## 5. Images (public domain only)
 
@@ -127,26 +127,21 @@ python3 tools/shots.py <slug>             # phone screenshots, light and dark, i
 - Look at the screenshots: the hero (names should fit on 2 lines), Day 1, a poetry day, Day 9 and the closing.
 - Optionally publish `out/<slug>.html` as a Claude artifact so the user can try it before it goes live.
 
-## 7. Print layout (Google Docs, 4 pages or fewer)
+## 7. Printable PDF (A4, 4 pages or fewer)
 
-- **Template:** Doc `1XUCutiQexpVtGP8w_eaT1nzfjXx3h6Xb-VrQNfrgkkU` ("Novena print template"), tab `t.m63jflj0vk3u`, in the Drive folder "[12] 🙏 Faith". It holds the approved layout:
-  - Folio pages, EB Garamond.
-  - Page 1: title, the intercessors, how to pray, the intention box, then the Scripture notice and image credits in small type.
-  - From Daily Prayers on: two columns.
-  - The end: the Graces box and the closing verse.
+```
+python3 tools/print_pdf.py <slug>                    # novenas/<slug>/<slug>-novena.pdf (A4)
+python3 tools/check_print.py novenas/<slug>/<slug>-novena.pdf <slug>
+python3 tools/build.py                               # copies the PDF next to the page and adds the link
+```
 
-  Never edit the template; copy it.
-- **Copy it** with Drive `copy_file`, named "<Title> — print". The template has one tab; keep it that way, because the PDF export renders every tab.
-- **Fill it** with `tools/print_fill.py`. Read the copy (`read_doc`; the result is saved to a file), run the script on that file plus the slug, and send the batch with `writeControl.requiredRevisionId` set to the read's `revisionId`. The script replaces text paragraph by paragraph, keeping every style. Print gets `refl` only; `more` stays in the app. A large batch can be sent in two parts: first the requests for the bottom half of the document, then the top half.
-- **Portraits:** the script also swaps the three page-1 images for portrait URLs at 120×96pt. They must be public URLs: the live site, or before it's live, the raw GitHub URLs via `--images-base`, for example `https://raw.githubusercontent.com/chaviotics/prayanovena/main/novenas/<slug>/img`. For fewer than 3 saints, delete the extra table columns.
-- **Check the layout.** Export a PDF (`download_file_content`, `application/pdf`), render it with `pdftoppm -r 70`, and look at every page. The rules:
-  - 4 pages or fewer, with Daily Prayers starting page 2.
-  - No day heading or title left alone at the bottom of a column.
-  - Google Docs doesn't reliably keep a heading with the text after it inside columns, so fix strands by hand, top-down, re-exporting after each fix:
-    - **At a page bottom:** set `pageBreakBefore` on that day's header paragraph.
-    - **At a column bottom mid-page:** raise `spaceBelow` on the previous day's Today's-step paragraph, using the smallest value that works (usually 45–75pt). If the previous prayer and step jump to the next column, the value is too big.
-- **If it runs to 5 pages,** win back space in this order: shorten the image credits, shorten a long "Alongside prayer" tip, then trim the longest reflections by a sentence. Never shrink the type or remove a section.
-- **Text check:** `python3 tools/check_print.py <pdf> <slug>` confirms every title, ref, verse, reflection, prayer and step appears in pages 1–4.
+- `tools/print_pdf.py` fills the site layout (`SITE_LAYOUT = "flow4"`, `templates/print-flow4.html`, chosen 2026-11-22) from novena.json and prints it with Chromium (Node Playwright). No AI is involved: the same novena.json always gives the same PDF. Print gets `refl` only; `more` stays in the app.
+- The layout, in the order you pray: **page 1** has the title, the saints (portrait on top, then name, dates, feast and patronage), How to Pray as 5 numbered steps, the tips in columns, and the Opening and Closing Prayers and Memorare side by side. **Pages 2 to 4** hold Days 1–3, 4–6 and 7–9; each day is one band, Scripture & Reflection on the left (the verse and its reference inside a gold bar) and Pray on the right (Today's step in an outlined callout with a walking-figure icon). After the days come 2-up cards: "Meet your intercessor" stories and the closing verse. Page 4 ends with the full-width "Graces I have noticed" box. The Scripture notice and image credits sit at the foot of page 3 or 4. White page, no tinted fills; lines are at least .75pt; never use CSS gradients (they turn pink in some PDF viewers).
+- The type is auto-fitted: the renderer picks the largest body size (about 9–9.8pt) that keeps the PDF to 4 pages, and tries the card and footnote arrangements, keeping the one with the larger type. The render **fails** if the PDF runs past 4 pages or page 1 overflows. If that happens, win back space in this order: shorten the image credits, shorten a long "Alongside prayer" tip, then trim the longest reflections by a sentence. Never remove a section.
+- Don't use a day icon of `person-simple-walk`; it is the Today's step icon.
+- Look at every page once (`pdftoppm -r 70 -png`). The check confirms every title, ref, verse, reflection, prayer and step is there.
+- Run `print_pdf.py` again whenever the novena's words change; `build.py` warns when a PDF is older than its novena.json.
+- Google Docs are no longer made for new novenas (decided 2026-11-21). The template doc and `tools/print_fill.py` stay for a one-off personalised copy.
 
 ## 8. Review before publishing
 
@@ -170,6 +165,6 @@ python3 tools/shots.py <slug>             # phone screenshots, light and dark, i
 
 Keep the report short:
 - the saints and why they were chosen
-- the live link and the print doc link
+- the live link and the PDF link
 - what the reviews changed
 - open questions, each with your recommendation

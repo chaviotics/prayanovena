@@ -1,18 +1,19 @@
 # Pray a Novena
 
-A small library of 9-day Catholic novenas, each with a phone prayer app and a 4-page print layout.
+A small library of 9-day Catholic novenas, each with a phone prayer app and a 4-page printable PDF.
 Live at https://prayanovena.com
 
 - `novenas/<slug>/novena.json`: all of a novena's words (saints, prayers, 9 days)
 - `novenas/<slug>/img/`: portraits (480×600) and round faces (112×112), all public domain
 - `templates/`: the novena page and the library page
 - `tools/build.py`: builds `site/` (what Netlify serves), or one self-contained HTML file with `--artifact <slug>`
-- `tools/print_fill.py`, `tools/check_print.py`: fill and check the Google Docs print layout
+- `tools/print_pdf.py`, `templates/print-flow4.html` (+ `tools/print_render.js`): the printable A4 PDF of each novena (`novenas/<slug>/<slug>-novena.pdf`), made from novena.json
+- `tools/check_print.py`: checks a print PDF has every word; `tools/print_fill.py`: fills the older Google Docs layout
 - `tools/shots.py`, `tools/og.py`: phone screenshots and link-preview images
 - `skill/SKILL.md`: the step-by-step guide for making a new novena
 - `PROJECT_LOG.md`: decisions, history and open items; read it first
 
-## Print docs (Google Drive, folder "[12] 🙏 Faith")
+## Older print docs (Google Drive, folder "[12] 🙏 Faith"; new novenas use the PDF instead)
 
 - Template (copy it, don't edit): `1XUCutiQexpVtGP8w_eaT1nzfjXx3h6Xb-VrQNfrgkkU`
 - Relief from Debt and Financial Hardship: `1U4e3egURWhaJilOSCgWKGs1_5QTVNGVfmtKWpVCciOk`, tab "With Intention" (`t.m63jflj0vk3u`; the other tabs are old drafts)
