@@ -1,0 +1,227 @@
+{
+ "slug": "finishing-a-thesis",
+ "storageKey": "novena-finishing-a-thesis",
+ "status": "published",
+ "order": 12,
+ "category": "exams-school",
+ "title": "Novena for Finishing a Thesis",
+ "barTitle": "Novena for Finishing a Thesis",
+ "barShort": "Thesis Novena",
+ "kicker": "9 days of perseverance and a clear mind",
+ "card": "For anyone working on a thesis or research project: 9 days asking for perseverance, a clear mind, good advisers and the grace to finish.",
+ "ogDescription": "9 days of prayer for finishing a thesis, through Our Lady, Seat of Wisdom and Sts. Thomas Aquinas, Albert and Moscati.",
+ "description": "A 9-day Catholic novena for finishing a thesis or research project, through Our Lady, Seat of Wisdom, St. Thomas Aquinas, St. Albert and St. Giuseppe Moscati.",
+ "keywords": [
+  "thesis",
+  "dissertation",
+  "research",
+  "research paper",
+  "research project",
+  "capstone",
+  "thesis defense",
+  "graduate school",
+  "master’s",
+  "PhD",
+  "college",
+  "finishing my thesis",
+  "graduation",
+  "adviser",
+  "procrastination",
+  "writer’s block",
+  "students",
+  "scientists",
+  "tesis",
+  "pananaliksik",
+  "depensa",
+  "estudyante",
+  "pagtatapos",
+  "magtapos"
+ ],
+ "epigraph": {
+  "text": "And let us not grow weary in well-doing, for in due season we shall reap, if we do not lose heart.",
+  "ref": "Galatians 6:9"
+ },
+ "closingVerse": {
+  "text": "Better is the end of a thing than its beginning; and the patient in spirit is better than the proud in spirit.",
+  "ref": "Ecclesiastes 7:8"
+ },
+ "saints": [
+  {
+   "id": "aquinas",
+   "name": "St. Thomas Aquinas",
+   "dates": "c. 1225–1274",
+   "feast": "Feast · Jan 28",
+   "patron": "Patron of Catholic universities & schools",
+   "bio": "Dominican friar who studied under St. Albert the Great and taught at the University of Paris. His Summa Theologiae works through questions, objections and replies. A Doctor of the Church.",
+   "alt": "Painting: St. Thomas Aquinas holding a church and a book, by Carlo Crivelli",
+   "openingRole": "who sought the truth in every question"
+  },
+  {
+   "id": "albert",
+   "name": "St. Albert the Great",
+   "dates": "c. 1200–1280",
+   "feast": "Feast · Nov 15",
+   "patron": "Patron of natural scientists",
+   "bio": "Dominican friar, bishop and teacher of St. Thomas Aquinas, who studied plants, animals and minerals firsthand. Declared a Doctor of the Church in 1931 and patron of natural scientists in 1941.",
+   "alt": "Fresco: St. Albert the Great at his desk, by Tommaso da Modena",
+   "openingRole": "teacher and patron of scientists"
+  },
+  {
+   "id": "moscati",
+   "name": "St. Giuseppe Moscati",
+   "dates": "1880–1927",
+   "feast": "Feast · Nov 16",
+   "patron": "Physician, researcher & teacher",
+   "bio": "Physician in Naples who did laboratory research, taught at the university and cared for the poor, often without charge. He went to Mass daily. Canonized by Pope John Paul II in 1987.",
+   "alt": "Photograph: St. Giuseppe Moscati in a dark suit and tie, wearing pince-nez",
+   "openingRole": "who served You in the laboratory and at the bedside"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Our Lady, Seat of Wisdom"
+  },
+  {
+   "img": "aquinas",
+   "text": "St. Thomas Aquinas"
+  },
+  {
+   "img": "albert",
+   "text": "St. Albert the Great"
+  },
+  {
+   "img": "moscati",
+   "text": "St. Giuseppe Moscati"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You know N.’s thesis: the months of work, the deadlines, the drafts that come back marked, and the days when finishing feels impossible. We bring You this work and its weariness. Give N. perseverance, a clear mind, an honest heart and the humility to ask for help, and bring this work to completion according to Your will. We ask Our Lady, Seat of Wisdom; St. Thomas Aquinas, who sought the truth in every question; St. Albert the Great, teacher and patron of scientists; and St. Giuseppe Moscati, who served You in the laboratory and at the bedside, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, eternal Word of the Father and Truth itself, stay beside N. in this long work. Give them strength for today’s part of it, and peace in Your holy will, whatever comes.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Confession and attend Mass during these 9 days, and receive Communion before your defense or submission. Pair prayer with practical steps: one small task a day (Day&nbsp;2), regular updates to your adviser (Day&nbsp;4), and honest sources, data and words (Day&nbsp;6). Many schools offer writing help and counseling, so use them. If discouragement turns into constant anxiety or hopelessness, talk to a counselor, a doctor or a priest. If you ever think of harming yourself, you are not alone: please reach out right away to someone you trust or a <a href=\"https://findahelpline.com\" rel=\"noopener noreferrer\" target=\"_blank\">crisis helpline</a>. At “N.”, say the student’s name; if you are praying for yourself, say “me”."
+  },
+  {
+   "h": "Praying for a student",
+   "p": "If you pray for a brother, sister, son, daughter or friend, pray with patience. Pressure and constant questions about deadlines rarely help. A meal, an offer to proofread, or simply asking “How can I help this week?” often does."
+  }
+ ],
+ "intentionPlaceholder": "Write the name of the student, the thesis or project, its deadline, and the graces you ask.",
+ "icons": [
+  "hands-praying",
+  "calendar-check",
+  "feather",
+  "chats",
+  "flask",
+  "shield-check",
+  "bed",
+  "users",
+  "sun-horizon"
+ ],
+ "credits": "Images: Carlo Crivelli, <em>St Thomas Aquinas</em>, 1476, National Gallery, London · Tommaso da Modena, <em>Albertus Magnus</em>, 1352, fresco, San Nicolò, Treviso · Bartolomeo Montagna, <em>Madonna Enthroned</em> (detail), 1500. Public domain, via Wikimedia Commons. Photograph of St. Giuseppe Moscati: Inviaggio, via Wikimedia Commons, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" rel=\"noopener noreferrer\" target=\"_blank\">CC BY-SA 3.0</a>.",
+ "days": [
+  {
+   "title": "Bringing the Weight to God",
+   "ref": "Matthew 11:28",
+   "verse": "Come to me, all who labor and are heavy laden, and I will give you rest.",
+   "refl": "A thesis can become a weight we carry everywhere: in class, at meals, on the way to sleep. Some of us are behind schedule and ashamed to say it. Some have not opened the file in weeks. Jesus does not wait for us to have it all together before we come. He calls those who labor and are heavy laden, just as we are, and He offers rest. We begin these nine days by telling Him honestly where this work stands, and how we feel about it.",
+   "more": "Many theses take longer than planned. Experiments fail, advisers change, families need help, health gives way. Being behind is not the same as being a failure, and it is not a sign that God has forgotten us. Shame tells us to hide; Jesus tells us to come. Whatever the situation, the next step is the same: bring it into the light, first before God, and then before someone who can help.",
+   "prayer": "Lord Jesus, You call all who labor and are heavy laden, and today we come to You with N. and this thesis. You know how far along it is, how long it has taken, and every worry and regret that comes with it. Lift the shame that makes N. want to hide, and give them Your rest. Through the prayers of Our Lady, Seat of Wisdom, St. Thomas Aquinas, St. Albert the Great and St. Giuseppe Moscati, help N. begin again today, right where they are.",
+   "step": "Write down honestly where the thesis stands today: what is done, what is left, and the next deadline. Keep it where you pray."
+  },
+  {
+   "title": "One Day at a Time",
+   "ref": "Matthew 6:34",
+   "verse": "Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Let the day’s own trouble be sufficient for the day.",
+   "refl": "Putting things off is often not plain laziness. More often it is fear: the task feels so big and so vague that we avoid it, and every day of avoiding makes it bigger. Jesus offers a kinder way: do not carry tomorrow’s worries today. A whole thesis cannot be written in one day, but one paragraph can. One table can be fixed, one source read, one email sent. Today’s part is enough for today, and God gives grace for today.",
+   "more": "The Summa Theologiae, St. Thomas Aquinas’s greatest work, is made of thousands of articles, each taking up one precise question. It was not written in a day; it grew one article at a time over several years. A thesis, too, is built from small pieces: a paragraph, a figure, a page of notes. Faithfulness in small daily work is how great work gets done.",
+   "prayer": "Heavenly Father, You give us our daily bread, one day at a time. Free N. from the fear that makes them put off this work, and from worry about everything still left to do. Help them see today’s part clearly and do it faithfully, without waiting to feel ready. With St. Thomas Aquinas, who built great work one small part at a time, and with Our Lady, Seat of Wisdom, St. Albert the Great and St. Giuseppe Moscati, give N. grace for this day.",
+   "step": "Choose one small task that takes less than an hour, such as one paragraph, one source or one email, and finish it today."
+  },
+  {
+   "title": "Done, Not Perfect",
+   "ref": "Ecclesiastes 11:4",
+   "verse": "He who observes the wind will not sow; and he who regards the clouds will not reap.",
+   "refl": "The farmer who waits for perfect weather never plants. Many theses stall the same way, waiting for the perfect outline, the perfect sentence, the right mood. Perfectionism can look like high standards, but it often keeps us from starting at all. A first draft is supposed to be rough; that is what revisions are for. Today we ask for the freedom to write imperfectly, to show unfinished work, and to trust that good work grows through many drafts.",
+   "more": "A draft someone can read is worth more than a perfect one that exists only in our heads. Perfectionism is often fear more than pride, but either way humility helps: it lets us be seen working. This is also a relief: we do not have to be perfect, only faithful. God is not waiting for our flawless work. He is with us in the messy middle.",
+   "prayer": "Lord God, You alone are perfect, and You love us in our weakness. Free N. from the perfectionism that keeps them waiting for the right moment. Give them the humility to write a rough draft, to show unfinished work, and to accept that every good thesis grows through revision. With Our Lady, Seat of Wisdom, St. Thomas Aquinas, St. Albert the Great and St. Giuseppe Moscati praying for us, help N. sow today, whatever the weather.",
+   "step": "Write for twenty-five minutes without editing or deleting anything. Fix it tomorrow."
+  },
+  {
+   "title": "Humble Enough to Ask",
+   "ref": "Proverbs 19:20",
+   "verse": "Listen to advice and accept instruction, that you may gain wisdom for the future.",
+   "refl": "A thesis is not meant to be written alone. Advisers, panel members and classmates are part of how God helps us. Yet many students avoid their adviser when they are behind, or dread drafts covered in comments. Proverbs calls listening to advice the way to wisdom. Correction is not rejection; it is someone taking our work seriously. Today we pray for the humility to ask, the courage to show our work, and patience with advisers who are busy or hard to please, or the wisdom to seek help if things become unfair.",
+   "more": "The story is told that at Cologne the young St. Thomas Aquinas, big and quiet, was nicknamed “the dumb ox” by his classmates, and that his teacher, St. Albert the Great, said one day this ox’s bellowing would be heard throughout the world. A good teacher sees what we cannot yet see in ourselves. We pray for N.’s adviser, and for the trust to learn from them.",
+   "prayer": "Heavenly Father, You guide us through the wisdom of others. Bless N.’s adviser and everyone who reads and judges this work: give them insight, patience and fairness. Give N. the humility to ask for help early, to listen to correction without losing heart, and to keep going after hard feedback. Through the prayers of St. Albert the Great, who saw the gifts of his student, St. Thomas Aquinas, and of Our Lady, Seat of Wisdom, and St. Giuseppe Moscati, make N. teachable.",
+   "step": "Send your adviser a short update this week, even if the progress is small, and ask one clear question."
+  },
+  {
+   "title": "When the Research Doesn’t Work",
+   "ref": "Luke 5:5",
+   "verse": "And Simon answered, “Master, we toiled all night and took nothing! But at your word I will let down the nets.”",
+   "refl": "Simon Peter knew his trade, and still he worked all night and caught nothing. Research can feel like that: an experiment that fails again, data that will not cooperate, a survey no one answers, a chapter that has to be rewritten. Peter was tired and discouraged, but at Jesus’ word he tried once more. Trying again does not promise a full net, but it is never wasted. Today we bring our empty nets to the Lord, and ask for the patience to try again, perhaps in a new way.",
+   "more": "St. Albert the Great wrote that natural science is not simply accepting what others have said, but seeking the causes of things. Real research means testing, failing and testing again. Centuries later, St. Giuseppe Moscati joined laboratory research to his care of patients in Naples. In research, even a dead end teaches us something true about the world God made, and nothing offered to Him is wasted.",
+   "prayer": "Lord Jesus, You stood by Peter’s empty boat and told him to try again. Look on N.’s work when results do not come, when data fails and chapters must be redone. Keep them from despair and from cutting corners, and give them patience, new ideas and good counsel. Through the prayers of St. Albert the Great and St. Giuseppe Moscati, who searched patiently for the truth of things, and of Our Lady, Seat of Wisdom, and St. Thomas Aquinas, help N. let down the nets once more.",
+   "step": "Write down what one failed attempt has taught you, and bring one problem to your adviser or a classmate."
+  },
+  {
+   "title": "Honest Work & a Clear Mind",
+   "ref": "2 Timothy 2:15",
+   "verse": "Do your best to present yourself to God as one approved, a workman who has no need to be ashamed, rightly handling the word of truth.",
+   "refl": "St. Paul asks Timothy to handle the word of truth faithfully, as a workman with no need to be ashamed. The same honesty belongs in research. Under deadline pressure, shortcuts can tempt: copying without citing, adjusting data to fit, paying someone to write a chapter, or letting AI write what we should write ourselves. We follow our school’s rules on AI and editing help, and say what we used. The thinking and the words must be truly ours.",
+   "more": "St. Giuseppe Moscati wrote in his notes: “Love the truth; show yourself as you are, without pretense and without fear.” He held to that at the bedside and in the laboratory. Honesty can cost us time and pride, but it gives us what no shortcut can: work we can stand behind and a conscience at peace. If we have cut corners, God’s mercy waits in Confession, with the courage to set things right where needed.",
+   "prayer": "Lord, You are the Truth, and every good insight comes from You. Give N. a clear mind to think, read and write well, and an honest heart in every source, number and sentence. Free them from the temptation to copy, to bend the data or to hand their work to someone else. Through the prayers of St. Giuseppe Moscati, who loved the truth, and of Our Lady, Seat of Wisdom, St. Thomas Aquinas and St. Albert the Great, let this work be truly N.’s own.",
+   "step": "Check the citations in one section today, and decide that every idea, number and quotation you submit will be your own or honestly credited."
+  },
+  {
+   "title": "Strength When We Are Tired",
+   "ref": "Isaiah 40:29–31",
+   "verse": "He gives power to the faint, / and to him who has no might he increases strength. / Even youths shall faint and be weary, / and young men shall fall exhausted; / but they who wait for the LORD shall renew their strength, / they shall mount up with wings like eagles, / they shall run and not be weary, / they shall walk and not faint.",
+   "refl": "Isaiah does not pretend that the strong never tire: even the young grow weary and fall exhausted. Long projects drain us. All-nighters, skipped meals and endless screens may feel like dedication, but they wear down the very mind we need. Those who wait for the Lord find their strength renewed, and waiting on Him includes humble things: sleep, a real meal, a walk, Sunday rest. Today we pray for strength, and for the wisdom to rest before we break.",
+   "more": "In his Summa, St. Thomas Aquinas asked what helps a sorrowful, weary heart. The remedies he named are pleasure, tears, the sympathy of friends, contemplating the truth, and sleep and baths. If tiredness turns into deep sadness, hopelessness or panic that will not lift, that is not a lack of faith. Talk to someone you trust, and see a counselor or a doctor. If you ever think of harming yourself, reach out right away.",
+   "prayer": "Loving Father, You give power to the faint and strength to those who have none. Renew N. in body, mind and spirit. Protect them from burnout, from sleepless nights and from the anxiety that makes every task feel impossible, and teach them to rest without guilt. With St. Thomas Aquinas, who knew that sleep and friendship lift a heavy heart, and with Our Lady, Seat of Wisdom, St. Albert the Great and St. Giuseppe Moscati, let N. rise up on wings like eagles.",
+   "step": "Tonight, set a time to stop working, put the screen away and sleep. Tomorrow, take a short walk outside."
+  },
+  {
+   "title": "Not Alone",
+   "ref": "Ecclesiastes 4:9–10",
+   "verse": "Two are better than one, because they have a good reward for their toil. For if they fall, one will lift up his fellow; but woe to him who is alone when he falls and has not another to lift him up.",
+   "refl": "Behind every thesis are people who carry us: family who sacrifice for our schooling, friends who listen to our complaints, classmates who share sources, a brother or sister who brings dinner to the desk. Ecclesiastes says two are better than one, because when one falls the other lifts him up. Isolation makes everything heavier. Today we thank God for those who help us, and we ask for the grace to accept help, and to give it in return.",
+   "more": "St. Giuseppe Moscati was a respected scientist, yet he wrote that it was not science but charity that had transformed the world. He gave his skill to the poor of Naples, often without charge. Our research, too, is meant to serve people, and it is made possible by people. Thank those who carry you, and look for one way to carry someone else this week.",
+   "prayer": "Heavenly Father, thank You for everyone who walks beside N. in this work: family, friends, classmates, teachers and all who have sacrificed for them. Bless and reward them. Keep N. from shutting themselves away, and give them the humility to accept help and the generosity to help others. Through the prayers of St. Giuseppe Moscati, who served the poor with his gifts, and of Our Lady, Seat of Wisdom, St. Thomas Aquinas and St. Albert the Great, let no one carry this alone.",
+   "step": "Thank one person who has helped you with this thesis, and ask a friend to check in on your progress each week."
+  },
+  {
+   "title": "Finishing the Race in Trust",
+   "ref": "2 Timothy 4:7",
+   "verse": "I have fought the good fight, I have finished the race, I have kept the faith.",
+   "refl": "St. Paul wrote these words near the end of his life, looking back on a long and costly journey. He did not boast of results; he spoke of faithfulness. He kept going, and he kept the faith. We end these nine days in gratitude, and we place the rest of this work, the defense and the final results, in God’s hands. A diploma is a good gift, but it is not the measure of our worth. God’s love does not depend on finishing on time.",
+   "more": "If the thesis is finished, give thanks and celebrate with everyone who helped. If it takes longer, or the defense brings hard news, there is no shame in revising and trying again; many good researchers have. Some even change direction entirely, and God is at work in that too. Whatever happens, end these nine days by thanking Him for the graces you have received.",
+   "prayer": "Heavenly Father, on this ninth day we thank You for Your faithfulness and for every grace You have given N. in this work: every insight, every helper and every day they kept going. Thank you, Our Lady, Seat of Wisdom, St. Thomas Aquinas, St. Albert the Great and St. Giuseppe Moscati, for carrying our prayers before Jesus. We entrust the rest of this thesis, the defense, the results and N.’s whole future to Your loving will.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ],
+ "printTitle": [
+  "Novena for",
+  "Finishing a Thesis"
+ ],
+ "printClosing": [
+  "Better is the end of a thing than its beginning;",
+  "and the patient in spirit is better than the proud in spirit."
+ ],
+ "icon": "pen-nib",
+ "cardTitle": "Finishing a Thesis",
+ "ogSaints": [
+  "aquinas",
+  "moscati"
+ ]
+}
