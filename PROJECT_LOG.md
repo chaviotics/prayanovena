@@ -220,6 +220,10 @@ Two phases, so the new name can go live before the domain exists:
 - No Google Analytics (Chav asked): it would break the Privacy page promise and the CSP. Search Console (DNS-verified, nothing on the site) plus Netlify's server stats are enough.
 - Search Console: Domain property verified by a TXT record at Cloudflare; submit https://prayanovena.com/sitemap.xml. SEO plan (next steps, keyword angles, feast timing): https://claude.ai/artifact/5za5dXtSKC67kgEG2Xd2Tp
 
+### 2026-11-23 (St. Paul's picture on About)
+- **New picture for St. Paul** in About → Unlikely saints (Chav: in Caravaggio's *Conversion on the Way to Damascus* his face is upside down in shadow). Now Rembrandt, *The Apostle Paul*, 1630s, Kunsthistorisches Museum, Vienna (Commons `Rembrandt_Harmensz._van_Rijn_163.jpg`, public domain): he looks straight at the viewer, with his sword and books. Options preview (Rembrandt, Valentin de Boulogne, Rublev icon): https://claude.ai/artifact/EHfmrKMq5EMUCGpJw5grfz. Caption, alt text, About footer credits (`ABOUT_IMAGES` in `tools/build.py`) and `pages/about/images.md` updated. Paul's picture is used only on this card (no novena, PDF or link preview).
+- Story-card crops: 720×480, shown center-cropped as a 104px square (tablet) and 2:1 (phone), so keep the face near the horizontal center.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).

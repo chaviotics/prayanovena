@@ -5,7 +5,7 @@
 | pentecost.jpg | El_Greco_-_The_Pentecost_-_WGA10533.jpg | El Greco (1541–1614), *Pentecost*, about 1600, Museo del Prado | Artist died 1614; faithful photo of a 2D work |
 | angelus.jpg | Jean-François_Millet_(II)_001.jpg | Jean-François Millet (1814–1875), *The Angelus*, 1857–1859, Musée d'Orsay | Artist died 1875 |
 | lamb.jpg | Ghent_Altarpiece_D_-_Adoration_of_the_Lamb_2.jpg | Hubert and Jan van Eyck, *Ghent Altarpiece*, lower central panel (detail), 1432, St. Bavo's Cathedral | 15th-century work |
-| paul.jpg | Caravaggio-The_Conversion_on_the_Way_to_Damascus.jpg | Caravaggio (1571–1610), *The Conversion on the Way to Damascus*, 1601, Cerasi Chapel, Santa Maria del Popolo | Artist died 1610 |
+| paul.jpg | Rembrandt_Harmensz._van_Rijn_163.jpg (960px thumb) | Rembrandt (1606–1669), *The Apostle Paul*, 1630s, Kunsthistorisches Museum, Vienna | Artist died 1669; faithful photo of a 2D work. Cropped 720×480 on head, sword and books (2026-11-23, replaced Caravaggio's *Conversion on the Way to Damascus*, where Paul's face is hidden) |
 | augustine.jpg | Champaigne,_Philippe_de_-_Saint_Augustin_-_1645-1650.jpg | Philippe de Champaigne (1602–1674), *Saint Augustine*, about 1645–1650, LACMA | Artist died 1674; LACMA public domain image |
 | aquinas.jpg | Carlo_Crivelli_007.jpg | Carlo Crivelli, *Saint Thomas Aquinas*, 1476, National Gallery, London | Artist died c. 1495 |
 | longo.jpg | Bartolo-Longo.jpg | Photograph of Bartolo Longo (1841–1926), taken in his lifetime | Over 100 years old (he died in 1926). The Commons file page could not be fetched from the sandbox, so its exact tag was not read |

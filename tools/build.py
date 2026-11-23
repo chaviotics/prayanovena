@@ -456,8 +456,8 @@ def library(novenas, search=None):
 
 ABOUT_DIR = os.path.join(ROOT, "pages", "about")
 ABOUT_IMAGES = ("Images: El Greco, <i>Pentecost</i>, Museo del Prado; Jean-François Millet, <i>The Angelus</i>, Musée d’Orsay; "
-                "Hubert and Jan van Eyck, <i>Ghent Altarpiece</i>, St. Bavo’s Cathedral; Caravaggio, <i>The Conversion on the Way to Damascus</i>, "
-                "Santa Maria del Popolo; Philippe de Champaigne, <i>Saint Augustine</i>, Los Angeles County Museum of Art; Carlo Crivelli, "
+                "Hubert and Jan van Eyck, <i>Ghent Altarpiece</i>, St. Bavo’s Cathedral; Rembrandt, <i>The Apostle Paul</i>, "
+                "Kunsthistorisches Museum, Vienna; Philippe de Champaigne, <i>Saint Augustine</i>, Los Angeles County Museum of Art; Carlo Crivelli, "
                 "<i>Saint Thomas Aquinas</i>, National Gallery, London; Cristóbal Lozano, <i>Ecstasy of Saint Camillus de Lellis</i>; "
                 "Placido Costanzi, <i>A Miracle of Saint Joseph of Cupertino</i>, Metropolitan Museum of Art; photograph of Bartolo Longo; El Greco, <i>Saint Peter in Tears</i>, Bowes Museum; "
                 "Peter Paul Rubens, <i>Saint Ignatius of Loyola</i>, Norton Simon Museum; Sassoferrato, <i>The Virgin in Prayer</i>. "
