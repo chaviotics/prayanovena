@@ -217,7 +217,7 @@ Two phases, so the new name can go live before the domain exists:
 - Novena pages: Day 1's verse, reference, reflection, prayer and step are written into the HTML (the script still swaps in the chosen day; checked identical, so no flash). `<title>` is now the full title + "| Pray a Novena" when it fits in 60 characters (`og_title`), e.g. "Novena for the Healing of the Sick | Pray a Novena".
 - JSON-LD: `WebSite` on the library (site name "Pray a Novena" in results), `BreadcrumbList` on novena, About and Privacy pages. Data only, so the CSP is unchanged.
 - No Google Analytics (Chav asked): it would break the Privacy page promise and the CSP. Search Console (DNS-verified, nothing on the site) plus Netlify's server stats are enough.
-- Search Console: Domain property verified by a TXT record at Cloudflare; submit https://prayanovena.com/sitemap.xml. SEO plan doc: see project memory `seo-plan`.
+- Search Console: Domain property verified by a TXT record at Cloudflare; submit https://prayanovena.com/sitemap.xml. SEO plan (next steps, keyword angles, feast timing): https://claude.ai/artifact/5za5dXtSKC67kgEG2Xd2Tp
 
 ## Open items
 
@@ -228,6 +228,8 @@ Two phases, so the new name can go live before the domain exists:
 5. **Known v1 bug, left alone on purpose:** the novena-finances app drops "&" from day captions. Fixed in the library.
 
 ## Ideas to weigh (not decided)
+
+- SEO next steps from the plan above: a static "The 9 days" list on each novena page, a custom 404, search words in a few descriptions (board/bar exam, thesis defense, discernment, finding a job), feast-timed lines on existing novenas, a Pentecost novena.
 
 - From the audit: a priest review of the new prayers (then update the About disclosure), an "add to calendar" reminder for the 9 days, novenas timed to feast days.
 - When the family finishes their current round, point novena-finances to the library's debt novena so there is one version to maintain.
