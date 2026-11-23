@@ -1,0 +1,2 @@
+# Made by tools/build.py (build_seo): the free Netlify address forwards to the real domain.
+https://prayanovena.netlify.app/* https://prayanovena.com/:splat 301!

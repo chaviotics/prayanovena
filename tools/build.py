@@ -9,6 +9,9 @@ and img/<id>_face.jpg (round avatar, 112x112) for every saint and litany image.
 """
 import base64, hashlib, html, json, os, re, shutil, sys
 
+import datetime
+import subprocess
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://prayanovena.com"
 ICON_DIRS = [os.path.join(ROOT, "tools", "icons")]
@@ -226,10 +229,11 @@ def page(n, mode):
             '<link rel="icon" href="../favicon.svg" type="image/svg+xml">',
             '<link rel="apple-touch-icon" href="../apple-touch-icon.png">',
             '<link rel="manifest" href="../manifest.webmanifest">',
-        ])
+            breadcrumbs(n["title"], url),
+        ] + ([] if n.get("status") == "published" else ['<meta name="robots" content="noindex">']))
         back = ('    <a class="back" href="../index.html"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>'
                 'All novenas</a>\n')
-        title_tag = esc(n["barTitle"]) + " | Pray a Novena"
+        title_tag = esc(og_title(n))  # the full title ("Novena for the Healing of the Sick | Pray a Novena") is what people search for
         back = ""  # the top bar reads "← All novenas › <title>" on every size, so the hero needs no back link of its own
         home = ('href="../index.html"', '<svg class="i back-ic" aria-hidden="true" focusable="false"><use href="#i-arrow-left"/></svg>')
     else:
@@ -246,7 +250,10 @@ def page(n, mode):
         "BACK_LINK": back, "NAME_RUBRIC": name_rubric, "HOME_LABEL": "All novenas" if mode == "site" else "",
         "FOOTER": site_footer("../" if mode == "site" else SITE_URL + "/", credits=[n["credits"]], store_id=True), "FOOTER_CSS": FOOTER_CSS, "HOME_ATTRS": home[0], "HOME_ARROW": home[1], "KICKER": esc(n["kicker"]), "TITLE": esc(n["title"]),
         "SAINT_LINE": saint_line(n["saints"]), "EPI_TEXT": scripture(n["epigraph"]["text"]), "EPI_REF": esc(n["epigraph"]["ref"]),
-        "FACES": faces, "DAY1_TITLE": esc(n["days"][0]["title"]), "OPENING_PRAYER": esc(n["openingPrayer"]),
+        "FACES": faces, "DAY1_TITLE": esc(n["days"][0]["title"]),
+        # Day 1 is written into the HTML (the script swaps in the chosen day), so search engines see a full day of prayer
+        "DAY1_VERSE": verse_html(n["days"][0]["verse"]), "DAY1_REF": esc(n["days"][0]["ref"]), "DAY1_REFL": esc(n["days"][0]["refl"]),
+        "DAY1_MORE": esc(n["days"][0].get("more", "")), "DAY1_PRAYER": esc(n["days"][0]["prayer"]), "DAY1_STEP": esc(n["days"][0].get("step", "")), "OPENING_PRAYER": esc(n["openingPrayer"]),
         "INTENT_PH": esc(n.get("intentionPlaceholder", "Write the intention you are praying for.")),
         "LITANY": litany, "CLOSING_PRAYER": esc(n["closingPrayer"]), "MEMORARE_TITLE": esc(mem_title),
         "MEMORARE_TEXT": esc(mem_text), "HOW_MEMORARE": how_mem, "TIPS": tips,
@@ -319,6 +326,69 @@ def og_ver(path):
         return hashlib.sha1(f.read()).hexdigest()[:8]
 
 
+def verse_html(t):
+    """a Scripture verse as the page script shows it (small-caps LORD, " / " starts a new poetry line), for the Day 1 text in the HTML"""
+    h = scripture(t)
+    parts = h.split(" / ")
+    return "".join('<span class="ln">%s</span>' % l for l in parts) if len(parts) > 1 else h
+
+
+def json_ld(data):
+    """a schema.org block for search engines (data only: the CSP never runs it)"""
+    return '<script type="application/ld+json">%s</script>' % json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+
+
+def breadcrumbs(name, url):
+    """Home > this page, so Google can show the site's name and path above the result"""
+    return json_ld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Pray a Novena", "item": SITE_URL + "/"},
+        {"@type": "ListItem", "position": 2, "name": name, "item": url}]})
+
+
+def last_changed(*paths):
+    """YYYY-MM-DD of the last commit touching these paths (today when they have uncommitted changes), for the sitemap"""
+    rel = [os.path.relpath(p, ROOT) for p in paths]
+    try:
+        if subprocess.run(["git", "status", "--porcelain", "--"] + rel, cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip():
+            return datetime.date.today().isoformat()
+        d = subprocess.run(["git", "log", "-1", "--format=%cs", "--"] + rel, cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
+        return d or datetime.date.today().isoformat()
+    except (OSError, subprocess.CalledProcessError):
+        return None
+
+
+def build_seo(novenas, site):
+    """site/sitemap.xml (published pages only), site/robots.txt pointing to it, site/_headers giving each PDF its page
+    as canonical (so search results send people to the prayer page, which links the PDF), and site/_redirects
+    sending the free netlify.app address to prayanovena.com (one address in search results)"""
+    pub = [n for n in novenas if n.get("status") == "published"]
+    nov = lambda n: os.path.join(ROOT, "novenas", n["slug"])
+    tmpl = lambda name: os.path.join(ROOT, "templates", name)
+    pages = [(SITE_URL + "/", last_changed(tmpl("library.html"), *[nov(n) for n in pub]))]
+    pages += [("%s/%s/" % (SITE_URL, n["slug"]), last_changed(nov(n))) for n in pub]
+    pages += [(SITE_URL + "/about/", last_changed(tmpl("about.html"), ABOUT_DIR)),
+              (SITE_URL + "/privacy/", last_changed(tmpl("privacy.html")))]
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for loc, mod in pages:
+        xml.append("  <url><loc>%s</loc>%s</url>" % (loc, "<lastmod>%s</lastmod>" % mod if mod else ""))
+    xml.append("</urlset>")
+    with open(os.path.join(site, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write("\n".join(xml) + "\n")
+    with open(os.path.join(site, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write("# Pray a Novena: every page may be crawled.\nUser-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % SITE_URL)
+    heads = ["# Made by tools/build.py (build_seo); netlify.toml holds the site-wide headers."]
+    for n in pub:
+        p = pdf_path(n)
+        if p:
+            heads += ["/%s/%s" % (n["slug"], os.path.basename(p)), '  Link: <%s/%s/>; rel="canonical"' % (SITE_URL, n["slug"])]
+    with open(os.path.join(site, "_headers"), "w", encoding="utf-8") as f:
+        f.write("\n".join(heads) + "\n")
+    with open(os.path.join(site, "_redirects"), "w", encoding="utf-8") as f:
+        f.write("# Made by tools/build.py (build_seo): the free Netlify address forwards to the real domain.\n"
+                "https://prayanovena.netlify.app/* %s/:splat 301!\n" % SITE_URL)
+    print("built sitemap.xml (%d pages), robots.txt, _headers, _redirects" % len(pages))
+
+
 def search_text(n, title):
     """what the search box matches: title, card, saints, Marian title, category and keywords"""
     parts = [title, n["title"], n["card"], dict(CATEGORIES)[n["category"]]]
@@ -366,6 +436,10 @@ def library(novenas, search=None):
     if chips or box:
         tools = '<div class="filters">%s%s</div>\n  <p class="sr" id="filterStatus" role="status" aria-live="polite"></p>' % (box, chips)
     t = t.replace("{{FILTERS}}", tools)
+    # WebSite tells Google the site's name ("Pray a Novena", not the domain) for search results
+    t = t.replace("{{JSON_LD}}", json_ld({"@context": "https://schema.org", "@type": "WebSite", "name": "Pray a Novena",
+                                          "alternateName": ["prayanovena.com", "Pray a Novena: Catholic novenas for every intention"],
+                                          "url": SITE_URL + "/", "inLanguage": "en"}))
     t = t.replace("{{CARDS}}", "\n".join(cards))
     t = t.replace("{{OG_VER}}", og_ver(os.path.join(ROOT, "site", "og.jpg")))
     t = t.replace("{{FONTS}}", local_fonts("")).replace("{{SW}}", sw_register(""))
@@ -449,6 +523,7 @@ def about(novenas, mode="site"):
             '<link rel="icon" href="../favicon.svg" type="image/svg+xml">',
             '<link rel="apple-touch-icon" href="../apple-touch-icon.png">',
             '<link rel="manifest" href="../manifest.webmanifest">',
+            breadcrumbs("What is a novena?", url),
         ])
     else:
         head = ""
@@ -489,6 +564,7 @@ def privacy(mode="site"):
         '<link rel="icon" href="../favicon.svg" type="image/svg+xml">',
         '<link rel="apple-touch-icon" href="../apple-touch-icon.png">',
         '<link rel="manifest" href="../manifest.webmanifest">',
+        breadcrumbs("Privacy", url),
     ]) if mode == "site" else ""
     t = t.replace("{{HEAD_META}}", head).replace("{{HOME_HREF}}", up + "index.html").replace("{{UP}}", up)
     t = t.replace("{{FONTS}}", local_fonts("../") if mode == "site" else GOOGLE_FONTS)
@@ -534,6 +610,7 @@ def build_site(search=None):
     print("built library with", sum(1 for n in novenas if n.get("status") == "published"), "published novenas")
     build_about(novenas, site)
     build_privacy(site)
+    build_seo(novenas, site)
     build_sw(site)
 
 
@@ -544,7 +621,7 @@ def build_sw(site):
     for d, _, fs in sorted(os.walk(site)):
         for f in sorted(fs):
             rel = os.path.relpath(os.path.join(d, f), site).replace(os.sep, "/")
-            if f in ("sw.js", "og.png", "og.jpg", "_headers", "_redirects"):
+            if f in ("sw.js", "og.png", "og.jpg", "_headers", "_redirects", "robots.txt", "sitemap.xml"):
                 continue
             if f.endswith(".pdf"):  # not precached, but still part of the version so a new PDF reaches phones
                 with open(os.path.join(d, f), "rb") as fh:

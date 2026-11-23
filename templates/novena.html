@@ -426,16 +426,16 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
         <h3 class="label"><span class="num" aria-hidden="true">2</span>Scripture &amp; Reflection</h3>
         <div class="dayicon" id="dIconLabel"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-hands-praying"/></svg><span>DAY 1</span></div>
         <h4 class="daytitle" id="dTitle">{{DAY1_TITLE}}</h4>
-        <figure class="scripture"><blockquote class="passage" id="dVerse"></blockquote>
-        <figcaption class="ref"><span id="dRef"></span></figcaption></figure>
-        <p class="refl" id="dRefl"></p>
-        <p class="refl refl2" id="dMore"></p>
+        <figure class="scripture"><blockquote class="passage" id="dVerse">{{DAY1_VERSE}}</blockquote>
+        <figcaption class="ref"><span id="dRef">{{DAY1_REF}}</span></figcaption></figure>
+        <p class="refl" id="dRefl">{{DAY1_REFL}}</p>
+        <p class="refl refl2" id="dMore">{{DAY1_MORE}}</p>
       </li>
 
       <li id="step-3" class="step pray">
         <h3 class="label"><span class="num" aria-hidden="true">3</span>Pray</h3>
         <div class="read">
-          <p id="dPrayer"></p>
+          <p id="dPrayer">{{DAY1_PRAYER}}</p>
           <p class="rubric">(Name your intention.) <span class="resp">Amen.</span></p>
         </div>
         <div class="intent">
@@ -471,7 +471,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
           <div class="read"><p>Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. <span class="resp">Amen.</span></p></div>
         </details>
         <p class="rubric" style="margin-top:12px">Close with the Sign of the Cross.</p>
-<div class="todaystep"><p class="tslabel"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-footprints"/></svg>Today’s step</p><p id="dStep"></p></div>
+<div class="todaystep"><p class="tslabel"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-footprints"/></svg>Today’s step</p><p id="dStep">{{DAY1_STEP}}</p></div>
         <button class="markdone" id="markBtn" type="button"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span id="markLabel">Mark Day 1 as prayed</span></button>
         <p class="donenote" id="doneNote" hidden></p>
         <div class="daynav">

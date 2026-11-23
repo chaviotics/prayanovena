@@ -1,0 +1,5 @@
+# Pray a Novena: every page may be crawled.
+User-agent: *
+Allow: /
+
+Sitemap: https://prayanovena.com/sitemap.xml

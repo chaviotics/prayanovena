@@ -211,6 +211,14 @@ Two phases, so the new name can go live before the domain exists:
 ### 2026-11-21 (printable PDFs)
 - **Printable PDF for every novena** (Chav): plan and sample https://claude.ai/artifact/S4m2nC6vcBGLydr3nCia26. Built from novena.json instead of exporting Google Docs (only 2 of 6 had Docs, each needing hand page-break fixes). Same layout as the Docs plus the 9 days mark, "Praying with others" (the Docs still say "As a family") and a footer with the novena's address and page numbers. Chav chose A4 only. All 6 are 4 pages with every word checked. `tools/check_print.py` now reads text in content order and skips the footer (still works on Docs exports).
 
+### 2026-11-23 (SEO basics for Search Console)
+- **Search engine basics** (Chav set up Google Search Console and asked to ship the technical fixes directly). Before: no robots.txt or sitemap (both 404), Day text only inside the page script, short tab titles, no structured data.
+- `build_seo()` in `tools/build.py` writes on every build: `site/sitemap.xml` (home, published novenas, About, Privacy; lastmod = last commit touching the source, today if uncommitted), `site/robots.txt` (allow all + sitemap line), `site/_headers` (each PDF sends `Link: <its page>; rel="canonical"`, so searches land on the prayer page that links the PDF) and `site/_redirects` (forced 301 from prayanovena.netlify.app to prayanovena.com). New novenas join the sitemap automatically once published; drafts get `noindex` and stay out.
+- Novena pages: Day 1's verse, reference, reflection, prayer and step are written into the HTML (the script still swaps in the chosen day; checked identical, so no flash). `<title>` is now the full title + "| Pray a Novena" when it fits in 60 characters (`og_title`), e.g. "Novena for the Healing of the Sick | Pray a Novena".
+- JSON-LD: `WebSite` on the library (site name "Pray a Novena" in results), `BreadcrumbList` on novena, About and Privacy pages. Data only, so the CSP is unchanged.
+- No Google Analytics (Chav asked): it would break the Privacy page promise and the CSP. Search Console (DNS-verified, nothing on the site) plus Netlify's server stats are enough.
+- Search Console: Domain property verified by a TXT record at Cloudflare; submit https://prayanovena.com/sitemap.xml. SEO plan doc: see project memory `seo-plan`.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).
