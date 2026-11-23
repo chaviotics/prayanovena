@@ -225,7 +225,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
 .tip p{margin:0;font-size:calc(17px * var(--scale))}
 /* the 9 days at a glance: every day's theme and reading in the page itself; a tap opens that day */
 .days9{list-style:none;margin:0;padding:0;display:grid}
-.days9 a{display:grid;grid-template-columns:40px 1fr;gap:0 14px;align-items:center;padding:10px 4px;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;min-height:44px}
+.days9 a{display:grid;grid-template-columns:40px 1fr;gap:0 14px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;min-height:44px}
 .days9 .di{grid-row:1 / span 3;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--wash);color:var(--gold)}
 .days9 .di .i{width:22px;height:22px}
 .days9 .dn{font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-text);font-size:calc(12px * min(var(--scale),1.15))}
@@ -238,6 +238,10 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
 .days9 a[aria-current="true"] .di{box-shadow:0 0 0 2px var(--wine) inset;color:var(--wine)}
 .days9 a.done[aria-current="true"] .di{color:var(--sheet);box-shadow:0 0 0 2px var(--sheet) inset,0 0 0 2px var(--wine)}
 .days9 a[aria-current="true"] .dt{color:var(--wine);font-weight:600}
+/* the selected day's whole row is highlighted, like the sidebar's current part; its dividers step aside */
+.days9 a[aria-current="true"]{background:var(--wash);border-radius:10px;border-bottom-color:transparent}
+.days9 li:has(+ li > a[aria-current="true"]) > a{border-bottom-color:transparent}
+.days9 a[aria-current="true"]:not(.done) .di{background:var(--sheet)}
 .saints{display:grid;gap:12px}
 .saint{display:grid;grid-template-columns:92px 1fr;gap:16px;align-items:start;background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px}
 .portrait{width:92px;height:115px;object-fit:cover;border-radius:46px 46px 8px 8px;border:1px solid var(--frame);background:var(--wash)}
