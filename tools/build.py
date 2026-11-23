@@ -254,8 +254,9 @@ def page(n, mode):
         # Day 1 is written into the HTML (the script swaps in the chosen day), so search engines see a full day of prayer
         "DAY1_VERSE": verse_html(n["days"][0]["verse"]), "DAY1_REF": esc(n["days"][0]["ref"]), "DAY1_REFL": esc(n["days"][0]["refl"]),
         "DAY_LIST": "\n".join(
-            '      <li><a href="#day-%d" data-day="%d"><span class="dn">Day %d</span><span class="dt">%s</span><span class="dr">%s</span></a></li>' % (
-                i, i, i, esc(d["title"]), esc(d["ref"])) for i, d in enumerate(n["days"], 1)),
+            '      <li><a href="#day-%d" data-day="%d"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-%s"/></svg></span>'
+            '<span class="dn">Day %d</span><span class="dt">%s</span><span class="dr">%s</span></a></li>' % (
+                i, i, n["icons"][i - 1], i, esc(d["title"]), esc(d["ref"])) for i, d in enumerate(n["days"], 1)),
         "DAY1_MORE": esc(n["days"][0].get("more", "")), "DAY1_PRAYER": esc(n["days"][0]["prayer"]), "DAY1_STEP": esc(n["days"][0].get("step", "")), "OPENING_PRAYER": esc(n["openingPrayer"]),
         "INTENT_PH": esc(n.get("intentionPlaceholder", "Write the intention you are praying for.")),
         "LITANY": litany, "CLOSING_PRAYER": esc(n["closingPrayer"]), "MEMORARE_TITLE": esc(mem_title),

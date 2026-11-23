@@ -225,11 +225,14 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
 .tip p{margin:0;font-size:calc(17px * var(--scale))}
 /* the 9 days at a glance: every day's theme and reading in the page itself; a tap opens that day */
 .days9{list-style:none;margin:0;padding:0;display:grid}
-.days9 a{display:grid;grid-template-columns:4.2em 1fr;gap:2px 12px;align-items:baseline;padding:9px 4px;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;min-height:44px}
-.days9 .dn{font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-text);font-size:calc(12.5px * min(var(--scale),1.15))}
+.days9 a{display:grid;grid-template-columns:40px 1fr;gap:0 14px;align-items:center;padding:10px 4px;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;min-height:44px}
+.days9 .di{grid-row:1 / span 3;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--wash);color:var(--gold)}
+.days9 .di .i{width:22px;height:22px}
+.days9 .dn{font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-text);font-size:calc(12px * min(var(--scale),1.15))}
 .days9 .dt{font-size:calc(17px * var(--scale));line-height:1.3}
-.days9 .dr{grid-column:2;font-size:calc(14px * min(var(--scale),1.15));color:var(--muted)}
+.days9 .dr{font-size:calc(14px * min(var(--scale),1.15));color:var(--muted)}
 .days9 a[aria-current="true"] .dt{color:var(--wine);font-weight:600}
+.days9 a[aria-current="true"] .di{background:var(--cta);color:var(--on-cta)}
 .saints{display:grid;gap:12px}
 .saint{display:grid;grid-template-columns:92px 1fr;gap:16px;align-items:start;background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px}
 .portrait{width:92px;height:115px;object-fit:cover;border-radius:46px 46px 8px 8px;border:1px solid var(--frame);background:var(--wash)}
@@ -441,6 +444,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     <ul>
       <li><a href="#howHead">How to pray it</a></li>
       <li><a href="#saintsHead">The 3 Intercessors</a></li>
+      <li><a href="#daysHead">The 9 Days</a></li>
     </ul>
   </nav>
   </aside>
@@ -554,15 +558,15 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   <section aria-labelledby="daysHead">
     <h2 class="h2" id="daysHead">The 9 Days</h2>
     <ol class="days9" id="days9">
-      <li><a href="#day-1" data-day="1"><span class="dn">Day 1</span><span class="dt">Surrendering Financial Fear</span><span class="dr">Matthew 6:31–32</span></a></li>
-      <li><a href="#day-2" data-day="2"><span class="dn">Day 2</span><span class="dt">Hope When Options Run Out</span><span class="dr">Luke 1:38</span></a></li>
-      <li><a href="#day-3" data-day="3"><span class="dn">Day 3</span><span class="dt">Blessing on Daily Work</span><span class="dr">Psalm 128:1–2</span></a></li>
-      <li><a href="#day-4" data-day="4"><span class="dn">Day 4</span><span class="dt">Wisdom in Stewardship</span><span class="dr">Luke 14:28</span></a></li>
-      <li><a href="#day-5" data-day="5"><span class="dn">Day 5</span><span class="dt">Patience in Waiting</span><span class="dr">Lamentations 3:25–26</span></a></li>
-      <li><a href="#day-6" data-day="6"><span class="dn">Day 6</span><span class="dt">Peace for the Family</span><span class="dr">Colossians 3:14–15</span></a></li>
-      <li><a href="#day-7" data-day="7"><span class="dn">Day 7</span><span class="dt">Pressing Bills &amp; Deadlines</span><span class="dr">Philippians 4:6–7</span></a></li>
-      <li><a href="#day-8" data-day="8"><span class="dn">Day 8</span><span class="dt">A Free &amp; Generous Heart</span><span class="dr">Romans 13:8</span></a></li>
-      <li><a href="#day-9" data-day="9"><span class="dn">Day 9</span><span class="dt">Gratitude &amp; Complete Trust in God’s Will</span><span class="dr">1 Thessalonians 5:16–18</span></a></li>
+      <li><a href="#day-1" data-day="1"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-hands-praying"/></svg></span><span class="dn">Day 1</span><span class="dt">Surrendering Financial Fear</span><span class="dr">Matthew 6:31–32</span></a></li>
+      <li><a href="#day-2" data-day="2"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-sun-horizon"/></svg></span><span class="dn">Day 2</span><span class="dt">Hope When Options Run Out</span><span class="dr">Luke 1:38</span></a></li>
+      <li><a href="#day-3" data-day="3"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-hammer"/></svg></span><span class="dn">Day 3</span><span class="dt">Blessing on Daily Work</span><span class="dr">Psalm 128:1–2</span></a></li>
+      <li><a href="#day-4" data-day="4"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-scales"/></svg></span><span class="dn">Day 4</span><span class="dt">Wisdom in Stewardship</span><span class="dr">Luke 14:28</span></a></li>
+      <li><a href="#day-5" data-day="5"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-hourglass-medium"/></svg></span><span class="dn">Day 5</span><span class="dt">Patience in Waiting</span><span class="dr">Lamentations 3:25–26</span></a></li>
+      <li><a href="#day-6" data-day="6"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-house-line"/></svg></span><span class="dn">Day 6</span><span class="dt">Peace for the Family</span><span class="dr">Colossians 3:14–15</span></a></li>
+      <li><a href="#day-7" data-day="7"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-calendar-check"/></svg></span><span class="dn">Day 7</span><span class="dt">Pressing Bills &amp; Deadlines</span><span class="dr">Philippians 4:6–7</span></a></li>
+      <li><a href="#day-8" data-day="8"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-hand-heart"/></svg></span><span class="dn">Day 8</span><span class="dt">A Free &amp; Generous Heart</span><span class="dr">Romans 13:8</span></a></li>
+      <li><a href="#day-9" data-day="9"><span class="di" aria-hidden="true"><svg class="i" focusable="false"><use href="#i-cross"/></svg></span><span class="dn">Day 9</span><span class="dt">Gratitude &amp; Complete Trust in God’s Will</span><span class="dr">1 Thessalonians 5:16–18</span></a></li>
     </ol>
   </section>
   </div>
