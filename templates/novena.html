@@ -212,8 +212,13 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
 .days9 .dn{font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-text);font-size:calc(12px * min(var(--scale),1.15))}
 .days9 .dt{font-size:calc(17px * var(--scale));line-height:1.3}
 .days9 .dr{font-size:calc(14px * min(var(--scale),1.15));color:var(--muted)}
+.days9-lede{margin:0 0 6px;color:var(--muted);font-size:calc(16px * var(--scale))}
+.days9 .st{color:var(--wine);font-weight:600;letter-spacing:.14em}
+/* same states as the day buttons: prayed = gold fill, selected = wine ring, today = a wine "today" tag */
+.days9 a.done .di{background:var(--gold);color:var(--sheet)}
+.days9 a[aria-current="true"] .di{box-shadow:0 0 0 2px var(--wine) inset;color:var(--wine)}
+.days9 a.done[aria-current="true"] .di{color:var(--sheet);box-shadow:0 0 0 2px var(--sheet) inset,0 0 0 2px var(--wine)}
 .days9 a[aria-current="true"] .dt{color:var(--wine);font-weight:600}
-.days9 a[aria-current="true"] .di{background:var(--cta);color:var(--on-cta)}
 .saints{display:grid;gap:12px}
 .saint{display:grid;grid-template-columns:92px 1fr;gap:16px;align-items:start;background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:14px 16px}
 .portrait{width:92px;height:115px;object-fit:cover;border-radius:46px 46px 8px 8px;border:1px solid var(--frame);background:var(--wash)}
@@ -343,6 +348,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   .cta:hover{filter:brightness(1.1)}
   .markdone:not(.is-done):hover{background:var(--wash)}
   details.prayer summary:hover{color:var(--wine)}
+  .days9 a:hover{background:var(--wash)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media print{.printrow,.side-pdf,.bar,.days,.toc,.today .cta,.markdone,.donenote,.daynav,.intent,.startrow,.barshare,.sharerow,.foot-nav{display:none}}
@@ -518,6 +524,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
 
   <section aria-labelledby="daysHead">
     <h2 class="h2" id="daysHead">The 9 Days</h2>
+    <p class="days9-lede">Each day’s theme and reading. Tap a day to pray it.</p>
     <ol class="days9" id="days9">
 {{DAY_LIST}}
     </ol>
@@ -637,7 +644,13 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     var lab = $("dIconLabel"); lab.querySelector("use").setAttribute("href", "#i-" + ICONS[sel-1]); lab.querySelector("span").textContent = "DAY " + sel;
     $("dTitle").textContent = d.title; $("dVerse").innerHTML = fmtVerse(d.verse); $("dRef").textContent = d.ref; $("dMore").textContent = d.more; $("dStep").textContent = d.step; 
     $("dRefl").textContent = d.refl; $("dPrayer").textContent = d.prayer;
-    [].forEach.call(document.querySelectorAll("#days9 a"), function(a){ if (+a.getAttribute("data-day") === sel) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+    [].forEach.call(document.querySelectorAll("#days9 a"), function(a){
+      var k = +a.getAttribute("data-day"), st = a.querySelector(".st"), lab = [];
+      if (k === sel) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+      a.classList.toggle("done", isDone(k));
+      if (k === n) lab.push("today"); if (isDone(k)) lab.push("prayed");
+      st.textContent = lab.length ? " · " + lab.join(" · ") : "";
+    });
     var mb = $("markBtn"); mb.classList.toggle("is-done", done); mb.setAttribute("aria-pressed", String(done));
     $("markLabel").textContent = done ? "Day " + sel + " prayed" : "Mark Day " + sel + " as prayed";
     $("prevBtn").disabled = sel === 1; $("prevBtn").innerHTML = '<span aria-hidden="true">‹ </span>' + (sel > 1 ? "Day " + (sel-1) : "");
