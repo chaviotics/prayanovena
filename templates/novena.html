@@ -285,6 +285,11 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
 .sh-ic.mail{background:#5A6780;color:#fff}
 .sh-ic.copy{background:var(--wash);color:var(--wine);box-shadow:0 0 0 1px var(--rule-strong) inset}
 .sh-ic.text svg,.sh-ic.mail svg,.sh-ic.copy svg{width:30px;height:30px}
+.sh-open{display:flex;align-items:center;gap:14px;margin:10px 0 0;padding:12px 14px;min-height:56px;border:1px solid var(--rule);border-radius:14px;background:var(--sheet);color:var(--ink);text-decoration:none;line-height:1.3}
+.sh-open:first-of-type{margin-top:16px}
+.sh-open svg{flex:none;width:24px;height:24px;fill:currentColor;color:var(--gold-text)}
+.sh-open b{display:block;color:var(--wine);font-weight:600}
+.sh-open small{display:block;color:var(--muted);font-size:calc(14px * min(var(--scale),1.15))}
 .sh-note{margin:14px 4px 0;padding:10px 12px;border-radius:12px;background:var(--wash);color:var(--ink);text-align:center;font-size:calc(14px * min(var(--scale),1.15));line-height:1.4}
 .sh-cancel{display:block;width:100%;min-height:48px;margin:14px 0 0;border:1px solid var(--rule-strong);border-radius:999px;background:var(--sheet);color:var(--ink);font:inherit;font-size:calc(16px * min(var(--scale),1.15));cursor:pointer}
 @media (min-width:601px){dialog.sheet{margin:auto;border-radius:20px;padding-bottom:16px}}
@@ -605,6 +610,8 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     <li><a class="sh-app" data-app="sms"><span class="sh-ic text"><svg aria-hidden="true" focusable="false"><use href="#i-chat-circle-text"/></svg></span>Text</a></li>
     <li><button class="sh-app" type="button" data-app="copy"><span class="sh-ic copy"><svg aria-hidden="true" focusable="false"><use href="#i-link-simple"/></svg></span>Copy link</button></li>
   </ul>
+  <a class="sh-open" id="shAny" hidden><svg aria-hidden="true" focusable="false"><use href="#i-paper-plane-tilt"/></svg><span><b>Share with any app</b><small>opens your phone&rsquo;s share menu</small></span></a>
+  <a class="sh-open" id="shOpen" hidden><svg aria-hidden="true" focusable="false"><use href="#i-arrow-square-out"/></svg><span><b>Open in Chrome</b><small>to share with any app on your phone</small></span></a>
   <p class="sh-note" id="shNote" hidden></p>
   <button class="sh-cancel" type="button" id="shCancel">Cancel</button>
 </dialog>
@@ -854,10 +861,15 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     sms: {name: "your messages app", href: (ios ? "sms:&body=" : "sms:?body=") + enc(msg), app: true}
   };
   [].forEach.call(sh.querySelectorAll("a[data-app]"), function(a){ a.href = APPS[a.getAttribute("data-app")].href; });
-  /* Messenger's browser won't open intent links (tested Nov 2026), so point to its own menu instead */
-  if (inApp){
-    $("shNote").textContent = android ? "For other apps, tap \u2022\u2022\u2022 at the top and open this page in Chrome, then tap Share."
-                                      : "For other apps, open this page in your browser from the menu, then tap Share.";
+  /* Android in-app browsers: Messenger opens intent:// links (tested Nov 2026), so offer Chrome, where Share shows every app.
+     "Share with any app" asks Android for its own share menu the same way (being tried on a real phone; the intent: form failed) */
+  if (android && inApp){
+    $("shOpen").href = "intent://" + SHARE.url.replace(/^https:\/\//, "") + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + enc(SHARE.url) + ";end";
+    $("shOpen").hidden = false;
+    $("shAny").href = "intent://share/#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=" + enc(msg) + ";S.browser_fallback_url=" + enc(SHARE.url) + ";end";
+    $("shAny").hidden = false;
+  } else if (inApp){
+    $("shNote").textContent = "For other apps, open this page in your browser from the menu, then tap Share.";
     $("shNote").hidden = false;
   }
   function leftPage(){ clearTimeout(shTimer); }
