@@ -1,6 +1,6 @@
 # Pray a Novena
 
-A small library of 9-day Catholic novenas, each with a phone prayer app and a 4-page printable PDF.
+A small library of 9-day Catholic novenas, each with a phone prayer app and a printable A4 PDF (up to 5 pages).
 Live at https://prayanovena.com
 
 - `novenas/<slug>/novena.json`: all of a novena's words (saints, prayers, 9 days)

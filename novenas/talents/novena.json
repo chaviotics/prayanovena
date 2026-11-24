@@ -1,0 +1,249 @@
+{
+ "slug": "talents",
+ "storageKey": "novena-talents",
+ "status": "published",
+ "order": 16,
+ "category": "spiritual-life",
+ "title": "Novena for Growing in Our Talents",
+ "cardTitle": "Growing in Our Talents",
+ "barTitle": "Growing in Our Talents",
+ "barShort": "Our Talents",
+ "icon": "tree",
+ "kicker": "9 days of growing the gifts God gave us",
+ "card": "For anyone with a gift to grow or still to discover, from body and studies to work, music and art: 9 days of humility, diligence and joy.",
+ "description": "A 9-day Catholic novena for growing in our God-given talents, through Mary, Virgin Most Faithful, St. Benedict, St. John Bosco and St. Paul.",
+ "ogDescription": "9 days of prayer to grow our God-given talents, through Mary, Virgin Most Faithful, and Sts. Benedict, John Bosco and Paul.",
+ "keywords": [
+  "talents",
+  "gifts",
+  "God-given talents",
+  "parable of the talents",
+  "stewardship",
+  "laziness",
+  "sloth",
+  "acedia",
+  "procrastination",
+  "discipline",
+  "motivation",
+  "perseverance",
+  "skills",
+  "practice",
+  "fear of failure",
+  "perfectionism",
+  "exercise",
+  "fitness",
+  "health",
+  "body",
+  "sports",
+  "athlete",
+  "teacher",
+  "teaching",
+  "developer",
+  "programmer",
+  "student",
+  "studying",
+  "musician",
+  "singer",
+  "dancer",
+  "artist",
+  "craft",
+  "talento",
+  "kakayahan",
+  "katamaran",
+  "tamad",
+  "sipag",
+  "kasipagan",
+  "biyaya",
+  "regalo ng Diyos",
+  "discovering talents",
+  "finding my talent",
+  "what is my talent",
+  "hidden talents",
+  "calling"
+ ],
+ "epigraph": {
+  "text": "His master said to him, ‘Well done, good and faithful servant; you have been faithful over a little, I will set you over much; enter into the joy of your master.’",
+  "ref": "Matthew 25:21"
+ },
+ "closingVerse": {
+  "text": "So, whether you eat or drink, or whatever you do, do all to the glory of God.",
+  "ref": "1 Corinthians 10:31"
+ },
+ "printTitle": [
+  "Novena for",
+  "Growing in Our Talents"
+ ],
+ "printClosing": [
+  "So, whether you eat or drink, or whatever you do,",
+  "do all to the glory of God."
+ ],
+ "saints": [
+  {
+   "id": "benedict",
+   "name": "St. Benedict of Nursia",
+   "dates": "c. 480–547",
+   "feast": "Feast · Jul 11",
+   "patron": "Patron of Europe & of monks",
+   "bio": "Left his studies in Rome to seek God as a hermit at Subiaco, then founded the monastery of Monte Cassino. His Rule, joining prayer, work and holy reading, still shapes monastic life.",
+   "alt": "Painting: St. Benedict in a black habit reading a book, an abbot’s staff beside him, by Hans Memling",
+   "openingRole": "who taught us to pray and work"
+  },
+  {
+   "id": "bosco",
+   "name": "St. John Bosco",
+   "dates": "1815–1888",
+   "feast": "Feast · Jan 31",
+   "patron": "Patron of young people & apprentices",
+   "bio": "Farm boy from Piedmont who became a priest in Turin. He gathered poor boys, taught them trades and music, and founded the Salesians to educate the young with reason, religion and loving kindness.",
+   "alt": "Photograph: St. John Bosco in his cassock, hands folded, Turin, 1880",
+   "openingRole": "teacher of the young"
+  },
+  {
+   "id": "paul",
+   "name": "St. Paul",
+   "dates": "Apostle to the Gentiles",
+   "feast": "Feast · Jun 29 (with St. Peter)",
+   "patron": "Patron of missionaries",
+   "bio": "Persecutor of the Church until the risen Christ met him near Damascus. He earned his living as a tentmaker while carrying the Gospel across the Roman world, and died a martyr in Rome.",
+   "alt": "Painting: St. Paul, white-bearded, seated at a desk with an open book and a sword, by Rembrandt",
+   "openingRole": "who worked hard by Your grace"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Mary, Virgin Most Faithful"
+  },
+  {
+   "img": "benedict",
+   "text": "St. Benedict"
+  },
+  {
+   "img": "bosco",
+   "text": "St. John Bosco"
+  },
+  {
+   "img": "paul",
+   "text": "St. Paul"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, every good gift we have comes from You: our bodies and minds, our work, our studies and our art. You entrusted them to us not to bury but to grow. Forgive us for the gifts we have neglected through laziness, fear or pride. Give us diligence without anxiety, humility without false modesty, and joy in using Your gifts for Your glory and the good of others. Today we ask Mary, Virgin Most Faithful; St. Benedict, who taught us to pray and work; St. John Bosco, teacher of the young; and St. Paul, who worked hard by Your grace, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, who worked with Your hands at Nazareth, teach us to use every gift You have given us faithfully and well, for the glory of the Father and the good of others. Let Your holy will be done.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Confession and attend Mass during these 9 days, and begin each day with a Morning Offering of your work. Keep one small daily practice for your gift (Day&nbsp;5) and keep Sunday as a day of rest (Day&nbsp;8). A lack of drive that lasts for weeks, with low mood, poor sleep or no joy in anything, may not be laziness: please talk to a doctor, a counselor or a priest. If illness, disability or age limits what you can do, choose a practice that fits your strength; offering what you cannot do is faithfulness too. A missed day is not a sin: simply begin again. At the intention, name the gift you want to grow."
+  },
+  {
+   "h": "Praying for someone else’s gifts",
+   "p": "If you pray for a child, a student or someone you coach or teach, ask that they grow for God and for others, not to earn love or approval. If they cannot yet see their gift, tell them plainly and specifically what you see in them (Day&nbsp;3). Praise their effort more than their results, and let them rest."
+  }
+ ],
+ "intentionPlaceholder": "Name the gift you want to grow (your body, studies, work, music, art…), or ask to see your gifts more clearly.",
+ "icons": [
+  "hands-praying",
+  "gift",
+  "eye",
+  "shovel",
+  "sun",
+  "barbell",
+  "hand-heart",
+  "moon",
+  "sun-horizon"
+ ],
+ "credits": "Images: Hans Memling, <em>Saint Benedict</em> (Portinari Triptych, left wing), 1487, Uffizi Gallery, Florence · St. John Bosco, photograph attributed to Carlo Felice Deasti, Turin, 1880 · Rembrandt, <em>The Apostle Paul</em>, c. 1633, Kunsthistorisches Museum, Vienna · Sassoferrato, <em>The Virgin in Prayer</em>, 17th century. Public domain, via Wikimedia Commons.",
+ "ogSaints": [
+  "benedict",
+  "bosco"
+ ],
+ "days": [
+  {
+   "title": "What We Have Been Given",
+   "ref": "Matthew 25:16–18",
+   "verse": "He who had received the five talents went at once and traded with them; and he made five talents more. So also, he who had the two talents made two talents more. But he who had received the one talent went and dug in the ground and hid his master’s money.",
+   "refl": "Jesus tells of a master who entrusted his property to his servants, “to each according to his ability.” Two of them went to work at once. The third dug a hole. We begin these nine days by looking honestly at what God has entrusted to us: a body, a mind, the ability to teach or build, to study, sing, dance, draw or play. Some of these gifts we have grown. Some we have left in the ground. Some we have not yet recognized. God knows them all, and He calls us anyway.",
+   "more": "In Jesus’ time a talent was not a skill but a huge sum of silver, more than a laborer could earn in many years. It is from this parable that the English word “talent” came to mean a natural ability. The servant with one talent was not poor: he was trusted with a fortune. However small our gifts may look, each one is a real trust from God.",
+   "prayer": "Heavenly Father, You have entrusted each of us with gifts, and You know what we have done with them. We bring You the talents we have grown and the ones we have buried. Do not let us waste these nine days on regret. Through the prayers of Mary, Virgin Most Faithful, who never buried a single grace You gave her, show us clearly what You have given us, and give us the will to begin again today.",
+   "step": "Write down two or three gifts God has given you, including your body; if you are unsure, write what others thank you for. Circle one to grow."
+  },
+  {
+   "title": "Received, Not Earned",
+   "ref": "1 Corinthians 4:7",
+   "verse": "For who sees anything different in you? What have you that you did not receive? If then you received it, why do you boast as if it were not a gift?",
+   "refl": "St. Paul wrote these words to Christians who were boasting about their teachers and taking sides. His question cuts both ways. If we are gifted, we did not make ourselves so: our talents came to us as gifts, and that leaves no room for pride. And if we feel less gifted than others, comparison is not our measure either. The master gave five talents, two and one, and asked each servant only about what he had received. God does not grade us against anyone else.",
+   "more": "Paul had reasons to boast: trained under the great teacher Gamaliel (Acts 22:3), a Pharisee blameless under the Law (Philippians 3:5–6). Yet he wrote, “By the grace of God I am what I am, and his grace toward me was not in vain” (1 Corinthians 15:10). Humility is not pretending we have no gifts. It is knowing where they came from, and using them without needing to be the best in the room.",
+   "prayer": "Lord God, everything we have is a gift from You. Free us from pride when we do well and from envy when others do better. Teach us to stop measuring ourselves against anyone but the person You made us to be. Through the prayers of St. Paul, who knew that he was what he was by Your grace, give us grateful and humble hearts that rejoice in every gift, ours and others’.",
+   "step": "When you feel the urge to compare yourself with someone today, thank God for their gift instead, and then for one of your own."
+  },
+  {
+   "title": "Seeing the Gifts in Us",
+   "ref": "1 Samuel 16:18",
+   "verse": "One of the young men answered, “Behold, I have seen a son of Jesse the Bethlehemite, who is skilful in playing, a man of valor, a man of war, prudent in speech, and a man of good presence; and the LORD is with him.”",
+   "refl": "David did not apply for the job. He was out with the sheep, and someone else had noticed him: his music, his courage, the way he spoke. Many of us cannot see our own gifts. What comes easily to us feels ordinary, so we assume anyone could do it. Often others see it first. A talent can hide in what people thank us for, in what we lose track of time doing, or in the help others keep asking of us. God sees it all, long before we do.",
+   "more": "On his second journey Paul came to Lystra and met a young disciple named Timothy, whom the believers there already spoke well of (Acts 16:1–2). Paul saw something in him and took him along. Years later he was still reminding Timothy to “rekindle the gift of God that is within you” (2 Timothy 1:6). Sometimes God shows us our gifts through the people who love us enough to name them.",
+   "prayer": "Lord God, You knew our gifts before we did. Open our eyes to what You have placed in us, even when it feels ordinary. Give us the humility to listen when others name what they see, and the courage to believe them. Where we are still searching, keep us patient and faithful in what is in front of us. St. Paul, who saw the gift in young Timothy, pray for us, and for all who have not yet found their way.",
+   "step": "Ask two people who know you well what they see you do well. Listen without arguing, and write down what they say."
+  },
+  {
+   "title": "When Fear Buries a Gift",
+   "ref": "Matthew 25:24–25",
+   "verse": "He also who had received the one talent came forward, saying, ‘Master, I knew you to be a hard man, reaping where you did not sow, and gathering where you did not winnow; so I was afraid, and I went and hid your talent in the ground. Here you have what is yours.’",
+   "refl": "The third servant was not only lazy. He tells us why he buried his talent: “I was afraid.” Fear still buries gifts. We put off the song, the workout, the lesson plan or the project because we might fail, look foolish or fall short of someone else. Perfectionism can look like high standards, but often it is the same fear in better clothes. His fear grew from how he saw his master. When we picture God as a hard judge waiting for us to fail, we bury our gifts too.",
+   "more": "In a dream at nine, recorded in his memoirs, John Bosco stood among fighting boys and was told to win them over with gentleness, not blows. He protested that he was only a poor, unschooled child, and was told that in time he would understand. He did not wait to feel ready: while still a boy, he began gathering other children to pray. Courage rarely comes before the first step; it usually comes with it.",
+   "prayer": "Heavenly Father, You know the fears that keep our gifts buried: fear of failing, of looking foolish, of not being as good as others. Heal in us every false picture of You as a hard master waiting for our mistakes. Give us the courage to try, to practice and to be seen trying. Through the prayers of St. John Bosco, who felt unready for what You asked of him, cast out our fear and help us take the first small step.",
+   "step": "Name one thing you have put off out of fear. Do the smallest first part of it today, even for ten minutes."
+  },
+  {
+   "title": "Faithful in Little Things",
+   "ref": "Romans 12:11",
+   "verse": "Never flag in zeal, be aglow with the Spirit, serve the Lord.",
+   "refl": "Sloth is not only lying on the couch. The Church counts sloth, or acedia, among the capital sins (CCC 1866). At heart it is a weariness toward spiritual good, even toward the joy that comes from God (CCC 2094), and it can spill into neglect of our daily duties or hide behind busyness. Its cure is rarely a burst of enthusiasm. It is small faithfulness, sustained by grace: the prayer said, the scales played, the lesson prepared. The master praised servants “faithful over a little.”",
+   "more": "St. Benedict knew the restless boredom that tempts us to drift. “Idleness is the enemy of the soul,” he wrote in his Rule, and so he gave his monks a rhythm: set hours for prayer, for work with their hands and for holy reading. His answer to sloth was not frantic activity but a steady pattern, kept day after day. A small daily rhythm for our own gift can do the same for us.",
+   "prayer": "Lord God, wake us from the sloth that keeps us from Your good gifts. When we feel weary or bored, give us the grace to show up anyway. Keep us faithful in little things: the daily practice, the small task done well, the hour we promised. Through the prayers of St. Benedict, who taught his monks a steady rhythm of prayer and work, make our hearts aglow with Your Spirit.",
+   "step": "Set a small daily practice for your gift, such as twenty minutes at a fixed time, and keep it today. Start small enough to keep going."
+  },
+  {
+   "title": "The Gift of the Body",
+   "ref": "1 Corinthians 6:19–20",
+   "verse": "Do you not know that your body is a temple of the Holy Spirit within you, which you have from God? You are not your own; you were bought with a price. So glorify God in your body.",
+   "refl": "Paul wrote this to call Christians to chastity, yet it holds for all of bodily life: our bodies are gifts from God, temples of the Holy Spirit, not machines or projects to perfect. The Church teaches that life and physical health are precious gifts entrusted to us, to be cared for reasonably (CCC 2288), and it warns against idolizing the body and physical perfection (CCC 2289). Caring for it means sleep, good food, movement and rest. When illness or age takes strength away, faithfulness still counts more than strength.",
+   "more": "As a boy, John Bosco watched the acrobats and jugglers at country fairs, then practiced their tricks until he could do them himself. He used them to draw other children, but first he prayed the Rosary with them and repeated the Sunday sermon. As a priest he filled his oratory with games, walks and music, because he believed that play and health belonged to a young person’s growth in holiness.",
+   "prayer": "Creator God, thank You for the gift of our bodies. Teach us to care for them with gratitude, not vanity: to rest, to eat well, to move and train, and to use our strength in Your service. Heal us of contempt for the bodies You made. Be the strength of all whose strength is failing. Through the prayers of St. John Bosco, who played and prayed with the young, help us glorify You in our bodies.",
+   "step": "Do one thing today to care for your body as a gift: a walk, a workout, a healthy meal or an earlier night. Offer it to God."
+  },
+  {
+   "title": "For the Good of Others",
+   "ref": "1 Peter 4:10–11",
+   "verse": "As each has received a gift, employ it for one another, as good stewards of God’s varied grace: whoever speaks, as one who utters oracles of God; whoever renders service, as one who renders it by the strength which God supplies; in order that in everything God may be glorified through Jesus Christ. To him belong glory and dominion for ever and ever. Amen.",
+   "refl": "Our gifts were never meant only for us. Peter calls us “good stewards of God’s varied grace,” given gifts to use “for one another.” A teacher’s skill is for the students, a developer’s for the people who will use what they build, a singer’s for those who pray with the song. Growing in skill can quietly turn into chasing applause, success or a sense of worth. Peter names the true aim: “that in everything God may be glorified.” Fame fades, but love remains.",
+   "more": "St. Benedict’s Rule has a chapter on the monastery’s craftsmen. They were to practice their crafts with all humility, and if one grew proud of his skill, thinking he was doing the community a favor, he was to be taken from his craft until he had learned humility. The chapter ends with words drawn from Peter’s letter, “that in all things God may be glorified,” still a motto of Benedictines today.",
+   "prayer": "Lord Jesus, You came not to be served but to serve. Turn our gifts outward, toward the people You give us: our students and coworkers, our neighbors and our parish, and those who will never know our names. Free us from working for applause or to prove our worth. Make us humble in our skill and generous with it. St. Benedict and St. John Bosco, pray for us, and let everything we do glorify the Father.",
+   "step": "Use your gift for someone else today without being asked: help a classmate, teach a skill, play or sing for someone, or fix something."
+  },
+  {
+   "title": "Rest Is Part of It",
+   "ref": "Psalm 127:2",
+   "verse": "It is in vain that you rise up early / and go late to rest, / eating the bread of anxious toil; / for he gives to his beloved sleep.",
+   "refl": "Faithfulness is not grinding. The psalm warns against “the bread of anxious toil,” the restless work of people who think everything depends on them. God gives His beloved sleep. Rest is not only a reward for finishing; it is part of how gifts grow. In rest the body recovers, and the heart remembers whom it works for. God rested on the seventh day, and the Church keeps Sunday for worship, rest and the people we love. Burnout is not a sign of holiness.",
+   "more": "St. Benedict called his Rule “a little rule for beginners,” meant for ordinary people, not spiritual athletes. He asked the abbot to arrange everything so that the strong would have something to strive for and the weak would not be driven away, and he set fixed hours for sleep and meals. For Benedict, holiness is a long road walked at a pace we can keep. Rest belongs to the rhythm as much as work does.",
+   "prayer": "Heavenly Father, You rested on the seventh day, and You give Your beloved sleep. Forgive us when we work as if everything depended on us. Free us from anxious toil, from guilt when we rest, and from the fear of falling behind. Teach us to keep Sunday holy and to rest without shame. Through the prayers of St. Benedict, who gave his monks a rhythm they could keep, give us peaceful sleep and hearts at rest in You.",
+   "step": "Plan real rest this week: protect Sunday, choose a time to stop working tonight, and put your phone away before bed."
+  },
+  {
+   "title": "Gratitude for Every Gift",
+   "ref": "James 1:17",
+   "verse": "Every good endowment and every perfect gift is from above, coming down from the Father of lights with whom there is no variation or shadow due to change.",
+   "refl": "We end where we began: every gift comes from above. Whatever grew in these nine days, a little more discipline, a little less fear, an hour of practice we kept, came from the Father of lights, and we give it back to Him with thanks. Some of our gifts will grow for years; some may fade with age or illness. Either way, the master in the parable gave to each according to his ability, and he invited the faithful into his joy.",
+   "more": "Mary never hid what God had done in her. In her Magnificat she sang, “he who is mighty has done great things for me, and holy is his name” (Luke 1:49). Without boasting or false modesty, she gave all the glory back to God, and as Virgin Most Faithful she stayed with her Son all the way to the cross. With her, we receive every gift with thanks and place it back in God’s hands.",
+   "prayer": "Father of lights, on this ninth day we thank You for every gift: our bodies, our minds, our work and our art, and every grace of these days. Thank you, Mary, Virgin Most Faithful, St. Benedict, St. John Bosco and St. Paul, for praying with us. We place our gifts back in Your hands. Use them as You will, to serve Your people and give You glory, and one day bring us into the joy of our Master.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}

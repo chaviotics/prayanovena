@@ -1,6 +1,6 @@
 ---
 name: novena-maker
-description: Make a new 9-day Catholic novena for an intention (phone app page in the Pray a Novena library plus a 4-page printable PDF). Use when the user names an intention for a novena.
+description: Make a new 9-day Catholic novena for an intention (phone app page in the Pray a Novena library plus a printable PDF of up to 5 pages). Use when the user names an intention for a novena.
 ---
 
 # Novena maker
@@ -9,7 +9,7 @@ From one intention, produce a novena in the **Pray a Novena** library (Catholic 
 
 1. `novenas/<slug>/novena.json` and `novenas/<slug>/img/` in the repo
 2. A page at `https://prayanovena.com/<slug>/`, with a card on the library home page
-3. A printable A4 PDF of 4 pages or fewer, made from novena.json and linked from the page
+3. A printable A4 PDF of 5 pages or fewer, made from novena.json and linked from the page
 4. A short report: saints chosen and why, links, anything to decide
 
 Every novena uses the same prayer structure and design. Only the content changes, so put the effort into the content and the checks.
@@ -79,9 +79,9 @@ Each day has these fields:
 - `title`: 2–5 words.
 - `ref`: "Book c:v–v" with an en dash. Never add a version label ("RSV-CE") after a reference, in the app or in print; the RSV-CE permission notice appears once, in the footer and in the PDF's footnotes.
 - `verse`: RSV-CE, exact. Put " / " between poetry lines, and keep "LORD" in capitals (it shows in small caps).
-- `refl`: paragraph 1, 75–95 words. It is printed. It opens from the verse into the person's life.
-- `more`: paragraph 2, 55–75 words, app only. A saint's story, a teaching of the Church (cite CCC numbers only if certain), or a gentle application.
-- `prayer`: 70–90 words. Says "we", names at least one intercessor, and stops before "(Name your intention.)".
+- `refl`: paragraph 1, 75–95 words. It is printed. It opens up the Scripture itself and carries it into the person's life; no saint retelling here (the verse's own author or setting is fine).
+- `more`: paragraph 2, 55–75 words. Printed too (since 2026-11-24), right after paragraph 1. When one of the novena's saints truly fits the day, give a concrete, relatable moment from their life that lives out the verse, in 2–4 sentences, then at most one sentence tying it back (Chav, 2026-11-24). Never force it: on days with no fitting saint, stay with Scripture (its background, a teaching of the Church with CCC numbers only if certain, or a gentle application). The Scripture block itself never changes.
+- `prayer`: 70–90 words. Says "we", names the one intercessor (or two) whose story fits the day, not all of them, with a light touch (one short clause or "St. X, pray for us", never retelling the story), and stops before "(Name your intention.)".
 - `step`: one concrete, doable action, up to 30 words.
 
 **The arc of the days:** start with honest fear or need, then trust, then the specific graces asked for, and end on **Day 9: gratitude and surrender to God's will**. Day 9's step is always "Write down three graces you noticed during these nine days, and thank God for them together." The print layout has a "Graces I have noticed" box after it.
@@ -92,7 +92,7 @@ Each day has these fields:
 - Write in warm, plain US English, saying "we". Keep the framing general: don't address the reader as a family or as praying alone (cards, kickers, previews). Use the honorific capitals of the examples: You, Your, Him.
 - **Never promise outcomes.** No "this novena never fails" and no prosperity-gospel framing. Ask boldly, then trust God's will. For healing, also pray for strength, peace, the doctors' skill and the caregivers, and for the grace to unite suffering with Christ. Say plainly that healing which doesn't come is never a sign of weak faith (CCC 1508), and keep the hope of eternal life in view.
 - When the person prayed for is unknown, write "N." and "them", and tell readers how to pray it for themselves.
-- Rotate the saints across the days so each gets about three days.
+- Don't put every saint in every day (Chav, 2026-11-24). Weave a saint into a day only where their story or witness truly fits: usually one saint per day's story and prayer, about two or three days each. Day 9's thank-you may name them all.
 - **Only quote a saint with a well-attested line.** Otherwise paraphrase ("St. Pio often told people to pray, hope and not worry").
 - Facts about saints must be ones you would stake your name on. If unsure, leave them out.
 
@@ -138,7 +138,7 @@ python3 tools/shots.py <slug>             # phone screenshots, light and dark, i
 - Look at the screenshots: the hero (names should fit on 2 lines), Day 1, a poetry day, Day 9 and the closing.
 - Optionally publish `out/<slug>.html` as a Claude artifact so the user can try it before it goes live.
 
-## 7. Printable PDF (A4, 4 pages or fewer)
+## 7. Printable PDF (A4, 5 pages or fewer)
 
 ```
 python3 tools/print_pdf.py <slug>                    # novenas/<slug>/<slug>-novena.pdf (A4)
@@ -146,11 +146,11 @@ python3 tools/check_print.py novenas/<slug>/<slug>-novena.pdf <slug>
 python3 tools/build.py                               # copies the PDF next to the page and adds the link
 ```
 
-- `tools/print_pdf.py` fills the site layout (`SITE_LAYOUT = "flow4"`, `templates/print-flow4.html`, chosen 2026-11-22) from novena.json and prints it with Chromium (Node Playwright). No AI is involved: the same novena.json always gives the same PDF. Print gets `refl` only; `more` stays in the app.
-- The layout, in the order you pray: **page 1** has the title, the saints (portrait on top, then name, dates, feast and patronage), How to Pray as 5 numbered steps, the tips in columns, and the Opening and Closing Prayers and Memorare side by side. **Pages 2 to 4** hold Days 1–3, 4–6 and 7–9; each day is one band, Scripture & Reflection on the left (the verse and its reference inside a gold bar) and Pray on the right (Today's step in an outlined callout with a walking-figure icon). After the days come 2-up cards: "Meet your intercessor" stories and the closing verse. Page 4 ends with the full-width "Graces I have noticed" box. The Scripture notice and image credits sit at the foot of page 3 or 4. White page, no tinted fills; lines are at least .75pt; never use CSS gradients (they turn pink in some PDF viewers).
-- The type is auto-fitted: the renderer picks the largest body size (about 9–9.8pt) that keeps the PDF to 4 pages, and tries the card and footnote arrangements, keeping the one with the larger type. The render **fails** if the PDF runs past 4 pages or page 1 overflows. If that happens, win back space in this order: shorten the image credits, shorten a long "Alongside prayer" tip, then trim the longest reflections by a sentence. Never remove a section.
+- `tools/print_pdf.py` fills the site layout (`SITE_LAYOUT = "flow6"`, `templates/print-flow6.html`, chosen 2026-11-24; before that `flow4`, 4 pages, paragraph 1 only) from novena.json and prints it with Chromium (Node Playwright). No AI is involved: the same novena.json always gives the same PDF. Print gets the whole reflection, `refl` and `more`.
+- The layout, in the order you pray: **page 1** has the title, the saints (portrait on top, then name, dates, feast and patronage), How to Pray as 5 numbered steps, the tips in columns, and the Opening and Closing Prayers and Memorare side by side. **Then the 9 days flow from page to page** under a "The 9 Days" running head; a day never splits across pages. Each day: the verse and its reference inside a gold bar across the full width (a poem of 6+ lines runs in 2 columns, but only where a sentence or clause ends near the middle, each column 3+ lines; otherwise 1 column), then Reflection (both paragraphs) on the left at 60% of the width and Pray on the right at 40% (Today's step in an outlined callout with a walking-figure icon), so the two columns end about level (Chav, 2026-11-24: at 50/50 the prayer ended far above the reflection; 60/40 gives the type about half a point more). Page 1 stays 50/50 for the prayers. The "Meet your intercessor" cards and the closing verse go 2 to a row; each row closes the page of the day it follows (never starts a page), and the 2 rows may land on different pages. The full-width "Graces I have noticed" box (3 to 8 lines) follows Day 9, then the Scripture notice and image credits. White page, no tinted fills; lines are at least .75pt; never use CSS gradients (they turn pink in some PDF viewers).
+- The type is auto-fitted: the renderer tries 3, then 4 pages, keeping the shorter only if the body stays at 9pt or more, else 5 pages (about 9.3–9.9pt across the library), then gives the saints' portraits on page 1 its spare room (up to 1.5x), then zooms all of page 1 (title, prayers, pictures) up to 1.15x with what is left, so the daily prayers print larger; then it gives the Graces box 3 to 8 writing lines (Chav: a maximum size; a roomy last page simply ends in white space). It tries every placement of the card rows (after Days 2 to 9) and keeps the one with the fewest pages, then the larger type, then the one leaving the most room on the last page (the fewest gaps elsewhere); this takes about a minute per novena. The render **fails** if the PDF runs past 5 pages or page 1 overflows. If that happens, win back space in this order: shorten the image credits, shorten a long "Alongside prayer" tip, then trim the longest reflections by a sentence. Never remove a section.
 - Don't use a day icon of `person-simple-walk`; it is the Today's step icon.
-- Look at every page once (`pdftoppm -r 70 -png`). The check confirms every title, ref, verse, reflection, prayer and step is there.
+- Look at every page once (`pdftoppm -r 70 -png`). The check confirms every title, ref, verse, both reflection paragraphs, prayer and step is there.
 - Run `print_pdf.py` again whenever the novena's words change; `build.py` warns when a PDF is older than its novena.json.
 - Google Docs are no longer made for new novenas (decided 2026-11-21). The template doc and `tools/print_fill.py` stay for a one-off personalised copy.
 
