@@ -195,7 +195,7 @@ def art_parts(n, mode):
     def src(f):
         if mode == "artifact":
             with open(os.path.join(d, f), "rb") as fh:
-                return "data:image/jpeg;base64," + base64.b64encode(fh.read()).decode()
+                return "data:image/webp;base64," + base64.b64encode(fh.read()).decode()
         return "art/" + f
 
     data = []
@@ -204,7 +204,7 @@ def art_parts(n, mode):
             data.append(None); continue
         cap = "%s, <cite>%s</cite>%s%s" % (esc(x["artist"]), esc(x["title"]), " (%s)" % esc(x["passage"]) if x.get("passage") else "",
                                            ", " + esc(x["year"]) if x.get("year") else "")
-        data.append({"d": src("day%d.jpg" % i), "f": src("day%d_full.jpg" % i), "alt": x["alt"], "look": x["look"], "cap": cap,
+        data.append({"d": src("day%d.webp" % i), "f": src("day%d_full.webp" % i), "alt": x["alt"], "look": x["look"], "cap": cap,
                      "info": cap + (". " + esc(x["place"]) if x.get("place") else "") + "."})
     figure = ('        <figure class="art" id="dArt" hidden><div class="art-frame"><img class="art-img" id="dArtImg" alt="" width="720" height="540">'
               '<button class="art-btn" id="dArtBtn" type="button" aria-label="See the whole picture">%s</button></div>'
@@ -658,7 +658,7 @@ def build_site(search=None):
         if art_data(n["slug"]):
             os.makedirs(os.path.join(d, "art"))
             for f in os.listdir(art):
-                if f.endswith(".jpg"):
+                if f.endswith(".webp"):
                     shutil.copy(os.path.join(art, f), os.path.join(d, "art", f))
         og = os.path.join(ROOT, "novenas", n["slug"], "og.jpg")
         if os.path.exists(og):

@@ -124,7 +124,7 @@ Every day gets a public-domain picture under its verse, plus a "Look again" line
 - **Public domain:** the artist died more than 100 years ago, and the file is a faithful photo of a 2D work, or a pre-1926 photograph. Check the license with `python3 tools/art.py meta "File.jpg"`, which also gives the date. Fill in `year` and `place` (museum) when they're known. Leave them `""` rather than guess.
 - **Crop:** 4:3, as fractions of the downloaded image, on exactly the detail the "Look again" line names. Faces must not be cut.
 - **Words:** `alt` says plainly what the day picture shows. `look` starts "Look again at …", names something visible in the picture, and ends with a question that leads into the prayer. Vary the questions from day to day.
-- **Make:** `python3 tools/art.py fetch <slug>` (curl, cached in `.cache/art/`), then `python3 tools/art.py make <slug>` (writes `art/day<N>.jpg` at 720×540 and `day<N>_full.jpg` at 900 px, plus `art/images.md` credits), then `python3 tools/art.py sheet <slug> out/art.jpg` and look at all 9 crops. `build.py` checks the file and copies the pictures. They are not precached for offline use: each one is kept once seen.
+- **Make:** `python3 tools/art.py fetch <slug>` (curl, cached in `.cache/art/`), then `python3 tools/art.py make <slug>` (writes WebP: `art/day<N>.webp` at 720×540 and `day<N>_full.webp` at most 900 wide and 1200 tall, plus `art/images.md` credits), then `python3 tools/art.py sheet <slug> out/art.jpg` and look at all 9 crops. `build.py` checks the file and copies the pictures. They are not precached for offline use: each one is kept once seen.
 
 ## 6. Build and check the app
 

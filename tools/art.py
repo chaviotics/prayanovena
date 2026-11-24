@@ -18,7 +18,7 @@ Each novena may have novenas/<slug>/art.json:
 
 Commands:
   python3 tools/art.py fetch <slug>     download each day's source to .cache/art/ (curl; skips files already there)
-  python3 tools/art.py make <slug>      crop + resize into novenas/<slug>/art/day<N>.jpg (720x540) and day<N>_full.jpg
+  python3 tools/art.py make <slug>      crop + resize into novenas/<slug>/art/day<N>.webp (720x540) and day<N>_full.webp
                                         (at most 900 wide, 1200 tall), and write novenas/<slug>/art/images.md
   python3 tools/art.py sheet <slug> <out.jpg>   contact sheet of the 9 day pictures, to check the crops by eye
   python3 tools/art.py meta "File name.jpg"     Commons metadata (artist, date, license, credit), to fill in art.json
@@ -68,7 +68,7 @@ def check(slug, art):
         l, t, r, b = a["crop"]
         assert 0 <= l < r <= 1 and 0 <= t < b <= 1, (slug, "day", i, "crop must be fractions")
         assert a["look"].startswith("Look again at ") and a["look"].endswith("?"), (slug, "day", i, "look line")
-        for f in ("day%d.jpg" % i, "day%d_full.jpg" % i):
+        for f in ("day%d.webp" % i, "day%d_full.webp" % i):
             assert os.path.exists(os.path.join(ROOT, "novenas", slug, "art", f)), (slug, "missing", f, "run tools/art.py make")
     return days
 
@@ -111,15 +111,15 @@ def make(slug):
         ratio = (box[2] - box[0]) / (box[3] - box[1])
         assert abs(ratio - 4 / 3) < 0.03, (slug, "day", i, "crop is not 4:3", round(ratio, 3))
         im.crop(box).resize((DAY_W, DAY_H), Image.LANCZOS).save(
-            os.path.join(out, "day%d.jpg" % i), "JPEG", quality=78, optimize=True, progressive=True)
+            os.path.join(out, "day%d.webp" % i), "WEBP", quality=80, method=6)
         k = min(1, FULL_W / W, FULL_H / H)  # the whole picture: at most 900 wide and 1200 tall (tall paintings)
         im.resize((round(W * k), round(H * k)), Image.LANCZOS).save(
-            os.path.join(out, "day%d_full.jpg" % i), "JPEG", quality=80, optimize=True, progressive=True)
-        kb = [os.path.getsize(os.path.join(out, f)) // 1024 for f in ("day%d.jpg" % i, "day%d_full.jpg" % i)]
+            os.path.join(out, "day%d_full.webp" % i), "WEBP", quality=80, method=6)
+        kb = [os.path.getsize(os.path.join(out, f)) // 1024 for f in ("day%d.webp" % i, "day%d_full.webp" % i)]
         print("day", i, "%d KB + %d KB" % tuple(kb), a["artist"], "-", a["title"])
         work = "%s, *%s*%s%s%s" % (a["artist"], a["title"], ", " + a["year"] if a.get("year") else "",
                                     ", " + a["place"] if a.get("place") else "", " (%s)" % a["passage"] if a.get("passage") else "")
-        rows.append("| day%d.jpg, day%d_full.jpg | Day %d (%s) | %s. Commons `%s`, %s; day crop %s | %s |" % (
+        rows.append("| day%d.webp, day%d_full.webp | Day %d (%s) | %s. Commons `%s`, %s; day crop %s | %s |" % (
             i, i, i, a["kind"], work, a["file"], ("%dpx thumbnail" % a["width"]) if a["width"] else "original file", [round(x, 3) for x in a["crop"]], a["license"]))
     with open(os.path.join(out, "images.md"), "w", encoding="utf-8") as f:
         f.write("# Day pictures (app only, all public domain)\n\nMade by `tools/art.py make %s` from `novenas/%s/art.json`.\n\n"
@@ -130,7 +130,7 @@ def sheet(slug, dest):
     from PIL import Image
     s = Image.new("RGB", (3 * 360 + 20, 3 * 270 + 20), "white")
     for i in range(1, 10):
-        p = os.path.join(ROOT, "novenas", slug, "art", "day%d.jpg" % i)
+        p = os.path.join(ROOT, "novenas", slug, "art", "day%d.webp" % i)
         if os.path.exists(p):
             s.paste(Image.open(p).resize((360, 270)), (((i - 1) % 3) * 370, ((i - 1) // 3) * 280))
     s.save(dest, quality=80)
