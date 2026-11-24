@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{TITLE}} | Pray a Novena</title>
+<style>
+{{FONTS}}
+/* "Easy flow 3 + callout" layout: Easy flow 3 with Today's step in an outlined box. "Easy flow 3" layout (Easy flow 2 with the cards straight after the days, the Memorare as a heading), 4 pages, in the order you use it:
+   page 1 = everything prayed every day (title, the saints in brief, how to pray with the tips, Daily Prayers);
+   pages 2–4 = 3 days each, every day one band: Scripture and reflection on the left, the prayer and step on the right,
+   then a saint's story at the foot; the last page ends with the Graces box and the notes.
+   Roomier leading than the other layouts. tools/print_render.js picks the largest type that keeps it to 4 pages;
+   every size is in rem, and 1rem = 10pt × --k. */
+:root{--k:1;--ink:#2A2521;--muted:#6B5F57;--wine:#6E1F2B;--gold:#94702A;--gold-text:#8A6624;--rule:#B8975A;--wash:#F7F0E2;
+  --display:'Cormorant Garamond',Georgia,serif;--body:'EB Garamond',Georgia,serif}
+html{font-size:calc(10pt * var(--k));-webkit-print-color-adjust:exact;print-color-adjust:exact}
+@page{size:{{PAGE_W}} {{PAGE_H}};margin:13mm 14mm 14mm;
+  @bottom-left{content:"Pray a Novena · prayanovena.com/{{SLUG}}";font-family:'EB Garamond',Georgia,serif;font-size:7pt;color:#6B5F57;vertical-align:top;padding-top:6pt}
+  @bottom-right{content:"Page " counter(page) " of " counter(pages);font-family:'EB Garamond',Georgia,serif;font-size:7pt;color:#6B5F57;vertical-align:top;padding-top:6pt}}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--body);font-size:1rem;line-height:1.42;color:var(--ink);font-kerning:normal}
+p{margin:0 0 .5rem;text-wrap:pretty}
+em{font-style:italic}
+.resp,.amen{color:var(--wine);font-style:italic}
+.nowrap{white-space:nowrap}
+.sc{font-variant:small-caps}
+.cap{font-weight:600;font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-text)}
+h2{font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.5rem;line-height:1.1;margin:0 0 .55rem;padding-bottom:.2rem;border-bottom:.6pt solid var(--gold)}
+
+/* ---- page 1 ---- */
+.p1{min-height:269.5mm;display:flex;flex-direction:column;gap:1.05rem;justify-content:space-between}
+.p1 .top{padding-bottom:.7rem;border-bottom:.6pt solid var(--gold)}
+.top{text-align:center}
+.top .mark{width:2.6rem;height:2.6rem;display:block;margin:0 auto .3rem;color:var(--wine)}
+.top .kick{margin:0 0 .1rem}
+.top h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:2.7rem;line-height:1;margin:0 0 .35rem;text-wrap:balance}
+.top .sub{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.2rem;color:var(--muted);margin:0 0 .3rem;text-wrap:balance}
+.top .epi{font-style:italic;font-size:.95rem;line-height:1.3;margin:0 auto .05rem;max-width:40rem;text-wrap:balance}
+.top .epi-ref{margin:0}
+
+/* saints: arched portrait on top, then name, dates, feast and patronage (their stories are on pages 2–4) */
+.saints{display:grid;grid-template-columns:repeat({{SAINT_COUNT}},1fr);text-align:center;padding:.2rem 0 0}
+.saint{padding:0 .8rem;font-size:.84rem;line-height:1.28}
+.saint + .saint{border-left:.75pt solid var(--rule)}
+.saint img{width:6.4rem;height:8rem;object-fit:cover;object-position:50% 20%;display:block;margin:.25rem auto .6rem;border-radius:3.2rem 3.2rem .25rem .25rem;outline:.7pt solid var(--gold);outline-offset:.22rem}
+.saint h3{font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.25rem;margin:0;line-height:1.05}
+.saint .meta{font-size:.74rem;color:var(--muted);margin:.12rem 0 0}
+.saint .pat{font-style:italic;color:var(--gold-text);margin:.12rem 0 0}
+.saint p{margin:0}
+
+/* how to pray: the 5 steps as a row you follow left to right */
+.steps5{display:grid;grid-template-columns:repeat(5,1fr);gap:.6rem;margin:0;padding:0;list-style:none;counter-reset:s}
+.steps5 li{counter-increment:s;font-size:.86rem;line-height:1.3;padding-top:.15rem}
+.steps5 li::before{content:counter(s);display:grid;place-items:center;width:1.45rem;height:1.45rem;border:.8pt solid var(--gold);border-radius:50%;color:var(--gold-text);font-weight:600;font-size:.78rem;margin-bottom:.3rem}
+.steps5 li strong{font-weight:500;color:var(--wine)}
+/* the tips sit under How to pray */
+/* the tips flow as balanced columns, so one long tip doesn't leave a tall empty space beside a short one */
+.tips{column-count:{{TIP_COLS}};column-gap:1.5rem;font-size:.88rem;line-height:1.35;margin-top:.75rem}
+.tips > div{margin-bottom:.45rem}
+.tips .cap{break-after:avoid}
+.tips.last{margin-top:0;padding-top:.5rem;border-top:.6pt solid var(--gold);break-inside:avoid}
+.tips .cap{margin:0 0 .1rem}
+.tips p{margin:0}
+
+/* daily prayers: opening on the left, closing on the right */
+.prayers{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.prayers h3{font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.22rem;margin:0 0 .25rem}
+.prayers h3.mem{margin-top:.55rem}
+.lit p{margin:0}
+.lit{margin-bottom:.45rem}
+.label{margin:.5rem 0 .1rem}
+.then{font-style:italic;color:var(--muted);font-size:.92rem;margin:.55rem 0 0;padding-top:.45rem;border-top:.75pt solid var(--rule)}
+.then strong{font-style:normal;font-weight:600;color:var(--wine)}
+
+/* the notes sit at the foot of the last page, like footnotes */
+.notes{margin-top:.2rem;padding-top:.45rem;border-top:.75pt solid var(--rule);font-size:.64rem;line-height:1.3;color:var(--muted)}
+.dpage > .notes{margin-top:auto}
+.notes p{margin:0 0 .15rem}
+.notes a{color:inherit;text-decoration:none}
+
+/* ---- pages 2–4: 3 days a page ---- */
+.dpage{break-before:page;display:flex;flex-direction:column;gap:1.3rem;min-height:269mm}
+/* a small 9 days mark leads into the cards; the space left on a page falls at its foot */
+.orn{flex:none;height:1.7rem;display:flex;align-items:center;gap:.8rem;margin:-.2rem 0}
+.orn::before,.orn::after{content:"";flex:1;border-top:.75pt solid var(--rule)}
+.orn svg{width:1.7rem;height:1.7rem;color:var(--wine);flex:none}
+/* the saints' stories and the closing verse sit 2 to a row at the foot of the day pages */
+.meet{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;break-inside:avoid}
+.meet.one{grid-template-columns:1fr;justify-items:center}
+.story{display:grid;grid-template-columns:4.3rem 1fr;gap:.8rem;align-items:start;font-size:.9rem;line-height:1.38}
+.story img{width:3.8rem;height:4.75rem;object-fit:cover;object-position:50% 20%;display:block;margin:.22rem;border-radius:1.9rem 1.9rem .2rem .2rem;outline:.7pt solid var(--gold);outline-offset:.18rem}
+.story .cap{margin:0}
+.story h3{font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.3rem;line-height:1.05;margin:0 0 .2rem}
+.story p{margin:0}
+.vcard{text-align:center;max-width:34rem;margin:0 auto}
+.vcard p{font-family:var(--display);font-style:italic;font-weight:500;color:var(--wine);font-size:1.3rem;line-height:1.22;margin:0;text-wrap:balance}
+.vcard .cap{font-family:var(--body);font-style:normal;font-weight:600;font-size:.76rem;color:var(--gold-text);margin-top:.35rem}
+/* the last page: the Graces box, full width, takes whatever room is left (it is the divider after Day 9) */
+.dpage.last .graces{flex:1;display:flex;flex-direction:column;min-height:7.5rem}
+.graces .lines{flex:1;min-height:6.3rem;margin-top:1rem;display:flex}
+/* the writing lines are ordinary rules (a CSS pattern turns pink in some PDF viewers); they stack up from the bottom and
+   any that don't fit are clipped, so the box always ends on a full line */
+.graces .lines .in{flex:1;position:relative;overflow:hidden}
+.graces .lines .stack{position:absolute;inset:0;display:flex;flex-direction:column-reverse}
+.graces .lines .stack div{flex:none;height:2.1rem;border-bottom:.75pt solid var(--rule)}
+.runhead{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font-size:.85rem;color:var(--wine);font-style:italic;border-bottom:.6pt solid var(--gold);padding-bottom:.25rem;margin-bottom:-.2rem}
+.runhead b{font-style:normal;font-family:var(--display);font-weight:700;font-size:1.25rem;color:var(--wine)}
+.day{break-inside:avoid}
+.dhead{display:flex;align-items:center;gap:.5rem;padding-bottom:.3rem;margin-bottom:.45rem;border-bottom:.75pt solid var(--rule)}
+.dhead svg{width:1.3rem;height:1.3rem;color:var(--gold);flex:none}
+.dhead .n{font-family:var(--display);font-weight:700;font-size:1.45rem;line-height:1.05;color:var(--wine);white-space:nowrap}
+.dhead .n::after{content:" ·";color:var(--gold)}
+.dhead h3{flex:1;font-family:var(--display);font-weight:700;color:var(--wine);font-size:1.45rem;line-height:1.05;margin:0}
+.dhead .done{flex:none;display:flex;align-items:center;gap:.35rem;font-size:.82rem;color:var(--ink)}
+.dhead .box{width:1.05rem;height:1.05rem;border:1pt solid var(--ink)}
+.dbody{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.verse{font-style:italic;margin:0 0 .1rem;color:var(--ink)}
+.verse .in{padding-left:1.1rem}
+.ref{margin:0 0 .4rem}
+/* the day's verse and its reference read as one unit inside a gold bar (the bar always means Scripture) */
+.scrip{border-left:2pt solid var(--gold);padding:.1rem 0 .1rem .65rem;margin:0 0 .5rem}
+.scrip .verse{margin:0 0 .15rem}
+.scrip .ref{margin:0}
+.label{margin:0 0 .15rem}
+.step{border-left:2pt solid var(--gold);padding:.15rem 0 .15rem .65rem;margin:.5rem 0 0;font-size:.95rem;line-height:1.32}
+/* Today's step: a thin gold outlined box with a walking-figure icon (no fill, so nothing extra to print) */
+.step.call{display:grid;grid-template-columns:1.25rem 1fr;gap:.5rem;align-items:start;border:.75pt solid var(--gold);border-radius:.4rem;padding:.4rem .65rem .4rem .55rem;margin:.6rem 0 0}
+.step.call svg{width:1.2rem;height:1.2rem;color:var(--gold);display:block;margin-top:.1rem}
+.step.call p{margin:0}
+.step .cap{font-size:.74rem;margin-right:.3rem}
+.endrow{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:center;break-inside:avoid}
+.graces{border:.75pt solid var(--gold);border-radius:.4rem;padding:.5rem .8rem .75rem}
+.graces .cap{margin:0}
+.graces .hint{font-style:italic;font-size:.82rem;color:var(--muted);margin:.05rem 0 0}
+.closing{text-align:center}
+.closing p{font-family:var(--display);font-style:italic;font-weight:500;color:var(--wine);font-size:1.25rem;line-height:1.2;margin:0}
+.closing .cap{margin-top:.3rem}
+/* flow5 prototype: the day's verse runs across the full width under the day heading; below it the reflection (both paragraphs)
+   sits beside the prayer and step, so the two columns come out about even and no space is lost under the shorter one */
+.day > .scrip{margin:0 0 .55rem}
+.day > .scrip .verse{max-width:none}
+.more{margin-top:.1rem}
+</style>
+</head>
+<body>
+
+<div class="p1">
+  <header class="top">
+    <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path fill="none" stroke="#94702A" stroke-width="4" stroke-linecap="round" d="{{RING}}"/><path fill="currentColor" d="{{CROSS}}"/></svg>
+    <p class="cap kick">{{KICKER}}</p>
+    <h1>{{TITLE}}</h1>
+    <p class="sub">through the intercession of {{SAINT_LINE}}</p>
+    <p class="epi">“{{EPI_TEXT}}”</p>
+    <p class="cap epi-ref">{{EPI_REF}}</p>
+  </header>
+
+  <div class="saints">
+{{SAINTS}}
+  </div>
+
+  <section>
+    <h2>How to Pray This Novena</h2>
+    <ol class="steps5">
+      <li>Pause for a moment of silence before God.</li>
+      <li>Pray the <strong>Opening Prayer</strong> below, beginning with the Sign of the Cross.</li>
+      <li>Turn to the day: read the <strong>Scripture</strong> and reflection, then pray the day’s <strong>prayer</strong>, naming your intention.</li>
+      <li>Come back to the <strong>Closing Prayer</strong> and the {{HOW_MEMORARE}}.</li>
+      <li>End with an Our Father, a Hail Mary and a Glory Be, and the Sign of the Cross. Take <strong>today’s step</strong> with you.</li>
+    </ol>
+{{FLOW_TIPS}}
+  </section>
+
+  <section>
+    <h2>Daily Prayers</h2>
+    <div class="prayers">
+      <div>
+        <h3>Opening Prayer</h3>
+        <p>In the name of the Father, and of the Son, and of the Holy Spirit. <span class="amen">Amen.</span></p>
+        <p><em>Come, Holy Spirit, fill the hearts of Your faithful and kindle in them the fire of Your love.</em></p>
+        <p>{{OPENING_PRAYER}} <span class="amen">Amen.</span></p>
+      </div>
+      <div>
+        <h3>Closing Prayer</h3>
+        <div class="lit">
+{{LITANY}}
+        </div>
+        <p>{{CLOSING_PRAYER}} <span class="amen">Amen.</span></p>
+        <h3 class="mem">{{MEMORARE_TITLE}}</h3>
+        <p>{{MEMORARE_TEXT}} <span class="amen">Amen.</span></p>
+        <p class="then">Then pray together <strong>Our Father · Hail Mary · Glory Be</strong>, and close with the Sign of the Cross.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{{DAY_PAGES}}
+</body>
+</html>

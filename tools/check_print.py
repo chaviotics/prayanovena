@@ -19,14 +19,16 @@ def norm(s):
 def main(pdf, slug):
     import pypdf
     pages = len(pypdf.PdfReader(pdf).pages)
-    txt = subprocess.run(["pdftotext", "-raw", "-f", "1", "-l", str(min(pages, 4)), pdf, "-"], capture_output=True, text=True).stdout
+    txt = subprocess.run(["pdftotext", "-raw", "-f", "1", "-l", str(min(pages, 5)), pdf, "-"], capture_output=True, text=True).stdout
     # drop the running footer of the site PDFs (tools/print_pdf.py), which can fall inside text that crosses a page
-    txt = re.sub(r"(?m)^\f?(Page \d+ of \d+|Pray a Novena · prayanovena\.com/\S*)$", "", txt)
+    txt = re.sub(r"(?m)^\f?(Page \d+ of \d+|Pray a Novena · prayanovena\.com/\S*|The 9 Days|Opening and Closing Prayers are on page 1)$", "", txt)
     T = norm(txt)
     n = json.load(open(os.path.join(ROOT, "novenas", slug, "novena.json"), encoding="utf-8"))
     miss = []
     for i, d in enumerate(n["days"], 1):
-        for k in ("title", "ref", "verse", "refl", "prayer", "step"):
+        for k in ("title", "ref", "verse", "refl", "more", "prayer", "step"):  # `more` is printed since 2026-11-24 (flow6)
+            if k not in d:
+                continue
             v = d[k].replace(" / ", " ") if k == "verse" else d[k]
             if norm(v) not in T:
                 miss.append("day %d %s: %s" % (i, k, v[:60]))
@@ -39,9 +41,9 @@ def main(pdf, slug):
     for s in n["saints"]:
         if norm(s["bio"]) not in T:
             miss.append("bio " + s["name"])
-    print("pages:", pages, "(OK)" if pages <= 4 else "(TOO LONG: max 4)")
-    print("missing:", miss or "nothing — all text present in pages 1-4")
-    return 0 if pages <= 4 and not miss else 1
+    print("pages:", pages, "(OK)" if pages <= 5 else "(TOO LONG: max 5)")
+    print("missing:", miss or "nothing — all text present in pages 1-%d" % min(pages, 5))
+    return 0 if pages <= 5 and not miss else 1
 
 
 if __name__ == "__main__":

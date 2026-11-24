@@ -354,8 +354,9 @@ def print_link(n, mode):
     name = os.path.basename(p)
     href = name if mode == "site" else "%s/%s/%s" % (SITE_URL, n["slug"], name)
     kb = os.path.getsize(p) // 1024
+    pages = len(re.findall(rb"/Type\s*/Page[^s]", open(p, "rb").read()))  # 3 to 5 (tools/print_pdf.py)
     how = ('    <p class="printrow"><a class="printlink" href="%s" type="application/pdf" target="_blank" rel="noopener"><svg class="i" aria-hidden="true" focusable="false">'
-           '<use href="#i-printer"/></svg>Print or download (PDF)</a><span class="printmeta">4 pages, A4 · %d KB</span></p>' % (href, kb))
+           '<use href="#i-printer"/></svg>Print or download (PDF)</a><span class="printmeta">%d pages, A4 · %d KB</span></p>' % (href, pages, kb))
     # opens in a new tab: an installed (home-screen) app has no back button, so a PDF in the same view would trap the reader
     side = ('  <p class="side-pdf"><a class="printlink" href="%s" type="application/pdf" target="_blank" rel="noopener"><svg class="i" aria-hidden="true" focusable="false">'
             '<use href="#i-printer"/></svg>Print or download (PDF)</a></p>' % href)
