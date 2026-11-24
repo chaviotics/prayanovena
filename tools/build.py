@@ -15,7 +15,8 @@ import subprocess
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://prayanovena.com"
 ICON_DIRS = [os.path.join(ROOT, "tools", "icons")]
-BASE_ICONS = ["logo", "cross", "sun", "moon", "text-aa", "check", "caret-down", "footprints", "hands-praying", "arrow-left", "book-open", "paper-plane-tilt", "printer"]
+BASE_ICONS = ["logo", "cross", "sun", "moon", "text-aa", "check", "caret-down", "footprints", "hands-praying", "arrow-left", "book-open", "paper-plane-tilt", "printer",
+              "brand-messenger", "brand-whatsapp", "brand-viber", "brand-telegram", "brand-facebook", "envelope-simple", "chat-circle-text", "link-simple", "share-network", "arrow-square-out"]   # the share sheet
 NUMWORD = {1: "The Intercessor", 2: "The 2 Intercessors", 3: "The 3 Intercessors"}
 MARIAN_MEMORARE = ("Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to your protection, "
                    "implored your help, or sought your intercession was left unaided. Inspired by this confidence, I fly unto you, "
@@ -118,8 +119,10 @@ def icon_symbol(name):
     for d in ICON_DIRS:
         p = os.path.join(d, name + ".svg")
         if os.path.exists(p):
-            body = re.search(r"<svg[^>]*>(.*)</svg>", read(p), re.S).group(1).strip()
-            return '<symbol id="i-%s" viewBox="0 0 256 256">%s</symbol>' % (name, body)
+            svg = read(p)
+            body = re.search(r"<svg[^>]*>(.*)</svg>", svg, re.S).group(1).strip()
+            vb = re.search(r'<svg[^>]*viewBox="([^"]+)"', svg)   # Phosphor icons are 256 wide, the brand-* logos (Simple Icons, CC0) 24
+            return '<symbol id="i-%s" viewBox="%s">%s</symbol>' % (name, vb.group(1) if vb else "0 0 256 256", body)
     raise SystemExit("icon not found: " + name)
 
 
