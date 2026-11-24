@@ -22,6 +22,9 @@ Commands:
                                         (at most 900 wide, 1200 tall), and write novenas/<slug>/art/images.md
   python3 tools/art.py sheet <slug> <out.jpg>   contact sheet of the 9 day pictures, to check the crops by eye
   python3 tools/art.py meta "File name.jpg"     Commons metadata (artist, date, license, credit), to fill in art.json
+  python3 tools/art.py search "query" [n]       Commons file search: name | size | date | artist | license per hit
+  python3 tools/art.py cands <out.jpg> "File 1.jpg" "File 2.jpg" ...   numbered contact sheet of candidates (view once)
+  python3 tools/art.py boxes <slug> <out.jpg>   each day's whole picture with its crop drawn in red
 
 Wikimedia rate-limits fast: space Commons API calls 4-5 s apart. Python's urllib gets 403 from upload.wikimedia.org,
 so downloads use curl; API thumbnail URLs point at thumb.wikimedia.org (blocked here), so we build upload.* paths.
@@ -154,6 +157,87 @@ def meta(name):
         print("%s: %s" % (k, re.sub(r"\s+", " ", v)[:300]))
 
 
+def search(query, n=12):
+    """Commons file search: one line per hit with size, date, artist and license, to shortlist candidates"""
+    q = ["curl", "-s", "-G", "https://commons.wikimedia.org/w/api.php", "-A", UA,
+         "--data-urlencode", "action=query", "--data-urlencode", "generator=search", "--data-urlencode", "gsrsearch=" + query,
+         "--data-urlencode", "gsrnamespace=6", "--data-urlencode", "gsrlimit=%d" % n, "--data-urlencode", "prop=imageinfo",
+         "--data-urlencode", "iiprop=size|extmetadata", "--data-urlencode", "iiextmetadatafilter=Artist|DateTimeOriginal|LicenseShortName",
+         "--data-urlencode", "format=json"]
+    r = subprocess.run(q, capture_output=True, text=True).stdout
+    try:
+        pages = sorted(json.loads(r)["query"]["pages"].values(), key=lambda p: p.get("index", 0))
+    except Exception:
+        print("no answer (rate limit or no hits): wait 5 s and try again"); return
+    for p in pages:
+        info = p.get("imageinfo", [{}])[0]
+        m = info.get("extmetadata", {})
+        f = lambda k: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", m.get(k, {}).get("value", ""))).strip()[:40]
+        print("%s | %sx%s | %s | %s | %s" % (p["title"][5:], info.get("width"), info.get("height"), f("DateTimeOriginal"), f("Artist"), f("LicenseShortName")))
+
+
+def _label(im, text):
+    from PIL import ImageDraw
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, 0, 8 + 8 * len(text), 18), fill="black")
+    d.text((4, 3), text, fill="white")
+
+
+def cands(dest, names):
+    """labelled contact sheet of candidate files (330px thumbs), so a finder views many candidates in one image"""
+    from PIL import Image
+    os.makedirs(os.path.join(CACHE, "cands"), exist_ok=True)
+    tiles = []
+    for i, n in enumerate(names, 1):
+        p = os.path.join(CACHE, "cands", hashlib.md5(n.encode()).hexdigest()[:10] + ".jpg")
+        if not (os.path.exists(p) and os.path.getsize(p) > 3000):
+            for w in (330, 500):
+                code = subprocess.run(["curl", "-s", "-o", p, "-w", "%{http_code}", "-A", UA, thumb(n, w)], capture_output=True, text=True).stdout
+                if code == "200":
+                    break
+            else:
+                code = subprocess.run(["curl", "-s", "-o", p, "-w", "%{http_code}", "-A", UA, original(n)], capture_output=True, text=True).stdout
+            time.sleep(1.5)
+        try:
+            im = Image.open(p).convert("RGB")
+        except Exception:
+            print(i, "failed:", n); continue
+        im.thumbnail((300, 300))
+        tile = Image.new("RGB", (300, 300), "white")
+        tile.paste(im, ((300 - im.width) // 2, (300 - im.height) // 2))
+        _label(tile, str(i))
+        tiles.append(tile)
+        print(i, n)
+    cols = 4
+    rows = (len(tiles) + cols - 1) // cols
+    s = Image.new("RGB", (cols * 305, max(1, rows) * 305), "white")
+    for k, t in enumerate(tiles):
+        s.paste(t, ((k % cols) * 305, (k // cols) * 305))
+    s.save(dest, quality=80)
+    print(dest)
+
+
+def boxes(slug, dest):
+    """each day's whole downloaded picture with its crop drawn in red: check the crop and the whole picture's modesty at once"""
+    from PIL import Image, ImageDraw
+    tiles = []
+    for i, a in enumerate(load(slug)["days"], 1):
+        tile = Image.new("RGB", (400, 400), "white")
+        if a and os.path.exists(src_path(a)):
+            im = Image.open(src_path(a)).convert("RGB")
+            im.thumbnail((400, 400))
+            l, t, r, b = a["crop"]
+            ImageDraw.Draw(im).rectangle((l * im.width, t * im.height, r * im.width - 1, b * im.height - 1), outline="red", width=3)
+            tile.paste(im, ((400 - im.width) // 2, (400 - im.height) // 2))
+        _label(tile, "Day %d" % i)
+        tiles.append(tile)
+    s = Image.new("RGB", (3 * 405, 3 * 405), "white")
+    for k, t in enumerate(tiles):
+        s.paste(t, ((k % 3) * 405, (k // 3) * 405))
+    s.save(dest, quality=80)
+    print(dest)
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if len(a) == 2 and a[0] == "fetch":
@@ -164,5 +248,11 @@ if __name__ == "__main__":
         sheet(a[1], a[2])
     elif len(a) == 2 and a[0] == "meta":
         meta(a[1])
+    elif len(a) in (2, 3) and a[0] == "search":
+        search(a[1], int(a[2]) if len(a) == 3 else 12)
+    elif len(a) >= 3 and a[0] == "cands":
+        cands(a[1], a[2:])
+    elif len(a) == 3 and a[0] == "boxes":
+        boxes(a[1], a[2])
     else:
         print(__doc__)
