@@ -1,0 +1,172 @@
+{
+ "days": [
+  {
+   "file": "Sandro Botticelli - St Augustin dans son cabinet de travail.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.25,
+    1,
+    0.73322
+   ],
+   "kind": "saint",
+   "artist": "Sandro Botticelli",
+   "title": "Saint Augustine in His Study",
+   "year": "c. 1490",
+   "place": "Uffizi, Florence",
+   "alt": "Augustine in a red robe sits at his desk beneath a vaulted niche, pen in hand over an open book.",
+   "look": "Look again at Augustine bent over his book. What question has been waiting in your own heart?",
+   "license": "Artist died 1510; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Gand, Juste de - Berruguete, Pedro - Saint Thomas d'Aquin, MI 651 ; Campana 387.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.08,
+    1,
+    0.5786
+   ],
+   "kind": "saint",
+   "artist": "Justus van Gent",
+   "title": "Saint Thomas Aquinas",
+   "year": "c. 1474",
+   "place": "Louvre, Paris",
+   "alt": "St. Thomas Aquinas, a Dominican in a black cloak and cap, looks out with both hands raised in a teaching gesture.",
+   "look": "Look again at Thomas's raised hands. What do you most want to understand, and for whose sake?",
+   "license": "Artist died c. 1480; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Meister des Hildegardis-Codex 001.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.21,
+    1,
+    0.79252
+   ],
+   "kind": "saint",
+   "artist": "Rupertsberg Scivias, illuminated under Hildegard of Bingen",
+   "title": "The Cosmos (vision from Scivias)",
+   "year": "c. 1165",
+   "place": "",
+   "alt": "A gold and blue oval of stars, sun, moon and planets circles the small earth at its center.",
+   "look": "Look again at the stars and planets ringed around the earth. What do they say to you of their Maker?",
+   "license": "Anonymous 12th-century illumination; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Albertus magnus dominikanerstammbaum.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.17,
+    1,
+    0.59179
+   ],
+   "kind": "saint",
+   "artist": "Hans Holbein the Elder",
+   "title": "Saint Albert the Great (Frankfurt Dominican altar)",
+   "year": "1501",
+   "place": "",
+   "alt": "St. Albert the Great, a Dominican in black and white, glances down with one hand raised beneath the words ‘Bishop, Universal Doctor.’",
+   "look": "Look again at the friar’s raised hand, as if about to explain what he has seen. Where does your study meet your faith?",
+   "license": "Artist died 1524; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Spas vsederzhitel sinay.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.07,
+    1,
+    0.47201
+   ],
+   "kind": "names",
+   "artist": "Unknown artist",
+   "title": "Christ Pantocrator",
+   "year": "6th century",
+   "place": "St. Catherine's Monastery, Sinai",
+   "alt": "Christ looks straight out from a gold halo, with large dark eyes and a calm, steady face.",
+   "look": "Look again at the face of Christ. What would it be to trust that in him all things hold together?",
+   "license": "Anonymous 6th-century icon; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Zünd Gang nach Emmaus 1877.jpg",
+   "width": 0,
+   "crop": [
+    0.42,
+    0.52,
+    0.82,
+    0.9387234042553192
+   ],
+   "kind": "scene",
+   "artist": "Robert Zünd",
+   "title": "The Road to Emmaus",
+   "year": "1877",
+   "place": "",
+   "alt": "Two travelers walk beside a robed stranger along a sunlit forest path.",
+   "look": "Look again at the third traveler walking between the two. When has Scripture warmed your heart on a road like this?",
+   "license": "Artist died 1909; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Philippe de Champaigne - La Cène (Louvre, INV 1124).jpg",
+   "width": 1280,
+   "crop": [
+    0.285,
+    0.22,
+    0.745,
+    0.68
+   ],
+   "kind": "scene",
+   "artist": "Philippe de Champaigne",
+   "title": "The Last Supper",
+   "year": "",
+   "place": "Louvre, Paris",
+   "alt": "Jesus, in pink and blue, sits at a white-draped table with apostles pressed close on both sides as he speaks.",
+   "look": "Look again at the apostles leaning close as Jesus speaks. How could you make a quiet home for him this week?",
+   "license": "Artist died 1674; faithful photo of a 2D work (Commons: public domain)",
+   "full": [
+    0.114,
+    0.155,
+    0.9,
+    0.864
+   ]
+  },
+  {
+   "file": "Benozzo Gozzoli - St Augustine Teaching in Rome (scene 6, south wall) - WGA10290.jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0.1,
+    1,
+    0.7338
+   ],
+   "kind": "saint",
+   "artist": "Benozzo Gozzoli",
+   "title": "Saint Augustine Teaching in Rome",
+   "year": "1464-1465",
+   "place": "Sant’Agostino, San Gimignano",
+   "alt": "Augustine sits enthroned in a hall and teaches a crowd of students, some of them holding books.",
+   "look": "Look again at the students gathered around the teacher. Who is your learning for?",
+   "license": "Artist died 1497; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "L'Apôtre Paul à sa table de travail.jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0.08,
+    1,
+    0.70856
+   ],
+   "kind": "saint",
+   "artist": "Rembrandt",
+   "title": "Saint Paul at His Writing Desk",
+   "year": "c. 1629-1630",
+   "place": "Germanisches Nationalmuseum, Nuremberg",
+   "alt": "The aged apostle Paul, bearded and in a brown robe, rests a hand on a great book beside his desk.",
+   "look": "Look again at Paul's hand on the book and his far-off gaze. What do you wish to thank God for tonight?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}

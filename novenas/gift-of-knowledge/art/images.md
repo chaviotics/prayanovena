@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make gift-of-knowledge` from `novenas/gift-of-knowledge/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (saint) | Sandro Botticelli, *Saint Augustine in His Study*, c. 1490, Uffizi, Florence. Commons `Sandro Botticelli - St Augustin dans son cabinet de travail.jpg`, 960px thumbnail; day crop [0, 0.25, 1, 0.733] | Artist died 1510; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (saint) | Justus van Gent, *Saint Thomas Aquinas*, c. 1474, Louvre, Paris. Commons `Gand, Juste de - Berruguete, Pedro - Saint Thomas d'Aquin, MI 651 ; Campana 387.jpg`, 960px thumbnail; day crop [0, 0.08, 1, 0.579] | Artist died c. 1480; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (saint) | Rupertsberg Scivias, illuminated under Hildegard of Bingen, *The Cosmos (vision from Scivias)*, c. 1165. Commons `Meister des Hildegardis-Codex 001.jpg`, 960px thumbnail; day crop [0, 0.21, 1, 0.793] | Anonymous 12th-century illumination; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (saint) | Hans Holbein the Elder, *Saint Albert the Great (Frankfurt Dominican altar)*, 1501. Commons `Albertus magnus dominikanerstammbaum.jpg`, 960px thumbnail; day crop [0, 0.17, 1, 0.592] | Artist died 1524; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (names) | Unknown artist, *Christ Pantocrator*, 6th century, St. Catherine's Monastery, Sinai. Commons `Spas vsederzhitel sinay.jpg`, 960px thumbnail; day crop [0, 0.07, 1, 0.472] | Anonymous 6th-century icon; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (scene) | Robert Zünd, *The Road to Emmaus*, 1877. Commons `Zünd Gang nach Emmaus 1877.jpg`, original file; day crop [0.42, 0.52, 0.82, 0.939] | Artist died 1909; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (scene) | Philippe de Champaigne, *The Last Supper*, Louvre, Paris. Commons `Philippe de Champaigne - La Cène (Louvre, INV 1124).jpg`, 1280px thumbnail; day crop [0.285, 0.22, 0.745, 0.68] | Artist died 1674; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (saint) | Benozzo Gozzoli, *Saint Augustine Teaching in Rome*, 1464-1465, Sant’Agostino, San Gimignano. Commons `Benozzo Gozzoli - St Augustine Teaching in Rome (scene 6, south wall) - WGA10290.jpg`, original file; day crop [0, 0.1, 1, 0.734] | Artist died 1497; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (saint) | Rembrandt, *Saint Paul at His Writing Desk*, c. 1629-1630, Germanisches Nationalmuseum, Nuremberg. Commons `L'Apôtre Paul à sa table de travail.jpg`, original file; day crop [0, 0.08, 1, 0.709] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |

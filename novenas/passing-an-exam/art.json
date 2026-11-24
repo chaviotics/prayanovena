@@ -1,0 +1,171 @@
+{
+ "days": [
+  {
+   "file": "Brooklyn Museum - Saint Peter Walks on the Sea (Saint Pierre marche sur la mer) - James Tissot - overall.jpg",
+   "width": 960,
+   "crop": [
+    0.05937,
+    0.13795,
+    0.91042,
+    0.55047
+   ],
+   "kind": "stretch",
+   "artist": "James Tissot",
+   "title": "Saint Peter Walks on the Sea",
+   "year": "c. 1886–1894",
+   "place": "Brooklyn Museum",
+   "alt": "Peter, sinking waist-deep in dark water at night, raises both hands toward Jesus, who stands in white and reaches out to him.",
+   "look": "Look again at the hand stretched out to Peter across the dark water. What would you let Him hold today?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Matthew 14"
+  },
+  {
+   "file": "San tommaso d'aquino con la summa, angelico san marco.jpg",
+   "width": 500,
+   "crop": [
+    0.0,
+    0.03797,
+    1.0,
+    0.98734
+   ],
+   "kind": "saint",
+   "artist": "Fra Angelico and workshop",
+   "title": "Saint Thomas Aquinas with the Summa",
+   "year": "c. 1442",
+   "place": "Museo di San Marco, Florence",
+   "alt": "St. Thomas Aquinas, in a black Dominican cloak with a golden star on his chest, holds an open book before him.",
+   "look": "Look again at the open book in Thomas’s hands. What work will you offer to God before you open yours?",
+   "license": "Artist died 1455; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Albrecht Dürer - Jesus among the Doctors - Google Art Project.jpg",
+   "width": 1280,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.93476
+   ],
+   "kind": "stretch",
+   "artist": "Albrecht Dürer",
+   "title": "Jesus among the Doctors",
+   "year": "1506",
+   "place": "Museo Nacional Thyssen-Bornemisza, Madrid",
+   "alt": "A boy with long hair, Jesus, stands among old scholars holding heavy books, counting on his fingers as they lean in to listen.",
+   "look": "Look again at the boy among the scholars, his hands raised as he explains. What would you ask God to help you understand?",
+   "license": "Artist died 1528; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Luke 2"
+  },
+  {
+   "file": "Antonello da Messina - St Jerome in his study - National Gallery London.jpg",
+   "width": 1280,
+   "crop": [
+    0.22422,
+    0.45903,
+    0.81797,
+    0.81023
+   ],
+   "kind": "practice",
+   "artist": "Antonello da Messina",
+   "title": "Saint Jerome in His Study",
+   "year": "c. 1474",
+   "place": "National Gallery, London",
+   "alt": "St. Jerome, in a red robe, sits at a raised desk in a quiet library, reading by the window light.",
+   "look": "Look again at Jerome at his desk, absorbed in his book. What ordinary piece of work can you do heartily today?",
+   "license": "Artist died 1479; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Ferdinand Bol - Elijah Fed by an Angel - WGA2360.jpg",
+   "width": 960,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.86228
+   ],
+   "kind": "stretch",
+   "artist": "Ferdinand Bol",
+   "title": "Elijah Fed by an Angel",
+   "year": "c. 1660–1663",
+   "place": "",
+   "alt": "The prophet Elijah lies worn out on the ground, looking up, as an angel bends over him and touches his shoulder.",
+   "look": "Look again at the angel’s hand on the tired prophet’s shoulder. What would it mean to let God care for you tonight?",
+   "license": "Artist died 1680; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "1 Kings 19"
+  },
+  {
+   "file": "Brooklyn Museum - Zacchaeus in the Sycamore Awaiting the Passage of Jesus (Zachée sur le sycomore attendant le passage de Jésus) - James Tissot.jpg",
+   "width": 0,
+   "crop": [
+    0.0,
+    0.0,
+    0.95212,
+    1.0
+   ],
+   "kind": "stretch",
+   "artist": "James Tissot",
+   "title": "Zacchaeus in the Sycamore Awaiting the Passage of Jesus",
+   "year": "c. 1886–1894",
+   "place": "Brooklyn Museum",
+   "alt": "Zacchaeus, in a yellow robe, leaps along a tree branch above the crowd to see Jesus, who stands in white among his followers.",
+   "look": "Look again at Zacchaeus, out on a limb to see Jesus. He would soon repay what he had taken; where is God asking you to choose the honest way?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Luke 19"
+  },
+  {
+   "file": "Jaume Huguet - Last Supper - Google Art Project.jpg",
+   "width": 1280,
+   "crop": [
+    0.27344,
+    0.09608,
+    0.83594,
+    0.4952
+   ],
+   "kind": "scene",
+   "artist": "Jaume Huguet",
+   "title": "The Last Supper",
+   "year": "c. 1463–1475",
+   "place": "",
+   "alt": "Jesus, seated at the centre of the table, raises one hand beside a chalice while the apostles gather close around Him.",
+   "look": "Look again at Jesus’ raised hand at the table. Where do you need His peace most on exam day?",
+   "license": "Artist died 1492; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Brooklyn Museum - The Sermon of the Beatitudes (La sermon des béatitudes) - James Tissot.jpg",
+   "width": 0,
+   "crop": [
+    0.0,
+    0.05208,
+    1.0,
+    0.57292
+   ],
+   "kind": "scene",
+   "artist": "James Tissot",
+   "title": "The Sermon of the Beatitudes",
+   "year": "c. 1886–1894",
+   "place": "Brooklyn Museum",
+   "alt": "Jesus, in white, stands high on a rocky hillside with arms raised, teaching the crowd gathered below him.",
+   "look": "Look again at Jesus teaching the crowd on the hillside. How could your work today give glory to the Father?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Brooklyn Museum - The Healing of Ten Lepers (Guérison de dix lépreux) - James Tissot - overall.jpg",
+   "width": 1280,
+   "crop": [
+    0.0,
+    0.0,
+    0.84453,
+    1.0
+   ],
+   "kind": "stretch",
+   "artist": "James Tissot",
+   "title": "The Healing of the Ten Lepers",
+   "year": "c. 1886–1894",
+   "place": "Brooklyn Museum",
+   "alt": "Jesus stands in white on a hillside, raising his hand toward the bandaged lepers who kneel or lie on the ground, crying out to him from a distance.",
+   "look": "Look again at the lepers calling to Jesus from afar. They set out before they saw any healing; where is God asking you to trust him before you see the way?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Luke 17"
+  }
+ ]
+}

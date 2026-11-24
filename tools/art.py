@@ -8,6 +8,7 @@ Each novena may have novenas/<slug>/art.json:
     "width":  the Commons thumbnail width to download (500, 960, 1280 or 1920), or 0 for the original file when it is
               narrower than the size you need
     "crop":   [left, top, right, bottom] of the day picture as fractions (0-1) of the downloaded image, 4:3,
+    "full":   optional [left, top, right, bottom] fractions: the part of the download shown as the whole picture (trims a frame),
     "kind":   "scene" | "names" | "saint" | "practice" | "stretch"   (see skill/SKILL.md, Day pictures),
     "artist", "title", "year" (may be ""), "place" (museum, may be ""),
     "passage": for a stretch only, the passage the picture shows, e.g. "Acts 12" (shown in the caption),
@@ -115,6 +116,10 @@ def make(slug):
         assert abs(ratio - 4 / 3) < 0.03, (slug, "day", i, "crop is not 4:3", round(ratio, 3))
         im.crop(box).resize((DAY_W, DAY_H), Image.LANCZOS).save(
             os.path.join(out, "day%d.webp" % i), "WEBP", quality=80, method=6)
+        if a.get("full"):  # optional [l, t, r, b]: trim a museum photo's frame and wall from the whole picture
+            fl, ft, fr, fb = a["full"]
+            im = im.crop((round(fl * W), round(ft * H), round(fr * W), round(fb * H)))
+            W, H = im.size
         k = min(1, FULL_W / W, FULL_H / H)  # the whole picture: at most 900 wide and 1200 tall (tall paintings)
         im.resize((round(W * k), round(H * k)), Image.LANCZOS).save(
             os.path.join(out, "day%d_full.webp" % i), "WEBP", quality=80, method=6)
