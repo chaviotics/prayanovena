@@ -269,7 +269,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
 .sizer button[aria-pressed="true"]{border-color:var(--wine);box-shadow:0 0 0 1px var(--wine) inset}
 .toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 18px;border-radius:999px;font-size:calc(15px * min(var(--scale),1.15));width:max-content;max-width:calc(100vw - 32px);text-align:center;overflow-wrap:anywhere;opacity:0;pointer-events:none;transition:opacity .25s}
 .toast.show{opacity:1}
-/* share sheet: our own, only where the phone's share sheet isn't offered (in-app browsers such as Messenger's or Facebook's on Android) */
+/* share sheet: our own on every phone; "More apps" opens the phone's menu (or Open in Chrome inside Messenger's and Facebook's browsers on Android) */
 dialog.sheet{border:0;margin:auto auto 0;width:100%;max-width:520px;max-height:92vh;overflow:auto;padding:20px 16px calc(14px + env(safe-area-inset-bottom));background:var(--paper);color:var(--ink);border-radius:20px 20px 0 0;box-shadow:0 -10px 30px rgb(0 0 0 / .18)}
 dialog.sheet[open]{animation:sheetUp .22s ease-out}
 @keyframes sheetUp{from{transform:translateY(24px);opacity:.4}to{transform:none;opacity:1}}
@@ -285,11 +285,11 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
 .sh-ic.mail{background:#5A6780;color:#fff}
 .sh-ic.copy{background:var(--wash);color:var(--wine);box-shadow:0 0 0 1px var(--rule-strong) inset}
 .sh-ic.text svg,.sh-ic.mail svg,.sh-ic.copy svg{width:30px;height:30px}
-.sh-open{display:flex;align-items:center;gap:14px;margin:10px 0 0;padding:12px 14px;min-height:56px;border:1px solid var(--rule);border-radius:14px;background:var(--sheet);color:var(--ink);text-decoration:none;line-height:1.3}
-.sh-open:first-of-type{margin-top:16px}
+.sh-open{display:flex;align-items:center;gap:14px;width:100%;margin:16px 0 0;padding:12px 14px;min-height:56px;border:1px solid var(--rule);border-radius:14px;background:var(--sheet);color:var(--ink);font:inherit;text-align:left;text-decoration:none;line-height:1.3;cursor:pointer}
 .sh-open svg{flex:none;width:24px;height:24px;fill:currentColor;color:var(--gold-text)}
 .sh-open b{display:block;color:var(--wine);font-weight:600}
 .sh-open small{display:block;color:var(--muted);font-size:calc(14px * min(var(--scale),1.15))}
+.sh-open[hidden],.sh-note[hidden]{display:none}
 .sh-note{margin:14px 4px 0;padding:10px 12px;border-radius:12px;background:var(--wash);color:var(--ink);text-align:center;font-size:calc(14px * min(var(--scale),1.15));line-height:1.4}
 .sh-cancel{display:block;width:100%;min-height:48px;margin:14px 0 0;border:1px solid var(--rule-strong);border-radius:999px;background:var(--sheet);color:var(--ink);font:inherit;font-size:calc(16px * min(var(--scale),1.15));cursor:pointer}
 @media (min-width:601px){dialog.sheet{margin:auto;border-radius:20px;padding-bottom:16px}}
@@ -610,7 +610,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     <li><a class="sh-app" data-app="sms"><span class="sh-ic text"><svg aria-hidden="true" focusable="false"><use href="#i-chat-circle-text"/></svg></span>Text</a></li>
     <li><button class="sh-app" type="button" data-app="copy"><span class="sh-ic copy"><svg aria-hidden="true" focusable="false"><use href="#i-link-simple"/></svg></span>Copy link</button></li>
   </ul>
-  <a class="sh-open" id="shAny" hidden><svg aria-hidden="true" focusable="false"><use href="#i-paper-plane-tilt"/></svg><span><b>Share with any app</b><small>opens your phone&rsquo;s share menu</small></span></a>
+  <button class="sh-open" type="button" id="shMore" hidden><svg aria-hidden="true" focusable="false"><use href="#i-share-network"/></svg><span><b>More apps</b><small>your phone&rsquo;s share menu, with recent chats</small></span></button>
   <a class="sh-open" id="shOpen" hidden><svg aria-hidden="true" focusable="false"><use href="#i-arrow-square-out"/></svg><span><b>Open in Chrome</b><small>to share with any app on your phone</small></span></a>
   <p class="sh-note" id="shNote" hidden></p>
   <button class="sh-cancel" type="button" id="shCancel">Cancel</button>
@@ -828,7 +828,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
   if (window.ResizeObserver){ var itW = 0; new ResizeObserver(function(){ if (it.offsetWidth !== itW){ itW = it.offsetWidth; fitIntent(); } }).observe(it); }
   else window.addEventListener("resize", fitIntent);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitIntent);
-  /* share: the phone's share sheet (WhatsApp, Messenger, texts…) on touch screens, else our own sheet on a phone; on a computer, copy the link */
+  /* share: our share sheet on touch screens; on a computer, copy the link */
   function copyText(t){
     var viaApi = navigator.clipboard && window.isSecureContext ? navigator.clipboard.writeText(t) : Promise.reject();
     return viaApi.catch(function(){
@@ -845,8 +845,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
       function(){ toast("Copy this link: " + SHARE.url.replace(/^https:\/\//, ""), 6000); });
   }
   var touch = !!window.matchMedia && matchMedia("(pointer: coarse)").matches;
-  var useNative = !!navigator.share && touch;
-  /* our own sheet, where the phone's sheet isn't offered: Messenger, Facebook and Instagram's browsers on Android have no navigator.share.
+  /* our own share sheet on every phone (Chav, Nov 2026): the apps people use most, then the phone's own menu under "More apps".
      Plain links to each app's own share address; nothing loads until a person taps one */
   var ua = navigator.userAgent, android = /Android/i.test(ua), ios = /iPhone|iPad|iPod/i.test(ua);
   var inApp = /FBAN|FBAV|FB_IAB|FBIOS|Messenger|Instagram|Line\/|MicroMessenger|; wv\)/i.test(ua);
@@ -861,17 +860,21 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     sms: {name: "your messages app", href: (ios ? "sms:&body=" : "sms:?body=") + enc(msg), app: true}
   };
   [].forEach.call(sh.querySelectorAll("a[data-app]"), function(a){ a.href = APPS[a.getAttribute("data-app")].href; });
-  /* Android in-app browsers: Messenger opens intent:// links (tested Nov 2026), so offer Chrome, where Share shows every app.
-     "Share with any app" asks Android for its own share menu the same way (being tried on a real phone; the intent: form failed) */
-  if (android && inApp){
+  /* one wide row under the apps: the phone's own share menu where the page may open it; in Messenger's and Facebook's
+     browsers on Android (no navigator.share) a link to Chrome instead, which Messenger lets through (tested Nov 2026) */
+  if (navigator.share) $("shMore").hidden = false;
+  else if (android && inApp){
     $("shOpen").href = "intent://" + SHARE.url.replace(/^https:\/\//, "") + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + enc(SHARE.url) + ";end";
     $("shOpen").hidden = false;
-    $("shAny").href = "intent://share/#Intent;action=android.intent.action.SEND;type=text/plain;S.android.intent.extra.TEXT=" + enc(msg) + ";S.browser_fallback_url=" + enc(SHARE.url) + ";end";
-    $("shAny").hidden = false;
   } else if (inApp){
     $("shNote").textContent = "For other apps, open this page in your browser from the menu, then tap Share.";
     $("shNote").hidden = false;
   }
+  $("shMore").addEventListener("click", function(){
+    sh.close();
+    navigator.share({title: SHARE.title, text: SHARE.text, url: SHARE.url})
+      .catch(function(e){ if (!e || e.name !== "AbortError") copyLink(); });
+  });
   function leftPage(){ clearTimeout(shTimer); }
   document.addEventListener("visibilitychange", function(){ if (document.hidden) leftPage(); });
   window.addEventListener("pagehide", leftPage);
@@ -894,12 +897,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
   sh.addEventListener("close", function(){ if (shOpener) shOpener.focus(); });
   function openSheet(b){ shOpener = b; sh.showModal(); }
   [].forEach.call(document.querySelectorAll("[data-share]"), function(b){
-    b.addEventListener("click", function(){
-      if (useNative) return navigator.share({title: SHARE.title, text: SHARE.text, url: SHARE.url})
-        .catch(function(e){ if (!e || e.name !== "AbortError") openSheet(b); });
-      if (touch && sh.showModal) return openSheet(b);
-      copyLink();
-    });
+    b.addEventListener("click", function(){ if (touch && sh.showModal) openSheet(b); else copyLink(); });
   });
   /* "The 9 Days" list: open that day and go to its prayer (the links stay real #day-N links for sharing and search) */
   $("days9").addEventListener("click", function(e){
