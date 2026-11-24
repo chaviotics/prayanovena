@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://prayanovena.com"
 ICON_DIRS = [os.path.join(ROOT, "tools", "icons")]
 BASE_ICONS = ["logo", "cross", "sun", "moon", "text-aa", "check", "caret-down", "footprints", "hands-praying", "arrow-left", "book-open", "paper-plane-tilt", "printer",
-              "brand-messenger", "brand-whatsapp", "brand-viber", "brand-facebook", "chat-circle-text", "link-simple", "arrow-square-out"]   # the share sheet
+              "brand-messenger", "brand-whatsapp", "brand-viber", "brand-telegram", "brand-facebook", "envelope-simple", "chat-circle-text", "link-simple"]   # the share sheet
 NUMWORD = {1: "The Intercessor", 2: "The 2 Intercessors", 3: "The 3 Intercessors"}
 MARIAN_MEMORARE = ("Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to your protection, "
                    "implored your help, or sought your intercession was left unaided. Inspired by this confidence, I fly unto you, "
