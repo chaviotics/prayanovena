@@ -1,0 +1,239 @@
+{
+ "slug": "habitual-sin",
+ "storageKey": "novena-habitual-sin",
+ "status": "draft",
+ "order": 15,
+ "category": "spiritual-life",
+ "title": "Novena for Freedom from Habitual Sin",
+ "cardTitle": "Freedom from Habitual Sin",
+ "icon": "link-break",
+ "barTitle": "Freedom from Habitual Sin",
+ "barShort": "Freedom Novena",
+ "kicker": "9 days of prayer to break a bad habit",
+ "card": "For anyone caught in a sin or habit they can’t seem to break, from lust to drinking, smoking or the phone: 9 days asking God for freedom.",
+ "ogDescription": "9 days of prayer for freedom from habitual sin, through Our Lady, St. Augustine, St. Monica and St. Charles.",
+ "description": "A 9-day Catholic novena for freedom from habitual sin and bad habits like lust, porn or drinking, through St. Augustine, St. Monica and St. Charles de Foucauld.",
+ "keywords": [
+  "habitual sin",
+  "bad habit",
+  "bad habits",
+  "breaking a habit",
+  "addiction",
+  "vice",
+  "temptation",
+  "relapse",
+  "lust",
+  "purity",
+  "chastity",
+  "impurity",
+  "pornography",
+  "porn",
+  "masturbation",
+  "drinking",
+  "alcohol",
+  "smoking",
+  "vaping",
+  "gambling",
+  "gaming",
+  "phone addiction",
+  "social media",
+  "anger",
+  "confession",
+  "conversion",
+  "bisyo",
+  "masamang bisyo",
+  "kasalanan",
+  "tukso",
+  "adiksyon",
+  "kalinisan",
+  "st. augustine",
+  "st. monica",
+  "refuge of sinners",
+  "charles de foucauld"
+ ],
+ "ogSaints": [
+  "augustine",
+  "foucauld"
+ ],
+ "epigraph": {
+  "text": "Create in me a clean heart, O God, and put a new and right spirit within me.",
+  "ref": "Psalm 51:10"
+ },
+ "closingVerse": {
+  "text": "For freedom Christ has set us free; stand fast therefore, and do not submit again to a yoke of slavery.",
+  "ref": "Galatians 5:1"
+ },
+ "printTitle": [
+  "Novena for Freedom",
+  "from Habitual Sin"
+ ],
+ "printClosing": [
+  "For freedom Christ has set us free; stand fast therefore,",
+  "and do not submit again to a yoke of slavery."
+ ],
+ "saints": [
+  {
+   "id": "augustine",
+   "name": "St. Augustine of Hippo",
+   "dates": "354–430",
+   "feast": "Feast · Aug 28",
+   "patron": "Doctor of the Church",
+   "bio": "For years he was bound by lust and ambition, praying for chastity “but not yet.” Set free by grace in a garden in Milan, he became Bishop of Hippo and a great teacher of grace.",
+   "alt": "Painting: St. Augustine as a bishop, by Justus of Ghent",
+   "openingRole": "whom You set free from the chains of sin"
+  },
+  {
+   "id": "monica",
+   "name": "St. Monica",
+   "dates": "c. 331–387",
+   "feast": "Feast · Aug 27",
+   "patron": "Patron of mothers & wives",
+   "bio": "Mother of St. Augustine. As a girl she slid, sip by sip, into a secret habit of drinking wine, then gave it up. For years she prayed with tears for her son’s conversion.",
+   "alt": "Painting: St. Monica in a white veil, hands clasped in prayer, by Luis Tristán",
+   "openingRole": "who prayed for years and never gave up"
+  },
+  {
+   "id": "foucauld",
+   "name": "St. Charles de Foucauld",
+   "dates": "1858–1916",
+   "feast": "Feast · Dec 1",
+   "patron": "Hermit of the Sahara",
+   "bio": "French cavalry officer who lost his faith and lived for pleasure. Converted in Paris in 1886, he became a priest and a hermit among the Tuareg in the Sahara, where he was killed in 1916.",
+   "alt": "Photograph: St. Charles de Foucauld in a white habit and hood, about 1910",
+   "openingRole": "who turned from a life of pleasure to live for God alone"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Mary, Refuge of Sinners"
+  },
+  {
+   "img": "augustine",
+   "text": "St. Augustine of Hippo"
+  },
+  {
+   "img": "monica",
+   "text": "St. Monica"
+  },
+  {
+   "img": "foucauld",
+   "text": "St. Charles de Foucauld"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You know the habit that holds us and how often we have tried and failed to break it. We come to You honestly, with divided hearts, trusting not in our own strength but in Your grace and mercy. Set us free, give us a clean heart, and make us new. Today we ask Mary, Refuge of Sinners; St. Augustine, whom You set free from the chains of sin; St. Monica, who prayed for years and never gave up; and St. Charles de Foucauld, who turned from a life of pleasure to live for God alone, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, You came to set captives free. Break every chain that holds us, heal what sin has wounded, and clothe us with Your virtues, so that we may live in the freedom of the children of God.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Confession and attend Mass during these 9 days; no fall is too frequent to bring to Confession. Remove what feeds the habit (Day&nbsp;5) and tell one trusted person (Day&nbsp;8). If you are praying for someone else’s freedom, as St. Monica did for her son, name them at “Name your intention.” If you struggle with scruples, follow your confessor’s guidance; temptations and unwanted thoughts are not sins."
+  },
+  {
+   "h": "When it is an addiction",
+   "p": "Grace often works through good help: there is no shame in also seeing a doctor or counselor, or joining a support group. If you drink heavily every day, or depend on drugs or medication, talk to a doctor before stopping, since sudden withdrawal can be dangerous. If you ever think of harming yourself, reach out right away to someone you trust or a <a href=\"https://findahelpline.com\" rel=\"noopener noreferrer\" target=\"_blank\">crisis helpline</a>."
+  }
+ ],
+ "intentionPlaceholder": "Write the habit you ask freedom from, or the person you are praying for.",
+ "icons": [
+  "eye",
+  "house-line",
+  "link-break",
+  "door-open",
+  "book-open",
+  "sun",
+  "plant",
+  "users",
+  "sun-horizon"
+ ],
+ "credits": "Images: Justus of Ghent, <em>St Augustine</em>, c. 1474, from the studiolo of Federico da Montefeltro, Urbino · Luis Tristán, <em>St Monica</em>, 1616, Museo del Prado · Charles de Foucauld, photograph, about 1910 · Sassoferrato, <em>The Virgin in Prayer</em>, 17th century. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Honest Before God",
+   "ref": "Romans 7:15",
+   "verse": "I do not understand my own actions. For I do not do what I want, but I do the very thing I hate.",
+   "refl": "St. Paul admits what many of us feel but rarely say: “I do not do what I want, but I do the very thing I hate.” For us it may be lust, drinking too much, smoking, gambling, anger or hours lost to a screen. We have promised to stop, and we have started again. We begin these nine days by being honest with God about the habit, about how often we fall, and even about the part of us that still enjoys it. He already knows. Honesty is where His healing begins.",
+   "more": "St. Augustine was this honest. Before his conversion, he wanted to be free of lust and yet dreaded losing it. He later confessed that as a young man he had prayed, “Grant me chastity and continence, but not yet” (Confessions 8.7). God did not turn away from that half-hearted prayer. He kept drawing Augustine until the “not yet” became “now.” Our divided hearts do not shock Him either.",
+   "prayer": "Heavenly Father, You see our hearts as they are, and You love us still. We bring You the habit that holds us: how it began, how often we fall, and the part of us that does not yet want to let it go. We hide none of it from You. Through the prayers of St. Augustine, who prayed for chastity “but not yet,” give us honest hearts, and turn our half-wanting into a real desire to be free.",
+   "step": "Name the habit to God simply, aloud or on paper, and note when it usually happens, without dwelling on the details."
+  },
+  {
+   "title": "The Father Runs to Meet Us",
+   "ref": "Luke 15:20",
+   "verse": "And he arose and came to his father. But while he was yet at a distance, his father saw him and had compassion, and ran and embraced him and kissed him.",
+   "refl": "The younger son had wasted everything, and he came home with a speech ready. But the father saw him from far away and ran to embrace him before he said a word. Shame tells us to hide from God until we have fixed ourselves, and hiding often drives us back to the habit. Jesus shows us a Father who runs toward the sinner. However many times we have fallen, we are not too far gone. The way home is open, and in Confession His embrace is waiting.",
+   "more": "St. Charles de Foucauld seemed far gone. A cavalry officer who had lost his faith, he spent his inheritance on lavish parties and fine food, and was suspended from the army for living openly with a mistress. In 1886, in Paris, he went to a priest at the church of Saint-Augustin to ask about the faith. The priest told him to kneel and make his confession. He did, and his life turned toward God.",
+   "prayer": "Merciful Father, You run to meet every child who turns toward home. When shame tells us to hide from You, draw us back to Your embrace. Free us from the lie that we have fallen too often to be forgiven. Through the prayers of St. Charles de Foucauld, whom You welcomed home in one Confession, give us the courage to come home, and lead us to the mercy You pour out in Confession.",
+   "step": "Find the Confession times at a nearby church, and choose a day to go. If it has been years, tell the priest; he will help you."
+  },
+  {
+   "title": "Free Indeed",
+   "ref": "John 8:36",
+   "verse": "So if the Son makes you free, you will be free indeed.",
+   "refl": "Just before these words, Jesus says plainly that whoever commits sin is a slave to sin. Every time we give in, the habit grows a little stronger and our freedom a little weaker, until we no longer feel we choose at all. Not every bad habit is a sin, but any habit that rules us makes us less free. Willpower alone is not enough to break the chain. Jesus promises something greater: if the Son makes us free, we will be free indeed. Today we ask Him for the freedom we cannot give ourselves.",
+   "more": "St. Augustine described this chain from the inside. The enemy, he wrote, held his will and had made a chain of it: from a twisted will came lust, lust served became habit, and habit not resisted became necessity (Confessions 8.5). The Church teaches the same: repeated sin breeds vice and clouds the conscience (CCC 1865). Yet the chain that held Augustine was broken by grace, and grace is offered to us too.",
+   "prayer": "Lord Jesus, You promised that those You set free will be free indeed. We confess that this habit has become a chain, and that we cannot break it by our own strength. Strengthen our weak wills with Your grace, and loosen the hold of every craving. Through the prayers of St. Augustine, whose chains You broke, and of St. Monica, who never stopped praying for his freedom, teach us to rely on You more than on ourselves.",
+   "step": "Each time the craving comes today, pray, “Jesus, make me free,” before you decide anything."
+  },
+  {
+   "title": "The Way of Escape",
+   "ref": "1 Corinthians 10:13",
+   "verse": "No temptation has overtaken you that is not common to man. God is faithful, and he will not let you be tempted beyond your strength, but with the temptation will also provide the way of escape, that you may be able to endure it.",
+   "refl": "St. Paul assures us that our temptations are common to all, that God will not let us be tempted beyond our strength, and that He “will also provide the way of escape.” Being tempted is not a sin; consenting is. Most habits follow a pattern: a time of day, a place, a mood such as boredom, loneliness or stress. The way of escape is often found in the moment before, when we can still choose. Today we ask God to show us our pattern, and to help us take the door He opens.",
+   "more": "St. Monica knew how small a habit’s beginnings can be. As a girl she was sent to draw wine from the cask, and she began to take a secret sip. Little by little she added more, until she was drinking cupfuls. A servant, quarreling with her, called her a drunkard. The insult stung, she saw her fault, and she gave it up at once (Confessions 9.8). God used a sharp word to heal her.",
+   "prayer": "Faithful God, You never let us be tempted beyond our strength, and You always provide a way of escape. Open our eyes to the moments, places and moods that lead us into this habit, and give us the grace to turn away while the choice is still easy. Through the prayers of St. Monica, who was freed from a habit that grew little by little, make us watchful, humble and quick to take the way out You give.",
+   "step": "Write down when, where and how the habit usually starts. Then plan one simple way out for that moment, such as a walk, a call or a prayer."
+  },
+  {
+   "title": "Put On Christ",
+   "ref": "Romans 13:14",
+   "verse": "But put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires.",
+   "refl": "“Make no provision for the flesh.” In plain words: don’t leave the door open for the habit. We cannot keep the bottle in the cupboard, the cigarettes in our pocket or the app on our phone and expect to stay free. In the Act of Contrition we promise to avoid the near occasions of sin. But St. Paul begins with something greater: put on the Lord Jesus Christ. We do not only empty our lives of what harms us; we fill them with Him.",
+   "more": "These words freed St. Augustine. In a garden in Milan, torn between his old life and God, he wept and heard a child’s voice chanting, “Take up and read.” He opened St. Paul’s letters and read the words just before today’s verse, “not in reveling and drunkenness, not in debauchery and licentiousness,” and then the verse itself. At once, he wrote, a light of certainty flooded his heart (Confessions 8.12).",
+   "prayer": "Lord Jesus, we want to put You on like a garment. Give us the courage to make no room for this habit: to remove what feeds it, to avoid the places and company that pull us back, and to guard our eyes and our time. Fill the space it leaves with Your presence, Your word and good things. Through the prayers of St. Augustine, who heard Your word and obeyed, help us act on it today.",
+   "step": "Remove one thing that feeds the habit today: delete the app, block the site, pour out the bottle, or change your route home."
+  },
+  {
+   "title": "Rising After a Fall",
+   "ref": "Micah 7:8",
+   "verse": "Rejoice not over me, O my enemy; / when I fall, I shall rise; / when I sit in darkness, / the LORD will be a light to me.",
+   "refl": "Falling again is when discouragement hits hardest. A voice whispers that nothing has changed, that we are hopeless, so we may as well give up. The prophet answers: “When I fall, I shall rise.” A fall is not the end of the fight. What matters is how quickly we get up, return to God, go to Confession if we need it, and begin again without despair. Discouragement is not humility. Every return to God after a fall is itself a victory of grace.",
+   "more": "In the Litany of Loreto, Mary is called Refuge of Sinners. Like any good mother, she does not turn away from a child who has fallen; she lifts us up and brings us to her Son. The Church is realistic too: self-mastery is “a long and exacting work” (CCC 2342), and habit can lessen our responsibility (CCC 1735). That is no excuse to stop fighting, but a reason never to despair.",
+   "prayer": "Lord, when we fall, help us rise at once. Do not let discouragement keep us down or tell us we are hopeless. Mary, Refuge of Sinners, take us by the hand each time we stumble and lead us back to your Son. With St. Augustine, St. Monica and St. Charles de Foucauld, pray that we may never give up, and that every fall may make us humbler and more dependent on God’s mercy.",
+   "step": "If you fall today, don’t wait or wallow. Tell God you are sorry and begin again at once. After a serious sin, go to Confession before receiving Communion."
+  },
+  {
+   "title": "Overcome Evil With Good",
+   "ref": "Romans 12:21",
+   "verse": "Do not be overcome by evil, but overcome evil with good.",
+   "refl": "St. Paul does not only say “stop.” He says, “overcome evil with good.” A habit leaves an empty space when it goes: an hour in the evening, a restless feeling, a need for comfort. If nothing good fills it, the old habit soon moves back in. So we ask which virtue is the opposite of our vice: chastity for lust, temperance for drink, patience for anger, attention to the people around us for the endless scroll. Virtue, like vice, grows by small acts repeated day after day, and grace strengthens every one.",
+   "more": "St. Charles did more than leave his old life. The energy he once spent on pleasure he poured into love of God and neighbor. He prayed for long hours before the Blessed Sacrament and lived among the Tuareg of the Sahara as a brother to all, sharing what he had with the poor. His life shows what the Church teaches: virtues grow by repeated efforts and are lifted up by grace (CCC 1810).",
+   "prayer": "Lord Jesus, do not let us leave an empty house where this habit lived. Fill it with good: with prayer, honest work, friendship, rest and service. Show us the virtue You want to grow in us, and give us the grace to practice it in small ways every day. Through the prayers of St. Charles de Foucauld, who gave his whole heart to God and to the poor, help us overcome evil with good.",
+   "step": "Name the virtue opposite your habit, and start one small good habit in its place, like a morning prayer, daily exercise or a weekly visit to someone lonely."
+  },
+  {
+   "title": "We Are Not Alone",
+   "ref": "James 5:16",
+   "verse": "Therefore confess your sins to one another, and pray for one another, that you may be healed. The prayer of a righteous man has great power in its effects.",
+   "refl": "Habits grow strongest in secret. St. James gives a remedy: confess your sins to one another, and pray for one another, that you may be healed. In the sacrament of Confession, Christ Himself forgives and strengthens us. We also need someone who knows our struggle: a friend, a spiritual director, a support group or a counselor. Telling another person often takes away much of the habit’s power. It is humbling, but humility is the soil where freedom grows. And when someone we love is caught in a habit, we can carry them in prayer.",
+   "more": "St. Augustine did not find freedom alone. For years his mother, St. Monica, prayed and wept for him. When she begged a bishop to reason with her son, he declined, but told her, “It is not possible that the son of these tears should perish” (Confessions 3.12). Friends, St. Ambrose’s preaching and her prayers all helped bring Augustine to the garden in Milan. Our prayers for one another matter more than we know.",
+   "prayer": "Lord Jesus, You did not leave us to fight alone. Give us the humility to tell our struggle to a priest in Confession and to one trusted person who will pray with us and hold us to our resolve. Send us good friends, wise guides and, where we need it, a doctor or counselor. Through the prayers of St. Monica, whose tears You did not forget, bless everyone who is praying for someone caught in a habit.",
+   "step": "Tell one trusted person about your struggle, and ask them to pray for you and check in with you this week."
+  },
+  {
+   "title": "Gratitude & Surrender",
+   "ref": "Philippians 1:6",
+   "verse": "And I am sure that he who began a good work in you will bring it to completion at the day of Jesus Christ.",
+   "refl": "St. Paul is sure that God, who began a good work in us, will bring it to completion. Nine days rarely undo a habit of years, and that is all right. Freedom is usually a road, not a single moment, and God walks it with us. We end these nine days with thanks for every grace He has given, every temptation resisted and every return after a fall. With Mary, Refuge of Sinners, St. Augustine, St. Monica and St. Charles de Foucauld, we place the road ahead in His hands.",
+   "more": "Looking back, we may notice small graces: a temptation we turned from, an honest conversation, a Confession, a morning of peace. Even if we fell, the falls may have taught us humility and trust. St. Augustine, once free, thanked God for breaking his bonds (Confessions 9.1) and spent the rest of his life praising the grace that did it. Our story with God is not finished, and each day is a new beginning.",
+   "prayer": "Lord, on this ninth day we thank You for staying with us through every hour of this novena, for every grace, seen and unseen, and for every new beginning. Thank you, Mary, Refuge of Sinners, St. Augustine, St. Monica and St. Charles de Foucauld, for carrying our prayers to Jesus. Lord, we place this struggle, our weakness and our future in Your hands. Finish the good work You have begun in us, and let Your will be done.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}
