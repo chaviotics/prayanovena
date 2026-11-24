@@ -1,0 +1,168 @@
+{
+ "days": [
+  {
+   "file": "Rembrandt Christ in the Storm on the Lake of Galilee.jpg",
+   "width": 960,
+   "crop": [
+    0.12,
+    0.33,
+    0.95,
+    0.83092
+   ],
+   "kind": "stretch",
+   "passage": "Mark 4",
+   "artist": "Rembrandt",
+   "title": "Christ in the Storm on the Sea of Galilee",
+   "year": "1633",
+   "place": "Isabella Stewart Gardner Museum, Boston (stolen 1990)",
+   "alt": "In a wind-torn boat on a stormy sea, the disciples struggle with the sail and rigging while Christ sits calmly among them.",
+   "look": "Look again at the tossed boat and the One who is with them in it. What fear would you hand to Him tonight?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Master Of The Aix Annunciation - The Prophet Jeremiah - WGA14509.jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0.12,
+    1,
+    0.5477
+   ],
+   "kind": "names",
+   "artist": "Barthélemy d’Eyck (Master of the Aix Annunciation)",
+   "title": "The Prophet Jeremiah",
+   "year": "c. 1445",
+   "place": "Royal Museums of Fine Arts of Belgium, Brussels",
+   "alt": "The prophet Jeremiah, in a red robe and cap, stands in a painted niche reading an open blue book.",
+   "look": "Look again at Jeremiah reading his book. Can you rest in God’s knowing of your child, before anyone else has seen their face?",
+   "license": "Artist died c. 1476; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Albertinelli Visitation.jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0.12,
+    1,
+    0.6104
+   ],
+   "kind": "scene",
+   "artist": "Mariotto Albertinelli",
+   "title": "The Visitation",
+   "year": "1503",
+   "place": "Uffizi, Florence",
+   "alt": "Mary in blue and Elizabeth in gold and white embrace under a stone arch, their foreheads nearly touching.",
+   "look": "Look again at the two women holding each other. Who could you let come close and share your waiting?",
+   "license": "Artist died 1515; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Anton Raphael Mengs - The Dream of St. Joseph - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.02,
+    1,
+    0.5854
+   ],
+   "kind": "scene",
+   "artist": "Anton Raphael Mengs",
+   "title": "The Dream of St. Joseph",
+   "year": "c. 1773",
+   "place": "Kunsthistorisches Museum, Vienna",
+   "alt": "St. Joseph rests his head on his hand, deep in thought, while an angel behind him points the way and speaks to him.",
+   "look": "Look again at the angel’s hand pointing the way over Joseph’s head. What courage do you need to ask for?",
+   "license": "Artist died 1779; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "El Greco - St. Paul - Google Art Project.jpg",
+   "width": 1280,
+   "crop": [
+    0,
+    0.0,
+    1,
+    0.59369
+   ],
+   "kind": "saint",
+   "artist": "El Greco",
+   "title": "Saint Paul",
+   "year": "c. 1610–1614",
+   "place": "",
+   "alt": "St. Paul, in a blue-green tunic and rose cloak, looks out gravely, holding a letter and the hilt of a sword.",
+   "look": "Look again at the letter in Paul’s hand. What would you bring to God with thanks, before you ask?",
+   "license": "Artist died 1614; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Cappella tornabuoni, 12, Nascita di san giovanni battista.jpg",
+   "width": 1920,
+   "crop": [
+    0.02,
+    0.34,
+    0.48,
+    0.84604
+   ],
+   "kind": "practice",
+   "artist": "Domenico Ghirlandaio",
+   "title": "The Birth of St. John the Baptist",
+   "year": "1486–1490",
+   "place": "Tornabuoni Chapel, Santa Maria Novella, Florence",
+   "alt": "St. Elizabeth sits up in bed while women in long gowns tend the newborn and help care for her.",
+   "look": "Look again at the women gathered around Elizabeth and her newborn. Who cares for mothers and babies that you could pray for by name?",
+   "license": "Artist died 1494; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Georges de La Tour - The New-born - WGA12349.jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0.06,
+    1,
+    0.9731
+   ],
+   "kind": "names",
+   "artist": "Georges de La Tour",
+   "title": "The New-born",
+   "year": "1640s",
+   "place": "Musée des Beaux-Arts, Rennes",
+   "alt": "A mother in a red dress holds her swaddled newborn on her lap while a second woman looks on, her hand shielding a candle.",
+   "look": "Look again at the mother’s hands holding her newborn. What would you ask of God for the hour your child is born?",
+   "license": "Artist died 1652; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Carl Heinrich Bloch - Gethsemane.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.3,
+    1,
+    0.836
+   ],
+   "kind": "stretch",
+   "passage": "Luke 22",
+   "artist": "Carl Bloch",
+   "title": "Christ in Gethsemane",
+   "year": "1873",
+   "place": "Frederiksborg Museum, Hillerød",
+   "alt": "An angel in white holds Christ close as He kneels in sorrow, His head bowed against the angel.",
+   "look": "Look again at the angel holding Christ in His sorrow. What sorrow will you let the Father hold tonight?",
+   "license": "Artist died 1890; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Leonardo da Vinci - Annunciazione - Google Art Project.jpg",
+   "width": 1920,
+   "crop": [
+    0.35,
+    0,
+    0.9547,
+    1
+   ],
+   "kind": "scene",
+   "artist": "Leonardo da Vinci",
+   "title": "The Annunciation",
+   "year": "c. 1472",
+   "place": "Uffizi, Florence",
+   "alt": "Mary in blue sits beside a carved stone lectern in a garden, one hand raised and the other resting on an open book.",
+   "look": "Look again at Mary’s raised hand. What would your own yes to God sound like today?",
+   "license": "Artist died 1519; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}

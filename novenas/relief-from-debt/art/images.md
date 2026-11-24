@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make relief-from-debt` from `novenas/relief-from-debt/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (scene) | Carl Bloch, *The Sermon on the Mount*, 1877, Frederiksborg Museum, Hillerød. Commons `Carl Bloch - The Sermon on the Mount.jpg`, 1280px thumbnail; day crop [0.38, 0.12, 0.933, 0.5] | Artist died 1890; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (scene) | Fra Angelico, *The Annunciation*, c. 1426, Museo del Prado, Madrid. Commons `Fra Angelico - The Annunciation - WGA0455.jpg`, original file; day crop [0.28, 0.08, 1.0, 0.762] | Artist died 1455; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (saint) | Georges de La Tour, *Saint Joseph the Carpenter*, 1642, Musée du Louvre, Paris. Commons `Georges de La Tour 048.jpg`, 1280px thumbnail; day crop [0.17, 0.08, 1.0, 0.531] | Artist died 1652; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (practice) | Quinten Massys, *The Moneylender and His Wife*, 1514, Musée du Louvre, Paris. Commons `Quinten Massijs (I) - The Moneylender and his Wife - WGA14281.jpg`, original file; day crop [0, 0.12, 1.0, 0.844] | Artist died 1530; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (stretch) | Rembrandt, *Simeon’s Song of Praise*, 1631, Mauritshuis, The Hague (Luke 2). Commons `Simeon in the temple, by Rembrandt van Rijn.jpg`, 1280px thumbnail; day crop [0.275, 0.594, 0.725, 0.856] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (saint) | Bartolomé Esteban Murillo, *The Holy Family with a Little Bird*, c. 1650, Museo del Prado, Madrid. Commons `Sagrada Familia del pajarito (Murillo).jpg`, 1280px thumbnail; day crop [0.05, 0.02, 0.95, 0.92] | Artist died 1682; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (saint) | Rembrandt, *Saint Paul in Prison*, 1627, Staatsgalerie, Stuttgart. Commons `Rembrandt St. Paul in Prison.jpg`, 1280px thumbnail; day crop [0.2, 0.15, 0.95, 0.612] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (stretch) | Domenico Fetti, *The Parable of the Good Samaritan*, Gallerie dell’Accademia, Venice (Luke 10). Commons `(Venice) The parable of the Good Samaritan by Domenico Fetti - Gallerie Accademia.jpg`, 1280px thumbnail; day crop [0.2, 0.4, 0.8, 0.724] | Artist died 1623; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (stretch) | Echternach Abbey scriptorium, *The Cleansing of the Ten Lepers, from the Codex Aureus of Echternach*, c. 1035–1040, Germanisches Nationalmuseum, Nuremberg (Luke 17). Commons `CodexAureus Cleansing of the ten lepers.jpg`, original file; day crop [0.49, 0.2, 0.966, 0.901] | Manuscript made c. 1035–1040; faithful photo of a 2D work (Commons: public domain) |

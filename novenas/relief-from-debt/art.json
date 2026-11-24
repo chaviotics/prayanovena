@@ -1,0 +1,169 @@
+{
+ "days": [
+  {
+   "file": "Carl Bloch - The Sermon on the Mount.jpg",
+   "width": 1280,
+   "crop": [
+    0.38,
+    0.12,
+    0.933,
+    0.50001
+   ],
+   "kind": "scene",
+   "artist": "Carl Bloch",
+   "title": "The Sermon on the Mount",
+   "year": "1877",
+   "place": "Frederiksborg Museum, Hillerød",
+   "alt": "Seated on a rock above a crowd, Jesus lifts one hand as he teaches, while listeners in robes and headscarves look up at him.",
+   "look": "Look again at Jesus’ raised hand and the faces turned toward him. What worry would you let him answer today?",
+   "license": "Artist died 1890; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Fra Angelico - The Annunciation - WGA0455.jpg",
+   "width": 0,
+   "crop": [
+    0.28,
+    0.08,
+    1.0,
+    0.76211
+   ],
+   "kind": "scene",
+   "artist": "Fra Angelico",
+   "title": "The Annunciation",
+   "year": "c. 1426",
+   "place": "Museo del Prado, Madrid",
+   "alt": "Mary sits with her arms crossed over her chest and an open book on her knee, as a rose-robed angel bows before her.",
+   "look": "Look again at Mary’s folded arms. What would it cost you to say yes without seeing the way?",
+   "license": "Artist died 1455; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Georges de La Tour 048.jpg",
+   "width": 1280,
+   "crop": [
+    0.17,
+    0.08,
+    1.0,
+    0.53093
+   ],
+   "kind": "saint",
+   "artist": "Georges de La Tour",
+   "title": "Saint Joseph the Carpenter",
+   "year": "1642",
+   "place": "Musée du Louvre, Paris",
+   "alt": "Bent over his work by candlelight, Joseph drills while the boy Jesus holds the candle and looks up at him.",
+   "look": "Look again at the boy holding the candle for Joseph’s work. Where could you offer your own work, even if it is small?",
+   "license": "Artist died 1652; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Quinten Massijs (I) - The Moneylender and his Wife - WGA14281.jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0.12,
+    1.0,
+    0.84405
+   ],
+   "kind": "practice",
+   "artist": "Quinten Massys",
+   "title": "The Moneylender and His Wife",
+   "year": "1514",
+   "place": "Musée du Louvre, Paris",
+   "alt": "A man weighs coins on a table covered with gold and pearls while his wife turns the pages of a prayer book beside him.",
+   "look": "Look again at the hands sorting the coins one by one. Are you ready to look at your own numbers, with God beside you?",
+   "license": "Artist died 1530; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Simeon in the temple, by Rembrandt van Rijn.jpg",
+   "width": 1280,
+   "crop": [
+    0.275,
+    0.594,
+    0.725,
+    0.85612
+   ],
+   "kind": "stretch",
+   "artist": "Rembrandt",
+   "title": "Simeon’s Song of Praise",
+   "year": "1631",
+   "place": "Mauritshuis, The Hague",
+   "alt": "In a dim temple, the old man Simeon holds the swaddled Christ child in a pool of light, with Mary and Joseph beside him.",
+   "look": "Look again at the light falling on the old man and the child. What are you still waiting for God to show you?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Luke 2"
+  },
+  {
+   "file": "Sagrada Familia del pajarito (Murillo).jpg",
+   "width": 1280,
+   "crop": [
+    0.05,
+    0.02,
+    0.95,
+    0.92
+   ],
+   "kind": "saint",
+   "artist": "Bartolomé Esteban Murillo",
+   "title": "The Holy Family with a Little Bird",
+   "year": "c. 1650",
+   "place": "Museo del Prado, Madrid",
+   "alt": "Joseph holds the toddler Jesus on his lap while Mary winds wool beside them and a small dog looks up.",
+   "look": "Look again at Joseph’s hands steadying the child. What would help your home to be gentler tonight?",
+   "license": "Artist died 1682; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Rembrandt St. Paul in Prison.jpg",
+   "width": 1280,
+   "crop": [
+    0.2,
+    0.15,
+    0.95,
+    0.61243
+   ],
+   "kind": "saint",
+   "artist": "Rembrandt",
+   "title": "Saint Paul in Prison",
+   "year": "1627",
+   "place": "Staatsgalerie, Stuttgart",
+   "alt": "The aged Paul sits in a stone cell, one hand at his chin and the other on a book, in a shaft of light from a high window.",
+   "look": "Look again at Paul in his cell, in the light from the window. What would you say to God about today’s deadlines, by name?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "(Venice) The parable of the Good Samaritan by Domenico Fetti - Gallerie Accademia.jpg",
+   "width": 1280,
+   "crop": [
+    0.2,
+    0.4,
+    0.8,
+    0.7236
+   ],
+   "kind": "stretch",
+   "artist": "Domenico Fetti",
+   "title": "The Parable of the Good Samaritan",
+   "year": "",
+   "place": "Gallerie dell’Accademia, Venice",
+   "alt": "The Samaritan lifts the wounded traveler onto his donkey, holding him close under a windswept tree.",
+   "look": "Look again at the Samaritan’s arms around the stranger. Who is the neighbor you owe love to today?",
+   "license": "Artist died 1623; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Luke 10"
+  },
+  {
+   "file": "CodexAureus Cleansing of the ten lepers.jpg",
+   "width": 0,
+   "crop": [
+    0.49,
+    0.2,
+    0.966,
+    0.90074
+   ],
+   "kind": "stretch",
+   "artist": "Echternach Abbey scriptorium",
+   "title": "The Cleansing of the Ten Lepers, from the Codex Aureus of Echternach",
+   "year": "c. 1035–1040",
+   "place": "Germanisches Nationalmuseum, Nuremberg",
+   "alt": "In a medieval illumination, Christ in a green cloak raises his hand over a man in red who has bowed to the ground at his feet.",
+   "look": "Look again at the one man bowed to the ground at Christ’s feet. What one thing can you thank God for today?",
+   "license": "Manuscript made c. 1035–1040; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Luke 17"
+  }
+ ]
+}

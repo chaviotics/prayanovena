@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make expectant-parents` from `novenas/expectant-parents/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (stretch) | Rembrandt, *Christ in the Storm on the Sea of Galilee*, 1633, Isabella Stewart Gardner Museum, Boston (stolen 1990) (Mark 4). Commons `Rembrandt Christ in the Storm on the Lake of Galilee.jpg`, 960px thumbnail; day crop [0.12, 0.33, 0.95, 0.831] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (names) | Barthélemy d’Eyck (Master of the Aix Annunciation), *The Prophet Jeremiah*, c. 1445, Royal Museums of Fine Arts of Belgium, Brussels. Commons `Master Of The Aix Annunciation - The Prophet Jeremiah - WGA14509.jpg`, original file; day crop [0, 0.12, 1, 0.548] | Artist died c. 1476; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (scene) | Mariotto Albertinelli, *The Visitation*, 1503, Uffizi, Florence. Commons `Albertinelli Visitation.jpg`, original file; day crop [0, 0.12, 1, 0.61] | Artist died 1515; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (scene) | Anton Raphael Mengs, *The Dream of St. Joseph*, c. 1773, Kunsthistorisches Museum, Vienna. Commons `Anton Raphael Mengs - The Dream of St. Joseph - Google Art Project.jpg`, 960px thumbnail; day crop [0, 0.02, 1, 0.585] | Artist died 1779; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (saint) | El Greco, *Saint Paul*, c. 1610–1614. Commons `El Greco - St. Paul - Google Art Project.jpg`, 1280px thumbnail; day crop [0, 0.0, 1, 0.594] | Artist died 1614; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (practice) | Domenico Ghirlandaio, *The Birth of St. John the Baptist*, 1486–1490, Tornabuoni Chapel, Santa Maria Novella, Florence. Commons `Cappella tornabuoni, 12, Nascita di san giovanni battista.jpg`, 1920px thumbnail; day crop [0.02, 0.34, 0.48, 0.846] | Artist died 1494; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (names) | Georges de La Tour, *The New-born*, 1640s, Musée des Beaux-Arts, Rennes. Commons `Georges de La Tour - The New-born - WGA12349.jpg`, original file; day crop [0, 0.06, 1, 0.973] | Artist died 1652; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (stretch) | Carl Bloch, *Christ in Gethsemane*, 1873, Frederiksborg Museum, Hillerød (Luke 22). Commons `Carl Heinrich Bloch - Gethsemane.jpg`, 960px thumbnail; day crop [0, 0.3, 1, 0.836] | Artist died 1890; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (scene) | Leonardo da Vinci, *The Annunciation*, c. 1472, Uffizi, Florence. Commons `Leonardo da Vinci - Annunciazione - Google Art Project.jpg`, 1920px thumbnail; day crop [0.35, 0, 0.955, 1] | Artist died 1519; faithful photo of a 2D work (Commons: public domain) |

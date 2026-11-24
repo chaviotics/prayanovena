@@ -1,0 +1,168 @@
+{
+ "days": [
+  {
+   "file": "Johannes (Jan) Vermeer - Christ in the House of Martha and Mary - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.04,
+    1,
+    0.6886
+   ],
+   "kind": "scene",
+   "artist": "Johannes Vermeer",
+   "title": "Christ in the House of Martha and Mary",
+   "year": "c. 1654–55",
+   "place": "Scottish National Gallery, Edinburgh",
+   "alt": "Martha stands over a table with a basket of bread, leaning toward Jesus, who gestures toward Mary seated at His feet.",
+   "look": "Look again at Martha with the bread, bent toward Jesus. What would you set down before you serve?",
+   "license": "Artist died 1675; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Vincent van Gogh - The sower - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0,
+    1,
+    0.9314
+   ],
+   "kind": "names",
+   "artist": "Vincent van Gogh",
+   "title": "The Sower",
+   "year": "1888",
+   "place": "Van Gogh Museum, Amsterdam",
+   "alt": "A sower in a green coat strides across a plowed field under a huge yellow sun, scattering seed.",
+   "look": "Look again at the sower’s hand in the seed bag. What have you planted that you can now leave to God to grow?",
+   "license": "Artist died 1890; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Gerard David - The Marriage at Cana.jpg",
+   "width": 1280,
+   "crop": [
+    0.125,
+    0.065,
+    1,
+    0.9265
+   ],
+   "kind": "scene",
+   "artist": "Gerard David",
+   "title": "The Marriage at Cana",
+   "year": "c. 1500",
+   "place": "Musée du Louvre, Paris",
+   "alt": "At a wedding feast, a servant in red kneels beside large stone jars holding out a cup, while another pours from a jug and the guests sit at table.",
+   "look": "Look again at the jars before the servants. What plain task is He asking you to fill to the brim?",
+   "license": "Artist died 1523; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Angelico, niccolina 11.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.2,
+    1,
+    0.8045
+   ],
+   "kind": "practice",
+   "artist": "Fra Angelico",
+   "title": "Saint Lawrence Distributing Alms",
+   "year": "c. 1447–49",
+   "place": "Niccoline Chapel, Vatican Palace",
+   "alt": "St. Lawrence, in a deacon’s rich robe, hands alms to a line of poor men, women and children who reach toward him.",
+   "look": "Look again at Lawrence’s open hands and the poor reaching toward them. Whose need could you serve in His name today?",
+   "license": "Artist died 1455; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "St. Cecilia by Guido Reni.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.07,
+    1,
+    0.668
+   ],
+   "kind": "saint",
+   "artist": "Guido Reni",
+   "title": "Saint Cecilia",
+   "year": "1606",
+   "place": "Norton Simon Museum, Pasadena",
+   "alt": "St. Cecilia looks up toward heaven, holding a violin and bow against her red dress.",
+   "look": "Look again at Cecilia’s upturned face. To whom is your song really sung?",
+   "license": "Artist died 1642; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Jesus washing Peter's feet.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.1,
+    1,
+    0.95
+   ],
+   "kind": "stretch",
+   "passage": "John 13",
+   "artist": "Ford Madox Brown",
+   "title": "Jesus Washing Peter’s Feet",
+   "year": "1852–56",
+   "place": "Tate Britain, London",
+   "alt": "Jesus kneels in a green robe and washes the foot of an older bearded Peter, who bows his head.",
+   "look": "Look again at Christ kneeling at Peter’s feet. If He bends this low for you, what worry can you cast on Him?",
+   "license": "Artist died 1893; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Rembrandt van Rijn (and Workshop?), The Apostle Paul, c. 1657, NGA 1198.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.12,
+    1,
+    0.7185
+   ],
+   "kind": "saint",
+   "artist": "Rembrandt and workshop",
+   "title": "The Apostle Paul",
+   "year": "c. 1657",
+   "place": "National Gallery of Art, Washington",
+   "alt": "The elderly, bearded Paul rests his tired head on his hand, a sword standing behind him.",
+   "look": "Look again at Paul’s head resting on his hand. What weakness could you lay before Christ today?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: CC0)"
+  },
+  {
+   "file": "Jean-François Millet - Gleaners - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0,
+    0.9969,
+    1
+   ],
+   "kind": "names",
+   "artist": "Jean-François Millet",
+   "title": "The Gleaners",
+   "year": "1857",
+   "place": "Musée d’Orsay, Paris",
+   "alt": "Three peasant women bend low in a wide field of cut wheat, gathering what is left, while far behind them the harvest is piled high.",
+   "look": "Look again at the women bent over the field. Who could you ask the Lord of the harvest to send?",
+   "license": "Artist died 1875; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Jean II Restout - Pentecost - WGA19318.jpg",
+   "width": 0,
+   "crop": [
+    0.15,
+    0,
+    0.9355,
+    1
+   ],
+   "kind": "stretch",
+   "passage": "Acts 2",
+   "artist": "Jean II Restout",
+   "title": "Pentecost",
+   "year": "1732",
+   "place": "Musée du Louvre, Paris",
+   "alt": "Light pours down on Mary and the apostles gathered in a hall as the Spirit descends.",
+   "look": "Look again at the light falling on them. What would you give back to Him with thanks?",
+   "license": "Artist died 1768; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}
