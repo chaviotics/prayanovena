@@ -210,7 +210,10 @@ dialog.viewer::backdrop{background:rgb(8 10 16 / .82)}
 .sub-h{font-size:calc(12.5px * var(--scale));margin:16px 0 6px}
 .intent{background:var(--wash);border-radius:12px;padding:14px 16px;margin-top:6px}
 .intent label{display:block;font-size:calc(12.5px * var(--scale));margin-bottom:6px}
-.intent textarea{width:100%;min-height:76px;border:1px solid var(--rule-strong);border-radius:8px;background:var(--sheet);padding:10px 12px;font-size:17px;line-height:1.5;resize:vertical}
+.intent textarea{display:block;width:100%;min-height:calc(3em + 22px);max-height:calc(12em + 22px);border:1px solid var(--rule-strong);border-radius:8px;background:var(--sheet);padding:10px 12px;font-size:calc(17px * var(--scale));line-height:1.5;resize:none;overflow-y:auto}
+/* the box grows to fit its placeholder or what is written (2 to 8 lines), then scrolls; the copy below only measures */
+.intent textarea::placeholder{color:var(--muted);color:color-mix(in srgb,var(--muted) 85%,var(--sheet));opacity:1} /* about 5:1 in both modes; the browser grey was 3.5:1 in dark */
+.intent{position:relative}.intent .measure{position:absolute;left:0;top:0;visibility:hidden;pointer-events:none;height:0;min-height:0;max-height:none;overflow:hidden}
 .hint{font-size:calc(14.5px * var(--scale));color:var(--muted);margin:4px 0 0}
 .intent .hint{margin-top:6px}
 details.prayer{border:1px solid var(--rule-strong);border-radius:10px;background:var(--sheet);margin:8px 0}
@@ -674,6 +677,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     var s = SCALES.indexOf(gs) >= 0 ? gs : (SCALES.indexOf(state.scale) >= 0 ? state.scale : 1);
     root.style.setProperty("--scale", s);
     sizeBtns.forEach(function(b){ b.setAttribute("aria-pressed", String(+b.dataset.scale === s)); });
+    if (typeof fitIntent === "function") fitIntent();
   }
   function closeSizer(){ $("sizer").classList.remove("open"); $("sizeBtn").setAttribute("aria-expanded", "false"); }
   $("sizeBtn").addEventListener("click", function(e){ e.stopPropagation(); var o = $("sizer").classList.toggle("open"); $("sizeBtn").setAttribute("aria-expanded", String(o)); });
@@ -822,7 +826,25 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     state.done = []; state.start = null; save(state); sel = 1; render(); toast("Progress cleared. Your intention is kept.");
   });
   var it = $("intention"); it.value = state.intention || "";
-  it.addEventListener("input", function(){ state.intention = it.value; save(state); });
+  it.addEventListener("input", function(){ state.intention = it.value; save(state); fitIntent(); });
+  /* size the intention box to the taller of its placeholder and its text, so the placeholder is never cut off
+     and the box does not jump when typing starts; CSS keeps it between 2 and 8 lines and scrolls past that */
+  var itCopy = it.cloneNode(false);
+  itCopy.removeAttribute("id"); itCopy.removeAttribute("placeholder"); itCopy.className = "measure";
+  itCopy.setAttribute("aria-hidden", "true"); itCopy.tabIndex = -1;
+  it.parentNode.insertBefore(itCopy, it);
+  function fitIntent(){
+    var w = it.offsetWidth; if (!w) return;
+    itCopy.style.width = w + "px";
+    var edge = it.offsetHeight - it.clientHeight;
+    itCopy.value = it.placeholder; var hp = itCopy.scrollHeight;
+    itCopy.value = it.value; var hv = itCopy.scrollHeight;
+    var h = Math.ceil(Math.max(hp, hv) + edge) + "px";
+    if (it.style.height !== h) it.style.height = h;
+  }
+  if (window.ResizeObserver){ var itW = 0; new ResizeObserver(function(){ if (it.offsetWidth !== itW){ itW = it.offsetWidth; fitIntent(); } }).observe(it); }
+  else window.addEventListener("resize", fitIntent);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitIntent);
   /* share: the phone's share sheet (WhatsApp, Messenger, texts…) on touch screens; on a computer, copy the link */
   function copyText(t){
     var viaApi = navigator.clipboard && window.isSecureContext ? navigator.clipboard.writeText(t) : Promise.reject();

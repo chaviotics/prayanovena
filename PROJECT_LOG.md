@@ -250,6 +250,9 @@ Two phases, so the new name can go live before the domain exists:
 ### 2026-11-24 (day pictures pilot)
 - Habitual Sin gets a picture on all 9 days (pilot for every novena): template `.art` figure + `.lookagain` callout + `<dialog>` viewer, `art.json` + `tools/art.py`, build copies `<slug>/art/`, sw.js leaves the pictures out of the offline download, print CSS hides them, How to Pray line, About "Praying with pictures". Day 6 changed from La Tour's Magdalene (bare shoulders and legs in the whole picture) to Holman Hunt's *The Light of the World*. Rollout to the other novenas planned in its own thread (handoff: project files `scripture-pictures/ROLLOUT.md`).
 
+### 2026-11-24 (intention box fits its placeholder)
+- **"Our intention" box sizes itself** (Chav saw the talents placeholder cut off on iPhone): it was a fixed 2 lines. Now `fitIntent()` in `templates/novena.html` measures a hidden copy and sets the height to the taller of the placeholder and the typed text, so it never jumps smaller when typing starts; CSS keeps it between 2 and 8 lines, then it scrolls. The box text follows the text-size setting (`calc(17px * var(--scale))`, never under 16px, so iPhones don't zoom), the drag handle is gone, and the placeholder colour is a muted token mix (about 5:1 in both modes; the browser grey was 3.5:1 in dark). Checked all novenas at 320–1280px and all 3 text sizes in Chromium; Safari not testable in the cloud.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).
