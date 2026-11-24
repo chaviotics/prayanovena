@@ -1,0 +1,167 @@
+{
+ "days": [
+  {
+   "file": "Jacopo Tintoretto - Christ in the House of Martha and Mary - WGA22615.jpg",
+   "width": 500,
+   "crop": [
+    0,
+    0.218,
+    1,
+    0.722
+   ],
+   "kind": "scene",
+   "artist": "Jacopo Tintoretto",
+   "title": "Christ in the House of Martha and Mary",
+   "year": "c. 1570–75",
+   "place": "Alte Pinakothek, Munich",
+   "alt": "Martha leans over the table and points toward her sister Mary, who sits on the floor near Jesus as He speaks.",
+   "look": "Look again at Martha’s pointing hand. What has been pulling you away from sitting with Jesus?",
+   "license": "Artist died 1594; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Jean-François Millet - The Sower - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.0,
+    1,
+    0.609
+   ],
+   "kind": "names",
+   "artist": "Jean-François Millet",
+   "title": "The Sower",
+   "year": "1850",
+   "place": "Museum of Fine Arts, Boston",
+   "alt": "A farmer strides down a dark hillside at dusk, flinging seed from the bag at his side.",
+   "look": "Look again at the seed leaving the sower’s hand. Can you trust God with what grows from it?",
+   "license": "Artist died 1875; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Juan de Flandes - The Marriage Feast at Cana - WGA12055.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.42,
+    1,
+    0.981
+   ],
+   "kind": "scene",
+   "artist": "Juan de Flandes",
+   "title": "The Marriage Feast at Cana",
+   "year": "c. 1500–04",
+   "place": "Metropolitan Museum of Art, New York",
+   "alt": "At the wedding table in Cana, Jesus and Mary sit while a servant pours water from a jug, with the stone jars below.",
+   "look": "Look again at the servant pouring water. What ordinary task is yours to do faithfully today?",
+   "license": "Artist died 1519; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Jean-François Millet - The Angelus - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.05,
+    1,
+    0.952
+   ],
+   "kind": "practice",
+   "artist": "Jean-François Millet",
+   "title": "The Angelus",
+   "year": "1857–59",
+   "place": "Musée d’Orsay, Paris",
+   "alt": "Two farm workers stand in an evening field with heads bowed in prayer, their fork and basket at their feet.",
+   "look": "Look again at the tools laid down for prayer. Which task will you offer to God in His name today?",
+   "license": "Artist died 1875; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Gerard van Honthorst - King David Playing the Harp - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.09,
+    1,
+    0.69
+   ],
+   "kind": "names",
+   "artist": "Gerard van Honthorst",
+   "title": "King David Playing the Harp",
+   "year": "1622",
+   "place": "Centraal Museum, Utrecht",
+   "alt": "King David, crowned, looks up to heaven as he plays a harp.",
+   "look": "Look again at David’s eyes, lifted above the harp. To whom is your music or work really offered?",
+   "license": "Artist died 1656; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Dieric Bouts - Prophet Elijah in the Desert - WGA03015.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.2,
+    1,
+    0.796
+   ],
+   "kind": "stretch",
+   "passage": "1 Kings 19",
+   "artist": "Dieric Bouts",
+   "title": "The Prophet Elijah in the Desert",
+   "year": "1464–67",
+   "place": "St. Peter’s Church, Leuven",
+   "alt": "An angel kneels beside the prophet Elijah, asleep in the desert, and gently touches his shoulder.",
+   "look": "Look again at the angel’s hand on the sleeping prophet. Where is God inviting you to rest and be fed?",
+   "license": "Artist died 1475; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Rembrandt St. Paul in Prison.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.12,
+    1,
+    0.736
+   ],
+   "kind": "saint",
+   "artist": "Rembrandt",
+   "title": "Saint Paul in Prison",
+   "year": "1627",
+   "place": "Staatsgalerie Stuttgart",
+   "alt": "St. Paul, old and bearded, sits in a prison cell with his hand to his chin and a book on his knees, as light falls through the window.",
+   "look": "Look again at the light falling on Paul in his cell. Which weakness would you let God’s grace shine on?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Pieter Bruegel the Elder - The Corn Harvest (August) - WGA03451.jpg",
+   "width": 960,
+   "crop": [
+    0.0,
+    0.422,
+    0.54,
+    1.0
+   ],
+   "kind": "names",
+   "artist": "Pieter Bruegel the Elder",
+   "title": "The Harvesters",
+   "year": "1565",
+   "place": "Metropolitan Museum of Art, New York",
+   "alt": "Harvesters swing their scythes and bundle sheaves in a field of golden wheat.",
+   "look": "Look again at the harvesters in the wide field. Who is the Lord asking you to pray for today?",
+   "license": "Artist died 1569; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Ghent Altarpiece - Singing Angels (left).jpg",
+   "width": 960,
+   "crop": [
+    0.07,
+    0.1,
+    0.93,
+    0.417
+   ],
+   "kind": "names",
+   "artist": "Jan and Hubert van Eyck",
+   "title": "The Ghent Altarpiece: Singing Angels",
+   "year": "1432",
+   "place": "St. Bavo’s Cathedral, Ghent",
+   "alt": "A choir of angels in rich robes sings together from a book on a carved lectern.",
+   "look": "Look again at the angels singing together. For which grace of these days will you give God glory?",
+   "license": "Artists died 1441 and 1426; faithful photo of a 2D work (Commons: PD-Art)"
+  }
+ ]
+}
