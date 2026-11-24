@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make serving-in-ministry` from `novenas/serving-in-ministry/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (scene) | Jacopo Tintoretto, *Christ in the House of Martha and Mary*, c. 1570–75, Alte Pinakothek, Munich. Commons `Jacopo Tintoretto - Christ in the House of Martha and Mary - WGA22615.jpg`, 500px thumbnail; day crop [0, 0.218, 1, 0.722] | Artist died 1594; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (names) | Jean-François Millet, *The Sower*, 1850, Museum of Fine Arts, Boston. Commons `Jean-François Millet - The Sower - Google Art Project.jpg`, 960px thumbnail; day crop [0, 0.0, 1, 0.609] | Artist died 1875; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (scene) | Juan de Flandes, *The Marriage Feast at Cana*, c. 1500–04, Metropolitan Museum of Art, New York. Commons `Juan de Flandes - The Marriage Feast at Cana - WGA12055.jpg`, 960px thumbnail; day crop [0, 0.42, 1, 0.981] | Artist died 1519; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (practice) | Jean-François Millet, *The Angelus*, 1857–59, Musée d’Orsay, Paris. Commons `Jean-François Millet - The Angelus - Google Art Project.jpg`, 960px thumbnail; day crop [0, 0.05, 1, 0.952] | Artist died 1875; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (names) | Gerard van Honthorst, *King David Playing the Harp*, 1622, Centraal Museum, Utrecht. Commons `Gerard van Honthorst - King David Playing the Harp - Google Art Project.jpg`, 960px thumbnail; day crop [0, 0.09, 1, 0.69] | Artist died 1656; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (stretch) | Dieric Bouts, *The Prophet Elijah in the Desert*, 1464–67, St. Peter’s Church, Leuven (1 Kings 19). Commons `Dieric Bouts - Prophet Elijah in the Desert - WGA03015.jpg`, 960px thumbnail; day crop [0, 0.2, 1, 0.796] | Artist died 1475; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (saint) | Rembrandt, *Saint Paul in Prison*, 1627, Staatsgalerie Stuttgart. Commons `Rembrandt St. Paul in Prison.jpg`, 960px thumbnail; day crop [0, 0.12, 1, 0.736] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (names) | Pieter Bruegel the Elder, *The Harvesters*, 1565, Metropolitan Museum of Art, New York. Commons `Pieter Bruegel the Elder - The Corn Harvest (August) - WGA03451.jpg`, 960px thumbnail; day crop [0.0, 0.422, 0.54, 1.0] | Artist died 1569; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (names) | Jan and Hubert van Eyck, *The Ghent Altarpiece: Singing Angels*, 1432, St. Bavo’s Cathedral, Ghent. Commons `Ghent Altarpiece - Singing Angels (left).jpg`, 960px thumbnail; day crop [0.07, 0.1, 0.93, 0.417] | Artists died 1441 and 1426; faithful photo of a 2D work (Commons: PD-Art) |
