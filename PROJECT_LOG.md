@@ -60,6 +60,7 @@ Two phases, so the new name can go live before the domain exists:
 | `longing-for-a-child` | Couples Longing for a Child | Our Lady of Hope, St. Joachim, St. Anne, St. Zechariah (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 | `serving-in-ministry` | Serving in Ministry | Mary, Handmaid of the Lord, St. Martha, St. Cecilia, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 4 pages |
 | `habitual-sin` | Freedom from Habitual Sin | Mary, Refuge of Sinners, St. Augustine of Hippo, St. Monica, St. Charles de Foucauld (Marian Memorare) | Published 2026-11-24 | PDF 4 pages |
+| `talents` | Growing in Our Talents | Mary, Virgin Most Faithful, St. Benedict of Nursia, St. John Bosco, St. Paul (Marian Memorare) | Published 2026-11-24 | PDF 5 pages (flow6) |
 
 ## Decisions and rules
 
@@ -252,6 +253,10 @@ Two phases, so the new name can go live before the domain exists:
 
 ### 2026-11-24 (intention box fits its placeholder)
 - **"Our intention" box sizes itself** (Chav saw the talents placeholder cut off on iPhone): it was a fixed 2 lines. Now `fitIntent()` in `templates/novena.html` measures a hidden copy and sets the height to the taller of the placeholder and the typed text, so it never jumps smaller when typing starts; CSS keeps it between 2 and 8 lines, then it scrolls. The box text follows the text-size setting (`calc(17px * var(--scale))`, never under 16px, so iPhones don't zoom), the drag handle is gone, and the placeholder colour is a muted token mix (about 5:1 in both modes; the browser grey was 3.5:1 in dark). Checked all novenas at 320–1280px and all 3 text sizes in Chromium; Safari not testable in the cloud.
+
+### 2026-11-24 (talents novena)
+- **New novena `talents`, "Novena for Growing in Our Talents"** (Chav asked for it, approved, pushed live). Chav's idea: the parable of the talents, growing the gifts God gave (the body and exercise, teaching and developer work, studies, music, dance and art) instead of burying them. Kept as one novena for every gift. Guardrails: gifts are received, not earned (1 Cor 4:7); growth is for God's glory and others, not fame or self-worth; rest is part of it (Day 8); kindness to those whose gifts fade; the third servant's sin read as fear ("I was afraid"), not only laziness. Day 3 "Seeing the Gifts in Us" added at Chav's request (his brother doesn't yet see his own gift; Paul seeing Timothy). Category Spiritual life, order 16, card icon `tree` (new icons `tree`, `shovel`, `barbell`). First novena written under the saints-only-where-they-fit rule from the start; independent Catholic and picture reviews in `novenas/talents/review.md`. Day pictures on all 9 days.
+- **PDF made in the new 5-page layout (flow6) ahead of the PDF remake landing on main:** made in a scratch copy with the full-reflection patch applied; only the PDF is committed, so `build.py` on main warns it is "out of date" and the page label was set to "5 pages" by hand. The PDF remake thread regenerates it with the rest.
 
 ## Open items
 

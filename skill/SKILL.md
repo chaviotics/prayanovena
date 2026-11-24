@@ -79,9 +79,9 @@ Each day has these fields:
 - `title`: 2–5 words.
 - `ref`: "Book c:v–v" with an en dash. Never add a version label ("RSV-CE") after a reference, in the app or in print; the RSV-CE permission notice appears once, in the footer and in the PDF's footnotes.
 - `verse`: RSV-CE, exact. Put " / " between poetry lines, and keep "LORD" in capitals (it shows in small caps).
-- `refl`: paragraph 1, 75–95 words. It is printed. It opens from the verse into the person's life.
-- `more`: paragraph 2, 55–75 words, app only. A saint's story, a teaching of the Church (cite CCC numbers only if certain), or a gentle application.
-- `prayer`: 70–90 words. Says "we", names at least one intercessor, and stops before "(Name your intention.)".
+- `refl`: paragraph 1, 75–95 words. It is printed. It opens up the Scripture itself and carries it into the person's life; no saint retelling here (the verse's own author or setting is fine).
+- `more`: paragraph 2, 55–75 words, app only. When one of the novena's saints truly fits the day, give a concrete, relatable moment from their life that lives out the verse, in 2–4 sentences, then at most one sentence tying it back (Chav, 2026-11-24). Never force it: on days with no fitting saint, stay with Scripture (its background, a teaching of the Church with CCC numbers only if certain, or a gentle application). The Scripture block itself never changes.
+- `prayer`: 70–90 words. Says "we", names the one intercessor (or two) whose story fits the day, not all of them, with a light touch (one short clause or "St. X, pray for us", never retelling the story), and stops before "(Name your intention.)".
 - `step`: one concrete, doable action, up to 30 words.
 
 **The arc of the days:** start with honest fear or need, then trust, then the specific graces asked for, and end on **Day 9: gratitude and surrender to God's will**. Day 9's step is always "Write down three graces you noticed during these nine days, and thank God for them together." The print layout has a "Graces I have noticed" box after it.
@@ -92,7 +92,7 @@ Each day has these fields:
 - Write in warm, plain US English, saying "we". Keep the framing general: don't address the reader as a family or as praying alone (cards, kickers, previews). Use the honorific capitals of the examples: You, Your, Him.
 - **Never promise outcomes.** No "this novena never fails" and no prosperity-gospel framing. Ask boldly, then trust God's will. For healing, also pray for strength, peace, the doctors' skill and the caregivers, and for the grace to unite suffering with Christ. Say plainly that healing which doesn't come is never a sign of weak faith (CCC 1508), and keep the hope of eternal life in view.
 - When the person prayed for is unknown, write "N." and "them", and tell readers how to pray it for themselves.
-- Rotate the saints across the days so each gets about three days.
+- Don't put every saint in every day (Chav, 2026-11-24). Weave a saint into a day only where their story or witness truly fits: usually one saint per day's story and prayer, about two or three days each. Day 9's thank-you may name them all.
 - **Only quote a saint with a well-attested line.** Otherwise paraphrase ("St. Pio often told people to pray, hope and not worry").
 - Facts about saints must be ones you would stake your name on. If unsure, leave them out.
 
