@@ -58,6 +58,7 @@ Two phases, so the new name can go live before the domain exists:
 | `finishing-a-thesis` | Finishing a Thesis | Our Lady, Seat of Wisdom, St. Thomas Aquinas, St. Albert the Great, St. Giuseppe Moscati (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 | `friendship` | Genuine Friends and Community | Mary, Mother of the Church, St. Basil the Great, St. Gregory Nazianzen, St. Pier Giorgio Frassati (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 | `longing-for-a-child` | Couples Longing for a Child | Our Lady of Hope, St. Joachim, St. Anne, St. Zechariah (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
+| `serving-in-ministry` | Serving in Ministry | Mary, Handmaid of the Lord, St. Martha, St. Cecilia, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 4 pages |
 
 ## Decisions and rules
 
@@ -210,6 +211,14 @@ Two phases, so the new name can go live before the domain exists:
 
 ### 2026-11-21 (printable PDFs)
 - **Printable PDF for every novena** (Chav): plan and sample https://claude.ai/artifact/S4m2nC6vcBGLydr3nCia26. Built from novena.json instead of exporting Google Docs (only 2 of 6 had Docs, each needing hand page-break fixes). Same layout as the Docs plus the 9 days mark, "Praying with others" (the Docs still say "As a family") and a footer with the novena's address and page numbers. Chav chose A4 only. All 6 are 4 pages with every word checked. `tools/check_print.py` now reads text in content order and skips the footer (still works on Docs exports).
+
+### 2026-11-24 (Novena for Serving in Ministry)
+- **New novena `serving-in-ministry`, "Novena for Serving in Ministry"** (Chav approved, pushed live). For musicians, readers, production teams and every volunteer nervous before a retreat, conference or worship night; prompted by Chav serving at an event on Nov 28, kept general (no event named). Chav took the recommended title over "Serving at a Big Event" and "Those Who Serve". Never promises the event will go well.
+- **New library category** `("spiritual-life", "Spiritual life")` in `CATEGORIES` (none of the others fit); meant to be shared with the Freedom from Habitual Sin novena from another thread.
+- Intercessors: St. Martha (servants; "anxious and troubled", Vermeer's *Christ in the House of Martha and Mary*), St. Cecilia (musicians; Guido Reni 1606, Norton Simon), St. Thérèse of Lisieux (little way; 1886 studio photo at 13, PD-old, because her Carmelite photos were taken by her sister Céline, d. 1959, and are not public domain in France until 2030), with Mary, Handmaid of the Lord in the litany (Giotto Cana face, tied to Day 3).
+- Arc: nerves (Luke 10:41–42), God gives the growth (1 Corinthians 3:6–7), Cana (John 2:5–7), every role (Colossians 3:17), music (Psalm 33:1–3), humility (1 Peter 5:6–7), mistakes (2 Corinthians 12:9, begins lowercase "but", kept exact), the people who will come (Matthew 9:36–38), glory to God (Ephesians 3:20–21, written to work before or after the event). Epigraph Psalm 100:2, closing 2 Corinthians 4:7.
+- Tip "If your event comes before Day 9": a novena is a devotion, not a rule; pray what you can before the event and finish afterward as thanksgiving. Tip headings are escaped in print, so use a literal no-break space there, not `&nbsp;`.
+- Scripture verified against the RSVCE files of `andrewheekin/obsidian-holy-bible` (`sources.md`); independent Catholic review applied (`review.md`). New icons: `music-notes`, `wine`, `users-three`, `bandaids`, `flower`. Wikimedia's API was rate-limited; the wiki's `action=raw` file pages and standard-width thumbnails still worked.
 
 ### 2026-11-23 (SEO basics for Search Console)
 - **Search engine basics** (Chav set up Google Search Console and asked to ship the technical fixes directly). Before: no robots.txt or sitemap (both 404), Day text only inside the page script, short tab titles, no structured data.

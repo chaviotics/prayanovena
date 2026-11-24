@@ -37,6 +37,7 @@ CATEGORIES = [
     ("family", "Family"),
     ("love-friendship", "Love & friendship"),
     ("decisions-growth", "Wisdom & decisions"),
+    ("spiritual-life", "Spiritual life"),
     ("travel", "Travel & abroad"),
     ("hard-times", "Hard times"),
     ("departed", "The departed"),

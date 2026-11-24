@@ -1,0 +1,246 @@
+{
+ "slug": "serving-in-ministry",
+ "storageKey": "novena-serving-in-ministry",
+ "status": "published",
+ "order": 14,
+ "title": "Novena for Serving in Ministry",
+ "cardTitle": "Serving in Ministry",
+ "icon": "hand-heart",
+ "category": "spiritual-life",
+ "barTitle": "Serving in Ministry",
+ "barShort": "Serving Novena",
+ "kicker": "9 days of peace before we serve",
+ "card": "For musicians, readers, production and every volunteer before a retreat, conference or worship night: God’s work, not ours.",
+ "ogDescription": "9 days of prayer for those serving at a retreat, conference or worship night, through Sts. Martha, Cecilia and Thérèse.",
+ "description": "A 9-day Catholic novena for musicians, readers, production teams and volunteers before a big event, through St. Martha, St. Cecilia and St. Thérèse.",
+ "keywords": [
+  "ministry",
+  "serving",
+  "servant",
+  "servants",
+  "volunteer",
+  "music ministry",
+  "worship team",
+  "worship leader",
+  "choir",
+  "musician",
+  "singer",
+  "lector",
+  "reader",
+  "liturgy",
+  "liturgical ministry",
+  "production",
+  "sound",
+  "tech team",
+  "ushers",
+  "hosts",
+  "retreat",
+  "conference",
+  "worship night",
+  "big event",
+  "prayer meeting",
+  "nervous",
+  "anxiety",
+  "stage fright",
+  "performance anxiety",
+  "mistakes",
+  "humility",
+  "st. cecilia",
+  "st. martha",
+  "st. therese",
+  "little flower",
+  "paglilingkod",
+  "lingkod",
+  "naglilingkod",
+  "ministri",
+  "kaba",
+  "kinakabahan",
+  "koro",
+  "manunugtog"
+ ],
+ "epigraph": {
+  "text": "Serve the LORD with gladness! Come into his presence with singing!",
+  "ref": "Psalm 100:2"
+ },
+ "closingVerse": {
+  "text": "But we have this treasure in earthen vessels, to show that the transcendent power belongs to God and not to us.",
+  "ref": "2 Corinthians 4:7"
+ },
+ "printTitle": [
+  "Novena for",
+  "Serving in Ministry"
+ ],
+ "printClosing": [
+  "But we have this treasure in earthen vessels,",
+  "to show that the transcendent power belongs to God and not to us."
+ ],
+ "ogSaints": [
+  "cecilia",
+  "therese"
+ ],
+ "saints": [
+  {
+   "id": "martha",
+   "name": "St. Martha",
+   "dates": "1st century",
+   "feast": "Feast · Jul 29",
+   "patron": "Patron of servants & hospitality",
+   "bio": "Sister of Mary and Lazarus of Bethany, whom Jesus loved. She welcomed Him into her home and served, once anxious over many things, and later confessed Him as the Christ, the Son of God.",
+   "alt": "Painting: St. Martha bringing a basket of bread to Jesus, by Vermeer",
+   "openingRole": "who served You in her home"
+  },
+  {
+   "id": "cecilia",
+   "name": "St. Cecilia",
+   "dates": "3rd century (tradition)",
+   "feast": "Feast · Nov 22",
+   "patron": "Patron of musicians",
+   "bio": "A Roman martyr named in the First Eucharistic Prayer of the Mass. An ancient account says that at her wedding, while the musicians played, she sang to the Lord alone in her heart.",
+   "alt": "Painting: St. Cecilia looking upward, holding a violin and bow, by Guido Reni",
+   "openingRole": "who sang to You in her heart"
+  },
+  {
+   "id": "therese",
+   "name": "St. Thérèse of Lisieux",
+   "dates": "1873–1897",
+   "feast": "Feast · Oct 1",
+   "patron": "Patron of missions",
+   "bio": "A French Carmelite who died at 24. Her “little way” is doing small, hidden things with great love and trusting God like a child. She wrote and acted in plays for her community.",
+   "alt": "Photograph: Thérèse Martin at 13, in 1886",
+   "openingRole": "who offered You little things with great love"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Mary, Handmaid of the Lord"
+  },
+  {
+   "img": "martha",
+   "text": "St. Martha"
+  },
+  {
+   "img": "cecilia",
+   "text": "St. Cecilia"
+  },
+  {
+   "img": "therese",
+   "text": "St. Thérèse of Lisieux"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You invite us to share in Your work. As we prepare to serve, we bring You our nerves: the fear of a wrong note, a missed cue or a stumbled word. Remind us that this work is Yours before it is ours. Make us humble, ready and at peace, and use us, weak as we are, to draw Your people to You. Today we ask Mary, the Handmaid of the Lord; St. Martha, who served You in her home; St. Cecilia, who sang to You in her heart; and St. Thérèse, who offered You little things with great love, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, You came not to be served but to serve. Take our hands, our voices and our gifts, and our mistakes too. Work through us as You will, and let all the glory be Yours.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "If your event comes before Day 9",
+   "p": "A novena is a devotion, not a rule, so it is fine to start late. Begin with Day&nbsp;1 today and pray as many days as you can before the event; finish the rest afterward as thanksgiving and prayer for the people who came. Short on time? Day&nbsp;7 (mistakes) and Day&nbsp;8 (the people who will come) fit the morning itself."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Confession and Mass before the event, and pray with your team before you begin, even for a minute. Prepare well, then rest: sleep is part of serving. If nerves ever become overwhelming, talk to your leader, a priest or someone you trust."
+  }
+ ],
+ "intentionPlaceholder": "Name the event, your part in it, and the people who will come.",
+ "icons": [
+  "heartbeat",
+  "plant",
+  "wine",
+  "users-three",
+  "music-notes",
+  "flower",
+  "bandaids",
+  "heart",
+  "sparkle"
+ ],
+ "credits": "Images: Johannes Vermeer, <em>Christ in the House of Martha and Mary</em> (detail), c. 1655, Scottish National Gallery · Guido Reni, <em>Saint Cecilia</em>, 1606, Norton Simon Museum · Thérèse Martin at 13, photograph, 1886 · Giotto, <em>The Wedding at Cana</em> (detail), c. 1305, Scrovegni Chapel, Padua. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Nervous Before We Serve",
+   "ref": "Luke 10:41–42",
+   "verse": "But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things; one thing is needful. Mary has chosen the good portion, which shall not be taken away from her.”",
+   "refl": "Martha opened her home to Jesus and set to work, and the work swallowed her peace. Jesus did not scold her for serving. He named what was happening inside her: anxious and troubled about many things. Before a big event we know that feeling well: the setlist, the cues, the reading we keep rehearsing, the fear that something will go wrong in front of everyone. Jesus speaks our name too. One thing is needful: to be with Him first. So we begin these nine days at His feet.",
+   "more": "Martha is not the villain of this story. John’s Gospel tells us that Jesus loved Martha and her sister and Lazarus (John 11:5). When Lazarus died, it was Martha who went out to meet Jesus and said, “Yes, Lord; I believe that you are the Christ, the Son of God” (John 11:27). Later, at a supper in Bethany, “Martha served” (John 12:2). Her serving never stopped; it found its center.",
+   "prayer": "Lord Jesus, You looked at Martha with love and spoke her name, and You see us in our nerves today. We are anxious and troubled about many things: our part, our skills, the people watching. Through the prayers of St. Martha and of Mary, the Handmaid of the Lord, quiet our hearts. Teach us to sit at Your feet before we work, and to serve from the peace of being loved, not from the fear of failing.",
+   "step": "Write down your fears about your part, one per line. Read them to Jesus, then sit with Him in silence for three minutes."
+  },
+  {
+   "title": "God Gives the Growth",
+   "ref": "1 Corinthians 3:6–7",
+   "verse": "I planted, Apollos watered, but God gave the growth. So neither he who plants nor he who waters is anything, but only God who gives the growth.",
+   "refl": "The Christians of Corinth were arguing over which preacher was greater. Paul’s answer cuts through it: he planted, Apollos watered, but only God gave the growth. This is freeing news for anyone who serves. We cannot change a single heart at the event, however well we play, read or run the lights. Only God can. Our part is real and worth doing well, but it is a small part of a great work that is His. The weight of the outcome was never ours to carry.",
+   "more": "Paul calls himself and Apollos “servants through whom you believed” (1 Corinthians 3:5). The Church teaches that God freely chose to give us a share in the work of His grace (CCC 2008); even our good efforts begin with Him. That is why we can prepare with care and still rest. Whatever happens on the day, God was at work before we arrived, and He will be at work after we leave.",
+   "prayer": "Lord God, You alone give the growth. We offer You our planting and watering: the practice, the preparation, the long hours behind the scenes. Free us from thinking that everything depends on us, and from the pride that wants the credit. Through the prayers of St. Thérèse and St. Martha, let us do our small part faithfully, and leave the hearts of Your people in Your hands, where they are safe.",
+   "step": "Before your next practice or meeting, pray in your own words: “Lord, this is Your work. Use me as You wish.”"
+  },
+  {
+   "title": "Do Whatever He Tells You",
+   "ref": "John 2:5–7",
+   "verse": "His mother said to the servants, “Do whatever he tells you.” Now six stone jars were standing there, for the Jewish rites of purification, each holding twenty or thirty gallons. Jesus said to them, “Fill the jars with water.” And they filled them up to the brim.",
+   "refl": "At the wedding in Cana the wine ran out, and Mary turned to the servants: “Do whatever he tells you.” What Jesus asked of them was ordinary and heavy, filling six stone jars with water, and they filled them to the brim. Only Jesus could turn water into wine, but He chose to do it through their simple work. Our preparation is much the same: practicing the hard passage, checking the cables, reading the text aloud until it flows. We fill the jars; He does what only He can do.",
+   "more": "John notes that the steward of the feast did not know where the good wine came from, “though the servants who had drawn the water knew” (John 2:9). Those who serve often see God at work up close, in ways the crowd never notices. Mary, who called herself the handmaid of the Lord (Luke 1:38), spoke to the servants that day. She still points every servant to her Son.",
+   "prayer": "Holy Mary, Handmaid of the Lord, at Cana you noticed what was lacking and brought it to your Son. Bring Him our needs for the coming event, and teach us to do whatever He tells us. Lord Jesus, we offer You our ordinary work, like water in stone jars. Help us to prepare faithfully and fill them to the brim, and then to trust You to do what only You can do.",
+   "step": "Do one piece of preparation today with full attention: run the hardest song, test the equipment, or read your passage aloud slowly. Offer it to Jesus first."
+  },
+  {
+   "title": "In Word or Deed",
+   "ref": "Colossians 3:17",
+   "verse": "And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.",
+   "refl": "Paul leaves nothing out: whatever we do, in word or deed, we do in the name of the Lord Jesus. The reader proclaiming the Word, the singer leading the song, the one at the sound desk, the usher at the door, the volunteer stacking chairs at midnight: all of it can be done in His name. No role is too small or too hidden to offer Him. When we remember whose name we serve in, comparison loosens its grip, and we can be glad of each other’s gifts.",
+   "more": "St. Paul compares the Church to a body with many members, each needed by the others, and says that the parts that seem weaker are indispensable (1 Corinthians 12:12–27). A worship night needs the musician and the person who checks the microphone batteries; a retreat needs the speaker and the cook. St. Martha’s kitchen was holy ground because Jesus was in the house. So is the back of the hall.",
+   "prayer": "Lord Jesus, everything we do for this event, in word or deed, we want to do in Your name. Bless every person serving with us: the musicians and singers, the readers, the production team, the hosts and ushers, the cooks and those who pray behind the scenes. Through the prayers of St. Martha, free us from envy and comparison. Make us one team, glad of each other’s gifts, giving thanks to the Father through You.",
+   "step": "Pray for each person on your team by name. If you can, send one of them a short note of thanks or encouragement today."
+  },
+  {
+   "title": "Making Melody to the Lord",
+   "ref": "Psalm 33:1–3",
+   "verse": "Rejoice in the LORD, O you righteous! Praise befits the upright. / Praise the LORD with the lyre, make melody to him with the harp of ten strings! / Sing to him a new song, play skilfully on the strings, with loud shouts.",
+   "refl": "The psalmist calls for lyres, harps and loud shouts of joy, and asks the players to play skilfully. Skill matters, because we give God our best. But the song is aimed at Him, not at the crowd. Whatever our gift, music or voice, lights or words or welcome, we are not performers waiting for applause; we are worshippers helping others to praise. When our focus moves from how we sound to whom we praise, the fear of the audience begins to shrink.",
+   "more": "St. Cecilia became the patron of musicians because of an old antiphon from her feast: while the instruments played at her wedding, she sang in her heart to the Lord alone. Whatever the musicians around her played, the song of her heart was for God. That is music every servant can make, with or without an instrument, at the keyboard or the sound desk or the door.",
+   "prayer": "Lord God, You are worthy of every song and every gift. We offer You the music, the voices, the words and the work of this event. Through the prayers of St. Cecilia, who sang to You in her heart, let our worship be for You alone. Give us skill and focus as we prepare, and free us from the need to impress anyone. May every note and every task become praise that leads others to You.",
+   "step": "Spend ten minutes with a hymn or worship song you love. Sing it or listen to it for God alone, with no one to impress."
+  },
+  {
+   "title": "Humble and Unafraid",
+   "ref": "1 Peter 5:6–7",
+   "verse": "Humble yourselves therefore under the mighty hand of God, that in due time he may exalt you. Cast all your anxieties on him, for he cares about you.",
+   "refl": "Peter joins two things we might keep apart: humility and freedom from anxiety. Much of our nervousness is about ourselves: how we will look, what people will think if we fail. Humility is not thinking badly of ourselves; it is thinking of ourselves less, and of God more. When we bow under God’s mighty hand, we can hand Him our anxieties, every one of them, because He cares about us. A servant who does not need the spotlight has far less to fear from it.",
+   "more": "St. Thérèse of Lisieux was so sensitive as a child that she cried over almost everything. On Christmas night in 1886, at thirteen, she overheard a tired remark from her father and, instead of dissolving in tears, felt Jesus give her strength. She called it her conversion. From then on she sought a hidden way: small acts of love that no one would notice, offered to God with trust.",
+   "prayer": "Heavenly Father, we humble ourselves under Your mighty hand, and we cast all our anxieties on You, because You care about us. Free us from the fear of what others will think and from the wish to be seen. Through the prayers of St. Thérèse, teach us her little way: to do small things with great love, to be content with a hidden part, and to trust You like children who know they are held.",
+   "step": "Do one small, hidden act of service today that no one will thank you for. Tell only God about it."
+  },
+  {
+   "title": "When We Make Mistakes",
+   "ref": "2 Corinthians 12:9",
+   "verse": "but he said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” I will all the more gladly boast of my weaknesses, that the power of Christ may rest upon me.",
+   "refl": "Paul begged God three times to take away a weakness, and God answered: “My grace is sufficient for you, for my power is made perfect in weakness.” A wrong chord, a missed cue, a stumble over a hard name in the reading: these will happen, to us or to someone beside us. They do not stop God’s work. Often He works most clearly where we are weakest, so that no one mistakes the power for ours. A mistake given to God becomes part of the offering, not the end of it.",
+   "more": "St. Thérèse did not hide her imperfections from God; she wrote of loving her own littleness and leaning on Jesus’ strength instead of her own. A practical help for the day: decide now what you will do when something goes wrong. A short prayer such as “Jesus, I give You this,” one breath, and back to serving. Talk it over with your team afterward, not in the middle of worship.",
+   "prayer": "Lord Jesus, Your power is made perfect in weakness. We will not serve perfectly, and we offer You now every mistake we might make: the wrong note, the missed cue, the stumbled word. Keep them from troubling anyone’s prayer, and keep us from losing our peace over them. Through the prayers of St. Thérèse and St. Cecilia, help us to give our mistakes to You at once, and to keep serving with joy.",
+   "step": "Choose a short prayer to say if something goes wrong, such as “Jesus, I give You this.” Practice saying it calmly today."
+  },
+  {
+   "title": "For Those Who Will Come",
+   "ref": "Matthew 9:36–38",
+   "verse": "When he saw the crowds, he had compassion for them, because they were harassed and helpless, like sheep without a shepherd. Then he said to his disciples, “The harvest is plentiful, but the laborers are few; pray therefore the Lord of the harvest to send out laborers into his harvest.”",
+   "refl": "When Jesus saw the crowds, He had compassion for them, because they were harassed and helpless. Many who will come to this event carry heavy things we will never know about: grief, doubt, addiction, loneliness, a marriage under strain, a faith grown cold. Some almost did not come. Our nerves are about us, but the event is about them, and about the God who longs for them. So today we turn outward and pray for the people we will serve, as laborers in His harvest.",
+   "more": "Jesus told His disciples to pray for laborers, and soon afterward He sent those same disciples out (Matthew 10:5). Praying for others often changes the one who prays. Pray by name for those you know are coming. If you don’t know who is coming, pray for the one who will sit in the back row, the one who came only because a friend asked, and the one who hopes God will notice them.",
+   "prayer": "Lord of the harvest, You look on the crowds with compassion, and You already know each person who will come. We pray for them now: for those who are hurting, doubting or far from You, for those who come curious or reluctant, and for those who need a new beginning. Through the prayers of St. Martha and of Mary, the Handmaid of the Lord, open their hearts to You, and make us faithful laborers in Your harvest.",
+   "step": "Pray for the people who will come, by name if you know some. Think of one person who has drifted from God, and pray for them today."
+  },
+  {
+   "title": "To God Be the Glory",
+   "ref": "Ephesians 3:20–21",
+   "verse": "Now to him who by the power at work within us is able to do far more abundantly than all that we ask or think, to him be glory in the church and in Christ Jesus to all generations, for ever and ever. Amen.",
+   "refl": "Paul ends his prayer by giving glory to the One who can do far more than all we ask or think. Whether this day falls before the event or after it, we end where every servant should: with thanks and surrender. We have prepared and prayed, and we place the outcome in God’s hands. Some fruit we will see; most we will never know this side of heaven. Whatever we see, the glory belongs to Him, and the joy of having served with Him is ours.",
+   "more": "In her last months, St. Thérèse said simply: “Everything is grace.” If the event is over, thank God for the graces you saw and for the ones you never will. If something went wrong, offer that too, and let it go. Then thank the people who served beside you, and rest. Serving well includes knowing when the work is finished and handing it back to God.",
+   "prayer": "Glory to You, Father, who by the power at work within us can do far more than all we ask or think. We thank You for calling us to serve, for the people who serve beside us, and for everyone who will come or has come. We place this event, its fruit and its mistakes, into Your hands. Through the prayers of Mary, the Handmaid of the Lord, and all Your saints, let all the glory be Yours, not ours.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}
