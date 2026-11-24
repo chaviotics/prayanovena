@@ -59,6 +59,7 @@ Two phases, so the new name can go live before the domain exists:
 | `friendship` | Genuine Friends and Community | Mary, Mother of the Church, St. Basil the Great, St. Gregory Nazianzen, St. Pier Giorgio Frassati (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 | `longing-for-a-child` | Couples Longing for a Child | Our Lady of Hope, St. Joachim, St. Anne, St. Zechariah (Marian Memorare) | Published 2026-11-22 | No PDF yet (Chav: no PDFs until the print format is final) |
 | `serving-in-ministry` | Serving in Ministry | Mary, Handmaid of the Lord, St. Martha, St. Cecilia, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 4 pages |
+| `habitual-sin` | Freedom from Habitual Sin | Mary, Refuge of Sinners, St. Augustine of Hippo, St. Monica, St. Charles de Foucauld (Marian Memorare) | Published 2026-11-24 | PDF 4 pages |
 
 ## Decisions and rules
 
@@ -232,6 +233,12 @@ Two phases, so the new name can go live before the domain exists:
 ### 2026-11-23 (St. Paul's picture on About)
 - **New picture for St. Paul** in About → Unlikely saints (Chav: in Caravaggio's *Conversion on the Way to Damascus* his face is upside down in shadow). Now Rembrandt, *The Apostle Paul*, 1630s, Kunsthistorisches Museum, Vienna (Commons `Rembrandt_Harmensz._van_Rijn_163.jpg`, public domain): he looks straight at the viewer, with his sword and books. Options preview (Rembrandt, Valentin de Boulogne, Rublev icon): https://claude.ai/artifact/EHfmrKMq5EMUCGpJw5grfz. Caption, alt text, About footer credits (`ABOUT_IMAGES` in `tools/build.py`) and `pages/about/images.md` updated. Paul's picture is used only on this card (no novena, PDF or link preview).
 - Story-card crops: 720×480, shown center-cropped as a 104px square (tablet) and 2:1 (phone), so keep the face near the horizontal center.
+
+### 2026-11-24 (Novena for Freedom from Habitual Sin)
+- **New novena `habitual-sin`, "Novena for Freedom from Habitual Sin"** (Chav approved, pushed live). Chav's idea came from St. Augustine, who wanted out of habitual sin yet still enjoyed it; Chav's main case is lust, porn and masturbation, kept general for drinking, smoking, gambling, anger and the phone, with purity named plainly but never graphically. Framed as breaking free by grace, not "building good habits" (self-help); virtue comes as the fruit on Days 7–9. Chav chose the title on a card over "Freedom from Sin and Bad Habits", "Breaking Free from a Bad Habit" and "The Breaking of Habitual Sin". Kicker "9 days of prayer to break a bad habit"; category Spiritual life, order 15, card icon `link-break` (new icons `link-break`, `door-open`). Prayers say "we" (no "N."); the tip says to name a loved one at the intention, as St. Monica prayed for her son.
+- Intercessors: St. Augustine (Confessions 8.7 "chastity, but not yet", 8.5 chain of habit, 8.12 "take up and read" with Romans 13:13–14, 9.1, 3.12), St. Monica (Confessions 9.8: her secret wine habit as a girl; new picture Luis Tristán, *St Monica*, 1616, Prado), St. Charles de Foucauld (Chav picked him on a card over St. Camillus de Lellis and St. Margaret of Cortona: a dissolute officer who confessed at Saint-Augustin, Paris, in 1886; public-domain photo about 1910). Litany Mary, Refuge of Sinners.
+- Arc: Romans 7:15, Luke 15:20, John 8:36 (8:34–36 would end inside an open quote), 1 Corinthians 10:13, Romans 13:14 (13:13–14 starts lowercase mid-sentence), Micah 7:8, Romans 12:21, James 5:16, Philippians 1:6; epigraph Psalm 51:10, closing Galatians 5:1. Verified word for word against the RSVCE files in `andrewheekin/obsidian-holy-bible` (`sources.md`).
+- Tips: Confession invited, never a condition; a line for scrupulous readers; see a doctor before stopping heavy drinking, drugs or medication; crisis helpline. Independent Catholic review found nothing that must change; 12 suggestions applied (`review.md`). PDF 4 pages. Offered later: a dedicated purity novena.
 
 ## Open items
 
