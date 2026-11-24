@@ -240,6 +240,12 @@ Two phases, so the new name can go live before the domain exists:
 - Arc: Romans 7:15, Luke 15:20, John 8:36 (8:34–36 would end inside an open quote), 1 Corinthians 10:13, Romans 13:14 (13:13–14 starts lowercase mid-sentence), Micah 7:8, Romans 12:21, James 5:16, Philippians 1:6; epigraph Psalm 51:10, closing Galatians 5:1. Verified word for word against the RSVCE files in `andrewheekin/obsidian-holy-bible` (`sources.md`).
 - Tips: Confession invited, never a condition; a line for scrupulous readers; see a doctor before stopping heavy drinking, drugs or medication; crisis helpline. Independent Catholic review found nothing that must change; 12 suggestions applied (`review.md`). PDF 4 pages. Offered later: a dedicated purity novena.
 
+### 2026-11-24 (saint rule light pass on the older novenas)
+- **New rule (Chav):** don't name every saint every day. Paragraph 1 (printed) opens up the Scripture; paragraph 2 (app only) gives a concrete moment from the saint who fits that day, never forced; the prayer names that saint lightly. Day 9's thank-you, the opening prayer and the litany may still name everyone. In `skill/SKILL.md` with the talents novena.
+- Audit of all 15 novenas: the 5 newest (habitual-sin, serving-in-ministry, unrequited-love, friendship, longing-for-a-child) already follow it. In the 10 older ones paragraph 2 was mostly fine but the day prayers listed every saint. Debt and Work also tell saint stories in the printed paragraph; left as they are so the PDFs keep their saints.
+- **Light pass (Chav chose it over a full rewrite, approved and pushed):** 72 day prayers (Days 1–8) in relief-from-debt, healing, passing-an-exam, work-and-livelihood, impossible-cases, gift-of-knowledge, expectant-parents, finding-love, life-decisions and finishing-a-thesis now keep only the saint whose story that day tells (two where both are in the story), or the Marian title, or no one. No new saint facts; Scripture, reflections, steps and Day 9 untouched. 10 PDFs regenerated, all 4 pages.
+- Chav wants paragraph 2 in the PDF too (5 pages, folio, smaller type or a new layout if needed); planned in a separate thread.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).
