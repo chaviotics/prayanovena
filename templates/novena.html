@@ -159,6 +159,31 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
 .ref{font-size:calc(12.5px * var(--scale));letter-spacing:.12em;font-weight:400;margin:8px 0 0}
 .refl{font-size:calc(20px * var(--scale));line-height:1.6;margin:0}
 .refl2{margin-top:.75em}
+/* the day picture (app only: hidden in print, and never in the printable PDF). Modest on wide screens so the
+   reflection stays in view; tap it or the corner button for the whole picture. Images live in <slug>/art/. */
+.art{margin:4px 0 20px;max-width:440px}
+.art-frame{position:relative;border-radius:8px;overflow:hidden;background:var(--wash);box-shadow:0 0 0 1px var(--rule)}
+.art-img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;cursor:zoom-in;transition:opacity .2s}
+.art-img.loading{opacity:0}  /* a blank frame while the day's picture loads, never the previous day's picture */
+.art-cap{margin:7px 0 0;font-size:calc(14.5px * var(--scale));line-height:1.4;color:var(--muted);text-wrap:pretty}
+.art-cap cite,.viewer cite{font-style:italic}
+.art-btn{position:absolute;right:8px;bottom:8px;width:44px;height:44px;display:grid;place-items:center;padding:0;border:1px solid var(--rule);border-radius:999px;background:color-mix(in srgb,var(--paper) 88%,transparent);color:var(--wine);cursor:zoom-in}
+.art-btn .i{font-size:20px}
+/* after the reflection: look again at the picture before praying (a callout with just the line and a link) */
+.lookagain{margin:28px 0 8px;background:var(--wash);border-radius:12px;padding:16px 20px 10px}
+.lookagain .rubric{margin:0;line-height:1.5}
+.lookbtn{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin:6px 0 0 -4px;padding:0 4px;border:0;background:none;color:var(--wine);font:inherit;font-size:calc(16px * min(var(--scale),1.15));cursor:pointer;text-align:left}
+.lookbtn .i{font-size:19px;color:var(--gold);flex:none}
+.lookbtn span{text-decoration:underline;text-decoration-color:var(--rule-strong);text-underline-offset:4px}
+dialog.viewer{border:0;padding:0;margin:auto;max-width:min(96vw,760px);max-height:94vh;background:var(--paper);color:var(--ink);border-radius:14px;overflow:auto}
+dialog.viewer::backdrop{background:rgb(8 10 16 / .82)}
+.viewer img{display:block;max-width:100%;max-height:72vh;width:auto;height:auto;margin:0 auto}
+.viewer .vlook{margin:0;padding:14px 16px 0;color:var(--wine);font-style:italic;font-size:calc(17px * var(--scale));line-height:1.5}
+.viewer .vcap{display:flex;align-items:flex-start;gap:12px;padding:12px 16px 14px;font-size:calc(15.5px * min(var(--scale),1.15));line-height:1.4;color:var(--muted)}
+.viewer .vcap p{margin:0;padding-top:10px;flex:1;min-width:0}
+.viewer .vcap cite{color:var(--ink)}
+.viewer .close{flex:none;min-width:44px;min-height:44px;padding:0 14px;border:1px solid var(--rule-strong);border-radius:999px;background:var(--sheet);color:var(--ink);font:inherit;font-size:15px;cursor:pointer}
+@media (max-width:420px){.lookagain{padding:14px 16px 8px}}
 .litany p{position:relative;margin:0 0 .25em;padding-left:calc(38px * var(--scale))}
 .litany .resp{white-space:nowrap}
 .av{position:absolute;left:0;top:.15em;width:calc(28px * var(--scale));height:calc(28px * var(--scale));border-radius:50%;object-fit:cover;vertical-align:middle;box-shadow:0 0 0 1px var(--frame)}
@@ -355,7 +380,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
   .days9 a:hover{background:var(--wash)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
-@media print{.printrow,.side-pdf,.bar,.days,.toc,.today .cta,.markdone,.donenote,.daynav,.intent,.startrow,.barshare,.sharerow,.foot-nav{display:none}}
+@media print{.art,.lookagain,dialog.viewer,.printrow,.side-pdf,.bar,.days,.toc,.today .cta,.markdone,.donenote,.daynav,.intent,.startrow,.barshare,.sharerow,.foot-nav{display:none}}
 </style>
 </head>
 <body>
@@ -449,9 +474,9 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
         <h4 class="daytitle" id="dTitle">{{DAY1_TITLE}}</h4>
         <figure class="scripture"><blockquote class="passage" id="dVerse">{{DAY1_VERSE}}</blockquote>
         <figcaption class="ref"><span id="dRef">{{DAY1_REF}}</span></figcaption></figure>
-        <p class="refl" id="dRefl">{{DAY1_REFL}}</p>
+{{ART_FIGURE}}        <p class="refl" id="dRefl">{{DAY1_REFL}}</p>
         <p class="refl refl2" id="dMore">{{DAY1_MORE}}</p>
-      </li>
+{{ART_LOOK}}      </li>
 
       <li id="step-3" class="step pray">
         <h3 class="label"><span class="num" aria-hidden="true">3</span>Pray</h3>
@@ -509,7 +534,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     <ol class="how">
       <li>Pause for a moment of silence before God.</li>
       <li>Pray the <strong>Opening Prayer</strong>, beginning with the Sign of the Cross.</li>
-      <li>Read the day’s <strong>Scripture</strong> and reflection, then pray the day’s <strong>prayer</strong>, naming your intention.</li>
+      <li>Read the day’s <strong>Scripture</strong> and reflection, then pray the day’s <strong>prayer</strong>, naming your intention.{{HOW_PICTURE}}</li>
       <li>Pray the <strong>Closing Prayer</strong> and the {{HOW_MEMORARE}}.</li>
       <li>End with an Our Father, a Hail Mary and a Glory Be, and the Sign of the Cross. Then take <strong>today’s step</strong> with you.</li>
     </ol>
@@ -544,11 +569,12 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
 </main>
 {{FOOTER}}
 <div class="toast" id="toast" role="status"></div>
-
+{{ART_VIEWER}}
 <script>
 (function(){
   var DAYS = {{DAYS}};
   var ICONS = {{ICONS}};
+  var ART = {{ART}}; /* the day pictures (null for a plain day), or [] when the novena has none */
   var SHARE = {{SHARE}}; /* the novena's public link and a short message: never the intention or progress */
   var KEY = {{KEY}}, MODEKEY = "novenas-mode", canStore = true;
   function load(){ try{ var v = localStorage.getItem(KEY); return v ? JSON.parse(v) : {}; }catch(e){ canStore = false; return {}; } }
@@ -627,6 +653,39 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     }
   });
 
+  /* the day picture: a blank frame until it loads (never the previous day's picture), hidden if it can't load
+     (offline and not seen before: pictures are cached when first seen, not with the offline download) */
+  var artFor = 0, artOpener = null;
+  function showArt(){
+    if (!ART.length || artFor === sel) return;
+    artFor = sel;
+    var a = ART[sel-1], img = $("dArtImg");
+    $("dArt").hidden = $("dLook").hidden = !a;
+    if (!a){ img.removeAttribute("src"); return; }
+    img.classList.add("loading");
+    img.onload = function(){ img.classList.remove("loading"); preloadArt(sel + 1); };
+    img.onerror = function(){ $("dArt").hidden = $("dLook").hidden = true; };
+    img.alt = a.alt; img.src = a.d;
+    $("dArtCap").innerHTML = a.cap; $("dLookText").textContent = a.look;
+  }
+  function preloadArt(k){ var c = navigator.connection; if (ART[k-1] && !(c && c.saveData)) (new Image()).src = ART[k-1].d; }
+  function openArt(from, withLine){
+    var a = ART[sel-1]; if (!a) return;
+    artOpener = from;
+    $("vImg").src = a.f; $("vImg").alt = a.alt;
+    $("vLook").hidden = !withLine; $("vLook").textContent = withLine ? a.look : "";
+    $("vCap").innerHTML = a.info;
+    $("viewer").showModal(); $("vClose").focus();
+  }
+  if (ART.length){
+    $("dArtBtn").addEventListener("click", function(){ openArt($("dArtBtn"), false); });
+    $("dArtImg").addEventListener("click", function(){ openArt($("dArtBtn"), false); });
+    $("dLookBtn").addEventListener("click", function(){ openArt($("dLookBtn"), true); });
+    $("vClose").addEventListener("click", function(){ $("viewer").close(); });
+    $("viewer").addEventListener("click", function(e){ if (e.target === $("viewer")) $("viewer").close(); });
+    $("viewer").addEventListener("close", function(){ if (artOpener) artOpener.focus(); });
+  }
+
   var unarm = null, armT = null, shownDay = 0;
   function render(){
     if (unarm){ clearTimeout(unarm); unarm = null; }
@@ -648,6 +707,7 @@ ol.how li::marker{color:var(--gold-text);font-weight:600}
     var lab = $("dIconLabel"); lab.querySelector("use").setAttribute("href", "#i-" + ICONS[sel-1]); lab.querySelector("span").textContent = "DAY " + sel;
     $("dTitle").textContent = d.title; $("dVerse").innerHTML = fmtVerse(d.verse); $("dRef").textContent = d.ref; $("dMore").textContent = d.more; $("dStep").textContent = d.step; 
     $("dRefl").textContent = d.refl; $("dPrayer").textContent = d.prayer;
+    showArt();
     [].forEach.call(document.querySelectorAll("#days9 a"), function(a){
       var k = +a.getAttribute("data-day"), st = a.querySelector(".st"), lab = [];
       if (k === sel) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");

@@ -115,6 +115,17 @@ Each day has these fields:
   4. Delete the scratch tab.
 - **Crop** with PIL: portrait `img/<id>.jpg` at 480×600 with the face in the upper third, and face `img/<id>_face.jpg` at 112×112, tight on the face. Use JPEG quality 85. For a litany-only image, such as a Marian title that isn't a saint card, make just `<id>_face.jpg`. Look at every crop, and leave out anything immodest or distracting next to the saint. Record sources in `novenas/<slug>/images.md`.
 
+## 5b. Day pictures (app only, never in the PDF)
+
+Every day gets a public-domain picture under its verse, plus a "Look again" line after the reflection. Both live in `novenas/<slug>/art.json`, made with `tools/art.py`. The print PDF never reads this file.
+
+- **Choose honestly, in this order:** (1) the scene itself; (2) what the verse names (the sky for Ps 19, a vine for Jn 15); (3) a saint moment tied to the verse (Augustine reading Rom 13:14); (4) what the verse asks us to do (a confession for Jas 5:16). (5) If none of these fit, a **stretch** is allowed: another passage that shows the same truth, with `"kind": "stretch"` and `"passage"` naming it, which then shows in the caption ("Raphael, *The Liberation of Saint Peter* (Acts 12), 1514"). **Never use a mood picture** that is merely pretty, with no link to the verse. If an honest search finds nothing, leave the day `null`, which is rare.
+- **Modesty:** this is prayer. Leave out bare bodies and anything that distracts, in the crop and in the whole picture (the whole picture shows when someone taps). This is stricter in novenas about chastity or habits.
+- **Public domain:** the artist died more than 100 years ago, and the file is a faithful photo of a 2D work, or a pre-1926 photograph. Check the license with `python3 tools/art.py meta "File.jpg"`, which also gives the date. Fill in `year` and `place` (museum) when they're known. Leave them `""` rather than guess.
+- **Crop:** 4:3, as fractions of the downloaded image, on exactly the detail the "Look again" line names. Faces must not be cut.
+- **Words:** `alt` says plainly what the day picture shows. `look` starts "Look again at …", names something visible in the picture, and ends with a question that leads into the prayer. Vary the questions from day to day.
+- **Make:** `python3 tools/art.py fetch <slug>` (curl, cached in `.cache/art/`), then `python3 tools/art.py make <slug>` (writes `art/day<N>.jpg` at 720×540 and `day<N>_full.jpg` at 900 px, plus `art/images.md` credits), then `python3 tools/art.py sheet <slug> out/art.jpg` and look at all 9 crops. `build.py` checks the file and copies the pictures. They are not precached for offline use: each one is kept once seen.
+
 ## 6. Build and check the app
 
 ```

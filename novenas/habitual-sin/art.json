@@ -1,0 +1,169 @@
+{
+ "days": [
+  {
+   "file": "Valentin de Boulogne - Saint Paul Writing His Epistles - BF.1991.4 - Museum of Fine Arts.jpg",
+   "width": 960,
+   "crop": [
+    0.01042,
+    0.0,
+    0.99062,
+    1.0
+   ],
+   "kind": "saint",
+   "artist": "Valentin de Boulogne",
+   "title": "Saint Paul Writing His Epistles",
+   "year": "c. 1620",
+   "place": "Museum of Fine Arts, Houston",
+   "alt": "St. Paul, bearded and wrapped in a red cloak, bends over a table of books and papers, writing with a quill.",
+   "look": "Look again at Paul, pen in hand. What would you tell God about your own weakness?",
+   "license": "Artist died 1632; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Rembrandt Harmensz van Rijn - Return of the Prodigal Son - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.04167,
+    0.27933,
+    0.79167,
+    0.7103
+   ],
+   "kind": "scene",
+   "artist": "Rembrandt",
+   "title": "The Return of the Prodigal Son",
+   "year": "c. 1668",
+   "place": "Hermitage Museum, St Petersburg",
+   "alt": "A young man in torn clothes kneels with his face pressed against his father, who bends over him and rests both hands on his back.",
+   "look": "Look again at the father’s hands on his son’s back. Where would you be in this scene?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Raphael - Deliverance of Saint Peter.jpg",
+   "width": 1280,
+   "crop": [
+    0.40625,
+    0.15278,
+    0.96875,
+    0.71528
+   ],
+   "kind": "stretch",
+   "passage": "Acts 12",
+   "artist": "Raphael",
+   "title": "The Liberation of Saint Peter",
+   "year": "1514",
+   "place": "Stanza di Eliodoro, Vatican Palace",
+   "alt": "Behind prison bars, an angel in a blaze of light wakes St. Peter between sleeping guards; to the right, the angel leads Peter out past the soldiers.",
+   "look": "Look again at the light breaking into the prison. What chain would you ask Christ to break?",
+   "license": "Artist died 1520; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Christ in the Wilderness - Ivan Kramskoy - Google Cultural Institute.jpg",
+   "width": 960,
+   "crop": [
+    0.125,
+    0.09501,
+    0.875,
+    0.73634
+   ],
+   "kind": "stretch",
+   "passage": "Matthew 4",
+   "artist": "Ivan Kramskoi",
+   "title": "Christ in the Desert",
+   "year": "1872",
+   "place": "Tretyakov Gallery, Moscow",
+   "alt": "Jesus sits alone on a rock in a stony desert at dawn, his hands clenched together, deep in thought.",
+   "look": "Look again at His clenched hands. What would you say to Him about your own temptation?",
+   "license": "Artist died 1887; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Angelico - Conversion St. Augustine - Musée Thomas Henry - from Thebaid dismembered.jpg",
+   "width": 0,
+   "crop": [
+    0.125,
+    0.0,
+    0.97125,
+    1.0
+   ],
+   "kind": "saint",
+   "artist": "Fra Angelico and workshop",
+   "title": "The Conversion of Saint Augustine",
+   "year": "c. 1430–35",
+   "place": "Musée Thomas Henry, Cherbourg",
+   "alt": "In a walled garden, St. Augustine sits under a tree with his head in his hands, while another man stands by a house nearby.",
+   "look": "Look again at Augustine, head in his hands, moments before he read. What is your own “not yet”?",
+   "license": "Artist died 1455; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Light of the World Hunt.jpg",
+   "width": 1280,
+   "crop": [
+    0.22266,
+    0.21328,
+    0.80859,
+    0.48594
+   ],
+   "kind": "names",
+   "artist": "William Holman Hunt",
+   "title": "The Light of the World",
+   "year": "1904",
+   "place": "",
+   "alt": "At night, Christ in a white robe and a crown of thorns, his head shining with light, knocks at an overgrown door.",
+   "look": "Look again at Christ, shining in the dark, knocking at the door. Where do you need His light today?",
+   "license": "Artist died 1910; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Peter von Cornelius - Joseph gibt sich seinen Brüdern zu erkennen - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.04167,
+    0.19231,
+    0.70833,
+    0.80769
+   ],
+   "kind": "stretch",
+   "passage": "Genesis 45",
+   "artist": "Peter von Cornelius",
+   "title": "Joseph Reveals Himself to His Brothers",
+   "year": "1816–17",
+   "place": "Alte Nationalgalerie, Berlin",
+   "alt": "Joseph, in a white robe, embraces his youngest brother while the other brothers kneel and weep around him.",
+   "look": "Look again at Joseph embracing the brothers who wronged him. What good could fill the space your habit leaves?",
+   "license": "Artist died 1867; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Giuseppe Maria Crespi - Confession - WGA05764.jpg",
+   "width": 0,
+   "crop": [
+    0.18,
+    0.2526,
+    0.9,
+    0.65379
+   ],
+   "kind": "practice",
+   "artist": "Giuseppe Maria Crespi",
+   "title": "Confession",
+   "year": "1712",
+   "place": "Gemäldegalerie Alte Meister, Dresden",
+   "alt": "In a dim church, a priest in a confessional raises his hand toward a man who leans in close beside him.",
+   "look": "Look again at the priest’s raised hand. What would you bring to Confession?",
+   "license": "Artist died 1747; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Scheffer, Ary - Saint Augustin et Sainte Monique - 88.45 - Musée de la Vie romantique.jpg",
+   "width": 960,
+   "crop": [
+    0.0625,
+    0.1304,
+    0.9375,
+    0.64385
+   ],
+   "kind": "saint",
+   "artist": "Ary Scheffer",
+   "title": "Saint Augustine and Saint Monica",
+   "year": "",
+   "place": "Musée de la Vie romantique, Paris",
+   "alt": "St. Monica, in a white veil, and her son St. Augustine sit close together, hands joined, both looking up toward the sky.",
+   "look": "Look again at mother and son, looking up together. Who has prayed for you?",
+   "license": "Artist died 1858; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}

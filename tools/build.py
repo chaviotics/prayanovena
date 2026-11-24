@@ -164,6 +164,58 @@ def validate(n):
     for l in n["litany"]:
         if l.get("img"):
             assert os.path.exists(os.path.join(imgdir, l["img"] + "_face.jpg")), (n["slug"], "missing face", l["img"])
+    a = art_data(n["slug"])
+    if a:
+        check_art(n["slug"], a)
+
+
+def art_data(slug):
+    """novenas/<slug>/art.json: the day pictures (app only; see tools/art.py), or None"""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from art import load
+    return load(slug)
+
+
+def check_art(slug, a):
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from art import check
+    return check(slug, a)
+
+
+EXPAND = '<svg class="i" aria-hidden="true" focusable="false"><use href="#i-arrows-out-simple"/></svg>'
+
+
+def art_parts(n, mode):
+    """the day picture's figure, the "Look again" callout, the viewer and the data the page script reads"""
+    a = art_data(n["slug"])
+    if not a:
+        return {"ART": "[]", "ART_FIGURE": "", "ART_LOOK": "", "ART_VIEWER": "", "HOW_PICTURE": ""}
+    d = os.path.join(ROOT, "novenas", n["slug"], "art")
+
+    def src(f):
+        if mode == "artifact":
+            with open(os.path.join(d, f), "rb") as fh:
+                return "data:image/jpeg;base64," + base64.b64encode(fh.read()).decode()
+        return "art/" + f
+
+    data = []
+    for i, x in enumerate(a["days"], 1):
+        if not x:
+            data.append(None); continue
+        cap = "%s, <cite>%s</cite>%s%s" % (esc(x["artist"]), esc(x["title"]), " (%s)" % esc(x["passage"]) if x.get("passage") else "",
+                                           ", " + esc(x["year"]) if x.get("year") else "")
+        data.append({"d": src("day%d.jpg" % i), "f": src("day%d_full.jpg" % i), "alt": x["alt"], "look": x["look"], "cap": cap,
+                     "info": cap + (". " + esc(x["place"]) if x.get("place") else "") + "."})
+    figure = ('        <figure class="art" id="dArt" hidden><div class="art-frame"><img class="art-img" id="dArtImg" alt="" width="720" height="540">'
+              '<button class="art-btn" id="dArtBtn" type="button" aria-label="See the whole picture">%s</button></div>'
+              '<figcaption class="art-cap" id="dArtCap"></figcaption></figure>\n' % EXPAND)
+    look = ('        <div class="lookagain" id="dLook" hidden><p class="rubric" id="dLookText"></p>'
+            '<button class="lookbtn" id="dLookBtn" type="button">%s<span>See the whole picture</span></button></div>\n' % EXPAND)
+    viewer = ('<dialog class="viewer" id="viewer" aria-labelledby="vCap"><img id="vImg" alt=""><p class="vlook" id="vLook" hidden></p>'
+              '<div class="vcap"><p id="vCap"></p><button class="close" type="button" id="vClose">Close</button></div></dialog>\n')
+    how = " If the day has a picture, take a moment to look at it; it is there to help you see the passage."
+    return {"ART": json.dumps(data, ensure_ascii=False).replace("</script", "<\\/script"), "ART_FIGURE": figure, "ART_LOOK": look,
+            "ART_VIEWER": viewer, "HOW_PICTURE": how}
 
 
 def scripture(t):
@@ -266,12 +318,13 @@ def page(n, mode):
         "CLOSE_REF": esc(n["closingVerse"]["ref"]),
         "ICONS": json.dumps(n["icons"]), "KEY": json.dumps(n["storageKey"] + ("-artifact" if mode == "artifact" else "")),
         "DAYS": json.dumps(n["days"], ensure_ascii=False),
-        "SPRITE": sprite(BASE_ICONS + n["icons"]),
+        "SPRITE": sprite(BASE_ICONS + n["icons"] + (["arrows-out-simple"] if art_data(slug) else [])),
         "FONTS": local_fonts("../") if mode == "site" else GOOGLE_FONTS,
         "SW": sw_register("../") if mode == "site" else "",
         "SHARE": json.dumps(share(n), ensure_ascii=False),
         "PRINT_HOW": printing[0], "PRINT_SIDE": printing[1],
     }
+    vals.update(art_parts(n, mode))
     t = read(os.path.join(ROOT, "templates", "novena.html"))
     for k, v in vals.items():
         t = t.replace("{{%s}}" % k, v)
@@ -601,6 +654,12 @@ def build_site(search=None):
         os.makedirs(os.path.join(d, "img"))
         for f in os.listdir(os.path.join(ROOT, "novenas", n["slug"], "img")):
             shutil.copy(os.path.join(ROOT, "novenas", n["slug"], "img", f), os.path.join(d, "img", f))
+        art = os.path.join(ROOT, "novenas", n["slug"], "art")
+        if art_data(n["slug"]):
+            os.makedirs(os.path.join(d, "art"))
+            for f in os.listdir(art):
+                if f.endswith(".jpg"):
+                    shutil.copy(os.path.join(art, f), os.path.join(d, "art", f))
         og = os.path.join(ROOT, "novenas", n["slug"], "og.jpg")
         if os.path.exists(og):
             shutil.copy(og, os.path.join(d, "og.jpg"))
@@ -620,15 +679,17 @@ def build_site(search=None):
 
 
 def build_sw(site):
-    """site/sw.js: precache every page, image, font and icon (not the link-preview images or the PDFs, which a phone
-    keeps only once someone opens one); the version is a hash of them"""
+    """site/sw.js: precache every page, image, font and icon (not the link-preview images, the PDFs or the day pictures,
+    which a phone keeps only once someone opens or sees one); the version is a hash of them"""
     files, h = [], hashlib.sha256()
     for d, _, fs in sorted(os.walk(site)):
         for f in sorted(fs):
             rel = os.path.relpath(os.path.join(d, f), site).replace(os.sep, "/")
             if f in ("sw.js", "og.png", "og.jpg", "_headers", "_redirects", "robots.txt", "sitemap.xml"):
                 continue
-            if f.endswith(".pdf"):  # not precached, but still part of the version so a new PDF reaches phones
+            # PDFs and the day pictures (<slug>/art/) are not precached: a phone keeps each one once it is opened or
+            # seen, so the offline download stays small. They still count in the version, so a changed file reaches phones.
+            if f.endswith(".pdf") or rel.split("/")[1:2] == ["art"]:
                 with open(os.path.join(d, f), "rb") as fh:
                     h.update(rel.encode() + fh.read())
                 continue
