@@ -61,6 +61,7 @@ Two phases, so the new name can go live before the domain exists:
 | `serving-in-ministry` | Serving in Ministry | Mary, Handmaid of the Lord, St. Martha, St. Cecilia, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 | `habitual-sin` | Freedom from Habitual Sin | Mary, Refuge of Sinners, St. Augustine of Hippo, St. Monica, St. Charles de Foucauld (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 | `talents` | Growing in Our Talents | Mary, Virgin Most Faithful, St. Benedict of Nursia, St. John Bosco, St. Paul (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
+| `weary-servants` | Weary and Wounded Servants | Mary, Comforter of the Afflicted, St. Francis of Assisi, St. John of the Cross, St. Teresa of Calcutta (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 
 ## Decisions and rules
 
@@ -214,6 +215,13 @@ Two phases, so the new name can go live before the domain exists:
 
 ### 2026-11-21 (printable PDFs)
 - **Printable PDF for every novena** (Chav): plan and sample https://claude.ai/artifact/S4m2nC6vcBGLydr3nCia26. Built from novena.json instead of exporting Google Docs (only 2 of 6 had Docs, each needing hand page-break fixes). Same layout as the Docs plus the 9 days mark, "Praying with others" (the Docs still say "As a family") and a footer with the novena's address and page numbers. Chav chose A4 only. All 6 are 4 pages with every word checked. `tools/check_print.py` now reads text in content order and skips the footer (still works on Docs exports).
+
+### 2026-11-24 (Novena for Weary and Wounded Servants)
+- **New novena `weary-servants`, "Novena for Weary and Wounded Servants"** (Chav approved, pushed live). Companion to Serving in Ministry, for servants in any ministry who are burned out, hurt by people in their community, serving mechanically or no longer seeing why they serve. Chav chose the title on a card over "Tired Servants", "When Serving Feels Tired and Mechanical" and "When Serving No Longer Makes Sense". Category Spiritual life, order 17, card icon `feather`, kicker "9 days of rest for those who serve". Never asks anyone to serve more; rest and stepping back are faithful; Day 9 says it is all right to still be tired. Tips: hurts from people in ministry (spiritual director, safeguarding office, civil authorities; forgiving never means staying where you are harmed), crisis helpline (Day 2 names that Elijah asked to die), and a link to Serving in Ministry.
+- Scope (Chav): stays for servants with one dryness day (Day 3); a separate spiritual dryness novena for everyone goes to its own thread, and Psalm 42 is left for it.
+- Intercessors: St. Francis of Assisi (hermitages; handed over leadership c. 1220; "Let us begin, brothers…", 1 Celano 103; Zurbarán, MNAC), St. John of the Cross (Toledo prison 1577–78; 1591 letter "where there is no love, put love"; 1656 portrait by an unknown artist, Katowice), St. Teresa of Calcutta (nearly 50 years of darkness, train call 10 Sep 1946, "I thirst"; 1985 White House photo, PD-USGov). Litany Mary, Comforter of the Afflicted (Sassoferrato face reused).
+- Arc: Matthew 11:28–29, 1 Kings 19:5–7, Habakkuk 3:17–18, Psalm 55:12–14, Psalm 147:3–4, Numbers 11:14, John 21:15–16, Isaiah 43:19, Psalm 23:1–3; epigraph Psalm 3:5, closing 2 Corinthians 4:16. Verified by script against the RSVCE files of `andrewheekin/obsidian-holy-bible` (`sources.md`; several ranges turned down for dangling quotes).
+- Built as the cost test of the cheaper setup (`/mnt/project-files/token-test/MEASURE.md`): one Sonnet helper for all pictures, one Opus reviewer for text and pictures (`review.md`: 7 text must-fixes, Day 3 picture swapped from a barren-fig-tree warning to Mantegna's *Agony in the Garden*). Day 6 reuses Tissot's *Jethro and Moses* (Chav: repeats are fine when they fit). PDF 5 pages, 9.19pt.
 
 ### 2026-11-24 (Novena for Serving in Ministry)
 - **New novena `serving-in-ministry`, "Novena for Serving in Ministry"** (Chav approved, pushed live). For musicians, readers, production teams and every volunteer nervous before a retreat, conference or worship night; prompted by Chav serving at an event on Nov 28, kept general (no event named). Chav took the recommended title over "Serving at a Big Event" and "Those Who Serve". Never promises the event will go well.

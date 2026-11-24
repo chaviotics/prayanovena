@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make weary-servants` from `novenas/weary-servants/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (scene) | Carl Bloch, *Christ the Consoler*, 1875. Commons `Christ The Consolator.jpg`, 960px thumbnail; day crop [0.0, 0.14, 0.88, 0.636] | Artist died 1890; faithful reproduction of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (scene) | Jacopo Tintoretto, *Elijah Fed by the Angel*, 1577–1581, Scuola Grande di San Rocco, Venice. Commons `Jacopo Tintoretto - Elijah Fed by the Angel - WGA22548.jpg`, 1280px thumbnail; day crop [0.1, 0.3, 0.9, 0.742] | Artist died 1594; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (stretch) | Andrea Mantegna, *The Agony in the Garden*, c. 1455–56, National Gallery, London (Mark 14). Commons `Mantegna, Andrea - Agony in the Garden - National Gallery, London.jpg`, 1280px thumbnail; day crop [0.22, 0.08, 0.82, 0.661] | Artist died 1506; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (stretch) | Giotto, *The Kiss of Judas*, c. 1305, Scrovegni Chapel, Padua (Matthew 26). Commons `Giotto - Scrovegni - -31- - Kiss of Judas.jpg`, 1280px thumbnail; day crop [0.15, 0.08, 0.8, 0.58] | Artist died 1337; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (stretch) | Jan Luyken, *The Good Samaritan Tends the Wounded Traveler*, 1712, Rijksmuseum, Amsterdam (Luke 10). Commons `Barmhartige Samaritaan ontfermt zich over de gewonde reiziger, RP-P-OB-46.010.jpg`, 1280px thumbnail; day crop [0.42, 0.35, 0.97, 0.888] | Engraving; artist died 1712; Rijksmuseum public-domain release (Commons: CC0) |
+| day6.webp, day6_full.webp | Day 6 (stretch) | James Tissot, *Jethro and Moses*, c. 1896–1900 (Exodus 18). Commons `Tissot Jethro and Moses.jpg`, 1280px thumbnail; day crop [0.2, 0.2, 0.86, 0.929] | Artist died 1902; Commons: public domain |
+| day7.webp, day7_full.webp | Day 7 (scene) | Raphael, *Christ’s Charge to Peter*, 1515, Royal Collection, on loan to the Victoria and Albert Museum, London. Commons `V&A - Raphael, Christ's Charge to Peter (1515).jpg`, 1280px thumbnail; day crop [0.0, 0.08, 0.7, 0.904] | Artist died 1520; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (stretch) | Jacopo Tintoretto, *Moses Striking the Rock*, 1563, Städel Museum, Frankfurt (Exodus 17). Commons `1563 Tintoretto Moses Striking the Rock anagoria.JPG`, 1280px thumbnail; day crop [0.1, 0.08, 0.85, 0.924] | Artist died 1594; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (names) | Unknown mosaicist, *The Good Shepherd*, c. 425–450, Mausoleum of Galla Placidia, Ravenna. Commons `"The good Shepherd" mosaic - Mausoleum of Galla Placidia.jpg`, 1280px thumbnail; day crop [0.17, 0.2, 0.82, 0.97] | 5th-century mosaic; faithful photo of a 2D work (Commons: public domain) |

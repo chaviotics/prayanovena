@@ -1,0 +1,263 @@
+{
+ "slug": "weary-servants",
+ "storageKey": "novena-weary-servants",
+ "status": "published",
+ "order": 17,
+ "title": "Novena for Weary and Wounded Servants",
+ "cardTitle": "Weary and Wounded Servants",
+ "icon": "feather",
+ "category": "spiritual-life",
+ "barTitle": "Weary and Wounded Servants",
+ "barShort": "Weary Servants",
+ "kicker": "9 days of rest for those who serve",
+ "card": "For servants who are worn out, hurt by their community or going through the motions: come to Jesus, rest, and remember why.",
+ "ogDescription": "9 days of prayer for servants who are worn out or hurt, through Sts. Francis, John of the Cross and Teresa of Calcutta.",
+ "description": "A 9-day Catholic novena for burned-out or hurt servants in any ministry, through St. Francis, St. John of the Cross and St. Teresa of Calcutta.",
+ "keywords": [
+  "weary",
+  "tired",
+  "exhausted",
+  "burnout",
+  "burned out",
+  "burnt out",
+  "worn out",
+  "rest",
+  "stepping back",
+  "quitting ministry",
+  "leaving ministry",
+  "going through the motions",
+  "mechanical",
+  "routine",
+  "dryness",
+  "hurt",
+  "wounded",
+  "church hurt",
+  "hurt by church",
+  "betrayed",
+  "gossip",
+  "forgiveness",
+  "ministry",
+  "serving",
+  "servant",
+  "servants",
+  "volunteer",
+  "leader",
+  "CFC",
+  "SFC",
+  "YFC",
+  "Couples for Christ",
+  "Singles for Christ",
+  "Youth for Christ",
+  "Salesian",
+  "altar server",
+  "lector",
+  "choir",
+  "music ministry",
+  "worship team",
+  "usher",
+  "medic",
+  "catechist",
+  "spiritual director",
+  "st. francis",
+  "st. john of the cross",
+  "mother teresa",
+  "st. teresa of calcutta",
+  "pagod",
+  "napapagod",
+  "pagod na",
+  "nasaktan",
+  "sugatan",
+  "lingkod",
+  "paglilingkod",
+  "naglilingkod"
+ ],
+ "epigraph": {
+  "text": "I lie down and sleep; I wake again, for the LORD sustains me.",
+  "ref": "Psalm 3:5"
+ },
+ "closingVerse": {
+  "text": "So we do not lose heart. Though our outer nature is wasting away, our inner nature is being renewed every day.",
+  "ref": "2 Corinthians 4:16"
+ },
+ "printTitle": [
+  "Novena for",
+  "Weary and Wounded Servants"
+ ],
+ "printClosing": [
+  "So we do not lose heart. Though our outer nature is wasting away,",
+  "our inner nature is being renewed every day."
+ ],
+ "ogSaints": [
+  "francis",
+  "teresa"
+ ],
+ "saints": [
+  {
+   "id": "francis",
+   "name": "St. Francis of Assisi",
+   "dates": "c. 1181–1226",
+   "feast": "Feast · Oct 4",
+   "patron": "Patron of Italy & ecology",
+   "bio": "A cloth merchant’s son who gave up everything to follow Christ in poverty. He founded the Franciscans, often withdrew to pray in hermitages, and in 1220 handed their leadership to others.",
+   "alt": "Painting: St. Francis of Assisi in his hooded habit, looking upward, by Zurbarán",
+   "openingRole": "who knew when to step back"
+  },
+  {
+   "id": "john",
+   "name": "St. John of the Cross",
+   "dates": "1542–1591",
+   "feast": "Feast · Dec 14",
+   "patron": "Doctor of the Church; patron of Spanish poets",
+   "bio": "A Spanish Carmelite friar and poet who worked with St. Teresa of Ávila to renew their order. Fellow friars imprisoned him for nine months; there he wrote much of his greatest poetry.",
+   "alt": "Painting: St. John of the Cross as a young friar, by an unknown artist, 1656",
+   "openingRole": "who was wounded by his own brothers"
+  },
+  {
+   "id": "teresa",
+   "name": "St. Teresa of Calcutta",
+   "dates": "1910–1997",
+   "feast": "Feast · Sep 5",
+   "patron": "Founder of the Missionaries of Charity",
+   "bio": "Born in Skopje, she founded the Missionaries of Charity to serve the poorest of Kolkata. Letters published after her death revealed nearly fifty years of serving without feeling God’s presence.",
+   "alt": "Photograph: Mother Teresa at the White House, 1985",
+   "openingRole": "who served You in the dark"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Mary, Comforter of the Afflicted"
+  },
+  {
+   "img": "francis",
+   "text": "St. Francis of Assisi"
+  },
+  {
+   "img": "john",
+   "text": "St. John of the Cross"
+  },
+  {
+   "img": "teresa",
+   "text": "St. Teresa of Calcutta"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You called us to serve You. Now we come to You tired. Some of us are worn out from carrying too much for too long; some have been hurt by the people we serve beside; some go through the motions and no longer feel why. We do not come to promise more work, but to rest in You and be healed. Today we ask Mary, Comforter of the Afflicted; St. Francis, who knew when to step back; St. John of the Cross, who was wounded by his own brothers; and St. Teresa of Calcutta, who served You in the dark, to pray with us, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, gentle and lowly in heart, we lay our weariness and our wounds before You. Take our heavy yokes and give us Yours. Heal us, restore us, and send us out again only when and where You will.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "If the hurt came from people in ministry",
+   "p": "Don’t carry it alone. Talk to a spiritual director, a priest or someone you trust outside the group. If what happened was abuse, harassment or a misuse of authority, tell someone with authority over the group or your diocese’s safeguarding office and, if a crime may have been committed, the civil authorities. Forgiving never means pretending, or staying where you are harmed."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "Go to Confession and Mass when you can, to receive rather than to do one more thing. Sleep, eat and keep a real day of rest. Talk honestly with your leader about your load: taking a break for a while can be an act of faith. If tiredness turns into hopelessness or thoughts of harming yourself, please reach out today to someone you trust, a doctor or counselor, or a <a href=\"https://findahelpline.com\" rel=\"noopener noreferrer\" target=\"_blank\">crisis helpline</a>."
+  },
+  {
+   "h": "Getting ready to serve?",
+   "p": "For the nerves before a retreat, conference or worship night, pray the <a href=\"/serving-in-ministry/\">Novena for Serving in Ministry</a>. This one is for when serving itself has grown heavy."
+  }
+ ],
+ "intentionPlaceholder": "Name your ministry, what has worn you out or hurt you, and what you need from God.",
+ "icons": [
+  "hand",
+  "moon",
+  "leaf",
+  "heart-break",
+  "bandaids",
+  "users-three",
+  "heart",
+  "drop",
+  "footprints"
+ ],
+ "credits": "Images: Francisco de Zurbarán, <em>Saint Francis of Assisi according to Pope Nicholas V’s Vision</em> (detail), c. 1640, Museu Nacional d’Art de Catalunya · unknown artist, <em>Saint John of the Cross</em> (detail), 1656, Archdiocesan Museum, Katowice · Mother Teresa at the White House, photograph, 1985 · Sassoferrato, <em>The Virgin in Prayer</em> (detail), 17th century. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Come to Me",
+   "ref": "Matthew 11:28–29",
+   "verse": "Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me; for I am gentle and lowly in heart, and you will find rest for your souls.",
+   "refl": "Jesus does not say, “Come to me once you have rested, once you feel holy again.” He calls those who labor and are heavy laden, just as they are. Many of us who serve have carried a lot for a long time: meetings that run late, the roles no one else will take, the problems that always land on us first. We may even feel guilty for being tired. Jesus is not disappointed in our weariness; He invites us, weariness and all. These nine days begin with coming to Him and resting.",
+   "more": "Jesus calls Himself “gentle and lowly in heart.” His yoke is not one more burden added to the pile; a yoke is shared, and He carries it with us. Some of what weighs on us was never His yoke at all: expectations we took on, roles we never laid down, the belief that everything depends on us. Over these days we ask Him to show us which is which.",
+   "prayer": "Lord Jesus, You call all who labor and are heavy laden, and today we come. We come tired, perhaps a little ashamed of being tired, carrying more than we can name. We bring You no plans, only ourselves. Take what is heavy. Teach us Your gentleness, with others and with ourselves, and show us which burdens are truly Yours and which we may lay down. Give us rest for our souls.",
+   "step": "Make a list of what you carry in your ministry, then pray through it with Jesus, one item at a time, asking, “Is this Yours, or mine to lay down?”"
+  },
+  {
+   "title": "Arise and Eat",
+   "ref": "1 Kings 19:5–7",
+   "verse": "And he lay down and slept under a broom tree; and behold, an angel touched him, and said to him, “Arise and eat.” And he looked, and behold, there was at his head a cake baked on hot stones and a jar of water. And he ate and drank, and lay down again. And the angel of the LORD came again a second time, and touched him, and said, “Arise and eat, else the journey will be too great for you.”",
+   "refl": "Elijah had stood for God on Mount Carmel. Then, afraid and spent, he walked into the wilderness, sat under a tree and asked to die: “It is enough.” God did not rebuke him or hand him a new task. He let him sleep, sent bread and water, and fed him again, “else the journey will be too great for you.” Exhaustion often follows our biggest days of serving. God’s first answer to a worn-out servant may be sleep, food and quiet. Rest is not a lapse in faith; it is one way He carries us.",
+   "more": "St. Francis of Assisi spent his life preaching on the roads of Italy, yet he kept withdrawing to quiet places: the caves of the Carceri above Assisi, the mountain of La Verna. He even wrote a short rule for brothers living in hermitages, where some would pray while others looked after them like mothers. Even the busiest saints needed to be fed and sheltered. So do we.",
+   "prayer": "Father, You did not scold Elijah when he had nothing left; You fed him and let him sleep. Look on us, Your tired servants. Where we have pushed far past our limits, give us the humility to stop, to eat and to rest. Free us from the guilt that calls rest laziness. Through the prayers of St. Francis, who often went away to pray in quiet places, teach us to receive Your care, so that the journey will not be too great for us.",
+   "step": "Plan one rest this week, an early night or an afternoon with no ministry tasks, and keep it. If, like Elijah, you have wished you could die, tell someone today."
+  },
+  {
+   "title": "When We Feel Nothing",
+   "ref": "Habakkuk 3:17–18",
+   "verse": "Though the fig tree do not blossom, / nor fruit be on the vines, / the produce of the olive fail / and the fields yield no food, / the flock be cut off from the fold / and there be no herd in the stalls, / yet I will rejoice in the LORD, / I will joy in the God of my salvation.",
+   "refl": "Habakkuk pictures an empty landscape: no blossom on the fig tree, no fruit on the vine, no herd in the stalls. And still he says, “yet I will rejoice in the LORD.” Sometimes serving feels like that field. We sing the songs, read the texts, set up the chairs, and feel nothing. The words have become routine, and we wonder whether God is there at all. Habakkuk does not pretend the fields are full. His joy rests on God Himself, not on what he can feel or see.",
+   "more": "Letters published after her death revealed that St. Teresa of Calcutta lived for nearly fifty years with almost no felt sense of God’s presence, even as she served the poorest of Kolkata. She did not carry this alone: she opened it honestly to her spiritual directors. With their help she came to trust that God was near even when she could not feel Him, and she kept serving.",
+   "prayer": "Lord God, You are present even when our hearts feel empty and our serving has become routine. We bring You the songs we sang without feeling and the prayers we said without meaning. We do not ask only that the dryness pass, but that You keep us faithful in it, and honest about it. Through the prayers of St. Teresa of Calcutta, who served You in the dark, let our joy rest on You, not on what we feel.",
+   "step": "Tell someone you trust, a spiritual director, a priest or a wise friend, how serving honestly feels right now. If no one comes to mind, write it down for God."
+  },
+  {
+   "title": "Hurt in God’s House",
+   "ref": "Psalm 55:12–14",
+   "verse": "It is not an enemy who taunts me— / then I could bear it; / it is not an adversary who deals insolently with me— / then I could hide from him. / But it is you, my equal, / my companion, my familiar friend. / We used to hold sweet converse together; / within God’s house we walked in fellowship.",
+   "refl": "The psalmist could have borne an enemy’s insult. What breaks him is betrayal by a friend, someone he walked beside in God’s house. Wounds from people in ministry hurt in a particular way: gossip in the group, a leader who used us, being dropped without a word, a friend who turned against us. They can make us doubt the community and even God. Scripture lets us say it plainly to Him. God is not offended by our honesty about how His people have hurt us.",
+   "more": "In 1577 St. John of the Cross was seized by fellow Carmelites who opposed the reform he served, and locked for about nine months in a narrow cell in their monastery in Toledo. He was beaten and kept in near darkness. There, wounded by his own brothers, he composed much of his great poem of love for God, the Spiritual Canticle. The wound did not have the last word, but it was real.",
+   "prayer": "Lord Jesus, You were betrayed by a friend who shared Your table, and You know how it feels to be wounded by Your own. We bring You the hurts we have received in ministry, and we name them honestly, without pretending. Guard us from bitterness, and from turning away from You because of what others did. Through the prayers of St. John of the Cross, hold us close, and lead us to people who can help us heal.",
+   "step": "Write down one hurt from ministry that still stings, and give it to Jesus. If it involved abuse or a misuse of authority, tell someone you trust."
+  },
+  {
+   "title": "He Binds Up Our Wounds",
+   "ref": "Psalm 147:3–4",
+   "verse": "He heals the brokenhearted, / and binds up their wounds. / He determines the number of the stars, / he gives to all of them their names.",
+   "refl": "The God who counts the stars and calls each one by name bends down to bind up the wounds of the brokenhearted. Healing is His work before it is ours. We cannot force ourselves to stop hurting, and we do not have to pretend we are fine. Forgiveness, when it comes, is a grace we ask for, often slowly. It never means saying that what happened was right, or going back where we are not safe. Today we simply let Him tend the wound.",
+   "more": "In 1591, months before he died, St. John of the Cross was left without office in his order. To a Carmelite prioress who grieved over how he was being treated, he wrote that she should not be troubled, and added: “Where there is no love, put love, and you will draw out love.” He did not deny what was done to him. He let God turn it into a path of love.",
+   "prayer": "Lord, You heal the brokenhearted and bind up their wounds. We hold out to You the places where ministry has hurt us. Heal what we cannot heal. When we are ready, give us the grace to forgive, without pretending and without putting ourselves back in harm’s way. Mary, Comforter of the Afflicted, stay near us as you stayed near your Son. St. John of the Cross, pray for us.",
+   "step": "Pray for the person who hurt you in one sentence: “Lord, I hand them to You.” If you are not ready yet, ask God for the desire to be."
+  },
+  {
+   "title": "Too Heavy to Carry Alone",
+   "ref": "Numbers 11:14",
+   "verse": "I am not able to carry all this people alone, the burden is too heavy for me.",
+   "refl": "Even Moses came to the end of himself: the burden was too heavy. God’s answer was not “try harder.” He told Moses to gather seventy elders, so that “they shall bear the burden of the people with you, that you may not bear it yourself alone.” Many ministries lean too hard on a few faithful people. Saying “I cannot do this alone” is not weakness or a lack of faith. It may be the first step toward the help God has been preparing all along.",
+   "more": "Around 1220, ill and worn out, St. Francis handed the leadership of the brotherhood he had founded to others, and went on praying and serving as a simple brother. Stepping back can be faithful. It might mean sharing a role, training someone new, or resting for a season. Talk it over with your leader or a spiritual director, and ask God which yes is yours to keep.",
+   "prayer": "Lord God, You saw that Moses could not carry everything alone, and You gave him others to share the load. We confess that we have tried to carry too much, sometimes out of love, sometimes out of pride or fear. Show us what to hand on, what to share and what to keep. Give us honest words for our leaders. Through the prayers of St. Francis, who humbly laid down his leadership, free us to step back when You ask it.",
+   "step": "Name one task you could share, hand on or pause. Talk to your leader about it this week, or pray it over with someone you trust."
+  },
+  {
+   "title": "Do You Love Me?",
+   "ref": "John 21:15–16",
+   "verse": "When they had finished breakfast, Jesus said to Simon Peter, “Simon, son of John, do you love me more than these?” He said to him, “Yes, Lord; you know that I love you.” He said to him, “Feed my lambs.” A second time he said to him, “Simon, son of John, do you love me?” He said to him, “Yes, Lord; you know that I love you.” He said to him, “Tend my sheep.”",
+   "refl": "Peter had denied Jesus three times. Now, by the lake, Jesus does not ask about his skills, his record or his plans. He asks, “Do you love me?” Only then does He say, “Feed my lambs.” When serving stops making sense, the answer is not more effort but this question. We did not begin serving to be busy, needed or noticed. Somewhere at the start was love for Him, and His love for us came first. Jesus asks again, gently, so that we remember.",
+   "more": "On September 10, 1946, on a train to Darjeeling, St. Teresa of Calcutta sensed Jesus calling her to serve Him in the poorest of the poor. Later she had two words placed beside the crucifix in her sisters’ chapels: “I thirst.” Through the long years of darkness she held on to that call. Her serving began, and kept beginning, with His thirst for love.",
+   "prayer": "Lord Jesus, You asked Peter, “Do you love me?” and You ask us too. Beneath our tiredness and routine, stir up the love that first made us say yes, and remind us that Your love for us came first. Where we have served for the wrong reasons, purify our hearts. Through the prayers of St. Teresa of Calcutta, let us hear Your thirst again, and serve, or rest, for love of You.",
+   "step": "Remember when you first said yes to serving. Write down what drew you, and thank Jesus for it."
+  },
+  {
+   "title": "A New Thing",
+   "ref": "Isaiah 43:19",
+   "verse": "Behold, I am doing a new thing; / now it springs forth, do you not perceive it? / I will make a way in the wilderness / and rivers in the desert.",
+   "refl": "God spoke these words to a people in exile, worn out and sure that their best days were behind them: “Behold, I am doing a new thing.” He promised a way in the wilderness and rivers in the desert. For a weary servant, the new thing might be returning to the same ministry with a lighter heart. It might be a different role, a season of rest, or simply a new way of praying. We do not have to know yet. We only watch for what He is already making spring up.",
+   "more": "Near the end of his life, nearly blind and in great pain, St. Francis said to his brothers, “Let us begin, brothers, to serve the Lord God, for up until now we have done little or nothing.” He had followed Christ for some twenty years, and still he spoke of beginning. With God it is never too late to start again, whatever the new start looks like.",
+   "prayer": "Lord God, You make a way in the wilderness and rivers in the desert. Open our eyes to the new thing You are doing in us. Whether You lead us back to the same work with fresh hearts, to a new place of service, or into a season of rest, give us the courage to follow. Through the prayers of St. Francis, let us begin again, humbly and gladly, with You.",
+   "step": "Ask God in silence, “Lord, what new thing are You doing?” Write down whatever comes, even a small sign."
+  },
+  {
+   "title": "He Restores My Soul",
+   "ref": "Psalm 23:1–3",
+   "verse": "The LORD is my shepherd, I shall not want; / he makes me lie down in green pastures. / He leads me beside still waters; / he restores my soul. / He leads me in paths of righteousness / for his name’s sake.",
+   "refl": "Before we were servants, we were sheep. The Lord is our shepherd: He makes us lie down, He leads us beside still waters, He restores our souls. We end these nine days not with a resolution to do more, but with thanks for being cared for. Whatever we brought here, exhaustion, wounds, dryness or confusion, we place in the Shepherd’s hands. Whether we go back to serving, rest a while, or follow Him somewhere new, He leads, and our souls are safe with Him.",
+   "more": "St. Francis learned to rest in God and to let go. St. John of the Cross carried his wounds into love. St. Teresa of Calcutta kept faith in the dark. None of them served perfectly or without cost, and none of them served alone. If these nine days are over and you are still tired, that is all right. Restoring a soul takes time, and the Shepherd is patient.",
+   "prayer": "Lord, You are our shepherd, and we thank You. Thank You for every person we have served and served beside, for the rest You have given us, and for the healing still on its way. We place our ministry, our weariness and our wounds into Your hands. Lead us in paths of righteousness for Your name’s sake. Through the prayers of Mary, Comforter of the Afflicted, St. Francis, St. John of the Cross and St. Teresa of Calcutta, restore our souls.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}
