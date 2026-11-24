@@ -91,23 +91,28 @@
    "license": "Artist died 1656; faithful photo of a 2D work (Commons: public domain)"
   },
   {
-   "file": "Dieric Bouts - Prophet Elijah in the Desert - WGA03015.jpg",
-   "width": 960,
+   "file": "Brooklyn Museum - Jesus Commands the Apostles to Rest (Jésus engage les apôtres à se reposer) - James Tissot.jpg",
+   "width": 500,
    "crop": [
-    0,
-    0.2,
-    1,
-    0.796
+    0.06,
+    0.03,
+    0.98352,
+    0.97
    ],
-   "kind": "stretch",
-   "passage": "1 Kings 19",
-   "artist": "Dieric Bouts",
-   "title": "The Prophet Elijah in the Desert",
-   "year": "1464–67",
-   "place": "St. Peter’s Church, Leuven",
-   "alt": "An angel kneels beside the prophet Elijah, asleep in the desert, and gently touches his shoulder.",
-   "look": "Look again at the angel’s hand on the sleeping prophet. Where is God inviting you to rest and be fed?",
-   "license": "Artist died 1475; faithful photo of a 2D work (Commons: public domain)"
+   "kind": "scene",
+   "artist": "James Tissot",
+   "title": "Jesus Commands the Apostles to Rest",
+   "year": "1886–94",
+   "place": "Brooklyn Museum, New York",
+   "alt": "Jesus stands on a quiet hillside among olive trees while the tired apostles lie on the grass and rocks, resting.",
+   "look": "Look again at the apostles stretched out on the grass while Jesus keeps watch. What would it mean to let him guard your rest this week?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)",
+   "full": [
+    0.014,
+    0.022,
+    0.986,
+    0.975
+   ]
   },
   {
    "file": "Rembrandt St. Paul in Prison.jpg",

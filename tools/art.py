@@ -19,7 +19,7 @@ Each novena may have novenas/<slug>/art.json:
 
 Commands:
   python3 tools/art.py fetch <slug>     download each day's source to .cache/art/ (curl; skips files already there)
-  python3 tools/art.py make <slug>      crop + resize into novenas/<slug>/art/day<N>.webp (720x540) and day<N>_full.webp
+  python3 tools/art.py make <slug> [N…] crop + resize into novenas/<slug>/art/day<N>.webp (720x540) and day<N>_full.webp
                                         (at most 900 wide, 1200 tall), and write novenas/<slug>/art/images.md
   python3 tools/art.py sheet <slug> <out.jpg>   contact sheet of the 9 day pictures, to check the crops by eye
   python3 tools/art.py meta "File name.jpg"     Commons metadata (artist, date, license, credit), to fill in art.json
@@ -100,13 +100,24 @@ def fetch(slug):
         time.sleep(3)
 
 
-def make(slug):
+def row(i, a):
+    work = "%s, *%s*%s%s%s" % (a["artist"], a["title"], ", " + a["year"] if a.get("year") else "",
+                                ", " + a["place"] if a.get("place") else "", " (%s)" % a["passage"] if a.get("passage") else "")
+    return "| day%d.webp, day%d_full.webp | Day %d (%s) | %s. Commons `%s`, %s; day crop %s | %s |" % (
+        i, i, i, a["kind"], work, a["file"], ("%dpx thumbnail" % a["width"]) if a["width"] else "original file", [round(x, 3) for x in a["crop"]], a["license"])
+
+
+def make(slug, only=None):
+    """only: day numbers to remake (the others keep their pictures; their sources need not be downloaded)."""
     from PIL import Image
     out = os.path.join(ROOT, "novenas", slug, "art")
     os.makedirs(out, exist_ok=True)
     rows = []
     for i, a in enumerate(load(slug)["days"], 1):
         if not a:
+            continue
+        if only and i not in only:
+            rows.append(row(i, a))
             continue
         im = Image.open(src_path(a)).convert("RGB")
         W, H = im.size
@@ -125,10 +136,7 @@ def make(slug):
             os.path.join(out, "day%d_full.webp" % i), "WEBP", quality=80, method=6)
         kb = [os.path.getsize(os.path.join(out, f)) // 1024 for f in ("day%d.webp" % i, "day%d_full.webp" % i)]
         print("day", i, "%d KB + %d KB" % tuple(kb), a["artist"], "-", a["title"])
-        work = "%s, *%s*%s%s%s" % (a["artist"], a["title"], ", " + a["year"] if a.get("year") else "",
-                                    ", " + a["place"] if a.get("place") else "", " (%s)" % a["passage"] if a.get("passage") else "")
-        rows.append("| day%d.webp, day%d_full.webp | Day %d (%s) | %s. Commons `%s`, %s; day crop %s | %s |" % (
-            i, i, i, a["kind"], work, a["file"], ("%dpx thumbnail" % a["width"]) if a["width"] else "original file", [round(x, 3) for x in a["crop"]], a["license"]))
+        rows.append(row(i, a))
     with open(os.path.join(out, "images.md"), "w", encoding="utf-8") as f:
         f.write("# Day pictures (app only, all public domain)\n\nMade by `tools/art.py make %s` from `novenas/%s/art.json`.\n\n"
                 "| Files | Used for | Work | Why public domain |\n|---|---|---|---|\n" % (slug, slug) + "\n".join(rows) + "\n")
@@ -247,8 +255,8 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     if len(a) == 2 and a[0] == "fetch":
         fetch(a[1])
-    elif len(a) == 2 and a[0] == "make":
-        make(a[1])
+    elif len(a) >= 2 and a[0] == "make":
+        make(a[1], [int(x) for x in a[2:]] or None)
     elif len(a) == 3 and a[0] == "sheet":
         sheet(a[1], a[2])
     elif len(a) == 2 and a[0] == "meta":
