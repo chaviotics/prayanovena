@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make longing-for-a-child` from `novenas/longing-for-a-child/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (scene) | Jan Victors, *Hannah Prays in the Temple*, 1643, Dordrechts Museum. Commons `Jan Victors - Hanna, moeder van Samuel, biddend in de tempel - DM-861-327 - Dordrechts Museum.jpg`, 960px thumbnail; day crop [0, 0.08, 1, 0.699] | Artist died 1676; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (saint) | Domenico Ghirlandaio, *The Angel Appears to Zechariah*, c. 1486–1490, Tornabuoni Chapel, Santa Maria Novella, Florence. Commons `Domenico Ghirlandaio - Angel Appearing to Zacharias (detail) - WGA8851.jpg`, 960px thumbnail; day crop [0.2, 0.38, 1.0, 0.852] | Artist died 1494; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (saint) | Giotto, *The Meeting at the Golden Gate*, c. 1303–1305, Scrovegni Chapel, Padua. Commons `Giotto di Bondone - No. 6 Scenes from the Life of Joachim - 6. Meeting at the Golden Gate - WGA09176.jpg`, 960px thumbnail; day crop [0.0, 0.38, 0.6, 0.875] | Artist died 1337; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (saint) | Giotto, *The Expulsion of Joachim from the Temple*, c. 1303–1305, Scrovegni Chapel, Padua. Commons `Giotto - The Expulsion of Joachim from the Temple - Scrovegni Chapel.jpeg`, 960px thumbnail; day crop [0.22, 0.3, 1.0, 0.92] | Artist died 1337; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (saint) | Giotto, *Joachim’s Dream*, c. 1303–1305, Scrovegni Chapel, Padua. Commons `Giotto - Scrovegni - -05- - Joachim's Dream.jpg`, 960px thumbnail; day crop [0.0, 0.324, 0.86, 1.0] | Artist died 1337; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (stretch) | James Tissot, *Solomon Dedicates the Temple at Jerusalem*, c. 1896–1902, Jewish Museum, New York (1 Kings 8). Commons `Tissot Solomon Dedicates the Temple at Jerusalem.jpg`, original file; day crop [0, 0, 1, 0.566] | Artist died 1902; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (stretch) | Fra Angelico, *Noli Me Tangere*, c. 1440–1442, Museo di San Marco, Florence (John 20). Commons `Fra Angelico - Noli Me Tangere (Cell 1) - WGA00535.jpg`, 960px thumbnail; day crop [0, 0.3, 1, 0.892] | Artist died 1455; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (names) | Elias Moskos, *The True Vine*, 1675. Commons `Christ the Vine Late Cretan School.png`, 500px thumbnail; day crop [0, 0.05, 1, 0.602] | Artist died 1687; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (stretch) | Sandro Botticelli, *The Annunciation (Cestello)*, c. 1489–1490, Uffizi, Florence (Luke 1). Commons `Sandro Botticelli - Cestello Verkündigung.jpg`, 960px thumbnail; day crop [0, 0.12, 1, 0.891] | Artist died 1510; faithful photo of a 2D work (Commons: public domain) |

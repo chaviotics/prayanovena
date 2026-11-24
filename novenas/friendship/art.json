@@ -1,0 +1,170 @@
+{
+ "days": [
+  {
+   "file": "Duccio di Buoninsegna - Calling of Peter and Andrew - WGA06774.jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0.05,
+    1.0,
+    0.83029
+   ],
+   "kind": "stretch",
+   "artist": "Duccio di Buoninsegna",
+   "title": "The Calling of Peter and Andrew",
+   "year": "c. 1308–1311",
+   "place": "National Gallery of Art, Washington",
+   "passage": "Matthew 4",
+   "alt": "Jesus stands on the shore and gestures toward two fishermen, one in blue and one in red, sitting side by side in a boat.",
+   "look": "Look again at the two brothers side by side in the boat. Who has stood beside you when you could not manage alone?",
+   "license": "Artist died c. 1319; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Joan de Joanes - The Last Supper - WGA12058.jpg",
+   "width": 1280,
+   "crop": [
+    0.27,
+    0.05,
+    0.73,
+    0.59586
+   ],
+   "kind": "scene",
+   "artist": "Juan de Juanes",
+   "title": "The Last Supper",
+   "year": "c. 1562",
+   "place": "Museo del Prado, Madrid",
+   "alt": "Jesus holds up the bread at the centre of a long table while his apostles lean toward him on both sides.",
+   "look": "Look again at Jesus, with his friends gathered close. What does it mean to you that he calls you a friend?",
+   "license": "Artist died 1579; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Visitation by Domenico Ghirlandaio.jpg",
+   "width": 960,
+   "crop": [
+    0.12,
+    0.08,
+    0.92,
+    0.65428
+   ],
+   "kind": "stretch",
+   "artist": "Domenico Ghirlandaio",
+   "title": "The Visitation",
+   "year": "1491",
+   "place": "Musée du Louvre, Paris",
+   "passage": "Luke 1",
+   "alt": "Mary and her older cousin Elizabeth hold each other’s arms and look into each other’s faces.",
+   "look": "Look again at Mary and Elizabeth, face to face. Who has been a shelter for you, and have you told them?",
+   "license": "Artist died 1494; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Venant, François - The parting of David and Jonathan - Fondation Custodia.jpg",
+   "width": 1280,
+   "crop": [
+    0,
+    0,
+    0.8,
+    0.93659
+   ],
+   "kind": "names",
+   "artist": "François Venant",
+   "title": "The Parting of David and Jonathan",
+   "year": "1630",
+   "place": "Fondation Custodia, Paris",
+   "alt": "A young man in a plumed helmet kneels and clasps the hand of a standing man in a white turban.",
+   "look": "Look again at David and Jonathan, face to face. Who helps you turn back toward God?",
+   "license": "Artist died 1672; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Annibale Carracci - Christ and the Samaritan Woman - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.3,
+    0.38,
+    1.0,
+    0.81411
+   ],
+   "kind": "stretch",
+   "artist": "Annibale Carracci",
+   "title": "Christ and the Samaritan Woman",
+   "year": "c. 1595–1597",
+   "place": "",
+   "passage": "John 4",
+   "alt": "Jesus sits at a well and speaks to a woman who has come to draw water.",
+   "look": "Look again at Jesus, who speaks first to a stranger. Who could you greet first this week?",
+   "license": "Artist died 1609; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Rembrandt - Supper at Emmaus - WGA19115.jpg",
+   "width": 960,
+   "crop": [
+    0.15,
+    0.4,
+    0.85,
+    0.904
+   ],
+   "kind": "stretch",
+   "artist": "Rembrandt",
+   "title": "The Supper at Emmaus",
+   "year": "1648",
+   "place": "Musée du Louvre, Paris",
+   "passage": "Luke 24",
+   "alt": "Jesus breaks bread at a small table while two companions watch him in the dim light.",
+   "look": "Look again at the hands breaking the bread. Where do you find a table you could share?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Codex Aureus - Healing Of The Paralytic.jpg",
+   "width": 500,
+   "crop": [
+    0.04,
+    0.02,
+    0.94,
+    0.97609
+   ],
+   "kind": "scene",
+   "artist": "Unknown artist, Codex Egberti",
+   "title": "Christ Healing the Paralytic",
+   "year": "c. 980–993",
+   "place": "",
+   "alt": "Four men lower a man on a mat through the roof to Jesus, while a crowd looks on.",
+   "look": "Look again at the mat lowered through the roof. Whom could you carry to Jesus today?",
+   "license": "Manuscript c. 980–993, artist unknown; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "0134Hb. Saints Basil the Great, John Chrysostom, and Gregory the Theologian.jpg",
+   "width": 1280,
+   "crop": [
+    0.08,
+    0.19,
+    0.96,
+    0.56232
+   ],
+   "kind": "saint",
+   "artist": "Unknown Russian icon painter",
+   "title": "Saints Basil the Great, John Chrysostom and Gregory the Theologian",
+   "year": "second quarter of the 19th century",
+   "place": "Museum of Christian Culture, St. Petersburg",
+   "alt": "St. Basil and St. Gregory stand on either side of St. John Chrysostom, in bishops’ vestments, with books in their hands.",
+   "look": "Look again at the saints standing close together. Is there an old hurt you could bring to God today?",
+   "license": "Icon, artist unknown, 19th century; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "El Greco - Saint Peter and Saint Paul - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.03,
+    1.0,
+    0.61347
+   ],
+   "kind": "saint",
+   "artist": "El Greco",
+   "title": "Saint Peter and Saint Paul",
+   "year": "c. 1590–1600",
+   "place": "",
+   "alt": "Peter, white-bearded, and Paul, holding a sword, stand close with their hands nearly touching.",
+   "look": "Look again at Peter and Paul standing together. For which friend do you want to give thanks today?",
+   "license": "Artist died 1614; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}

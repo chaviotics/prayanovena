@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make finding-love` from `novenas/finding-love/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (scene) | Rembrandt, *Tobit and Anna with the Kid*, 1626, Rijksmuseum, Amsterdam. Commons `Tobit en Anna met het bokje Rijksmuseum SK-A-4717.jpeg`, 960px thumbnail; day crop [0.0, 0.08, 0.85, 0.562] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (stretch) | Murillo, *The Infant Christ as the Good Shepherd* (John 10). Commons `Murillo, Bartolomé Estéban - The Infant Christ as the Good Shepherd - Google Art Project.jpg`, 960px thumbnail; day crop [0.1, 0.26, 0.9, 0.702] | Artist died 1682; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (names) | Attributed to Titian, *The Archangel Raphael and Tobias*, c. 1512–14, Gallerie dell’Accademia, Venice. Commons `Accademia - Archangel Raphael and Tobit by Titian.jpg`, 960px thumbnail; day crop [0.0, 0.173, 1.0, 0.827] | Artist died 1576; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (stretch) | Jan Victors, *Ruth and Naomi*, 1653 (Ruth 1). Commons `'Ruth and Naomi' by Jan Victors, 1653.jpg`, 960px thumbnail; day crop [0.075, 0.104, 0.925, 0.896] | Artist died 1676; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (saint) | Rembrandt, *Self-Portrait as the Apostle Paul*, 1661, Rijksmuseum, Amsterdam. Commons `Rembrandt Harmensz. van Rijn - Zelfportret als de apostel Paulus - Google Art Project.jpg`, 960px thumbnail; day crop [0.05, 0.04, 0.8, 0.512] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (scene) | Hendrick Bloemaert, *The Penitent King David*, 1633, National Gallery, Prague. Commons `Hendrick Bloemaert - Penitent King David - O 1647 - National Gallery Prague.jpg`, 960px thumbnail; day crop [0.1, 0.12, 1.0, 0.68] | Artist died 1672; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (scene) | Juan de Flandes, *The Marriage Feast at Cana*, c. 1500, Metropolitan Museum of Art, New York. Commons `The Marriage Feast at Cana MET DT1459.jpg`, 960px thumbnail; day crop [0.05, 0.444, 0.75, 0.846] | Artist died 1519; Commons: CC0 (Metropolitan Museum open access) |
+| day8.webp, day8_full.webp | Day 8 (stretch) | Fra Angelico, *The Annunciation*, c. 1433–34, Museo Diocesano, Cortona (Luke 1). Commons `Fra Angelico 069.jpg`, 960px thumbnail; day crop [0.15, 0.118, 1.0, 0.882] | Artist died 1455; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (stretch) | Caravaggio, *The Calling of Saints Peter and Andrew*, 1603–06 (Matthew 4). Commons `The Calling of Saints Peter and Andrew - Caravaggio (1571-1610).jpg`, 1280px thumbnail; day crop [0, 0.03, 1, 0.966] | Artist died 1610; faithful photo of a 2D work (Commons: public domain) |

@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make unrequited-love` from `novenas/unrequited-love/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (stretch) | Constantijn van Renesse (formerly attributed to Rembrandt), *The Good Samaritan*, c. 1648, Musée du Louvre, Paris (Luke 10). Commons `Rembrandt - The Good Samaritan - Louvre.jpg`, original file; day crop [0.122, 0.37, 0.678, 0.87] | Artist died 1680; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (scene) | James Tissot, *Jesus Wept*, c. 1886–94, Brooklyn Museum. Commons `Brooklyn Museum - Jesus Wept (Jésus pleura) - James Tissot.jpg`, original file; day crop [0.0, 0.075, 0.874, 0.925] | Artist died 1902; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (saint) | Rembrandt, *The Dream of Joseph*, 1645, Gemäldegalerie, Berlin. Commons `Der Traum Josephs - Gemäldegalerie Berlin - 5130725.jpg`, 1920px thumbnail; day crop [0.193, 0.24, 0.807, 0.86] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (stretch) | Michiel Coignet II, *The Prodigal Son Departs*, 1642, Lamport Hall (Luke 15). Commons `Michiel Coignet II (1618-1663) - The Prodigal Son Departs* - 80 - Lamport Hall.jpg`, original file; day crop [0.0, 0.27, 0.659, 0.97] | Artist died 1663; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (stretch) | Duccio di Buoninsegna, *The Wedding at Cana*, 1308–1311, Museo dell’Opera del Duomo, Siena (John 2). Commons `Duccio di Buoninsegna 038.jpg`, original file; day crop [0.0, 0.06, 0.516, 0.48] | Artist died 1319; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (stretch) | Bernhard Plockhorst, *The Good Shepherd* (John 10). Commons `Bernhard Plockhorst - Good Shephard.jpg`, 960px thumbnail; day crop [0.058, 0.06, 0.842, 0.46] | Artist died 1907; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (saint) | Gerard van Honthorst, *The Childhood of Christ*, c. 1620. Commons `Gerrit van Honthorst - Childhood of Christ - WGA11656.jpg`, original file; day crop [0.017, 0.08, 0.883, 0.96] | Artist died 1656; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (stretch) | Rembrandt, *Simeon and Anna in the Temple*, 1627, Kunsthalle Hamburg (Luke 2). Commons `Rembrandt Simeon and Anna in the Temple@Kunsthalle Hamburg.jpg`, 1280px thumbnail; day crop [0.127, 0.275, 1.0, 0.825] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (scene) | Jan van Eyck, *The Annunciation*, c. 1434–36, National Gallery of Art, Washington. Commons `Annunciation - Jan van Eyck - 1434 - NG Wash DC.jpg`, 1920px thumbnail; day crop [0.401, 0.41, 0.999, 0.58] | Artist died 1441; faithful photo of a 2D work (Commons: public domain) |

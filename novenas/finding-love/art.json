@@ -1,0 +1,170 @@
+{
+ "days": [
+  {
+   "file": "Tobit en Anna met het bokje Rijksmuseum SK-A-4717.jpeg",
+   "width": 960,
+   "crop": [
+    0.0,
+    0.08,
+    0.85,
+    0.5615106215578285
+   ],
+   "kind": "scene",
+   "artist": "Rembrandt",
+   "title": "Tobit and Anna with the Kid",
+   "year": "1626",
+   "place": "Rijksmuseum, Amsterdam",
+   "alt": "Old blind Tobit sits with his hands clasped in prayer while his wife Anna leans over him, holding a young goat.",
+   "look": "Look again at Tobit’s clasped hands. What longing would you lay before God today?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Murillo, Bartolomé Estéban - The Infant Christ as the Good Shepherd - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.1,
+    0.26,
+    0.9,
+    0.7020567920184191
+   ],
+   "kind": "stretch",
+   "passage": "John 10",
+   "artist": "Murillo",
+   "title": "The Infant Christ as the Good Shepherd",
+   "year": "",
+   "place": "",
+   "alt": "The child Jesus, holding a shepherd's staff, rests his hand on a lamb that has come close to him.",
+   "look": "Look again at the small hand resting on the lamb. Can you believe you are loved this tenderly?",
+   "license": "Artist died 1682; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Accademia - Archangel Raphael and Tobit by Titian.jpg",
+   "width": 960,
+   "crop": [
+    0.0,
+    0.17302,
+    1.0,
+    0.82698
+   ],
+   "kind": "names",
+   "artist": "Attributed to Titian",
+   "title": "The Archangel Raphael and Tobias",
+   "year": "c. 1512–14",
+   "place": "Gallerie dell’Accademia, Venice",
+   "alt": "The archangel Raphael, wings spread, holds young Tobias by the hand and points the way ahead.",
+   "look": "Look again at the angel’s hand around Tobias’s hand. Where do you need a guide right now?",
+   "license": "Artist died 1576; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "'Ruth and Naomi' by Jan Victors, 1653.jpg",
+   "width": 960,
+   "crop": [
+    0.075,
+    0.10414,
+    0.925,
+    0.89586
+   ],
+   "kind": "stretch",
+   "passage": "Ruth 1",
+   "artist": "Jan Victors",
+   "title": "Ruth and Naomi",
+   "year": "1653",
+   "place": "",
+   "alt": "Ruth and her mother-in-law Naomi stand close together under a tree, speaking earnestly with hands raised.",
+   "look": "Look again at Ruth’s hand held to her heart. What would patient, faithful love ask of you?",
+   "license": "Artist died 1676; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Rembrandt Harmensz. van Rijn - Zelfportret als de apostel Paulus - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.05,
+    0.04,
+    0.8,
+    0.512027972027972
+   ],
+   "kind": "saint",
+   "artist": "Rembrandt",
+   "title": "Self-Portrait as the Apostle Paul",
+   "year": "1661",
+   "place": "Rijksmuseum, Amsterdam",
+   "alt": "Rembrandt, painted as the aged Apostle Paul in a pale turban, looks out with a thoughtful, weathered face.",
+   "look": "Look again at Paul’s searching, weathered face. What do you want to see more clearly?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Hendrick Bloemaert - Penitent King David - O 1647 - National Gallery Prague.jpg",
+   "width": 960,
+   "crop": [
+    0.1,
+    0.11988,
+    1.0,
+    0.68013
+   ],
+   "kind": "scene",
+   "artist": "Hendrick Bloemaert",
+   "title": "The Penitent King David",
+   "year": "1633",
+   "place": "National Gallery, Prague",
+   "alt": "King David kneels in his royal robes beside his harp, his hands pressed to his chest, looking upward in prayer.",
+   "look": "Look again at David’s hands pressed to his heart. What would you ask God to make clean in you?",
+   "license": "Artist died 1672; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "The Marriage Feast at Cana MET DT1459.jpg",
+   "width": 960,
+   "crop": [
+    0.05,
+    0.44388,
+    0.75,
+    0.84612
+   ],
+   "kind": "scene",
+   "artist": "Juan de Flandes",
+   "title": "The Marriage Feast at Cana",
+   "year": "c. 1500",
+   "place": "Metropolitan Museum of Art, New York",
+   "alt": "At the wedding table, Jesus raises his hand in blessing while Mary, in a white veil beside him, presses her hands together.",
+   "look": "Look again at Mary’s joined hands beside her Son. What are you waiting for that you can simply tell Him?",
+   "license": "Artist died 1519; Commons: CC0 (Metropolitan Museum open access)"
+  },
+  {
+   "file": "Fra Angelico 069.jpg",
+   "width": 960,
+   "crop": [
+    0.15,
+    0.11798,
+    1.0,
+    0.88202
+   ],
+   "kind": "stretch",
+   "passage": "Luke 1",
+   "artist": "Fra Angelico",
+   "title": "The Annunciation",
+   "year": "c. 1433–34",
+   "place": "Museo Diocesano, Cortona",
+   "alt": "The angel Gabriel bows low before Mary, who sits with her arms crossed over her chest beneath the arches of a loggia.",
+   "look": "Look again at Mary’s arms crossed over her heart. Could you say yes to a plan you cannot yet see?",
+   "license": "Artist died 1455; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "The Calling of Saints Peter and Andrew - Caravaggio (1571-1610).jpg",
+   "width": 1280,
+   "crop": [
+    0,
+    0.03,
+    1,
+    0.9659400998336106
+   ],
+   "kind": "stretch",
+   "passage": "Matthew 4",
+   "artist": "Caravaggio",
+   "title": "The Calling of Saints Peter and Andrew",
+   "year": "1603–06",
+   "place": "",
+   "alt": "Two bearded fishermen, Peter and Andrew, gesture in surprise beside Jesus, who points the way as he calls them to follow.",
+   "look": "Look again at the hands of the two fishermen, caught between their nets and the call. What would you leave in God’s hands to follow where He leads?",
+   "license": "Artist died 1610; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}

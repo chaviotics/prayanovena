@@ -1,0 +1,171 @@
+{
+ "days": [
+  {
+   "file": "Rembrandt - The Good Samaritan - Louvre.jpg",
+   "width": 0,
+   "crop": [
+    0.12222,
+    0.37,
+    0.67778,
+    0.87
+   ],
+   "kind": "stretch",
+   "passage": "Luke 10",
+   "artist": "Constantijn van Renesse (formerly attributed to Rembrandt)",
+   "title": "The Good Samaritan",
+   "year": "c. 1648",
+   "place": "Musée du Louvre, Paris",
+   "alt": "Two men carry a wounded, bandaged man between them in an inn yard while a third helps with his legs.",
+   "look": "Look again at the wounded man carried so carefully across the yard. Where in you does the hurt need someone to carry it?",
+   "license": "Artist died 1680; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Brooklyn Museum - Jesus Wept (Jésus pleura) - James Tissot.jpg",
+   "width": 0,
+   "crop": [
+    0.0,
+    0.075,
+    0.87361,
+    0.925
+   ],
+   "kind": "scene",
+   "artist": "James Tissot",
+   "title": "Jesus Wept",
+   "year": "c. 1886–94",
+   "place": "Brooklyn Museum",
+   "alt": "Jesus, in a white robe, sits on a hillside outside the city with his head bowed, while mourners stand behind and a woman kneels at his side.",
+   "look": "Look again at Jesus in white, his head bowed. What sorrow would you let him share with you today?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Der Traum Josephs - Gemäldegalerie Berlin - 5130725.jpg",
+   "width": 1920,
+   "crop": [
+    0.1928,
+    0.24,
+    0.8072,
+    0.86
+   ],
+   "kind": "saint",
+   "artist": "Rembrandt",
+   "title": "The Dream of Joseph",
+   "year": "1645",
+   "place": "Gemäldegalerie, Berlin",
+   "alt": "In a dim, stable-like room, a winged angel in a glowing robe appears above the sleeping Joseph, who rests with his head on his hand beside Mary.",
+   "look": "Look again at the angel’s light breaking into Joseph’s sleep. What mercy might God be asking you to choose before anger sets in?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Michiel Coignet II (1618-1663) - The Prodigal Son Departs* - 80 - Lamport Hall.jpg",
+   "width": 0,
+   "crop": [
+    0.0,
+    0.27,
+    0.65917,
+    0.97
+   ],
+   "kind": "stretch",
+   "passage": "Luke 15",
+   "artist": "Michiel Coignet II",
+   "title": "The Prodigal Son Departs",
+   "year": "1642",
+   "place": "Lamport Hall",
+   "alt": "A young man on a white horse rides out from a great house while an elderly man reaches up to him and a small group watches.",
+   "look": "Look again at the old father reaching up to the son on the white horse. What would it mean to wish someone well and let them go?",
+   "license": "Artist died 1663; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Duccio di Buoninsegna 038.jpg",
+   "width": 0,
+   "crop": [
+    0.0,
+    0.06,
+    0.51579,
+    0.48
+   ],
+   "kind": "stretch",
+   "passage": "John 2",
+   "artist": "Duccio di Buoninsegna",
+   "title": "The Wedding at Cana",
+   "year": "1308–1311",
+   "place": "Museo dell’Opera del Duomo, Siena",
+   "alt": "Mary in blue and Jesus in red sit side by side at the wedding table, Mary turned toward her Son as she speaks.",
+   "look": "Look again at Mary turned toward her Son, speaking for others. Whom would you like to name to God with a blessing?",
+   "license": "Artist died 1319; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Bernhard Plockhorst - Good Shephard.jpg",
+   "width": 960,
+   "crop": [
+    0.05778,
+    0.06,
+    0.84222,
+    0.46
+   ],
+   "kind": "stretch",
+   "passage": "John 10",
+   "artist": "Bernhard Plockhorst",
+   "title": "The Good Shepherd",
+   "year": "",
+   "place": "",
+   "alt": "Christ in a red robe holds a lamb in the crook of his arm, with a shepherd’s staff in his hand and a sunset behind him.",
+   "look": "Look again at the lamb held close in his arm. What would it mean to rest in a love that does not let go?",
+   "license": "Artist died 1907; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Gerrit van Honthorst - Childhood of Christ - WGA11656.jpg",
+   "width": 0,
+   "crop": [
+    0.0169,
+    0.08,
+    0.8831,
+    0.96
+   ],
+   "kind": "saint",
+   "artist": "Gerard van Honthorst",
+   "title": "The Childhood of Christ",
+   "year": "c. 1620",
+   "place": "",
+   "alt": "In the light of a single candle, the bearded Joseph works with a chisel while the boy Jesus holds the flame over the bench.",
+   "look": "Look again at Joseph’s steady hands in the candlelight. What small, daily act of patience could you offer today?",
+   "license": "Artist died 1656; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Rembrandt Simeon and Anna in the Temple@Kunsthalle Hamburg.jpg",
+   "width": 1280,
+   "crop": [
+    0.12687,
+    0.275,
+    1.0,
+    0.825
+   ],
+   "kind": "stretch",
+   "passage": "Luke 2",
+   "artist": "Rembrandt",
+   "title": "Simeon and Anna in the Temple",
+   "year": "1627",
+   "place": "Kunsthalle Hamburg",
+   "alt": "Old Simeon in a gold robe holds the swaddled Child while Mary looks on, and Anna raises her hands behind them.",
+   "look": "Look again at old Simeon holding the Child he waited for. What would it be to wait quietly today, without hurrying the answer?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Annunciation - Jan van Eyck - 1434 - NG Wash DC.jpg",
+   "width": 1920,
+   "crop": [
+    0.40102,
+    0.41,
+    0.99898,
+    0.58
+   ],
+   "kind": "scene",
+   "artist": "Jan van Eyck",
+   "title": "The Annunciation",
+   "year": "c. 1434–36",
+   "place": "National Gallery of Art, Washington",
+   "alt": "Mary, in a blue mantle, raises both open hands as she answers the angel.",
+   "look": "Look again at Mary’s open hands as she answers the angel. What are you ready to place in God’s hands today?",
+   "license": "Artist died 1441; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}

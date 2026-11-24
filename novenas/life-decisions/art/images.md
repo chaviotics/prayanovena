@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make life-decisions` from `novenas/life-decisions/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (saint) | Rembrandt, *Jeremiah Lamenting the Destruction of Jerusalem*, 1630, Rijksmuseum, Amsterdam. Commons `Rembrandt Harmensz. van Rijn - Jeremia treurend over de verwoesting van Jeruzalem - Google Art Project.jpg`, 960px thumbnail; day crop [0.38, 0.27, 0.88, 0.565] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (scene) | Maerten de Vos, *The Last Supper*. Commons `Marten de Vos - The Last Supper - Google Art Project.jpg`, 960px thumbnail; day crop [0.1, 0, 0.9, 0.886] | Artist died 1603; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (saint) | John Everett Millais, *Cardinal John Henry Newman*, 1881, National Portrait Gallery, London. Commons `John Henry Newman by Sir John Everett Millais, 1st Bt.jpg`, 960px thumbnail; day crop [0.3, 0.07, 0.8, 0.36] | Artist died 1896; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (stretch) | Willem de Poorter, *The Parable of the Talents*, c. 1650 (Matthew 25). Commons `Willem de Poorter's The Parable of The Talents or Minas.png`, 960px thumbnail; day crop [0.3, 0.25, 1, 0.891] | Artist died 1668; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (stretch) | El Greco, *The Pentecost*, c. 1600, Museo del Prado, Madrid (Acts 2). Commons `Pentecostés (El Greco, c. 1600) Prado.jpg`, 960px thumbnail; day crop [0, 0, 1, 0.345] | Artist died 1614; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (stretch) | James Tissot, *Jethro and Moses*, c. 1896–1902, Jewish Museum, New York (Exodus 18). Commons `Tissot Jethro and Moses.jpg`, original file; day crop [0.06, 0, 0.965, 1] | Artist died 1902; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (stretch) | Rembrandt, *The Parable of the Rich Fool*, 1627, Gemäldegalerie, Berlin (Luke 12). Commons `Rembrandt - The Parable of the Rich Fool.jpg`, 960px thumbnail; day crop [0.25, 0.12, 0.85, 0.726] | Artist died 1669; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (stretch) | James Tissot, *The Ark Passes Over the Jordan*, c. 1896–1902, Jewish Museum, New York (Joshua 3). Commons `James Jacques Joseph Tissot - The Ark Passes Over the Jordan - Google Art Project.jpg`, 960px thumbnail; day crop [0.03, 0.07, 0.98, 0.991] | Artist died 1902; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (scene) | Orazio Gentileschi, *The Annunciation*, c. 1623, Galleria Sabauda, Turin. Commons `Annunciazione (1623 circa) - Orazio Gentileschi.jpg`, 960px thumbnail; day crop [0.2, 0.31, 0.85, 0.643] | Artist died 1639; faithful photo of a 2D work (Commons: public domain) |

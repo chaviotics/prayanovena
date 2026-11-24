@@ -1,0 +1,171 @@
+{
+ "days": [
+  {
+   "file": "Rembrandt Harmensz. van Rijn - Jeremia treurend over de verwoesting van Jeruzalem - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.38,
+    0.27,
+    0.88,
+    0.565
+   ],
+   "kind": "saint",
+   "artist": "Rembrandt",
+   "title": "Jeremiah Lamenting the Destruction of Jerusalem",
+   "year": "1630",
+   "place": "Rijksmuseum, Amsterdam",
+   "alt": "The prophet Jeremiah, grey-bearded and in a dark robe, rests his head on his hand beside a large book.",
+   "look": "Look again at Jeremiah, his head resting on his hand. What would it mean to trust God with the road you cannot yet see?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Marten de Vos - The Last Supper - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.1,
+    0,
+    0.9,
+    0.886
+   ],
+   "kind": "scene",
+   "artist": "Maerten de Vos",
+   "title": "The Last Supper",
+   "year": "",
+   "place": "",
+   "alt": "Christ sits at the centre of a long table with the twelve apostles leaning toward him, all of them listening.",
+   "look": "Look again at the apostles leaning in toward Jesus. What would you ask Him to teach you?",
+   "license": "Artist died 1603; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "John Henry Newman by Sir John Everett Millais, 1st Bt.jpg",
+   "width": 960,
+   "crop": [
+    0.3,
+    0.07,
+    0.8,
+    0.36
+   ],
+   "kind": "saint",
+   "artist": "John Everett Millais",
+   "title": "Cardinal John Henry Newman",
+   "year": "1881",
+   "place": "National Portrait Gallery, London",
+   "alt": "Cardinal Newman in red cardinal's robes, thin and white-haired, gazes calmly off to one side.",
+   "look": "Look again at Newman's quiet, steady face. What work might God have prepared for you?",
+   "license": "Artist died 1896; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Willem de Poorter's The Parable of The Talents or Minas.png",
+   "width": 960,
+   "crop": [
+    0.3,
+    0.25,
+    1,
+    0.8915
+   ],
+   "kind": "stretch",
+   "passage": "Matthew 25",
+   "artist": "Willem de Poorter",
+   "title": "The Parable of the Talents",
+   "year": "c. 1650",
+   "place": "",
+   "alt": "In a bright stone hall a servant bends over a table to give an account to his master, while others stand and watch.",
+   "look": "Look again at the servant giving his account at the table. What has God already put into your hands?",
+   "license": "Artist died 1668; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Pentecostés (El Greco, c. 1600) Prado.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0,
+    1,
+    0.3453
+   ],
+   "kind": "stretch",
+   "passage": "Acts 2",
+   "artist": "El Greco",
+   "title": "The Pentecost",
+   "year": "c. 1600",
+   "place": "Museo del Prado, Madrid",
+   "alt": "Tongues of fire hover above the apostles who gather around Mary, their faces and hands raised, while a white dove glows above them.",
+   "look": "Look again at the flames above their heads. Where have you felt even a little peace?",
+   "license": "Artist died 1614; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Tissot Jethro and Moses.jpg",
+   "width": 0,
+   "crop": [
+    0.06,
+    0,
+    0.9654,
+    1
+   ],
+   "kind": "stretch",
+   "artist": "James Tissot",
+   "title": "Jethro and Moses",
+   "year": "c. 1896–1902",
+   "place": "Jewish Museum, New York",
+   "alt": "Inside a tent, a man in a white headcloth speaks to a circle of elders who sit close around him on a carpet, listening.",
+   "look": "Look again at the elders gathered close in the tent. Who could you sit down with and listen to this week?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Exodus 18"
+  },
+  {
+   "file": "Rembrandt - The Parable of the Rich Fool.jpg",
+   "width": 960,
+   "crop": [
+    0.25,
+    0.12,
+    0.85,
+    0.726
+   ],
+   "kind": "stretch",
+   "passage": "Luke 12",
+   "artist": "Rembrandt",
+   "title": "The Parable of the Rich Fool",
+   "year": "1627",
+   "place": "Gemäldegalerie, Berlin",
+   "alt": "By candlelight an old man in a fur-trimmed cap holds a coin up to the flame, surrounded by ledgers and money bags.",
+   "look": "Look again at the coin held up to the candle. What do you want to be able to say your life was for?",
+   "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "James Jacques Joseph Tissot - The Ark Passes Over the Jordan - Google Art Project.jpg",
+   "width": 960,
+   "crop": [
+    0.03,
+    0.07,
+    0.98,
+    0.9906
+   ],
+   "kind": "stretch",
+   "passage": "Joshua 3",
+   "artist": "James Tissot",
+   "title": "The Ark Passes Over the Jordan",
+   "year": "c. 1896–1902",
+   "place": "Jewish Museum, New York",
+   "alt": "Four priests in white robes carry the golden Ark of the Covenant on poles along the riverbed, with a great wall of water standing behind them.",
+   "look": "Look again at the priests standing firm with the Ark between the walls of water. What step is waiting for you to take it?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Annunciazione (1623 circa) - Orazio Gentileschi.jpg",
+   "width": 960,
+   "crop": [
+    0.2,
+    0.31,
+    0.85,
+    0.6426
+   ],
+   "kind": "scene",
+   "artist": "Orazio Gentileschi",
+   "title": "The Annunciation",
+   "year": "c. 1623",
+   "place": "Galleria Sabauda, Turin",
+   "alt": "Mary in a blue mantle raises one hand and bows her head as the kneeling angel Gabriel points upward, a white lily in his arms.",
+   "look": "Look again at Mary’s raised hand as she bows her head. What would you like to give over to God today?",
+   "license": "Artist died 1639; faithful photo of a 2D work (Commons: public domain)"
+  }
+ ]
+}
