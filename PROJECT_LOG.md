@@ -64,6 +64,7 @@ Two phases, so the new name can go live before the domain exists:
 | `weary-servants` | Weary and Wounded Servants | Mary, Comforter of the Afflicted, St. Francis of Assisi, St. John of the Cross, St. Teresa of Calcutta (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 | `spiritual-dryness` | When God Seems Silent | Our Lady of Solitude, St. Jane Frances de Chantal, St. Francis de Sales, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 | `safe-travels` | Safe Travels | Our Lady of Peace and Good Voyage, St. Raphael, St. Joseph, St. Frances Xavier Cabrini (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
+| `peace-in-the-family` | Peace in the Family | Our Lady, Queen of Families, St. Joseph, St. Monica, St. Rita of Cascia (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
 
 ## Decisions and rules
 
@@ -320,6 +321,10 @@ Two phases, so the new name can go live before the domain exists:
 - **Text size and Light/Dark are icon-only on every page and size** (Chav: the bar was crowded); names kept as aria-label and title tooltip. Novena Save/Share show words from 1024px (titles like "Weary and Wounded Servants" truncated at 900px with words).
 - Round 3 UI/UX fixes: the library bar's Saved gets a gold ring while the Saved filter is on (and stays visible in that view at 0); the Saved chip uses the same stacked-bookmarks icon as the bar (stack = the list, single bookmark = save this one); tooltips "Remove from saved"; Privacy lists saved novenas and says Clear removes them.
 - Preview https://claude.ai/artifact/JLqUmQbDW9Q9bNEukWUuDs (version 3). Save + bookmark kept (Chav went with the version as built). Note: the install-as-app thread (branch claude/project-thread-ddgpj1) also edits the footer and novena template, so whichever ships second needs a merge.
+
+### 2026-11-25 (peace in the family novena)
+- **New novena `peace-in-the-family`, "Novena for Peace in the Family"** (marriage, parents and children, siblings, reconciliation). Category `family`, order 21, card icon `users-three`. Intercessors: Our Lady, Queen of Families (John Paul II, 1995; litany face reused from safe-travels), St. Joseph, St. Monica, St. Rita (portraits reused). Rita's family story framed as tradition. Tip "If home is not safe" (CCC 2383; no couples counseling where there is abuse); Retrouvaille for marriages in trouble. 9 new day pictures (3 stretches + 1 parable stretch). PDF 5 pages, 9.35pt.
+- Built as lean token test #2 (Sonnet facts + pictures, Opus writer at medium, one Opus review with 18 fixes): $6.96 to preview vs Sick Pet $8.11.
 
 ## Open items
 
