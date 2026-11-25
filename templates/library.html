@@ -78,6 +78,11 @@ svg.i{width:1em;height:1em;fill:currentColor;flex:none}
 .iconbtn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:44px;height:44px;padding:0 12px;border:1px solid var(--rule);border-radius:999px;background:var(--sheet);color:var(--ink);cursor:pointer;font:inherit;font-size:15px}
 .iconbtn svg{font-size:19px;color:var(--gold)}
 .iconbtn:hover{border-color:var(--gold)}
+/* Saved in the top bar: shows once something is saved, and opens the list with the Saved filter on. Stacked bookmarks
+   (a list), so it doesn't read as the single "Save this" bookmark on the cards and novena pages */
+.iconbtn[hidden]{display:none}
+.savedbtn svg{color:var(--wine)}
+@media (max-width:600px){.savedbtn>span{display:none}}
 @media (max-width:600px){.bar .name{display:none}.bar .mark{font-size:30px}#themeLabel{display:none}.iconbtn{padding:0;width:44px}}
 
 .hero{padding:28px 0 4px;text-align:center}
@@ -104,11 +109,14 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
 .card .prog{margin:0;font-size:calc(15.5px * var(--scale));font-weight:600;letter-spacing:.02em;color:var(--gold-text)}
 .card .go{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:calc(16.5px * var(--scale));color:var(--wine);white-space:nowrap}
 .card .go .i{font-size:18px}
-/* Save: a bookmark in the card's top corner, beside (not inside) the card's link */
+/* Save: a bookmark at the foot's left, across from Pray, beside (not inside) the card's link. Its 44px circle is
+   centred on the foot's line (16.5px text x 1.55 line height) and reaches up into the foot's top padding */
 .card{position:relative}
-.card .faces{margin-right:38px}
-.card .save{position:absolute;top:14px;right:8px;width:44px;height:44px;display:grid;place-items:center;border:0;border-radius:50%;background:none;color:var(--gold);font-size:22px;cursor:pointer;transition:background-color .15s,color .15s}
-.card.started .save{top:15px}
+.card .save{position:absolute;left:7px;bottom:calc(12.8px * var(--scale) - 8px);width:44px;height:44px;display:grid;place-items:center;border:0;border-radius:50%;background:none;color:var(--gold);font-size:22px;cursor:pointer;transition:background-color .15s,color .15s}
+.card .prog{padding-left:36px;white-space:nowrap}
+/* narrow phones at the largest text: Pray moves up a line instead of the progress wrapping, so the bookmark and its
+   line stay together on the foot's bottom line */
+.card .foot{flex-wrap:wrap-reverse;row-gap:6px}
 .card .save[aria-pressed="true"]{color:var(--wine)}
 .card .save:focus-visible{border-radius:50%;outline-offset:0}
 @media (hover:hover){.card .save:hover{background:var(--wash)}}
@@ -172,9 +180,7 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
   .cards{grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:20px}
   .card a{height:100%;display:flex;flex-direction:column;padding:20px 22px 16px}
   .card.started a{padding-top:18px}
-  .card .save{top:18px;right:12px}
-  .card.started .save{top:19px}
-  .card .faces{margin-right:40px}
+  .card .save{left:11px;bottom:calc(12.8px * var(--scale) - 6px)}
   .card .blurb{margin-bottom:14px}
   .card .foot{margin-top:auto}
   .chips{flex-wrap:wrap;overflow:visible;margin:0;padding:2px 0 0;-webkit-mask-image:none;mask-image:none}
@@ -199,6 +205,11 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
   .faq-block .faq-h{margin:10px 0 0;max-width:none}
   .faq-block .faq{max-width:none}
 }
+
+/* Text size and Light/Dark are icon-only on every screen (Chav, 2026-11-25): the bar was getting crowded. Their names
+   stay for screen readers (aria-label) and show as a tooltip on hover (title) */
+#sizeBtn>span,#themeLabel{display:none}
+#sizeBtn,#themeBtn{width:44px;min-width:44px;padding:0}
 </style>
 </head>
 <body>
@@ -210,6 +221,7 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
     <span class="name">Pray a Novena</span>
     <span class="spacer"></span>
     <a class="navlink" href="about/index.html">About</a>
+    <button class="iconbtn savedbtn" id="savedBtn" type="button" aria-label="Saved novenas" title="Saved novenas" hidden><svg class="i" aria-hidden="true" focusable="false"><use href="#i-bookmarks-simple"/></svg><span>Saved</span></button>
     <button class="iconbtn" id="sizeBtn" type="button" aria-expanded="false" aria-controls="sizer" aria-label="Text size" title="Text size"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-text-aa"/></svg><span>Text</span></button>
     <div class="sizer" id="sizer" role="group" aria-label="Text size">
       <button type="button" data-scale="1" aria-label="Normal text" style="font-size:15px">A</button>
@@ -246,7 +258,7 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
   <h3 class="faq-h" id="faqHead">Common questions</h3>
   <div class="faq">
     <details><summary>Can I pray more than 1 novena at a time?</summary><p>Yes. You can pray 2&nbsp;novenas side by side, say one for healing and one for finances, and each keeps its own progress here. Keep to what you can pray with attention. Or pray one novena and bring both intentions to it.</p></details>
-    <details><summary>How do I keep my novenas at the top?</summary><p>Tap the bookmark on a novena’s card, or Save at the top of its page. Saved novenas come first here, after any novena you are praying now, and the Saved filter shows just those. Like your progress, they are kept only on this device.</p></details>
+    <details><summary>How do I keep my novenas at the top?</summary><p>Tap the bookmark on a novena’s card, or Save at the top of its page. Saved novenas come first here, after any novena you are praying now, and Saved at the top of the page shows just those. Like your progress, they are kept only on this device.</p></details>
     <details><summary>What if I miss a day?</summary><p>Simply pick up where you left off. A novena is a devotion, not a test.</p></details>
     <details><summary>Where is my intention saved?</summary><p>Only on your phone or computer. Your progress, start date and intention are never uploaded, and there are no accounts. <a href="privacy/index.html">Privacy</a></p></details>
     <details><summary>Are we praying to the saints instead of God?</summary><p>No. We worship God alone. When we pray to a saint, we are asking that saint to pray for us, the way we ask a friend, because the saints are alive with God. <a href="about/index.html#saints">Why we ask the saints</a></p></details>
@@ -287,7 +299,7 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
     var d = isDark();
     document.getElementById("themeIcon").firstElementChild.setAttribute("href", d ? "#i-sun" : "#i-moon");
     document.getElementById("themeLabel").textContent = d ? "Light" : "Dark";
-    document.getElementById("themeBtn").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode");
+    document.getElementById("themeBtn").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode"); document.getElementById("themeBtn").title = d ? "Switch to light mode" : "Switch to dark mode";
     [].forEach.call(document.querySelectorAll('meta[name="theme-color"]'), function(m){ m.setAttribute("content", d ? "#0E1524" : "#FFFDF9"); });
   }
   document.getElementById("themeBtn").addEventListener("click", function(){
@@ -360,7 +372,16 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
       savedChip.querySelector(".cnt").textContent = n;
       savedChip.hidden = n === 0 && cat !== "saved";
     }
+    if (savedBtn) savedBtn.hidden = n === 0;
   }
+  var savedBtn = document.getElementById("savedBtn");
+  if (savedBtn) savedBtn.addEventListener("click", function(){
+    if (q && q.value) q.value = "";
+    setCat("saved", true);
+    paintSaved();
+    var h = document.getElementById("listHead"), sm = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+    try{ h.scrollIntoView({block:"start", behavior: sm ? "smooth" : "auto"}); h.focus({preventScroll:true}); }catch(e){ h.focus(); }
+  });
   cards.forEach(function(c){
     var b = c.querySelector(".save"); if (!b) return;
     b.addEventListener("click", function(){

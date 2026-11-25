@@ -86,6 +86,11 @@ ul.list li::marker{color:var(--gold)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 {{FOOTER_CSS}}
+
+/* Text size and Light/Dark are icon-only on every screen (Chav, 2026-11-25): the bar was getting crowded. Their names
+   stay for screen readers (aria-label) and show as a tooltip on hover (title) */
+#sizeBtn>span,#themeLabel{display:none}
+#sizeBtn,#themeBtn{width:44px;min-width:44px;padding:0}
 </style>
 </head>
 <body>
@@ -168,7 +173,7 @@ ul.list li::marker{color:var(--gold)}
     var d = isDark();
     document.getElementById("themeIcon").firstElementChild.setAttribute("href", d ? "#i-sun" : "#i-moon");
     document.getElementById("themeLabel").textContent = d ? "Light" : "Dark";
-    document.getElementById("themeBtn").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode");
+    document.getElementById("themeBtn").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode"); document.getElementById("themeBtn").title = d ? "Switch to light mode" : "Switch to dark mode";
     [].forEach.call(document.querySelectorAll('meta[name="theme-color"]'), function(m){ m.setAttribute("content", d ? "#0E1524" : "#FFFDF9"); });
   }
   document.getElementById("themeBtn").addEventListener("click", function(){

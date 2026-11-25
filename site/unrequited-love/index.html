@@ -90,8 +90,8 @@ section{padding:30px 0 8px}
 .barsave[aria-pressed="true"]{border-color:var(--gold)}
 .barsave[aria-pressed="true"] span,.barsave[aria-pressed="true"] svg{color:var(--wine)}
 .barsave[aria-pressed="true"] span{font-weight:600}
-/* tablets: Save and Share go icon-only (a bookmark and a paper plane read without words; "Aa" doesn't), so the title keeps its room */
-@media (min-width:601px) and (max-width:1099px){.barsave>span,.barshare>span{display:none}.barsave,.barshare{width:44px;padding:0}}
+/* tablets (to 1023px, where the sidebar layout starts): Save and Share go icon-only (a bookmark and a paper plane read without words; "Aa" doesn't), so the title keeps its room */
+@media (min-width:601px) and (max-width:1023px){.barsave>span,.barshare>span{display:none}.barsave,.barshare{width:44px;padding:0}}
 .home .back-ic{font-size:16px;color:var(--gold);margin-right:-6px}
 .bar .mark{color:var(--wine);font-size:28px;line-height:1}
 .bar .name{font-family:var(--display);font-weight:600;font-size:18px;color:var(--wine);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -453,6 +453,11 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media print{.art,.lookagain,dialog.viewer,dialog.sheet,.printrow,.side-pdf,.bar,.days,.toc,.today .cta,.markdone,.donenote,.daynav,.intent,.startrow,.barshare,.sharerow,.foot-nav{display:none}}
+
+/* Text size and Light/Dark are icon-only on every screen (Chav, 2026-11-25): the bar was getting crowded. Their names
+   stay for screen readers (aria-label) and show as a tooltip on hover (title) */
+#sizeBtn>span,#themeLabel{display:none}
+#sizeBtn,#themeBtn{width:44px;min-width:44px;padding:0}
 </style>
 </head>
 <body>
@@ -719,7 +724,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     var d = isDark();
     $("themeIcon").firstElementChild.setAttribute("href", d ? "#i-sun" : "#i-moon");
     $("themeLabel").textContent = d ? "Light" : "Dark";
-    $("themeBtn").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode");
+    $("themeBtn").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode"); $("themeBtn").title = d ? "Switch to light mode" : "Switch to dark mode";
     [].forEach.call(document.querySelectorAll('meta[name="theme-color"]'), function(m){ m.setAttribute("content", d ? "#0E1524" : "#FFFDF9"); });
   }
   $("themeBtn").addEventListener("click", function(){ state.mode = isDark() ? "light" : "dark"; save(state); try{ localStorage.setItem(MODEKEY, state.mode); }catch(e){} paintTheme(); });
