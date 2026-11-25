@@ -81,24 +81,88 @@ FOOTER_CSS = """
 .fnote.credits{font-size:calc(13px * var(--scale))}
 .amdg{display:flex;align-items:center;justify-content:center;gap:14px;margin:30px 0 0;font-family:var(--display);font-style:italic;font-weight:500;font-size:calc(20px * var(--scale));line-height:1.3;color:var(--wine)}
 .amdg::before,.amdg::after{content:"";flex:none;width:32px;height:1px;background:var(--gold)}
+/* ---- "Add to home screen" (one button for the footer, the FAQ and the offer under "Come back tomorrow"; built by tools/build.py) ---- */
+[data-inst][hidden]{display:none}
+.inst-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 18px;border:1.5px solid var(--gold);border-radius:999px;background:var(--sheet);color:var(--wine);font:inherit;font-weight:600;font-size:calc(16px * min(var(--scale),1.15));line-height:1.2;text-decoration:none;cursor:pointer}
+.inst-btn:hover{background:var(--wash)}
+.foot-inst{margin:4px 0 10px}
+.foot-inst button{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:6px 18px 6px 7px;border:1px solid var(--rule);border-radius:999px;background:var(--sheet);color:var(--wine);font:inherit;font-weight:600;font-size:calc(15.5px * min(var(--scale),1.15));line-height:1.2;cursor:pointer}
+.foot-inst button:hover{background:var(--wash)}
+.foot-inst img,.inst-offer img{display:block;border-radius:22%;box-shadow:0 0 0 1px var(--rule)}
+.foot-inst img{width:30px;height:30px}
+.inst-offer{display:flex;gap:14px;align-items:flex-start;margin:14px 0 0;padding:14px 16px;border:1px solid var(--rule);border-radius:12px;background:var(--wash);text-align:left}
+.inst-offer img{flex:none;width:46px;height:46px}
+.io-t{margin:0;font-weight:600;color:var(--ink);font-size:calc(17px * var(--scale));line-height:1.3}
+.io-s{margin:2px 0 0;color:var(--muted);font-size:calc(15.5px * var(--scale));line-height:1.4}
+.io-btns{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin-top:10px}
+.io-later{min-height:44px;padding:0 6px;border:0;background:none;color:var(--muted);font:inherit;font-size:calc(15.5px * min(var(--scale),1.15));text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.io-later:hover{color:var(--ink)}
+dialog.isheet{border:0;margin:auto auto 0;width:100%;max-width:460px;max-height:92vh;overflow:auto;padding:22px 18px calc(16px + env(safe-area-inset-bottom));background:var(--paper);color:var(--ink);border-radius:20px 20px 0 0;box-shadow:0 -10px 30px rgb(0 0 0 / .18);text-align:left}
+dialog.isheet[open]{animation:isUp .22s ease-out}
+@keyframes isUp{from{transform:translateY(24px);opacity:.4}to{transform:none;opacity:1}}
+dialog.isheet::backdrop{background:rgb(8 10 16 / .5)}
+.isheet .is-icon{display:block;width:56px;height:56px;margin:0 auto;border-radius:22%;box-shadow:0 0 0 1px var(--rule)}
+.isheet h2{margin:12px 0 0;text-align:center;font-family:var(--display);font-weight:700;color:var(--wine);font-size:calc(22px * min(var(--scale),1.15));line-height:1.2}
+.isheet .is-sub{margin:4px auto 0;max-width:34ch;text-align:center;color:var(--muted);font-size:calc(15px * min(var(--scale),1.15));line-height:1.4;text-wrap:balance}
+.is-steps{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:12px}
+.is-steps li{display:flex;gap:12px;align-items:flex-start;font-size:calc(16.5px * min(var(--scale),1.15));line-height:1.45}
+.is-steps .is-n{flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--wash);color:var(--gold-text);font-weight:700;font-size:15px;box-shadow:0 0 0 1px var(--rule) inset}
+.is-steps b{color:var(--ink);font-weight:600}
+.is-key{display:inline-grid;place-items:center;vertical-align:-6px;width:26px;height:26px;margin:0 2px;border-radius:7px;background:var(--sheet);color:#0A7CFF;box-shadow:0 0 0 1px var(--rule-strong) inset}
+.is-key svg{width:17px;height:17px;fill:currentColor}
+.isheet .is-open{display:flex;width:100%;min-height:50px;margin:18px 0 0;border-color:var(--cta,var(--wine));background:var(--cta,var(--wine));color:var(--on-cta,var(--paper))}
+.isheet .is-open:hover{background:var(--cta,var(--wine));filter:brightness(1.1)}
+.isheet .is-open svg{width:20px;height:20px;fill:currentColor}
+.isheet .is-open[hidden],.isheet .is-note[hidden]{display:none}
+.isheet .is-note{margin:16px 0 0;padding:10px 12px;border-radius:12px;background:var(--wash);font-size:calc(14.5px * min(var(--scale),1.15));line-height:1.45}
+.isheet .is-done{display:block;width:100%;min-height:48px;margin:18px 0 0;border:1px solid var(--rule-strong);border-radius:999px;background:var(--sheet);color:var(--ink);font:inherit;font-size:calc(16px * min(var(--scale),1.15));cursor:pointer}
+@media (min-width:601px){dialog.isheet{margin:auto;border-radius:20px;padding-bottom:18px}}
+@media (prefers-reduced-motion:reduce){dialog.isheet[open]{animation:none}}
+@media print{.foot-inst,.inst-offer,dialog.isheet{display:none}}
 """
 
 
-def site_footer(up, current=None, credits=(), store_id=False, scripture=True):
-    """the footer every page shares. up: path to the site root; current: this page's FOOT_NAV href; credits: notes (HTML)"""
+def site_footer(up, current=None, credits=(), store_id=False, scripture=True, install=False):
+    """the footer every page shares. up: path to the site root; current: this page's FOOT_NAV href; credits: notes (HTML);
+    install: the "Add to home screen" button, its guide and script (site pages only)"""
     links = []
     for href, label in FOOT_NAV:
         cur = ' aria-current="page"' if href == current else ""
         links.append('<a href="%s%s"%s>%s</a>' % (up, href, cur, label))
     notes = "".join('\n    <p class="fnote credits">%s</p>' % c for c in credits)
+    inst = ('    <p class="foot-inst" data-inst hidden><button type="button" data-install><img src="%sicon-192.png" alt="" width="30" height="30">'
+            '<span data-inst-label>Add to home screen</span></button></p>\n' % up) if install else ""
     return ('<footer class="site-foot">\n  <div class="wrap">\n'
             '    <nav class="foot-nav" aria-label="Site">%s</nav>\n'
-            '%s'
+            '%s%s'
             '    <p class="fnote" id="offlineNote" hidden>Saved on this device, so it opens even without signal.</p>%s\n'
             '%s'
             '    <p class="amdg">To God be the glory</p>\n'
-            '  </div>\n</footer>') % ('<span aria-hidden="true">·</span>'.join(links), '    <p class="fnote warn" id="storeFoot" hidden></p>\n' if store_id else "", notes,
-                                       '    <p class="fnote credits">%s</p>\n' % RSV_NOTICE if scripture else "")
+            '  </div>\n</footer>%s') % ('<span aria-hidden="true">·</span>'.join(links), inst, '    <p class="fnote warn" id="storeFoot" hidden></p>\n' if store_id else "", notes,
+                                       '    <p class="fnote credits">%s</p>\n' % RSV_NOTICE if scripture else "", install_kit(up) if install else "")
+
+
+# the offer under "Come back tomorrow" on a novena page (shown by templates/install.js once the browser can add the site)
+INSTALL_OFFER = ('<div class="inst-offer" id="instOffer" data-inst="offer" hidden><img src="../icon-192.png" alt="" width="46" height="46">'
+                 '<div><p class="io-t" data-inst-title>Keep it on your home screen</p>'
+                 '<p class="io-s" data-inst-sub>Tomorrow’s prayer will be one tap away, even without signal.</p>'
+                 '<div class="io-btns"><button class="inst-btn" type="button" data-install><span data-inst-label>Add to home screen</span></button>'
+                 '<button class="io-later" type="button" id="instLater">Not now</button></div></div></div>')
+INSTALL_ICONS = ["export", "plus-square", "dots-three", "arrow-square-out"]   # the guide's step icons (add to every page's sprite)
+
+
+def install_kit(up):
+    """the guide sheet and the script behind every [data-install] button: the browser's own install box where it offers one
+    (Chrome, Edge, Samsung Internet), otherwise short steps (iPhone and iPad, Mac Safari, in-app browsers like Messenger)"""
+    return ('\n<dialog class="isheet" id="instSheet" aria-labelledby="instTitle">\n'
+            '  <img class="is-icon" src="%sicon-192.png" alt="" width="56" height="56">\n'
+            '  <h2 id="instTitle">Add to your home screen</h2>\n'
+            '  <p class="is-sub" id="instSub"></p>\n'
+            '  <ol class="is-steps" id="instSteps"></ol>\n'
+            '  <a class="inst-btn is-open" id="instOpen" hidden><svg aria-hidden="true" focusable="false"><use href="#i-arrow-square-out"/></svg>Open in Chrome</a>\n'
+            '  <p class="is-note" id="instNote" hidden></p>\n'
+            '  <button class="is-done" type="button" id="instDone">Got it</button>\n'
+            '</dialog>\n<script>\n%s</script>') % (up, read(os.path.join(ROOT, "templates", "install.js")))
 
 
 def read(p):
@@ -304,7 +368,7 @@ def page(n, mode):
     vals = {
         "TITLE_TAG": title_tag, "HEAD_META": head, "BAR_TITLE": esc(n["barTitle"]), "BAR_SHORT": esc(n["barShort"]),
         "BACK_LINK": back, "NAME_RUBRIC": name_rubric, "HOME_LABEL": "All novenas" if mode == "site" else "",
-        "FOOTER": site_footer("../" if mode == "site" else SITE_URL + "/", credits=[n["credits"]], store_id=True), "FOOTER_CSS": FOOTER_CSS, "HOME_ATTRS": home[0], "HOME_ARROW": home[1], "KICKER": esc(n["kicker"]), "TITLE": esc(n["title"]),
+        "FOOTER": site_footer("../" if mode == "site" else SITE_URL + "/", credits=[n["credits"]], store_id=True, install=mode == "site"), "FOOTER_CSS": FOOTER_CSS, "HOME_ATTRS": home[0], "HOME_ARROW": home[1], "KICKER": esc(n["kicker"]), "TITLE": esc(n["title"]),
         "SAINT_LINE": saint_line(n["saints"]), "EPI_TEXT": scripture(n["epigraph"]["text"]), "EPI_REF": esc(n["epigraph"]["ref"]),
         "FACES": faces, "DAY1_TITLE": esc(n["days"][0]["title"]),
         # Day 1 is written into the HTML (the script swaps in the chosen day), so search engines see a full day of prayer
@@ -321,7 +385,8 @@ def page(n, mode):
         "CLOSE_REF": esc(n["closingVerse"]["ref"]),
         "ICONS": json.dumps(n["icons"]), "KEY": json.dumps(n["storageKey"] + ("-artifact" if mode == "artifact" else "")),
         "DAYS": json.dumps(n["days"], ensure_ascii=False),
-        "SPRITE": sprite(BASE_ICONS + n["icons"] + (["arrows-out-simple"] if art_data(slug) else [])),
+        "SPRITE": sprite(BASE_ICONS + n["icons"] + (["arrows-out-simple"] if art_data(slug) else []) + (INSTALL_ICONS if mode == "site" else [])),
+        "INSTALL_OFFER": INSTALL_OFFER if mode == "site" else "",
         "FONTS": local_fonts("../") if mode == "site" else GOOGLE_FONTS,
         "SW": sw_register("../") if mode == "site" else "",
         "SHARE": json.dumps(share(n), ensure_ascii=False),
@@ -505,8 +570,8 @@ def library(novenas, search=None):
     t = t.replace("{{CARDS}}", "\n".join(cards))
     t = t.replace("{{OG_VER}}", og_ver(os.path.join(ROOT, "site", "og.jpg")))
     t = t.replace("{{FONTS}}", local_fonts("")).replace("{{SW}}", sw_register(""))
-    t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer("", current="index.html"))
-    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-right", "hands-praying", "calendar-check", "church", "magnifying-glass", "x"] + icons))
+    t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer("", current="index.html", install=True))
+    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-right", "hands-praying", "calendar-check", "church", "magnifying-glass", "x"] + icons + INSTALL_ICONS))
     left = re.findall(r"\{\{[A-Z0-9_]+\}\}", t)
     assert not left, left
     return t
@@ -592,8 +657,8 @@ def about(novenas, mode="site"):
     t = t.replace("{{HEAD_META}}", head).replace("{{HOME_HREF}}", up + "index.html" if mode == "site" else live).replace("{{UP}}", up)
     t = t.replace("{{FONTS}}", local_fonts("../") if mode == "site" else GOOGLE_FONTS)
     t = t.replace("{{SW}}", sw_register("../") if mode == "site" else "")
-    t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer(up, current="about/index.html", credits=[ABOUT_IMAGES, CCC_NOTICE]))
-    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-left", "arrow-right"]))
+    t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer(up, current="about/index.html", credits=[ABOUT_IMAGES, CCC_NOTICE], install=mode == "site"))
+    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-left", "arrow-right"] + (INSTALL_ICONS if mode == "site" else [])))
     left = re.findall(r"\{\{[A-Z0-9_:a-z-]+\}\}", t)
     assert not left, left
     return t
@@ -631,8 +696,8 @@ def privacy(mode="site"):
     t = t.replace("{{HEAD_META}}", head).replace("{{HOME_HREF}}", up + "index.html").replace("{{UP}}", up)
     t = t.replace("{{FONTS}}", local_fonts("../") if mode == "site" else GOOGLE_FONTS)
     t = t.replace("{{SW}}", sw_register("../") if mode == "site" else "")
-    t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer(up, current="privacy/index.html", scripture=False))
-    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-left"]))
+    t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer(up, current="privacy/index.html", scripture=False, install=mode == "site"))
+    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-left"] + (INSTALL_ICONS if mode == "site" else [])))
     left = re.findall(r"\{\{[A-Z0-9_]+\}\}", t)
     assert not left, left
     return t
