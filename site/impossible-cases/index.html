@@ -871,7 +871,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     saveBtn.setAttribute("aria-pressed", String(on));
     saveBtn.firstElementChild.firstElementChild.setAttribute("href", on ? "#i-bookmark-simple-fill" : "#i-bookmark-simple");
     $("saveLabel").textContent = on ? "Saved" : "Save";
-    saveBtn.title = on ? "Saved. Tap to remove" : "Save this novena";
+    saveBtn.title = on ? "Remove from saved" : "Save this novena";
   }
   if (saveBtn && SLUG){
     saveBtn.addEventListener("click", function(){

@@ -82,6 +82,7 @@ svg.i{width:1em;height:1em;fill:currentColor;flex:none}
    (a list), so it doesn't read as the single "Save this" bookmark on the cards and novena pages */
 .iconbtn[hidden]{display:none}
 .savedbtn svg{color:var(--wine)}
+.savedbtn.on{border-color:var(--gold)}   /* the Saved filter is on */
 @media (max-width:600px){.savedbtn>span{display:none}}
 @media (max-width:600px){.bar .name{display:none}.bar .mark{font-size:30px}#themeLabel{display:none}.iconbtn{padding:0;width:44px}}
 
@@ -337,6 +338,7 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
       var noun = shown === 1 ? "1 novena" : shown + " novenas";
       status.textContent = cat === "saved" ? (shown === 1 ? "1 saved novena" : shown + " saved novenas") : noun + (cat === "all" ? "" : " for " + chipName(cat));
     }
+    paintSaved();   /* the top bar's Saved shows whether the Saved filter is on */
   }
   function setCat(c, announce){
     cat = chips.some(function(b){ return b.getAttribute("data-cat") === c && !b.hidden; }) ? c : "all";
@@ -365,14 +367,14 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
       if (on) n++;
       if (!b) return;
       b.setAttribute("aria-pressed", String(on));
-      b.title = on ? "Saved. Tap to remove" : "Save this novena";
+      b.title = on ? "Remove from saved" : "Save this novena";
       b.firstElementChild.firstElementChild.setAttribute("href", on ? "#i-bookmark-simple-fill" : "#i-bookmark-simple");
     });
     if (savedChip){
       savedChip.querySelector(".cnt").textContent = n;
       savedChip.hidden = n === 0 && cat !== "saved";
     }
-    if (savedBtn) savedBtn.hidden = n === 0;
+    if (savedBtn){ savedBtn.hidden = n === 0 && cat !== "saved"; savedBtn.classList.toggle("on", cat === "saved"); }
   }
   var savedBtn = document.getElementById("savedBtn");
   if (savedBtn) savedBtn.addEventListener("click", function(){

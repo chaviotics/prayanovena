@@ -496,7 +496,7 @@ def library(novenas, search=None):
         btn = '<button type="button" class="chip" data-cat="%s" aria-pressed="%s">%s<span class="n"><span class="sr">, </span>%d<span class="sr"> novenas</span></span></button>'
         # "Saved" shows only once something is saved on this device (the page's script reveals it and fills the count)
         saved = ('<button type="button" class="chip chip-saved" data-cat="saved" aria-pressed="false" hidden>'
-                 '<svg class="i" aria-hidden="true" focusable="false"><use href="#i-bookmark-simple-fill"/></svg>'
+                 '<svg class="i" aria-hidden="true" focusable="false"><use href="#i-bookmarks-simple"/></svg>'
                  '<span class="lbl">Saved</span><span class="n"><span class="sr">, </span><span class="cnt">0</span><span class="sr"> novenas</span></span></button>')
         chips = ('<div class="chips" id="chips" role="group" aria-label="Filter by intention">' + btn % ("all", "true", "All", len(pub)) + saved
                  + "".join(btn % (k, "false", esc(v), used.count(k)) for k, v in CATEGORIES if k in used) + "</div>")

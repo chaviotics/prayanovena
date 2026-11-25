@@ -311,7 +311,8 @@ Two phases, so the new name can go live before the domain exists:
 - Storage: `novenas-saved` = JSON list of slugs on this device; Privacy's "Clear my data" already clears it (matches `/^novenas?-/`).
 - Round 2 (Chav): card bookmark moved to the foot's lower left, across from Pray, so the saints keep the top corner (absolutely placed, centred on the foot line by `calc(12.8px * var(--scale) - 8px)`; `.foot` is `wrap-reverse` so at the largest text on small phones Pray moves up a line instead of the progress wrapping). **Saved in the library top bar** after About (stacked-bookmarks icon, "Saved" word from 601px, hidden until something is saved; turns on the Saved filter and moves focus to "Choose a novena"). Not on novena pages (their bar bookmark saves the novena; "All novenas" opens saved first). Chav chose no other navbar item.
 - **Text size and Light/Dark are icon-only on every page and size** (Chav: the bar was crowded); names kept as aria-label and title tooltip. Novena Save/Share show words from 1024px (titles like "Weary and Wounded Servants" truncated at 900px with words).
-- Preview https://claude.ai/artifact/JLqUmQbDW9Q9bNEukWUuDs (version 2). Save + bookmark kept (Chav went with the version as built).
+- Round 3 UI/UX fixes: the library bar's Saved gets a gold ring while the Saved filter is on (and stays visible in that view at 0); the Saved chip uses the same stacked-bookmarks icon as the bar (stack = the list, single bookmark = save this one); tooltips "Remove from saved"; Privacy lists saved novenas and says Clear removes them.
+- Preview https://claude.ai/artifact/JLqUmQbDW9Q9bNEukWUuDs (version 3). Save + bookmark kept (Chav went with the version as built). Note: the install-as-app thread (branch claude/project-thread-ddgpj1) also edits the footer and novena template, so whichever ships second needs a merge.
 
 ## Open items
 
