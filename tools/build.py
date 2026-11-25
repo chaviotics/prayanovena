@@ -107,6 +107,7 @@ dialog.isheet[open]{animation:isUp .22s ease-out}
 @keyframes isUp{from{transform:translateY(24px);opacity:.4}to{transform:none;opacity:1}}
 dialog.isheet::backdrop{background:rgb(8 10 16 / .5)}
 .isheet .is-icon{display:block;width:56px;height:56px;margin:0 auto;border-radius:22%;box-shadow:0 0 0 1px var(--rule)}
+.isheet h2:focus{outline:none}
 .isheet h2{margin:12px 0 0;text-align:center;font-family:var(--display);font-weight:700;color:var(--wine);font-size:calc(22px * min(var(--scale),1.15));line-height:1.2}
 .isheet .is-sub{margin:4px auto 0;max-width:34ch;text-align:center;color:var(--muted);font-size:calc(15px * min(var(--scale),1.15));line-height:1.4;text-wrap:balance}
 .is-steps{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:12px}
@@ -115,6 +116,7 @@ dialog.isheet::backdrop{background:rgb(8 10 16 / .5)}
 .is-steps b{color:var(--ink);font-weight:600}
 .is-key{display:inline-grid;place-items:center;vertical-align:-6px;width:26px;height:26px;margin:0 2px;border-radius:7px;background:var(--sheet);color:#0A7CFF;box-shadow:0 0 0 1px var(--rule-strong) inset}
 .is-key svg{width:17px;height:17px;fill:currentColor}
+.is-nw{white-space:nowrap}
 .isheet .is-open{display:flex;width:100%;min-height:50px;margin:18px 0 0;border-color:var(--cta,var(--wine));background:var(--cta,var(--wine));color:var(--on-cta,var(--paper))}
 .isheet .is-open:hover{background:var(--cta,var(--wine));filter:brightness(1.1)}
 .isheet .is-open svg{width:20px;height:20px;fill:currentColor}
@@ -153,7 +155,7 @@ INSTALL_OFFER = ('<div class="inst-offer" id="instOffer" data-inst="offer" hidde
                  '<p class="io-s" data-inst-sub>Tomorrow’s prayer will be one tap away, even without signal.</p>'
                  '<div class="io-btns"><button class="inst-btn" type="button" data-install><span data-inst-label>Add to home screen</span></button>'
                  '<button class="io-later" type="button" id="instLater">Not now</button></div></div></div>')
-INSTALL_ICONS = ["export", "plus-square", "dots-three", "dots-three-vertical", "arrow-square-out"]   # the guide's step icons (add to every page's sprite)
+INSTALL_ICONS = ["export", "plus-square", "dots-three", "dots-three-vertical", "list", "arrow-square-out"]   # the guide's step icons (add to every page's sprite)
 
 
 def install_kit(up):
@@ -161,7 +163,7 @@ def install_kit(up):
     (Chrome, Edge, Samsung Internet), otherwise short steps (iPhone and iPad, Mac Safari, in-app browsers like Messenger)"""
     return ('\n<dialog class="isheet" id="instSheet" aria-labelledby="instTitle">\n'
             '  <img class="is-icon" src="%sicon-192.png" alt="" width="56" height="56">\n'
-            '  <h2 id="instTitle">Add to your home screen</h2>\n'
+            '  <h2 id="instTitle" tabindex="-1" autofocus>Add to your home screen</h2>\n'
             '  <p class="is-sub" id="instSub"></p>\n'
             '  <ol class="is-steps" id="instSteps"></ol>\n'
             '  <a class="inst-btn is-open" id="instOpen" hidden><svg aria-hidden="true" focusable="false"><use href="#i-arrow-square-out"/></svg>Open in Chrome</a>\n'

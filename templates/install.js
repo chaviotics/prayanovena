@@ -46,17 +46,17 @@
     var t = "Add to your home screen", sub = "", steps = [], note = "", open = false;
     var share = /CriOS/.test(ua) ? "Tap <b>Share</b> " + key("export") + " in the address bar."
       : /FxiOS|EdgiOS|OPiOS/.test(ua) ? "Open the browser’s menu, then tap <b>Share</b> " + key("export") + "."
-      : "Tap <b>Share</b> " + key("export") + ". On newer iPhones it’s in the <b>•••</b> menu beside the address.";
-    var add = "Tap <b>Add to Home Screen</b> " + key("plus-square") + ". If you don’t see it, scroll down or tap <b>View More</b>.";
+      : "Tap <b>Share</b> " + key("export") + ". On iOS 26 it’s in the menu " + key("list") + " beside the address.";
+    var add = "Tap <b>View More</b>, then <b>Add to Home Screen</b> " + key("plus-square") + ". On older iPhones, scroll down to it.";
     var ipad = /iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
     if (kind === "ios"){
       sub = "It opens from its own icon like an app, even without signal.";
-      steps = [share, add, "Tap <b>Add</b>. The 9 days icon appears on your home screen."];
+      steps = [share, add, "Leave <b>Open as Web App</b> on and tap <b>Add</b>. The 9 days icon appears on your home screen."];
       if (begun()) note = (ipad ? "Your iPad" : "Your iPhone") + " keeps the home screen copy separate from the browser, so a novena you’ve begun starts fresh there. Open it, set its start date and tick the days you’ve prayed.";
     } else if (kind === "ios-app"){
       sub = "Messenger and Facebook open pages in their own browser, which can’t do this. Open the page in Safari first.";
       steps = ["Tap <b>•••</b> " + key("dots-three") + " or the menu, then <b>Open in Safari</b> (or Open in browser).",
-               "In Safari, tap <b>Share</b> " + key("export") + ", then <b>Add to Home Screen</b>.", "Tap <b>Add</b>."];
+               "In Safari, tap <b>Share</b> " + key("export") + ", then <b>View More</b> and <b>Add to Home Screen</b>.", "Leave <b>Open as Web App</b> on and tap <b>Add</b>."];
     } else if (kind === "android-app"){
       sub = "Messenger and Facebook open pages in their own browser, which can’t do this. Open the page in Chrome first.";
       steps = ["Tap <b>Open in Chrome</b> below.", "In Chrome, tap the menu " + key("dots-three-vertical") + ", then <b>Add to home screen</b>."];
@@ -70,7 +70,8 @@
     }
     var $ = function(id){ return d.getElementById(id); };
     $("instTitle").textContent = t; $("instSub").textContent = sub;
-    $("instSteps").innerHTML = steps.map(function(s, i){ return '<li><span class="is-n" aria-hidden="true">' + (i + 1) + '</span><span>' + s + '</span></li>'; }).join("");
+    /* keep an icon and the stop after it together, so a lone "." never starts a line */
+    $("instSteps").innerHTML = steps.map(function(s, i){ return '<li><span class="is-n" aria-hidden="true">' + (i + 1) + '</span><span>' + s.replace(/(<span class="is-key"[\s\S]*?<\/svg><\/span>)([.,])/g, '<span class="is-nw">$1$2</span>') + '</span></li>'; }).join("");
     $("instNote").textContent = note; $("instNote").hidden = !note;
     var o = $("instOpen"); o.hidden = !open;
     if (open) o.href = "intent://" + location.host + location.pathname + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + encodeURIComponent(location.origin + location.pathname) + ";end";
