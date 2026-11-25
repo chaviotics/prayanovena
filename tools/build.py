@@ -148,7 +148,7 @@ INSTALL_OFFER = ('<div class="inst-offer" id="instOffer" data-inst="offer" hidde
                  '<p class="io-s" data-inst-sub>Tomorrow’s prayer will be one tap away, even without signal.</p>'
                  '<div class="io-btns"><button class="inst-btn" type="button" data-install><span data-inst-label>Add to home screen</span></button>'
                  '<button class="io-later" type="button" id="instLater">Not now</button></div></div></div>')
-INSTALL_ICONS = ["export", "plus-square", "dots-three", "arrow-square-out"]   # the guide's step icons (add to every page's sprite)
+INSTALL_ICONS = ["export", "plus-square", "dots-three", "dots-three-vertical", "arrow-square-out"]   # the guide's step icons (add to every page's sprite)
 
 
 def install_kit(up):

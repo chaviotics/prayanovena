@@ -59,14 +59,14 @@
                "In Safari, tap <b>Share</b> " + key("export") + ", then <b>Add to Home Screen</b>.", "Tap <b>Add</b>."];
     } else if (kind === "android-app"){
       sub = "Messenger and Facebook open pages in their own browser, which can’t do this. Open the page in Chrome first.";
-      steps = ["Tap <b>Open in Chrome</b> below.", "In Chrome, tap <b>Add to home screen</b> at the bottom of the page."];
+      steps = ["Tap <b>Open in Chrome</b> below.", "In Chrome, tap the menu " + key("dots-three-vertical") + ", then <b>Add to home screen</b>."];
       open = true;
     } else if (kind === "mac"){
       t = "Add to your Dock"; sub = "It opens in its own window, even offline.";
       steps = ["In the menu bar, choose <b>File</b>, then <b>Add to Dock</b>.", "Click <b>Add</b>."];
     } else {   /* the browser's box was closed earlier: its menu still has it */
       t = pc() ? "Install on this computer" : t; sub = "It opens from its own icon like an app, even offline.";
-      steps = ["Open your browser’s menu " + key("dots-three") + ".", "Choose <b>" + (pc() ? "Install" : "Add to home screen") + "</b>, then confirm."];
+      steps = ["Open your browser’s menu " + key("dots-three-vertical") + ".", "Look for <b>" + (pc() ? "Install" : "Add to home screen") + "</b>, then confirm."];
     }
     var $ = function(id){ return d.getElementById(id); };
     $("instTitle").textContent = t; $("instSub").textContent = sub;
