@@ -1,0 +1,167 @@
+{
+  "days": [
+    {
+      "file": "Albrecht Dürer - Praying Hands, 1508 - Google Art Project.jpg",
+      "width": 1280,
+      "crop": [
+        0.0,
+        0.12,
+        1.0,
+        0.635
+      ],
+      "kind": "practice",
+      "artist": "Albrecht Dürer",
+      "title": "Praying Hands",
+      "year": "1508",
+      "place": "",
+      "alt": "A pair of hands pressed together in prayer, drawn in white on blue paper.",
+      "look": "Look again at the fingers pressed together, all of them held still. What worry are you ready to set down in God's hands today?",
+      "license": "Artist died 1528; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Jacopo Tintoretto - Creation of the Animals - WGA22438.jpg",
+      "width": 1280,
+      "crop": [
+        0.0,
+        0.0,
+        0.76,
+        1.0
+      ],
+      "kind": "scene",
+      "artist": "Jacopo Tintoretto",
+      "title": "Creation of the Animals",
+      "year": "1551–52",
+      "place": "",
+      "alt": "God, robed in red, soars over the earth as birds, fish and beasts of every kind fill the sky, the water and the land.",
+      "look": "Look again at the crowd of creatures, each of a different kind, from birds to fish to beasts. Which of them does your animal remind you of, and how did God make it?",
+      "license": "Artist died 1594; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Giotto di Bondone - Legend of St Francis - 15. Sermon to the Birds - WGA09139.jpg",
+      "width": 0,
+      "crop": [
+        0.0,
+        0.39,
+        1.0,
+        0.967
+      ],
+      "kind": "saint",
+      "artist": "Formerly attributed to Giotto",
+      "title": "Sermon to the Birds",
+      "year": "c. 1297–99",
+      "place": "",
+      "alt": "Saint Francis bends toward a flock of small birds gathered at his feet while a brother waits behind him.",
+      "look": "Look again at the small birds gathered at Francis's feet, each one noticed. Which small creature in your care do you want God to remember by name?",
+      "license": "Painted c. 1297-99; Commons: public domain (Web Gallery of Art)"
+    },
+    {
+      "file": "Diego Velázquez - St Anthony Abbot and St Paul the Hermit (detail) - WGA24397.jpg",
+      "width": 0,
+      "crop": [
+        0.0,
+        0.25,
+        0.9,
+        0.875
+      ],
+      "kind": "saint",
+      "artist": "Diego Velázquez",
+      "title": "Saint Anthony the Great and Saint Paul the Anchorite (detail)",
+      "year": "c. 1634",
+      "place": "",
+      "alt": "A black raven swoops down past a rock, carrying a round loaf of bread in its beak.",
+      "look": "Look again at the raven bringing the loaf, as the old story of Anthony and Paul the Hermit tells. Where have you seen the Father provide for you lately, in ways small or large?",
+      "license": "Artist died 1660; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Angelico, predella dei santi cosma e damiano da pala di san marco, guarigione di palladia.jpg",
+      "width": 960,
+      "crop": [
+        0.0,
+        0.1,
+        0.6,
+        0.68
+      ],
+      "kind": "practice",
+      "artist": "Fra Angelico",
+      "title": "The Healing of Palladia by Saint Cosmas and Saint Damian",
+      "year": "1438",
+      "place": "National Gallery of Art, Washington",
+      "alt": "The physician saints Cosmas and Damian stand beside a sick woman resting in bed, tending her.",
+      "look": "Look again at the two healers leaning over the bed, close and attentive. Whose skilled hands are caring for your animal, and how can you thank them?",
+      "license": "Artist died 1455; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Brooklyn Museum - The Good Samaritan (Le bon samaritain) - James Tissot.jpg",
+      "width": 0,
+      "crop": [
+        0.0,
+        0.45,
+        1.0,
+        0.892
+      ],
+      "kind": "scene",
+      "artist": "James Tissot",
+      "title": "The Good Samaritan",
+      "year": "1886–94",
+      "place": "Brooklyn Museum",
+      "alt": "The Samaritan sits on a rocky road and holds the wounded traveler in his arms.",
+      "look": "Look again at the Samaritan holding the wounded man so gently on that rough road. What small, daily kindness is yours to give today?",
+      "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Frederick James Shields (1833-1911) - The Good Shepherd - 1913.17 - Manchester Art Gallery.jpg",
+      "width": 500,
+      "crop": [
+        0.1,
+        0.1,
+        0.95,
+        0.5
+      ],
+      "kind": "names",
+      "artist": "Frederic Shields",
+      "title": "The Good Shepherd",
+      "year": "",
+      "place": "",
+      "alt": "Christ, crowned with thorns, carries two lambs in his arms among the trees.",
+      "look": "Look again at the two lambs held against his chest. When has someone carried you, and who is carrying your animal now?",
+      "license": "Artist died 1911; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Giotto di Bondone - Scenes from the Life of Saint Francis - 4. Death and Ascension of St Francis - WGA09307.jpg",
+      "width": 960,
+      "crop": [
+        0.05,
+        0.0,
+        0.93,
+        1.0
+      ],
+      "kind": "saint",
+      "artist": "Giotto",
+      "title": "Death and Ascension of Saint Francis",
+      "year": "c. 1325",
+      "place": "",
+      "alt": "Friars gather close around the body of Saint Francis laid out on his bier, some bending over him in sorrow.",
+      "look": "Look again at the friars bent close over Francis, none of them hurrying away. Who has stayed beside you in your sorrow, and who might you stay beside?",
+      "license": "Artist died 1337; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Edward Hicks - The Peaceable Kingdom - 1973.5 - Dallas Museum of Art.jpg",
+      "width": 1280,
+      "crop": [
+        0.55,
+        0.5,
+        1.0,
+        0.939
+      ],
+      "kind": "stretch",
+      "artist": "Edward Hicks",
+      "title": "The Peaceable Kingdom",
+      "year": "c. 1846–47",
+      "place": "Dallas Museum of Art",
+      "alt": "A great lion stands calmly over a wolf, a white goat and lambs resting together at its feet.",
+      "look": "Look again at the lambs resting at the lion's feet, unafraid. What would it be to trust your animal, and yourself, to that same goodness?",
+      "license": "Artist died 1849; faithful photo of a 2D work (Commons: public domain)",
+      "passage": "Isaiah 11"
+    }
+  ]
+}

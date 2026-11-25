@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make sick-pet` from `novenas/sick-pet/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (practice) | Albrecht Dürer, *Praying Hands*, 1508. Commons `Albrecht Dürer - Praying Hands, 1508 - Google Art Project.jpg`, 1280px thumbnail; day crop [0.0, 0.12, 1.0, 0.635] | Artist died 1528; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (scene) | Jacopo Tintoretto, *Creation of the Animals*, 1551–52. Commons `Jacopo Tintoretto - Creation of the Animals - WGA22438.jpg`, 1280px thumbnail; day crop [0.0, 0.0, 0.76, 1.0] | Artist died 1594; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (saint) | Formerly attributed to Giotto, *Sermon to the Birds*, c. 1297–99. Commons `Giotto di Bondone - Legend of St Francis - 15. Sermon to the Birds - WGA09139.jpg`, original file; day crop [0.0, 0.39, 1.0, 0.967] | Painted c. 1297-99; Commons: public domain (Web Gallery of Art) |
+| day4.webp, day4_full.webp | Day 4 (saint) | Diego Velázquez, *Saint Anthony the Great and Saint Paul the Anchorite (detail)*, c. 1634. Commons `Diego Velázquez - St Anthony Abbot and St Paul the Hermit (detail) - WGA24397.jpg`, original file; day crop [0.0, 0.25, 0.9, 0.875] | Artist died 1660; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (practice) | Fra Angelico, *The Healing of Palladia by Saint Cosmas and Saint Damian*, 1438, National Gallery of Art, Washington. Commons `Angelico, predella dei santi cosma e damiano da pala di san marco, guarigione di palladia.jpg`, 960px thumbnail; day crop [0.0, 0.1, 0.6, 0.68] | Artist died 1455; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (scene) | James Tissot, *The Good Samaritan*, 1886–94, Brooklyn Museum. Commons `Brooklyn Museum - The Good Samaritan (Le bon samaritain) - James Tissot.jpg`, original file; day crop [0.0, 0.45, 1.0, 0.892] | Artist died 1902; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (names) | Frederic Shields, *The Good Shepherd*. Commons `Frederick James Shields (1833-1911) - The Good Shepherd - 1913.17 - Manchester Art Gallery.jpg`, 500px thumbnail; day crop [0.1, 0.1, 0.95, 0.5] | Artist died 1911; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (saint) | Giotto, *Death and Ascension of Saint Francis*, c. 1325. Commons `Giotto di Bondone - Scenes from the Life of Saint Francis - 4. Death and Ascension of St Francis - WGA09307.jpg`, 960px thumbnail; day crop [0.05, 0.0, 0.93, 1.0] | Artist died 1337; faithful photo of a 2D work (Commons: public domain) |
+| day9.webp, day9_full.webp | Day 9 (stretch) | Edward Hicks, *The Peaceable Kingdom*, c. 1846–47, Dallas Museum of Art (Isaiah 11). Commons `Edward Hicks - The Peaceable Kingdom - 1973.5 - Dallas Museum of Art.jpg`, 1280px thumbnail; day crop [0.55, 0.5, 1.0, 0.939] | Artist died 1849; faithful photo of a 2D work (Commons: public domain) |

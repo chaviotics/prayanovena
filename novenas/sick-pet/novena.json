@@ -1,0 +1,229 @@
+{
+  "slug": "sick-pet",
+  "storageKey": "novena-sick-pet",
+  "status": "published",
+  "order": 20,
+  "category": "healing",
+  "title": "Novena for a Sick Pet",
+  "cardTitle": "A Sick Pet",
+  "icon": "paw-print",
+  "barTitle": "Novena for a Sick Pet",
+  "barShort": "Pet Novena",
+  "kicker": "9 days of prayer for a sick animal",
+  "card": "For a sick dog, cat, bird or farm animal: 9 days asking God for healing, comfort, wise care and peace, whatever comes.",
+  "ogDescription": "9 days of prayer for a sick pet, through Our Lady, St. Francis, St. Anthony the Abbot and St. Martin.",
+  "description": "A 9-day Catholic novena for a sick pet or farm animal, asking for healing and peace, through St. Francis, St. Anthony the Abbot and St. Martin de Porres.",
+  "keywords": [
+    "sick pet",
+    "sick animal",
+    "sick dog",
+    "sick cat",
+    "sick bird",
+    "pet illness",
+    "dying pet",
+    "pet loss",
+    "grief",
+    "animals",
+    "farm animal",
+    "livestock",
+    "horse",
+    "veterinarian",
+    "vet",
+    "blessing of animals",
+    "may sakit na alaga",
+    "alagang hayop",
+    "aso",
+    "pusa",
+    "hayop",
+    "st. francis of assisi",
+    "st. anthony the abbot",
+    "st. martin de porres",
+    "health of the sick",
+    "salus infirmorum"
+  ],
+  "ogSaints": [
+    "francis",
+    "martin"
+  ],
+  "epigraph": {
+    "text": "In his hand is the life of every living thing and the breath of all mankind.",
+    "ref": "Job 12:10"
+  },
+  "closingVerse": {
+    "text": "O give thanks to the LORD, for he is good; his steadfast love endures for ever!",
+    "ref": "Psalm 118:1"
+  },
+  "printTitle": [
+    "Novena for",
+    "a Sick Pet"
+  ],
+  "printClosing": [
+    "O give thanks to the LORD, for he is good;",
+    "his steadfast love endures for ever!"
+  ],
+  "saints": [
+    {
+      "id": "francis",
+      "name": "St. Francis of Assisi",
+      "dates": "c. 1181–1226",
+      "feast": "Feast · Oct 4",
+      "patron": "Patron of animals & ecology",
+      "bio": "A cloth merchant’s son who gave up everything to follow Christ in poverty and founded the Franciscans. He saw every creature as a brother or sister and wrote the Canticle of the Creatures.",
+      "alt": "Painting: St. Francis of Assisi in his hooded habit, looking upward, by Zurbarán",
+      "openingRole": "who praised You in all Your creatures"
+    },
+    {
+      "id": "anthony",
+      "name": "St. Anthony the Abbot",
+      "dates": "c. 251–356",
+      "feast": "Feast · Jan 17",
+      "patron": "Protector of animals",
+      "bio": "An Egyptian who gave away his inheritance to follow Christ and lived as a hermit in the desert, where many came to him for counsel. Animals are blessed on his feast.",
+      "alt": "Painting: St. Anthony the Abbot, white-bearded in a dark hooded habit, holding a staff and a book",
+      "openingRole": "long honored as a protector of animals"
+    },
+    {
+      "id": "martin",
+      "name": "St. Martin de Porres",
+      "dates": "1579–1639",
+      "feast": "Feast · Nov 3",
+      "patron": "Friend of the sick, the poor & animals",
+      "bio": "A Dominican brother in Lima, trained as a barber-surgeon. He nursed the sick and fed the poor, and is remembered for his tender care of stray and hungry animals.",
+      "alt": "Engraving: St. Martin de Porres in his Dominican habit, with a halo, holding a crucifix, a basket of bread on his arm and a lantern at his side",
+      "openingRole": "who cared for the sick and for stray animals"
+    }
+  ],
+  "litany": [
+    {
+      "img": "mary",
+      "text": "Our Lady, Health of the Sick"
+    },
+    {
+      "img": "francis",
+      "text": "St. Francis of Assisi"
+    },
+    {
+      "img": "anthony",
+      "text": "St. Anthony the Abbot"
+    },
+    {
+      "img": "martin",
+      "text": "St. Martin de Porres"
+    }
+  ],
+  "openingPrayer": "Heavenly Father, You made every living creature and care for each one. We come to You worried for a sick animal in our care that cannot tell us where it hurts. If it is Your will, restore it to health; guide all who treat it; and give us patience and peace, whatever comes. We ask Our Lady, Health of the Sick; St. Francis of Assisi, who praised You in all Your creatures; St. Anthony the Abbot, long honored as a protector of animals; and St. Martin de Porres, who cared for the sick and for stray animals, to join their prayers with ours, through Christ our Lord.",
+  "closingPrayer": "Lord Jesus, You healed the sick and comforted the sorrowing. Look with mercy on this creature and on all who care for it. Ease every pain, heal if it is Your will, and keep us at peace in Your love.",
+  "memorare": {
+    "to": "Mary"
+  },
+  "tips": [
+    {
+      "h": "Praying with others",
+      "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+    },
+    {
+      "h": "Alongside prayer",
+      "p": "Say your animal’s name wherever the prayers say “N.” If you can, go to Mass during these 9 days and bring this intention to God there; a good Confession helps us pray with a clear heart. You may ask a priest or deacon to bless your animal; many parishes bless animals around the feasts of St. Anthony the Abbot (January&nbsp;17) and St. Francis (October&nbsp;4). Follow your vet’s advice (Day&nbsp;5), and be wary of “miracle cures” sold online."
+    },
+    {
+      "h": "Keeping love in balance",
+      "p": "The Church teaches that animals are God’s creatures and that we owe them kindness, and also that our love for them should never take the place of love for people or of what we owe the poor (CCC 2416–2418). Weighing honestly what treatment is wise and affordable is good stewardship, not a lack of love. If grief feels too heavy to carry, talk to someone you trust."
+    }
+  ],
+  "intentionPlaceholder": "Write your animal’s name and what you are asking for.",
+  "icons": [
+    "hands-praying",
+    "bird",
+    "feather",
+    "leaf",
+    "stethoscope",
+    "bandaids",
+    "hand-heart",
+    "heart-break",
+    "sun-horizon"
+  ],
+  "credits": "Images: Francisco de Zurbarán, <em>Saint Francis of Assisi according to Pope Nicholas V’s Vision</em> (detail), c. 1640, Museu Nacional d’Art de Catalunya · Puccio di Simone, <em>Saint Anthony Abbot</em> (detail), 1353, Pinacoteca Civica, Fabriano · Michel Vermeiren, <em>San Martin de Porres de la Orden de S. Domingo</em> (detail), engraving, 1852 – c. 1900, Rijksmuseum · Sassoferrato, <em>The Virgin in Prayer</em> (detail), 17th century. Public domain, via Wikimedia Commons.",
+  "days": [
+    {
+      "title": "Bringing Our Fear",
+      "ref": "1 Peter 5:7",
+      "verse": "Cast all your anxieties on him, for he cares about you.",
+      "refl": "St. Peter writes to people under real strain: “Cast all your anxieties on him, for he cares about you.” Our worry today has a name and a face. An animal we love is sick. Perhaps it will not eat, or moves with pain, or simply is not itself, and it cannot tell us what is wrong. We begin these nine days by bringing all of it to God: the fear, the waiting for answers, the guilt we may feel for not noticing sooner. Nothing that troubles us is too small for His care.",
+      "more": "To “cast” is to throw: we hand the whole weight to God instead of carrying it ourselves. Worry for an animal is real worry, and it is not foolish to pray about it. The Catechism teaches that animals are God’s creatures, held in His providential care, and that we owe them kindness (CCC 2416). When we bring a sick animal to God in prayer, we are bringing Him one of His own.",
+      "prayer": "Heavenly Father, You care about every worry we bring You, even those others might call small. We cast on You our fear for N., who is sick and cannot tell us where it hurts. Calm our anxious hearts, steady us while we wait, and free us from any guilt that is not ours to carry. Help us to see clearly what N. needs, and give us the peace that comes from knowing that You care for us and for every creature You have made.",
+      "step": "Tell God plainly, in your own words, what you fear most about this illness, then sit quietly with Him for one minute."
+    },
+    {
+      "title": "Made Good by God",
+      "ref": "Genesis 1:25",
+      "verse": "And God made the beasts of the earth according to their kinds and the cattle according to their kinds, and everything that creeps upon the ground according to its kind. And God saw that it was good.",
+      "refl": "On the sixth day God made “the beasts of the earth according to their kinds and the cattle according to their kinds,” and He saw that it was good. The dog at our feet, the cat on the windowsill, the bird in its cage, the goat or carabao that works beside us: each one came from His hand, and He called it good. Our love for an animal is not silly; it echoes God’s own delight in what He made. Today we thank Him for this creature and entrust it back to Him.",
+      "more": "St. Francis of Assisi saw this goodness everywhere. His early biographer, Thomas of Celano, tells that near Bevagna Francis once stopped to preach to a great flock of birds, urging them to love and praise their Creator, and afterwards blamed himself for never having done it before. For Francis, every creature was a brother or sister, because all come from one Father. Our animal, too, has its place in God’s good creation.",
+      "prayer": "Creator God, You made every living thing and saw that it was good. We thank You for N. and for every good day we have shared: the companionship, the work, the quiet joy. We place this creature of Yours back in Your hands, the hands that made it. Through the prayers of St. Francis, who praised You in all Your creatures, help us to love N. well, to care for N. gently, and to see Your goodness in all that You have made.",
+      "step": "Spend a few quiet minutes with your animal today, and thank God for one thing you love about this creature."
+    },
+    {
+      "title": "Not One Is Forgotten",
+      "ref": "Luke 12:6",
+      "verse": "Are not five sparrows sold for two pennies? And not one of them is forgotten before God.",
+      "refl": "Jesus points to the cheapest birds in the market: five sparrows for two pennies. And not one of them, He says, is forgotten before God. If God holds in mind a sparrow no one would miss, He has not forgotten the animal we are praying for, however small or ordinary it may seem to others. Jesus goes on to tell His listeners that they are worth more than many sparrows. God remembers the creature, and He remembers us, and He knows how heavy our hearts are today.",
+      "more": "St. Francis lived this truth. Thomas of Celano tells that when a hare caught in a trap was brought to him, Francis spoke to it tenderly and set it free, and the hare ran to his lap. He also put a fish he was given back into the water. Small mercies to small creatures were, for him, a share in God’s own care. Our care for a sick animal can be the same.",
+      "prayer": "Loving Father, not one sparrow is forgotten before You, and You have not forgotten N. When we feel helpless, remind us that You see what we cannot see, and that You hold this creature in Your care. Keep us gentle and attentive, quick to notice what N. needs and patient in giving it. St. Francis, who freed a frightened hare and spoke to it with tenderness, pray for us, that our care may share in God’s own care for every living thing.",
+      "step": "Do one small kindness for an animal today, your own or another, and offer it to God for the animal you are praying for."
+    },
+    {
+      "title": "The Father Feeds Them",
+      "ref": "Matthew 6:26",
+      "verse": "Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they?",
+      "refl": "Jesus tells us to look at the birds of the air. They neither sow nor reap, and yet our heavenly Father feeds them. He is not telling us to stop working, but to stop being ruled by worry. A sick animal can bring practical fears: the cost of treatment, missed work, decisions we cannot put off. Jesus invites us to bring these to God as well. The Father who feeds the birds knows what we need, both for the creature in our care and for ourselves.",
+      "more": "St. Anthony the Abbot took Jesus at His word. At about twenty he heard the Gospel in which Jesus tells a rich young man to sell what he has and give to the poor. St. Athanasius, who knew him, writes that Anthony did just that, then lived for many years in the Egyptian desert, praying, weaving mats and tending a small garden. We can trust that same Father to provide.",
+      "prayer": "Heavenly Father, You feed the birds of the air, and You know what we need before we ask. We bring You the worries this illness has brought: the costs, the time, the decisions ahead. Give us wisdom to do what is right for N. and for those who depend on us, and free us from the fear that crowds out trust. Through the prayers of St. Anthony the Abbot, who trusted You in the desert, give us simple and trusting hearts.",
+      "step": "Write down one practical worry about your animal’s care, such as cost or time, and pray about it before you decide what to do."
+    },
+    {
+      "title": "Hands That Heal",
+      "ref": "Sirach 38:4",
+      "verse": "The Lord created medicines from the earth, and a sensible man will not despise them.",
+      "refl": "Sirach says that the Lord created medicines from the earth, and “a sensible man will not despise them.” Scripture sees no conflict between prayer and good care. Medicine, training and skill are gifts from God. Today we pray for the veterinarian and everyone who treats our animal: for clear thinking, steady hands, honest advice and kindness. We pray for ourselves too, that we may listen well, ask good questions and follow the treatment faithfully. God often heals through the hands of those He has gifted.",
+      "more": "St. Martin de Porres learned this kind of care early. At twelve he was apprenticed to a barber-surgeon in Lima, learning to treat wounds and prepare medicines. As a Dominican brother he spent his days nursing the sick in the priory infirmary. He is remembered as saying, “I cure them, but God heals them.” Every good treatment is a work shared between human skill and the God who gives life.",
+      "prayer": "Lord God, You created medicines from the earth and gave skill to human hands. Bless the veterinarian and everyone who cares for N.: give them clear minds, steady hands, kindness and honest counsel. Help us to understand what they tell us and to follow the treatment faithfully. Where medicine can heal, let it heal; where it cannot, let it bring comfort and relief. St. Martin de Porres, who cared for the sick with skill and love, pray for us.",
+      "step": "Before the next visit, write down your questions for the vet, and pray for the vet by name if you know it."
+    },
+    {
+      "title": "Faithful Care",
+      "ref": "Luke 10:34",
+      "verse": "and went to him and bound up his wounds, pouring on oil and wine; then he set him on his own beast and brought him to an inn, and took care of him.",
+      "refl": "The Samaritan does not only feel sorry for the wounded man. He goes to him, binds up his wounds, pours on oil and wine, and takes care of him. Caring for a sick animal asks something similar of us: medicines on schedule, cleaning up, broken sleep, slow walks, coaxing food into a mouth that refuses it. This patient work can feel small and tiring. Yet Jesus holds up hands-on mercy as the way love behaves, and every act of care, even for an animal, can grow our hearts in that love.",
+      "more": "St. Martin de Porres showed this mercy to people first, and to animals too. Besides his long hours in the infirmary and among the poor of Lima, it is remembered that he kept stray cats and dogs at his sister’s house, and even excused the kitchen mice because they were hungry. No creature was beneath his notice. His care for animals flowed from the same compassion that made him a servant of the sick.",
+      "prayer": "Lord Jesus, You praised the Samaritan who stopped and took care of the wounded. Bless all who care for N. day by day, through the long nights and the tiring routines. Give us patience when we are worn out, gentleness when N. is frightened or in pain, and the humility to ask for help. Through the prayers of St. Martin de Porres, who never thought any creature too small for his care, let our hands share in Your mercy.",
+      "step": "Thank one person who is helping with your animal’s care, or take over one task so that a tired caregiver can rest."
+    },
+    {
+      "title": "Carried Like a Lamb",
+      "ref": "Isaiah 40:11",
+      "verse": "He will feed his flock like a shepherd, he will gather the lambs in his arms, he will carry them in his bosom, and gently lead those that are with young.",
+      "refl": "Isaiah pictures God as a shepherd who gathers the lambs in His arms, carries them close, and gently leads those that are with young. A good shepherd moves at the pace of the weakest. If our animal is old, weak or in pain, this is the God we pray to. We ask Him to ease its suffering, and to give us wisdom in the hard choices that may come about treatment and pain. Talking honestly with the vet and praying before we decide are part of that wisdom.",
+      "more": "St. Anthony the Abbot has long been honored as a protector of farm and household animals. On his feast, January 17, many places hold blessings of animals, and people bring their dogs, cats, horses and livestock to be blessed. In his art he is often shown with a pig and a bell. These customs express a simple faith: the Shepherd cares for the weak, and our animals are not outside His care.",
+      "prayer": "Good Shepherd, You gather the lambs in Your arms and lead the weak gently. Carry N. in Your care. Ease all pain and fear, give rest and comfort, and, if it is Your will, restore N. to health. When we face hard choices, give us wisdom and courage, honest counsel, and the grace to put N.’s good before our own wishes. St. Anthony the Abbot, protector of animals, pray for us.",
+      "step": "Ask your vet honestly how your animal is doing and what would ease any pain, then pray over what you hear."
+    },
+    {
+      "title": "Near the Brokenhearted",
+      "ref": "Psalm 34:18",
+      "verse": "The LORD is near to the brokenhearted, and saves the crushed in spirit.",
+      "refl": "“The LORD is near to the brokenhearted, and saves the crushed in spirit.” The psalmist does not tell the brokenhearted to stop grieving. He tells them God is near. If our animal is not getting better, or has died, our grief is real, and we need not hide it from God or be ashamed of it. Losing a companion or a working animal can leave a deep emptiness. When healing does not come, it is never a sign that our faith was weak. God stays close, in the sorrow and after it.",
+      "more": "St. Francis knew that every earthly life comes to an end, and he did not meet that truth with fear. In his Canticle of the Creatures he praised God even for “Sister Death,” and as he lay dying in 1226 he asked his brothers to sing it for him. He trusted that all creatures rest in God’s hands. With him we can grieve honestly and still rest in God’s goodness.",
+      "prayer": "Lord, You are near to the brokenhearted. If N. is still with us, give strength, comfort and freedom from pain for every day that remains. If N. is nearing death or has already died, hold our sorrow and give us Your peace. If we had to make a hard choice for N.’s sake, free us from guilt that is not ours to carry. Make us grateful for the time we were given, and never ashamed of our tears. St. Francis, who praised You even for Sister Death, pray for us.",
+      "step": "Share with God, or with a friend who understands, one memory of your animal that you are grateful for."
+    },
+    {
+      "title": "Gratitude & Surrender",
+      "ref": "Psalm 145:9",
+      "verse": "The LORD is good to all, and his compassion is over all that he has made.",
+      "refl": "“The LORD is good to all, and his compassion is over all that he has made.” On this ninth day we look back and give thanks. Whatever has happened, God’s compassion has been over our animal and over us through all these days. We thank Him for every sign of healing, every moment of comfort, every kind hand that helped. With Our Lady, Health of the Sick, St. Francis, St. Anthony the Abbot and St. Martin de Porres, we place this creature, and our own hearts, in His good hands.",
+      "more": "We may notice graces we did not expect: a better day, a kind word from the vet, a friend who checked on us. Some prayers are answered as we hoped, and some in ways we do not yet understand. The Church reminds us that our love for animals belongs within a greater love for God and for people (CCC 2418). May these days leave us more tender toward every person and creature we meet.",
+      "prayer": "Lord, on this ninth day we thank You for staying with us through every hour of this novena, for every grace, seen and unseen, and for N., Your creature and our companion. Thank you, Our Lady, Health of the Sick, St. Francis, St. Anthony the Abbot and St. Martin de Porres, for carrying our prayers to Jesus. Lord, we place N. and ourselves in Your hands. Your compassion is over all that You have made; let Your will be done in all things.",
+      "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+    }
+  ]
+}

@@ -65,6 +65,7 @@ Two phases, so the new name can go live before the domain exists:
 | `spiritual-dryness` | When God Seems Silent | Our Lady of Solitude, St. Jane Frances de Chantal, St. Francis de Sales, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 | `safe-travels` | Safe Travels | Our Lady of Peace and Good Voyage, St. Raphael, St. Joseph, St. Frances Xavier Cabrini (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
 | `peace-in-the-family` | Peace in the Family | Our Lady, Queen of Families, St. Joseph, St. Monica, St. Rita of Cascia (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
+| `sick-pet` | A Sick Pet | Our Lady, Health of the Sick, St. Francis of Assisi, St. Anthony the Abbot, St. Martin de Porres (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
 
 ## Decisions and rules
 
@@ -303,6 +304,13 @@ Two phases, so the new name can go live before the domain exists:
 - Arc: Psalm 121:1–2, Hebrews 11:8 (Genesis 12:1 opens a quote closing at 12:3), Tobit 5:4–6, Luke 24:15–16, Mark 4:39–40, Jeremiah 29:7, Colossians 2:5, Matthew 2:19–21, Psalm 121:7–8; epigraph Psalm 91:11, closing Proverbs 3:5–6. Verified against the RSVCE files of `andrewheekin/obsidian-holy-bible` (`sources.md`).
 - Day pictures, none used elsewhere on the site: Friedrich, Molnár, Pollaiuolo, Führich, Delacroix (Walters), Alma-Tadema (stretch, Genesis 41), Sacchi, Tissot, Bouguereau (stretch, Tobit 11). PDF 5 pages. Independent Catholic review applied (`review.md`).
 - Learned: when the Commons API answers "too many requests", `commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=…` still lists file names, and upload.wikimedia.org downloads go through after a short wait.
+
+### 2026-11-25 (sick pet novena)
+- **New novena `sick-pet`, "Novena for a Sick Pet"** (Chav: healing of a pet or animals in general; chose a sick pet, written for any animal in our care, farm animals included). Category `healing`, order 20, card icon `paw-print` (new `tools/icons/paw-print.svg`, Phosphor regular from raw.githubusercontent.com; unpkg and jsDelivr are blocked here). Intercessors: Our Lady, Health of the Sick (face reused, Sassoferrato), St. Francis of Assisi (portrait reused), St. Anthony the Abbot (Puccio di Simone, 1353), St. Martin de Porres (Vermeiren engraving, Rijksmuseum, CC0). Martin's line is "Friend of the sick, the poor & animals" (he is not an established patron of animals).
+- Never promises healing, never says pets go to heaven; Day 8 frees from guilt anyone who made a hard choice for their animal; a tip keeps love for animals in balance (CCC 2416–2418, paraphrased). Legends (Gubbio wolf, Anthony's lions) left out.
+- Arc: 1 Peter 5:7, Genesis 1:25, Luke 12:6, Matthew 6:26, Sirach 38:4, Luke 10:34, Isaiah 40:11, Psalm 34:18, Psalm 145:9; epigraph Job 12:10, closing Psalm 118:1. All checked with tools/check_verses.py.
+- Day pictures, none used elsewhere: Dürer's Praying Hands, Tintoretto's Creation of the Animals, the Assisi Sermon to the Birds, Velázquez's raven with bread (detail), Fra Angelico's Healing of Palladia, Tissot's Good Samaritan, Shields' Good Shepherd, Giotto's Death of St Francis, Hicks' Peaceable Kingdom (stretch, Isaiah 11, cropped to the lion and lambs). PDF 5 pages, 9.49pt.
+- Built as a test of the leaner setup (from the "Measure token cost" thread): Sonnet helpers for saint research and pictures, a fresh Opus writer at medium effort, one Opus review of text and pictures before the preview (2 must-fix: an opening-prayer typo and a Day 9 crop that didn't match its caption). Usage to preview about $8.10; the coordinating thread's large memory was the main cost, so the next build should run in a fresh thread.
 
 ### 2026-11-25 (Add to home screen)
 - Chav asked for an install button. The site was already an installable web app (manifest, icons, offline sw.js; Chrome reported no install errors); now people are told. One shared button, `templates/install.js`, inlined on every site page by `install_kit()` via `site_footer(install=True)` (site mode only; one-file previews untouched).
