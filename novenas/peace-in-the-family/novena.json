@@ -1,0 +1,234 @@
+{
+  "slug": "peace-in-the-family",
+  "storageKey": "novena-peace-in-the-family",
+  "status": "draft",
+  "order": 21,
+  "category": "family",
+  "title": "Novena for Peace in the Family",
+  "cardTitle": "Peace in the Family",
+  "icon": "users-three",
+  "barTitle": "Peace in the Family",
+  "barShort": "Family Peace",
+  "kicker": "9 days of prayer for peace at home",
+  "card": "For homes strained by conflict between spouses, parents and children, or siblings: 9 days asking God for healing, forgiveness and peace.",
+  "ogDescription": "9 days of prayer for peace in the family, through Our Lady, St. Joseph, St. Monica and St. Rita.",
+  "description": "A 9-day Catholic novena for peace in the family, in marriage, between parents and children and among siblings, through St. Joseph, St. Monica and St. Rita.",
+  "keywords": [
+    "peace in the family",
+    "family peace",
+    "family conflict",
+    "family problems",
+    "reconciliation",
+    "forgiveness",
+    "marriage",
+    "marriage problems",
+    "difficult marriage",
+    "husband and wife",
+    "spouse",
+    "parents and children",
+    "estranged child",
+    "prodigal son",
+    "siblings",
+    "brothers and sisters",
+    "family feud",
+    "anger",
+    "arguments",
+    "healing family wounds",
+    "Holy Family",
+    "queen of families",
+    "st. joseph",
+    "st. monica",
+    "st. rita",
+    "kapayapaan sa pamilya",
+    "pamilya",
+    "pag-aasawa",
+    "magkakapatid",
+    "pagpapatawad",
+    "away sa pamilya"
+  ],
+  "ogSaints": [
+    "monica",
+    "rita"
+  ],
+  "epigraph": {
+    "text": "Behold, how good and pleasant it is when brothers dwell in unity!",
+    "ref": "Psalm 133:1"
+  },
+  "closingVerse": {
+    "text": "The LORD bless you and keep you: / The LORD make his face to shine upon you, and be gracious to you: / The LORD lift up his countenance upon you, and give you peace.",
+    "ref": "Numbers 6:24–26"
+  },
+  "printTitle": [
+    "Novena for Peace",
+    "in the Family"
+  ],
+  "printClosing": [
+    "The LORD bless you and keep you: The LORD make his face to shine upon you, and be gracious to you:",
+    "The LORD lift up his countenance upon you, and give you peace."
+  ],
+  "saints": [
+    {
+      "id": "joseph",
+      "name": "St. Joseph",
+      "dates": "1st century",
+      "feast": "Feasts · Mar 19 & May 1",
+      "patron": "Patron of families",
+      "bio": "Husband of Mary and foster father of Jesus. He protected the Holy Family through danger, exile and daily work. Pius IX named him Patron of the Universal Church in 1870.",
+      "alt": "Painting: St. Joseph holding the Infant Jesus, by Guido Reni",
+      "openingRole": "guardian of the Holy Family"
+    },
+    {
+      "id": "monica",
+      "name": "St. Monica",
+      "dates": "c. 331–387",
+      "feast": "Feast · Aug 27",
+      "patron": "Patron of mothers & wives",
+      "bio": "Mother of St. Augustine. Married to Patricius, a man quick to anger, she brought peace to her home by patience and gentle words, and prayed for years for her son’s conversion.",
+      "alt": "Painting: St. Monica in a white veil, hands clasped in prayer, by Luis Tristán",
+      "openingRole": "who brought peace to her home by patience"
+    },
+    {
+      "id": "rita",
+      "name": "St. Rita of Cascia",
+      "dates": "c. 1381–1457",
+      "feast": "Feast · May 22",
+      "patron": "Patron of difficult marriages",
+      "bio": "Tradition says she was married about 18 years to a man of hard temper. When he was murdered, she forgave his killers and worked to reconcile the feuding families, then became an Augustinian nun.",
+      "alt": "Painting: St. Rita of Cascia, from her 15th-century coffin",
+      "openingRole": "who forgave and worked to reconcile"
+    }
+  ],
+  "litany": [
+    {
+      "img": "mary",
+      "text": "Our Lady, Queen of Families"
+    },
+    {
+      "img": "joseph",
+      "text": "St. Joseph"
+    },
+    {
+      "img": "monica",
+      "text": "St. Monica"
+    },
+    {
+      "img": "rita",
+      "text": "St. Rita of Cascia"
+    }
+  ],
+  "openingPrayer": "Heavenly Father, You placed us in families so that we might learn to love. You see the hurts in our home: harsh words, long silences, and old wounds between husband and wife, parents and children, brothers and sisters. We cannot mend them by ourselves. Give us Your peace, soften our hearts, and teach us to forgive. Today we ask Our Lady, Queen of Families; St. Joseph, guardian of the Holy Family; St. Monica, who brought peace to her home by patience; and St. Rita, who forgave and worked to reconcile, to join their prayers with ours, through Christ our Lord.",
+  "closingPrayer": "Lord Jesus, You grew up in the home of Mary and Joseph at Nazareth. Make our home a place of Your peace: heal what is wounded, soften what is hard, and keep us united in Your love.",
+  "memorare": {
+    "to": "Mary"
+  },
+  "tips": [
+    {
+      "h": "Praying with others",
+      "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+    },
+    {
+      "h": "Alongside prayer",
+      "p": "If you can, go to Confession and attend Mass during these 9 days, receiving Communion together where possible. Share a family meal without screens, or pray a decade of the Rosary together. Take one prudent step, such as seeing a Catholic counselor or contacting Retrouvaille or your parish family ministry. Reconciliation is God’s work, and it also depends on the other person’s freedom; we can only do our part (Day&nbsp;8)."
+    },
+    {
+      "h": "If home is not safe",
+      "p": "Peace never means staying in danger. Abuse is never God’s will, forgiveness never requires staying in harm’s way, and enduring abuse in silence is not holiness. Reach out to people you trust, to your parish, and to the local authorities, or call emergency services if you are in danger. The Church allows spouses to separate in such cases (CCC 2383). Where there is abuse, couples counseling is not a safe first step; seek a counselor trained in domestic abuse."
+    }
+  ],
+  "intentionPlaceholder": "Write the names of those you pray for, and the peace you ask for your family.",
+  "icons": [
+    "heart-break",
+    "bird",
+    "chat-circle-text",
+    "footprints",
+    "hand-heart",
+    "door-open",
+    "wine",
+    "shield-check",
+    "sun-horizon"
+  ],
+  "credits": "Images: Guido Reni, <em>St Joseph with the Infant Jesus</em>, c. 1635, Hermitage Museum · Luis Tristán, <em>St Monica</em>, 1616, Museo del Prado · Portrait of St Rita on her first coffin, c. 1457, Basilica of St Rita, Cascia (photo: Claudio Roscini) · Bartolomé Esteban Murillo, <em>The Rest on the Flight into Egypt</em> (detail), 17th century. Public domain, via Wikimedia Commons.",
+  "days": [
+    {
+      "title": "Honest About the Hurt",
+      "ref": "Luke 2:48",
+      "verse": "And when they saw him they were astonished; and his mother said to him, “Son, why have you treated us so? Behold, your father and I have been looking for you anxiously.”",
+      "refl": "After three days of searching, Mary speaks honestly to her twelve-year-old Son: “Your father and I have been looking for you anxiously.” Even in the Holy Family there was a day of fear, confusion and an answer they did not understand. Jesus had done nothing wrong, yet the misunderstanding was real. Our homes know misunderstanding too, often mixed with real fault: harsh words, long silences, old wounds. We begin these nine days by naming the hurt honestly before God, without pretending, blaming or giving up.",
+      "more": "St. Joseph searched those three days beside Mary. The Gospels record no word of his, only his presence: he went back to Jerusalem, looked, worried and stayed close. The Litany of St. Joseph calls him “Glory of family life” and “Cornerstone of families,” not because his home was spared all trouble, but because he remained faithful within it. He can teach us to stay present to one another when home is hard.",
+      "prayer": "Heavenly Father, You see our family as it is, with its love and its wounds. We bring You the hurt between us: the words we regret, the silences that have grown, the misunderstandings we cannot untangle. We do not hide our own part or pretend that all is well. St. Joseph, who searched with Mary in sorrow, pray for us. Give us honest hearts, free of blame and despair, and the hope that You can begin to heal what we cannot.",
+      "step": "Write down, for God alone, what hurts most in your family right now, including your own part in it."
+    },
+    {
+      "title": "Not as the World Gives",
+      "ref": "John 14:27",
+      "verse": "Peace I leave with you; my peace I give to you; not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.",
+      "refl": "Jesus spoke these words at the Last Supper, hours before His Passion. The peace He gives is not the world’s peace: not the quiet of avoiding each other, not a truce kept by never speaking of what hurts, not one side simply winning. His peace is His own presence, which can rest in a heart even while trouble remains. Before we can bring peace to our home, we need to receive it ourselves. Today we let Him calm our troubled and fearful hearts.",
+      "more": "The Church teaches that peace is “the tranquillity of order,” the work of justice and the effect of charity (CCC 2304). It is more than the absence of conflict; it grows where each person is respected and loved. At every Mass, before the Sign of Peace, the priest recalls these words of Jesus and asks Him to grant His Church peace and unity. We can carry that same prayer home to our own family.",
+      "prayer": "Lord Jesus, You left us Your peace on the night before You died. We confess that we often settle for the world’s peace: avoiding hard conversations, keeping score, or wanting to win. Give us Your own peace, which the world cannot give or take away. Calm our anxious hearts, quiet our fears for those we love, and make us bearers of Your peace in our home. Mary, Queen of Families, pray for us.",
+      "step": "Sit quietly for five minutes today, pray slowly, “Jesus, give me Your peace,” and offer Him each member of your family by name."
+    },
+    {
+      "title": "A Soft Answer",
+      "ref": "Proverbs 15:1",
+      "verse": "A soft answer turns away wrath, / but a harsh word stirs up anger.",
+      "refl": "The proverb is simple, and anyone who has lived in a family knows it is true. A harsh word lands like a spark on dry wood, and soon both sides are burning. A soft answer does not mean pretending nothing is wrong; it means choosing our moment and our tone so that the truth can be heard. Often the wisest word is the one we wait to say until tempers have cooled. Today we ask for the grace to guard our tongues, to listen first, and to speak gently.",
+      "more": "St. Augustine wrote that his father Patricius, “as he was earnest in friendship, so was he violent in anger.” St. Monica did not argue while he was angry; once he had calmed down, she explained her reasons (Confessions 9.9). She won over a hostile mother-in-law by patience, and between quarreling people she repeated only what might help them make peace. Her gentleness was wisdom, not silence, and never a duty to endure harm.",
+      "prayer": "Lord, You know how quickly harsh words rise in us and how much harm they do. Set a guard over our mouths. Teach us to wait until anger cools, to listen before we answer, and to speak the truth with gentleness. Where we have wounded others with our words, give us the humility to apologize. St. Monica, whose patience brought peace to a troubled home, pray for us, that our words may build up and not tear down.",
+      "step": "When you feel anger rising today, pause and pray before you answer. If a hard conversation is needed, choose a calm moment for it."
+    },
+    {
+      "title": "The First Step",
+      "ref": "Genesis 33:4",
+      "verse": "But Esau ran to meet him, and embraced him, and fell on his neck and kissed him, and they wept.",
+      "refl": "Jacob had cheated his brother Esau and fled. Twenty years later he came home afraid, sending gifts ahead and bowing low as he drew near. But Esau ran to meet him, embraced him and kissed him, and they wept. Wounds between brothers and sisters can last for decades: an inheritance, a favorite child, words said at a funeral. Someone has to take the first step. Today we ask God for the courage to be that person, and the humility to welcome anyone who comes toward us.",
+      "more": "The Bible is honest about brothers: Cain and Abel, Jacob and Esau, Joseph and the brothers who sold him into slavery. Yet it also shows reconciliation. Years after their betrayal, Joseph wept with his brothers and told them, “As for you, you meant evil against me; but God meant it for good” (Genesis 50:20). God can bring good even out of family wounds that seem permanent, though His timing is rarely ours.",
+      "prayer": "God of reconciliation, You brought Jacob and Esau together after years of fear and hurt. We bring You the divisions between brothers and sisters in our family, and every relationship where pride or old wounds keep us apart. Give us the courage to take the first step, and the grace to welcome anyone who takes it toward us. Where reconciliation is not yet possible, keep our hearts free of bitterness. Mary, Queen of Families, pray for us.",
+      "step": "Take one small step toward a family member you are distant from: a short message, a call, or a prayer for them by name."
+    },
+    {
+      "title": "Seventy Times Seven",
+      "ref": "Matthew 18:21–22",
+      "verse": "Then Peter came up and said to him, “Lord, how often shall my brother sin against me, and I forgive him? As many as seven times?” Jesus said to him, “I do not say to you seven times, but seventy times seven.”",
+      "refl": "Peter thought seven times was generous. Jesus answered, “seventy times seven,” which means without counting. In a family the same faults return: the same forgetfulness, the same sharp remark, the same old argument, and it is tempting to keep a ledger. Forgiveness does not mean saying the hurt did not matter, that nothing needs to change, or that we must stay in harm’s way. It means letting go of the debt and the wish to make the other pay, again and again, as God forgives us. This is hard, and we need His grace.",
+      "more": "Tradition says St. Rita was married for about eighteen years to Paolo Mancini, a man of hard temper. When he was murdered, she publicly forgave his killers and prayed that her two sons would not take revenge. In a time and place where feuds passed from father to son, she chose to break the chain. Her forgiveness did not deny the wrong; it refused to let the wrong rule her family.",
+      "prayer": "Merciful Father, You forgive us more times than we can count. Teach us to forgive as You forgive. When the same hurt comes again, keep us from bitterness and from keeping score. Help us let go of the wish to make others pay, while still seeking what is just and right. Heal the wounds we carry. St. Rita, remembered for forgiving the men who killed her husband, pray for us, that forgiveness may break every chain of resentment in our home.",
+      "step": "Name one hurt you still hold against a family member, and tell God, “I choose to forgive. Help me mean it.”"
+    },
+    {
+      "title": "Keeping the Door Open",
+      "ref": "Luke 15:20",
+      "verse": "And he arose and came to his father. But while he was yet at a distance, his father saw him and had compassion, and ran and embraced him and kissed him.",
+      "refl": "The father in the parable must have watched the road many times before the day his son appeared. He did not drag him back from the far country, and he did not stop hoping. When the son came, he ran. Parents and children often wound each other: a child who leaves the faith or the family, a parent who will not listen, years of distance. We cannot force anyone’s heart. But we can keep the door open, keep praying, and be ready to run when the moment comes.",
+      "more": "St. Monica prayed and wept for years while her son went his own way. When she begged a bishop to speak with Augustine, he declined but told her, “It is not possible that the son of these tears should perish” (Confessions 3.12). When Augustine finally turned to God, he wrote that she “leaps for joy, and triumphs, and blesses You” (Confessions 8.12). Her long waiting was not wasted.",
+      "prayer": "Father, You wait for each of us with patience and run to meet us when we turn toward home. We bring You the wounds between parents and children in our family. Where we have failed to listen, forgive us; where others have hurt us, help us forgive. Give us patient hope for those who are far away, and keep our hearts open, and our door too, as far as is wise and safe. St. Monica, whose tears You did not forget, pray for us.",
+      "step": "Pray today by name for a parent or child you are distant from, and do one kind thing that keeps the door open."
+    },
+    {
+      "title": "When the Wine Runs Out",
+      "ref": "John 2:3–5",
+      "verse": "When the wine failed, the mother of Jesus said to him, “They have no wine.” And Jesus said to her, “O woman, what have you to do with me? My hour has not yet come.” His mother said to the servants, “Do whatever he tells you.”",
+      "refl": "At a wedding feast in Cana, the wine ran out, an embarrassment for a young couple. Mary noticed, brought the need to Jesus, and told the servants, “Do whatever he tells you.” In many marriages the wine runs out too: tenderness fades, conversations shrink to schedules, resentment builds quietly. Bringing that emptiness to Jesus is not a sign of failure. He who turned water into wine can renew a love that seems to have run dry, often through small, faithful acts done at His word.",
+      "more": "Mary did not lecture the couple or try to fix the problem herself. She simply told Jesus, “They have no wine,” and pointed the servants to Him. In 1995, St. John Paul II added the title “Queen of families” to the Litany of Loreto. As a mother who notices what is missing, she still brings our needs to her Son, and she still tells us to do whatever He says.",
+      "prayer": "Lord Jesus, at Cana You blessed a wedding and turned water into wine. We bring You every marriage in our family, especially those where love has grown tired, words have grown cold, or hurts have piled up. Renew the love You first gave. Help husbands and wives to listen, to forgive and to choose each other again. Mary, Queen of Families, you noticed when the wine ran out; tell your Son of our need.",
+      "step": "If you are married and it is safe, do one small act of tenderness for your spouse today. If not, pray by name for a marriage in your family."
+    },
+    {
+      "title": "Doing Our Part",
+      "ref": "Romans 12:17–18",
+      "verse": "Repay no one evil for evil, but take thought for what is noble in the sight of all. If possible, so far as it depends upon you, live peaceably with all.",
+      "refl": "St. Paul is realistic: “If possible, so far as it depends upon you, live peaceably with all.” Sometimes peace is not yet possible, because it takes more than one willing heart. We can refuse to repay evil for evil, do what is noble and keep the door open, but we cannot control another person’s choices. Peace is not pretending, and it never means keeping quiet while someone is being harmed. Sometimes doing our part means setting firm limits, or seeking distance and help to be safe.",
+      "more": "Tradition says that after her husband’s death, St. Rita did not simply wait for peace to come. She worked to reconcile the feuding families before entering the Augustinian monastery in Cascia, where she died in 1457. Her peacemaking was persistent and active, never passive. Doing our part may mean speaking up, asking for help, or stepping back to keep ourselves and others safe, and then trusting God with the rest.",
+      "prayer": "Lord, You know what is in our power and what is not. Give us the grace to do our part for peace: to refuse revenge, to speak honestly, to forgive, and to keep the door open. Free us from blaming ourselves for choices that belong to others. Where there is danger, give us the courage to seek safety and help. St. Rita, persistent peacemaker, pray for us, and help us leave the rest in God’s hands.",
+      "step": "Ask yourself honestly what one thing truly depends on you. Do it today, and give the rest to God."
+    },
+    {
+      "title": "Gratitude & Surrender",
+      "ref": "Colossians 3:15",
+      "verse": "And let the peace of Christ rule in your hearts, to which indeed you were called in the one body. And be thankful.",
+      "refl": "St. Paul ends with a simple command: “And be thankful.” Gratitude changes how we see our family. Alongside the hurts there are gifts we may have stopped noticing: a meal shared, a kind word, a phone call, the people who stayed. Nine days rarely heal years of wounds, and reconciliation depends on each person’s freedom; if peace has not yet come, it is not a sign that our prayer failed. We end these nine days by thanking God for every grace, and by letting the peace of Christ, not our fears, rule in our hearts.",
+      "more": "Looking back, we may notice small signs: a softer word, an apology, a moment of laughter, a little more patience in ourselves. With Mary, Queen of Families, St. Joseph, St. Monica and St. Rita, we place our family in God’s hands. Their own families knew hardship and sorrow, yet God worked through their faithfulness. We do not know how our story will unfold, but we know that He is with us.",
+      "prayer": "Lord, on this ninth day we thank You for our family, for every grace, seen and unseen, and for walking with us through these nine days. Thank you, Mary, Queen of Families, St. Joseph, St. Monica and St. Rita, for carrying our prayers to Jesus. We place every member of our family, our wounds and our hopes in Your hands. Let Your peace rule in our hearts, and let Your will be done.",
+      "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+    }
+  ]
+}
