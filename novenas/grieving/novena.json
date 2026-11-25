@@ -1,0 +1,243 @@
+{
+ "slug": "grieving",
+ "storageKey": "novena-grieving",
+ "status": "draft",
+ "order": 22,
+ "category": "departed",
+ "title": "Novena for Those Grieving a Loved One",
+ "cardTitle": "Those Grieving a Loved One",
+ "icon": "heart-break",
+ "barTitle": "Grieving a Loved One",
+ "barShort": "Grief Novena",
+ "kicker": "9 days of prayer for those who mourn",
+ "card": "For anyone mourning someone they love, a spouse, parent, child or friend: 9 days of prayer for comfort, hope and the one who died.",
+ "ogDescription": "9 days of prayer for those who grieve a loved one, through Our Lady of Sorrows, St. Martha, St. Augustine and Mother Seton.",
+ "description": "A 9-day Catholic novena for those grieving a loved one, for comfort and for their soul, through Our Lady of Sorrows, St. Martha, St. Augustine and Mother Seton.",
+ "keywords": [
+  "grief",
+  "grieving",
+  "mourning",
+  "bereavement",
+  "loss of a loved one",
+  "death",
+  "funeral",
+  "widow",
+  "widower",
+  "loss of a spouse",
+  "loss of a parent",
+  "loss of a child",
+  "miscarriage",
+  "stillbirth",
+  "infant loss",
+  "suicide loss",
+  "sudden death",
+  "prayer for the dead",
+  "prayer for the deceased",
+  "souls in purgatory",
+  "eternal rest",
+  "mass for the dead",
+  "all souls",
+  "comfort",
+  "hope",
+  "pagdadalamhati",
+  "pagluluksa",
+  "namatayan",
+  "yumao",
+  "kaluluwa",
+  "our lady of sorrows",
+  "mater dolorosa",
+  "st. martha",
+  "st. augustine",
+  "st. monica",
+  "elizabeth ann seton"
+ ],
+ "ogSaints": [
+  "martha",
+  "seton"
+ ],
+ "epigraph": {
+  "text": "Blessed are those who mourn, for they shall be comforted.",
+  "ref": "Matthew 5:4"
+ },
+ "closingVerse": {
+  "text": "He will swallow up death for ever, and the Lord GOD will wipe away tears from all faces, and the reproach of his people he will take away from all the earth; for the LORD has spoken.",
+  "ref": "Isaiah 25:8"
+ },
+ "printTitle": [
+  "Novena for Those Grieving",
+  "a Loved One"
+ ],
+ "printClosing": [
+  "He will swallow up death for ever, and the Lord GOD will wipe away tears from all faces,",
+  "and the reproach of his people he will take away from all the earth; for the LORD has spoken."
+ ],
+ "saints": [
+  {
+   "id": "martha",
+   "name": "St. Martha",
+   "dates": "1st century",
+   "feast": "Feast · Jul 29",
+   "patron": "Patron of servants & hospitality",
+   "bio": "Sister of Mary and Lazarus of Bethany, whom Jesus loved. When Lazarus died, she went out to meet Jesus, heard Him say “I am the resurrection and the life,” and confessed Him as the Christ.",
+   "alt": "Painting: St. Martha bringing a basket of bread to Jesus, by Vermeer",
+   "openingRole": "who believed Jesus is the resurrection"
+  },
+  {
+   "id": "augustine",
+   "name": "St. Augustine of Hippo",
+   "dates": "354–430",
+   "feast": "Feast · Aug 28",
+   "patron": "Doctor of the Church",
+   "bio": "Son of St. Monica. When she died at Ostia in 387, he first held back his tears, then wept for her before God, and asked his readers to remember her at the Lord’s altar.",
+   "alt": "Painting: St. Augustine as a bishop, by Justus of Ghent",
+   "openingRole": "who wept for his mother and prayed for her soul"
+  },
+  {
+   "id": "seton",
+   "name": "St. Elizabeth Ann Seton",
+   "dates": "1774–1821",
+   "feast": "Feast · Jan 4",
+   "patron": "First native-born American saint",
+   "bio": "New York wife and mother, widowed at 29 when her husband died of tuberculosis. She became Catholic, founded the Sisters of Charity, and later buried two of her daughters.",
+   "alt": "Engraving: Elizabeth Seton in profile, her curled hair tied with a ribbon, by Saint-Mémin",
+   "openingRole": "who buried her husband and two daughters"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Our Lady of Sorrows"
+  },
+  {
+   "img": "martha",
+   "text": "St. Martha"
+  },
+  {
+   "img": "augustine",
+   "text": "St. Augustine of Hippo"
+  },
+  {
+   "img": "seton",
+   "text": "St. Elizabeth Ann Seton"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You know the grief we carry since the death of N., whom we love. Some days we hardly know how to pray. We come to You with our tears, our questions and our love, trusting in Your mercy. Comfort us, give us hope, and receive N. into Your peace. Today we ask Our Lady of Sorrows, who stood by the cross of her Son; St. Martha, who believed Jesus is the resurrection; St. Augustine, who wept for his mother and prayed for her soul; and St. Elizabeth Ann Seton, who buried her husband and two daughters, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, You wept at the tomb of Your friend Lazarus. Stay close to all who mourn, grant eternal rest to those who have died, and keep us in the hope of the resurrection, until You wipe away every tear.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "How to pray it",
+   "p": "Where the prayers say “N.”, say the name of the one who died, whether a spouse, parent, child, sibling or friend, after a sudden death or a long illness. If you mourn more than one person, name each. If you are praying for someone else who grieves, name them at “Name your intention.” Grief is not a sign of weak faith: Jesus Himself wept (Day&nbsp;1)."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, have a Mass offered for the one who died (Day&nbsp;5); the Church has always prayed for her dead (CCC 958, 1032). Go to Confession, and bring there any guilt or unfinished words. Visit the grave or resting place if you can. Talk with a priest, your parish bereavement ministry or a grief counselor; there is no shame in needing help. If grief brings thoughts of harming yourself, reach out today to someone you trust or a <a href=\"https://findahelpline.com\" rel=\"noopener noreferrer\" target=\"_blank\">crisis line</a>."
+  },
+  {
+   "h": "Hard losses",
+   "p": "If the one you love took their own life, do not despair: God can give, in ways known to Him alone, the chance for repentance, and the Church prays for them (CCC 2283). If you lost a child before or after birth, even before baptism, entrust your little one to God’s mercy, as the Church does (CCC 1261). If the relationship was complicated, or words were left unsaid, bring all of it to God (Day&nbsp;8)."
+  }
+ ],
+ "intentionPlaceholder": "Write the name of the one who died, and anything you want to bring to God.",
+ "icons": [
+  "drop",
+  "bandaids",
+  "sun-horizon",
+  "hand-heart",
+  "church",
+  "sun",
+  "heart",
+  "anchor",
+  "house-line"
+ ],
+ "credits": "Images: Sassoferrato, <em>The Virgin in Prayer</em>, 17th century · Johannes Vermeer, <em>Christ in the House of Martha and Mary</em> (detail), c. 1655, Scottish National Gallery · Justus of Ghent, <em>St Augustine</em>, c. 1474, from the studiolo of Federico da Montefeltro, Urbino · Charles Balthazar Julien Févret de Saint-Mémin, <em>Elizabeth Ann Bayley Seton</em>, 1797. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Honest Tears",
+   "ref": "John 11:33–35",
+   "verse": "When Jesus saw her weeping, and the Jews who came with her also weeping, he was deeply moved in spirit and troubled; and he said, “Where have you laid him?” They said to him, “Lord, come and see.” Jesus wept.",
+   "refl": "At the tomb of His friend Lazarus, Jesus saw Mary weeping and the mourners weeping with her, and He was deeply moved. Then He wept too. He knew He was about to raise Lazarus, and still He cried. Tears at a death are not a failure of faith; the Son of God shed them. So we begin these nine days honestly, with our own tears, our numbness, our anger or our questions. We do not need to be strong before God. He is with us in our tears.",
+   "more": "Before Jesus reached the tomb, Martha went out to meet Him and said, “Lord, if you had been here, my brother would not have died” (John 11:21). It was grief and faith in a single breath, hurt and trust together. Jesus did not scold her; He stayed and spoke with her. We can bring Him the same honest words about N.",
+   "prayer": "Lord Jesus, You wept at the tomb of Your friend, and You see our tears now. We bring You our grief for N., just as it is: the sorrow, the emptiness, the questions we cannot answer, and the love that has nowhere to go. We do not hide any of it from You. St. Martha, who met Jesus with honest words, pray for us. Stay close to us in these days, and teach us to pray even when words fail.",
+   "step": "Take a few quiet minutes to tell God honestly how you feel about N.’s death, and let the tears come if they come."
+  },
+  {
+   "title": "He Binds Our Wounds",
+   "ref": "Psalm 147:3",
+   "verse": "He heals the brokenhearted, and binds up their wounds.",
+   "refl": "The psalmist says God heals the brokenhearted and binds up their wounds. A wound that is bound is not yet healed; it is protected, cared for, given time. That is often what grief feels like. We may not be ready to feel better, and that is all right. Today we simply trust that the Lord sees the break in our hearts and is tending it, gently and patiently, even on the days we cannot feel His hand.",
+   "more": "St. Elizabeth Ann Seton was widowed at twenty-nine, when her husband died of tuberculosis, leaving her with five young children. In the years that followed, she leaned on God’s providence, became Catholic, and founded the Sisters of Charity. Her sorrow did not vanish, but God did not leave her alone in it. Healing rarely means forgetting the one we love; it means letting God tend the wound as we go on.",
+   "prayer": "Lord God, You heal the brokenhearted and bind up their wounds. Our hearts are broken by the death of N., and we cannot mend them ourselves. We place them in Your hands. Tend what hurts most, give us rest when we are weary, and be patient with us on the hard days. St. Elizabeth Ann Seton, who was widowed so young, pray for us. Help us trust that You are at work in us, even when we cannot feel it.",
+   "step": "Tell God which moment of the day is hardest for you now, and ask Him to be especially near you then."
+  },
+  {
+   "title": "I Am the Resurrection",
+   "ref": "John 11:25–26",
+   "verse": "Jesus said to her, “I am the resurrection and the life; he who believes in me, though he die, yet shall he live, and whoever lives and believes in me shall never die. Do you believe this?”",
+   "refl": "Jesus speaks these words to a grieving woman, standing outside her brother’s tomb: “I am the resurrection and the life.” Then He asks, “Do you believe this?” He does not ask her to stop grieving. He asks her to trust Him in the middle of it. Our faith does not erase death’s sorrow, but it tells us death is not the last word. We hope in the resurrection, and we entrust N. to the One who is Life itself.",
+   "more": "It was to Martha that Jesus said these words. Her brother had been dead four days, and she still answered, “Yes, Lord; I believe that you are the Christ, the Son of God” (John 11:27). She said it before Lazarus walked out of the tomb, with her grief still fresh. Our own “yes” may be quiet and shaky, and that is enough to give Him.",
+   "prayer": "Lord Jesus, You are the resurrection and the life. Standing in our grief, we hear You ask us, “Do you believe this?” Help us answer with Martha, even if our voices tremble: “Yes, Lord.” Strengthen our hope in the resurrection, and keep it alive on the days when the loss feels heavier than our faith. St. Martha, pray for us. We entrust N. to Your mercy, and we place our hope in You.",
+   "step": "Read John 11:17–27 slowly, and answer Jesus’ question in your own words: “Do you believe this?”"
+  },
+  {
+   "title": "Mary Beside Us",
+   "ref": "John 19:26–27",
+   "verse": "When Jesus saw his mother, and the disciple whom he loved standing near, he said to his mother, “Woman, behold, your son!” Then he said to the disciple, “Behold, your mother!” And from that hour the disciple took her to his own home.",
+   "refl": "Standing near the cross, Mary watched her Son die. In that hour Jesus gave her to the disciple He loved, and gave the disciple to her: “Behold, your mother!” From the cross, Jesus made sure no one would be left alone, not His mother and not His friend. We are that disciple now. When grief makes us feel alone, we can take Mary into our home, as he did, and let a mother who knows sorrow stay beside us.",
+   "more": "The Church honors Mary as Our Lady of Sorrows and remembers her Seven Sorrows, from Simeon’s prophecy that a sword would pierce her soul to the burial of her Son. She knows what it is to watch someone she loves die, to hold a body that has died, and to walk home from a grave. She does not hurry us. She simply stays, as she stayed at the cross.",
+   "prayer": "Lord Jesus, from the cross You gave us Your mother to be our mother. We take her into our home today, into our grief and our loneliness. Our Lady of Sorrows, you stood by the cross and held your Son in death; stand by us now. Hold N. in your prayers, and hold us too. When the house feels empty and the nights are long, let us know we are not alone, and lead us always back to Jesus.",
+   "step": "Pray one Hail Mary slowly for everyone who is grieving today, and ask Mary to stay close to you as she stayed at the cross."
+  },
+  {
+   "title": "Praying for Our Dead",
+   "ref": "2 Maccabees 12:44–45",
+   "verse": "For if he were not expecting that those who had fallen would rise again, it would have been superfluous and foolish to pray for the dead. But if he was looking to the splendid reward that is laid up for those who fall asleep in godliness, it was a holy and pious thought. Therefore he made atonement for the dead, that they might be delivered from their sin.",
+   "refl": "Judas Maccabeus prayed and made atonement for his fallen soldiers, because he hoped they would rise again. Scripture calls it “a holy and pious thought.” From its earliest days the Church has prayed for the dead, and she teaches that our prayers can help them (CCC 958). Love does not stop at death. We can still do something for N.: pray for them, have Masses offered for them, and commend them to God’s mercy. If they still need the final purification the Church calls purgatory, our prayer can help them (CCC 1030–1032).",
+   "more": "As St. Monica lay dying at Ostia, she asked for only one thing: “remember me at the Lord’s altar, wherever you be” (Confessions 9.11). St. Augustine did. In his Confessions he prayed, “Forgive her, O Lord,” and asked all his readers to remember her at the altar. Prayer for the dead is love that keeps on giving. Our prayer for N. joins that long chain of love.",
+   "prayer": "Heavenly Father, from the beginning Your Church has prayed for the dead. We pray now for N. Forgive their sins, heal what was left unfinished, and bring them into the light of Your face. Accept every Mass, prayer and sacrifice we offer for them. St. Augustine, who remembered your mother at the altar, pray for us. Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May they rest in peace.",
+   "step": "Arrange to have a Mass offered for N. at your parish, or pray the Eternal Rest prayer for N. several times today."
+  },
+  {
+   "title": "Grieving with Hope",
+   "ref": "1 Thessalonians 4:13–14",
+   "verse": "But we would not have you ignorant, brethren, concerning those who are asleep, that you may not grieve as others do who have no hope. For since we believe that Jesus died and rose again, even so, through Jesus, God will bring with him those who have fallen asleep.",
+   "refl": "St. Paul does not tell the Thessalonians not to grieve. He tells them not to grieve “as others do who have no hope.” Christian grief is still grief; it aches and weeps and misses. But underneath it runs a hope: Jesus died and rose again, and God will bring with Him those who have fallen asleep. Today we let both be true in us at once, the real sorrow and the real hope, without forcing either one away.",
+   "more": "When St. Monica died, St. Augustine forced back his tears in front of others. A bath brought him no relief. Later, alone, he let himself weep and wrote that “it was pleasant to me to weep in Your sight, for her and for me” (Confessions 9.12). The future bishop and great teacher of the faith still needed to cry for his mother. His tears were not weak faith; they were love.",
+   "prayer": "Lord, You do not ask us to stop grieving, only to grieve with hope. Thank You for the hope You give us in the death and rising of Your Son. Hold our sorrow and our hope together, and do not let either crush the other. St. Augustine, who wept for your mother in God’s sight, pray for us. Let our tears be prayers, and keep our eyes on the day when You will raise the dead.",
+   "step": "Share one good memory of N. with someone who loved them too, or write it down and thank God for it."
+  },
+  {
+   "title": "Not Forgotten",
+   "ref": "Isaiah 49:15",
+   "verse": "Can a woman forget her sucking child, that she should have no compassion on the son of her womb? Even these may forget, yet I will not forget you.",
+   "refl": "Through Isaiah, God asks whether a mother could forget her nursing child, then answers: even if she could, “I will not forget you.” God holds each person in His memory, the living and the dead. N. is not forgotten by Him, and neither are we. If we have lost a child, even one who died before birth or before baptism, the Church entrusts that little one to the mercy of God, who loves children tenderly (CCC 1261). We may do the same.",
+   "more": "Years after her husband’s death, St. Elizabeth Ann Seton buried two of her daughters, Anna Maria and then Rebecca. Few sorrows cut as deep as a parent’s. She carried that grief as a mother and as a woman of faith, entrusting her girls to the God who forgets no one. Whatever our loss, we can bring our child, our parent, our friend to the same God.",
+   "prayer": "Heavenly Father, You never forget any of Your children. You remember N. by name, and You remember us in our sorrow. When we fear that memories will fade or that no one else remembers, hold us in Your faithful love. We entrust to Your mercy every child who died too soon. St. Elizabeth Ann Seton, who buried two of her daughters, pray for us. Keep N. safe in Your mercy.",
+   "step": "Write N.’s name somewhere you will see it each day, as a reminder that God does not forget, and pray for them when you see it."
+  },
+  {
+   "title": "Nothing Can Separate Us",
+   "ref": "Romans 8:38–39",
+   "verse": "For I am sure that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.",
+   "refl": "St. Paul lists everything that seems strong enough to come between us and God: death, life, angels, powers, things present and things to come. None of it, he says, can separate us from the love of God in Christ Jesus. Death is real, and it hurts. But it is not stronger than God’s love. That love holds us who mourn, and it is the love to which we commend N. Nothing, not even death, puts us beyond His reach.",
+   "more": "Some losses carry extra weight. If the one we love took their own life, we do not despair: by ways known to Him alone, God can give the chance for repentance, and the Church prays for them (CCC 2283). If guilt lingers, or words were left unsaid, or the relationship was hard and tangled, we can bring all of it to God. His love reaches what we could not mend.",
+   "prayer": "Lord, nothing in all creation can separate us from Your love in Christ Jesus. We bring You what weighs on us most: words left unsaid, guilt that lingers, hurts that were never healed, and the hard way N. may have died. Lift what we cannot carry, and forgive where we failed. Our Lady of Sorrows, who stood by the cross, pray for us. We commend N. to Your love, which reaches further than our fears, and we ask You to hold us there with them.",
+   "step": "If something was left unsaid, write a short letter to N. and offer it to God in prayer. If guilt weighs on you, bring it to Confession."
+  },
+  {
+   "title": "Gratitude & Surrender",
+   "ref": "John 14:1–3",
+   "verse": "Let not your hearts be troubled; believe in God, believe also in me. In my Father’s house are many rooms; if it were not so, would I have told you that I go to prepare a place for you? And when I go and prepare a place for you, I will come again and will take you to myself, that where I am you may be also.",
+   "refl": "Jesus tells His friends, “Let not your hearts be troubled.” In His Father’s house there are many rooms, and He goes to prepare a place. We do not know the details, and we do not need to. We know the One who prepares it. We end these nine days with thanks for the life we shared with N.: the years, the ordinary days, the love given and received. With Our Lady of Sorrows, St. Martha, St. Augustine and St. Elizabeth Ann Seton, we place N. and ourselves in His hands.",
+   "more": "Grief does not end on the ninth day, and it is not meant to. Love lasts, and so does missing someone. But we may notice small graces: a kind word from a friend, a night of sleep, a memory that brought a smile instead of tears. These are signs that God has been with us. We can keep praying for N., at Mass and at home, for as long as we live.",
+   "prayer": "Lord, on this ninth day we thank You for the gift of N.’s life, and for every day we were given together. Thank You for staying with us through these nine days. Thank you, Our Lady of Sorrows, St. Martha, St. Augustine and St. Elizabeth Ann Seton, for carrying our prayers to Jesus. We place N. in Your merciful hands, and our grief and our future too. Give us the grace to go on living with hope, and let Your will be done.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}

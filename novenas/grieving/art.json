@@ -1,0 +1,180 @@
+{
+  "days": [
+    {
+      "file": "Giotto di Bondone - No. 25 Scenes from the Life of Christ - 9. Raising of Lazarus - WGA09204.jpg",
+      "width": 960,
+      "crop": [
+        0,
+        0.28,
+        0.66,
+        0.81
+      ],
+      "kind": "scene",
+      "artist": "Giotto di Bondone",
+      "title": "The Raising of Lazarus (Scenes from the Life of Christ)",
+      "year": "1304–06",
+      "place": "Scrovegni Chapel, Padua",
+      "alt": "Jesus, in red with a halo, speaks at the tomb of Lazarus while a woman in white kneels at His feet and mourners crowd behind.",
+      "look": "Look again at the woman bowed low at Jesus’s feet, close enough to touch Him. What tears are you afraid to let Him see?",
+      "license": "Artist died 1337; faithful photo of a 2D work (Commons: public domain, Web Gallery of Art)"
+    },
+    {
+      "file": "Vincent van Gogh - The Good Samaritan, 1890 - Google Art Project.jpg",
+      "width": 1280,
+      "crop": [
+        0.05,
+        0.17,
+        0.95,
+        0.723
+      ],
+      "kind": "stretch",
+      "artist": "Vincent van Gogh (after Eugène Delacroix)",
+      "title": "The Good Samaritan (after Delacroix)",
+      "year": "1890",
+      "place": "",
+      "passage": "Luke 10:30–35",
+      "alt": "The Samaritan lifts the wounded traveller onto his horse in a swirling blue and gold landscape.",
+      "look": "Look again at the Samaritan’s arms, taking the whole weight of the wounded man. Where do you most need to be carried right now?",
+      "license": "Artist died 1890; faithful photo of a 2D work (Commons: public domain, Google Art Project)"
+    },
+    {
+      "file": "Rembrandt Harmensz. van Rijn - The Raising of Lazarus - Google Art Project.jpg",
+      "width": 1280,
+      "crop": [
+        0,
+        0.16,
+        1,
+        0.789
+      ],
+      "kind": "scene",
+      "artist": "Rembrandt van Rijn",
+      "title": "The Raising of Lazarus",
+      "year": "c. 1630–32",
+      "place": "",
+      "alt": "Jesus stands at the mouth of the tomb with His hand raised, while Lazarus sits up in his burial cloths and onlookers lean in from the left.",
+      "look": "Look again at Jesus’s raised hand and at the onlookers leaning in. When he asks you, “Do you believe this?”, what do you want to answer?",
+      "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain, Google Art Project)"
+    },
+    {
+      "file": "Rogier van der Weyden, Netherlandish (active Tournai and Brussels) - The Crucifixion, with the Virgin and Saint John the Evangelist Mourning - Google Art Project.jpg",
+      "width": 1920,
+      "crop": [
+        0,
+        0.2,
+        0.5,
+        0.58
+      ],
+      "kind": "scene",
+      "artist": "Rogier van der Weyden",
+      "title": "Christ on the Cross with Mary and Saint John the Evangelist (left panel)",
+      "year": "c. 1460",
+      "place": "",
+      "alt": "Mary in a blue mantle sinks into John’s arms at the foot of the cross, John’s hand holding her.",
+      "look": "Look again at John’s arm around Mary. Who has been placed beside you to hold you up?",
+      "license": "Artist died 1464; faithful photo of a 2D work (Commons: public domain, Google Art Project)",
+      "full": [
+        0,
+        0,
+        0.5,
+        1
+      ]
+    },
+    {
+      "file": "Benozzo Gozzoli - Death of St Monica (scene 13, south wall) - WGA10306.jpg",
+      "width": 0,
+      "crop": [
+        0.03,
+        0.355,
+        0.76,
+        0.811
+      ],
+      "kind": "saint",
+      "artist": "Benozzo Gozzoli",
+      "title": "The Death of St Monica",
+      "year": "1464–65",
+      "place": "",
+      "alt": "Monica lies on her deathbed among praying women and friars, while Augustine, in a black habit and halo, reads prayers beside her.",
+      "look": "Look again at the mourners gathered round Monica. Whom do you want to remember at the altar of the Lord?",
+      "license": "Artist died 1497; faithful photo of a 2D work (Commons: public domain, Web Gallery of Art)",
+      "full": [
+        0.03,
+        0.13,
+        0.76,
+        0.92
+      ]
+    },
+    {
+      "file": "Duccio di Buoninsegna - The Three Marys at the Tomb - WGA06817.jpg",
+      "width": 960,
+      "crop": [
+        0,
+        0.08,
+        1,
+        0.88
+      ],
+      "kind": "stretch",
+      "artist": "Duccio di Buoninsegna",
+      "title": "The Three Marys at the Tomb (Maestà)",
+      "year": "1308–11",
+      "place": "",
+      "passage": "Mark 16:1–6",
+      "alt": "An angel sits at the open tomb and speaks to the three women who came to it in sorrow.",
+      "look": "Look again at the angel’s raised hand and the women who came to grieve. What hope would it take for you to stay and listen?",
+      "license": "Artist died c. 1318; faithful photo of a 2D work (Commons: public domain, Web Gallery of Art)"
+    },
+    {
+      "file": "The Virgin of Tenderness - Google Art Project.jpg",
+      "width": 1280,
+      "crop": [
+        0.2,
+        0.28,
+        0.8,
+        0.606
+      ],
+      "kind": "names",
+      "artist": "Unknown artist",
+      "title": "The Virgin of Tenderness",
+      "year": "c. 1340–60",
+      "place": "",
+      "alt": "Mary presses her cheek to the Child Jesus’s cheek and holds Him close, in a gold icon.",
+      "look": "Look again at the mother’s cheek against her child’s. Whom do you trust to hold what you cannot let go of?",
+      "license": "Unknown artist, 14th century; faithful photo of a 2D work (Commons: public domain, Google Art Project)"
+    },
+    {
+      "file": "Saint Paul, Rembrandt van Rijn (and Workshop?), c. 1657.jpg",
+      "width": 1280,
+      "crop": [
+        0.15,
+        0.2,
+        0.95,
+        0.678
+      ],
+      "kind": "saint",
+      "artist": "Rembrandt van Rijn (and workshop?)",
+      "title": "The Apostle Paul",
+      "year": "c. 1657",
+      "place": "National Gallery of Art, Washington",
+      "alt": "A bearded Paul rests his head on his hand, quill in the other hand, over his book.",
+      "look": "Look again at Paul’s hand pressed to his tired forehead. What do you most need to hear written down for you today?",
+      "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Brooklyn Museum - The Last Sermon of Our Lord (Dernier Sermon de Notre-Seigneur) - James Tissot.jpg",
+      "width": 0,
+      "crop": [
+        0.06,
+        0.1,
+        0.92,
+        0.9
+      ],
+      "kind": "scene",
+      "artist": "James Tissot",
+      "title": "The Last Sermon of Our Lord",
+      "year": "1886–94",
+      "place": "Brooklyn Museum",
+      "alt": "Jesus stands at the centre of a room, speaking to the apostles gathered around him.",
+      "look": "Look again at the apostles drawn close around him. What would you ask him about the place he has prepared?",
+      "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain, Brooklyn Museum)"
+    }
+  ]
+}
