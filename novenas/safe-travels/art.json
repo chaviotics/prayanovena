@@ -1,0 +1,168 @@
+{
+ "days": [
+  {
+   "file": "Friedrich, Caspar David - Morgen im Riesengebirge.jpg",
+   "width": 1280,
+   "crop": [
+    0.14,
+    0.02,
+    0.984,
+    0.98
+   ],
+   "kind": "names",
+   "artist": "Caspar David Friedrich",
+   "title": "Morning in the Riesengebirge",
+   "year": "1810–11",
+   "place": "",
+   "alt": "A small cross stands on a rocky peak above layer after layer of blue hills in the soft light of dawn.",
+   "look": "Look again at the small cross on the rock, high above the hills. Where are your eyes resting as this journey begins?",
+   "license": "Artist died 1840; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Molnár Ábrahám kiköltözése 1850.jpg",
+   "width": 1280,
+   "crop": [
+    0.1,
+    0.08,
+    0.95,
+    0.813
+   ],
+   "kind": "scene",
+   "artist": "József Molnár",
+   "title": "Abraham’s Journey from Ur to Canaan",
+   "year": "1850",
+   "place": "",
+   "alt": "Abraham, white-bearded in a white turban and mantle, walks ahead with two boys, his household riding camels behind him with their flocks.",
+   "look": "Look again at Abraham’s steady face as he leads his household into the unknown. What would it mean for you to take the next step in trust?",
+   "license": "Artist died 1899; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Antonio Pollaiuolo 006.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.07,
+    1,
+    0.5315
+   ],
+   "kind": "scene",
+   "artist": "Antonio and Piero del Pollaiuolo",
+   "title": "Tobias and the Angel",
+   "year": "c. 1465",
+   "place": "Galleria Sabauda, Turin",
+   "alt": "The winged Archangel Raphael walks hand in hand with young Tobias, dressed as a traveler in a red cape and cap.",
+   "look": "Look again at Tobias’s hand held in the angel’s. Who has God sent to walk beside you without your noticing?",
+   "license": "Artists died 1498 and c. 1496; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Joseph von Führich 001.jpg",
+   "width": 1280,
+   "crop": [
+    0.05,
+    0,
+    0.955,
+    1
+   ],
+   "kind": "scene",
+   "artist": "Joseph von Führich",
+   "title": "The Walk to Emmaus",
+   "year": "1837",
+   "place": "",
+   "alt": "Jesus, in a red robe, walks between two disciples on a country road, one of them turned toward Him in earnest talk.",
+   "look": "Look again at Jesus walking between the two travelers at their pace. What would you tell Him on the road today?",
+   "license": "Artist died 1876; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Christ sur la mer de Galilée (Delacroix) Walters Art Museum 37.186.jpg",
+   "width": 1280,
+   "crop": [
+    0.03,
+    0.08,
+    0.88,
+    0.863
+   ],
+   "kind": "scene",
+   "artist": "Eugène Delacroix",
+   "title": "Christ on the Sea of Galilee",
+   "year": "1854",
+   "place": "Walters Art Museum, Baltimore",
+   "alt": "A small boat with torn sails is tossed on dark green waves, the frightened disciples crowding around Jesus, who sleeps in the stern.",
+   "look": "Look again at the disciples clinging to the boat while Jesus rests in the stern. What storm do you need to wake Him for today?",
+   "license": "Artist died 1863; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Joseph Overseer of Pharaoh's Graneries 1874.jpg",
+   "width": 0,
+   "crop": [
+    0.007,
+    0,
+    0.993,
+    1
+   ],
+   "kind": "stretch",
+   "artist": "Lawrence Alma-Tadema",
+   "title": "Joseph, Overseer of Pharaoh’s Granaries",
+   "year": "1874",
+   "place": "",
+   "alt": "Joseph, in white robes, sits on a carved Egyptian chair holding a staff, while a scribe kneels beside him recording the grain.",
+   "look": "Look again at Joseph, a foreigner, faithfully at work for the good of Egypt. How can you bless the place where you live and work?",
+   "license": "Artist died 1912; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Genesis 41"
+  },
+  {
+   "file": "Saint Paul Writing, 1520s, Pier Francesco Sacchi.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0.08,
+    1,
+    0.66
+   ],
+   "kind": "scene",
+   "artist": "Pier Francesco Sacchi",
+   "title": "Saint Paul Writing",
+   "year": "1520s",
+   "place": "",
+   "alt": "St. Paul, bearded and in a blue robe and red cloak, sits at his desk writing a letter, a crucifix standing beside him.",
+   "look": "Look again at Paul’s pen moving across the page to people he could not see. Who far away is waiting for a word from you?",
+   "license": "Artist died 1528; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Brooklyn Museum - The Return from Egypt (Retour d'Égypte) - James Tissot - overall.jpg",
+   "width": 0,
+   "crop": [
+    0.04,
+    0.03,
+    0.903,
+    0.91
+   ],
+   "kind": "scene",
+   "artist": "James Tissot",
+   "title": "The Return from Egypt",
+   "year": "1886–94",
+   "place": "Brooklyn Museum",
+   "alt": "Joseph, loaded with their belongings, walks beside a donkey carrying the young Jesus, while Mary in a white veil follows on a stony path among olive trees.",
+   "look": "Look again at Joseph, loaded with their belongings, walking beside the donkey on the road home. What step toward home is God asking of you or your loved one?",
+   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "RetourTobie W-A Bouguereau.jpg",
+   "width": 960,
+   "crop": [
+    0,
+    0,
+    1,
+    0.594
+   ],
+   "kind": "stretch",
+   "artist": "William-Adolphe Bouguereau",
+   "title": "The Return of Tobias",
+   "year": "",
+   "place": "",
+   "alt": "Tobias, back from his journey, is embraced by his mother Anna in a white veil and kissed by his father Tobit, while the Archangel Raphael stands beside them with a traveler’s staff.",
+   "look": "Look again at the welcome on Anna’s and Tobit’s faces, with the angel close behind. Which homecoming do you want to thank God for?",
+   "license": "Artist died 1905; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Tobit 11"
+  }
+ ]
+}

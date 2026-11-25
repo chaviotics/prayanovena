@@ -1,0 +1,254 @@
+{
+ "slug": "safe-travels",
+ "storageKey": "novena-safe-travels",
+ "status": "draft",
+ "order": 19,
+ "category": "travel",
+ "title": "Novena for Safe Travels",
+ "cardTitle": "Safe Travels",
+ "icon": "airplane-tilt",
+ "barTitle": "Safe Travels",
+ "barShort": "Travel Novena",
+ "kicker": "9 days of prayer for every journey",
+ "card": "For a trip, a business flight, a long drive or a contract abroad: 9 days of placing every journey, and the ones we love, in God’s hands.",
+ "ogDescription": "9 days of prayer for safe travels and those abroad, through Our Lady, St. Raphael, St. Joseph and St. Frances Cabrini.",
+ "description": "A 9-day Catholic novena for safe travels: trips, flights, business travel and OFWs working abroad, through St. Raphael, St. Joseph and St. Frances Cabrini.",
+ "keywords": [
+  "safe travels",
+  "safe trip",
+  "travel",
+  "traveling",
+  "travelling",
+  "journey",
+  "trip",
+  "flight",
+  "flying",
+  "fear of flying",
+  "road trip",
+  "long drive",
+  "driving",
+  "commute",
+  "business trip",
+  "vacation",
+  "holiday",
+  "pilgrimage",
+  "moving abroad",
+  "working abroad",
+  "OFW",
+  "overseas Filipino worker",
+  "seafarer",
+  "seaman",
+  "migrant",
+  "immigrant",
+  "homesick",
+  "homesickness",
+  "coming home",
+  "balikbayan",
+  "abroad",
+  "ligtas na biyahe",
+  "ingat sa biyahe",
+  "byahe",
+  "biyahe",
+  "paglalakbay",
+  "nasa abroad",
+  "Our Lady of Peace and Good Voyage",
+  "Nuestra Señora de la Paz y Buen Viaje",
+  "Antipolo",
+  "Virgin of Antipolo",
+  "St. Raphael",
+  "archangel raphael",
+  "Tobias",
+  "St. Joseph",
+  "flight into Egypt",
+  "Frances Xavier Cabrini",
+  "Mother Cabrini",
+  "patron of immigrants",
+  "St. Christopher",
+  "guardian angel"
+ ],
+ "ogSaints": [
+  "raphael",
+  "cabrini"
+ ],
+ "epigraph": {
+  "text": "For he will give his angels charge of you to guard you in all your ways.",
+  "ref": "Psalm 91:11"
+ },
+ "closingVerse": {
+  "text": "Trust in the LORD with all your heart, and do not rely on your own insight. In all your ways acknowledge him, and he will make straight your paths.",
+  "ref": "Proverbs 3:5–6"
+ },
+ "printTitle": [
+  "Novena for",
+  "Safe Travels"
+ ],
+ "printClosing": [
+  "Trust in the LORD with all your heart, and do not rely on your own insight.",
+  "In all your ways acknowledge him, and he will make straight your paths."
+ ],
+ "saints": [
+  {
+   "id": "raphael",
+   "name": "St. Raphael",
+   "dates": "Archangel",
+   "feast": "Feast · Sep 29 (with Sts. Michael & Gabriel)",
+   "patron": "Patron of travelers",
+   "bio": "Archangel of the Book of Tobit, one of the seven holy angels. Unrecognized, he walked beside young Tobias on a long journey, guided him, and brought him home again.",
+   "alt": "Painting: the Archangel Raphael, by Giovanni Biliverti",
+   "openingRole": "who walked beside young Tobias"
+  },
+  {
+   "id": "joseph",
+   "name": "St. Joseph",
+   "dates": "1st century",
+   "feast": "Feasts · Mar 19 & May 1",
+   "patron": "Patron of the Church",
+   "bio": "Warned in a dream, he rose by night and took Mary and the Child to Egypt, living as a foreigner until God called him home to Israel and Nazareth.",
+   "alt": "Painting: St. Joseph holding the Infant Jesus, by Guido Reni",
+   "openingRole": "who led the Holy Family into Egypt and home again"
+  },
+  {
+   "id": "cabrini",
+   "name": "St. Frances Xavier Cabrini",
+   "dates": "1850–1917",
+   "feast": "Feast · Nov 13 (US) · Dec 22",
+   "patron": "Patron of immigrants",
+   "bio": "An Italian nun sent by Pope Leo XIII to the immigrants of New York. Though afraid of water, she crossed the ocean again and again to found schools, orphanages and hospitals.",
+   "alt": "Photograph: Mother Frances Xavier Cabrini in her religious habit",
+   "openingRole": "who crossed the sea to care for those far from home"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Our Lady of Peace and Good Voyage"
+  },
+  {
+   "img": "raphael",
+   "text": "St. Raphael"
+  },
+  {
+   "img": "joseph",
+   "text": "St. Joseph"
+  },
+  {
+   "img": "cabrini",
+   "text": "St. Frances Xavier Cabrini"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, every road we take is known to You. We bring You a journey: a trip for work or rest, a long flight or drive, or a season of work far from home for those we love. Give us peace in place of worry, and watch over those who wait. Today we ask Our Lady of Peace and Good Voyage, long loved by travelers; St. Raphael, who walked beside young Tobias; St. Joseph, who led the Holy Family into Egypt and home again; and St. Frances Xavier Cabrini, who crossed the sea to care for those far from home, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, You walked the roads of Galilee and drew near to two travelers on the way to Emmaus. Walk with us on every road, stay with those we love, and bring us at last to our home with You.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Mass before a long trip, and to Confession; many parishes will gladly bless travelers. Pray together with those you leave behind, and agree on a time to call. Then do your part: rest before you drive, keep to safety rules, and share your plans with someone at home. A medal or prayer card is a reminder to pray, not a charm: we trust God, not objects."
+  },
+  {
+   "h": "Working abroad",
+   "p": "Before you sign, check that the job and the agency are licensed (for Filipinos, with the Department of Migrant Workers, DMW), and never pay an unlicensed recruiter. Never let anyone keep your passport, and keep a copy of your contract. If you are ever in trouble, contact your country’s nearest embassy or consulate."
+  }
+ ],
+ "intentionPlaceholder": "Write who is traveling, where to, and when, or the loved one working far from home.",
+ "icons": [
+  "mountains",
+  "suitcase-rolling",
+  "path",
+  "footprints",
+  "waves",
+  "buildings",
+  "envelope-simple",
+  "house-line",
+  "sun-horizon"
+ ],
+ "credits": "Images: Giovanni Biliverti, <em>The Archangel Raphael Refusing Tobias’s Gift</em>, early 17th century, Palatine Gallery, Pitti Palace, Florence · Guido Reni, <em>St Joseph with the Infant Jesus</em>, c. 1635, Hermitage Museum · Mother Frances Xavier Cabrini, photograph, c. 1900 · Bartolomé Esteban Murillo, <em>The Rest on the Flight into Egypt</em> (detail), 17th century. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Lifting Our Eyes",
+   "ref": "Psalm 121:1–2",
+   "verse": "I lift up my eyes to the hills. / From whence does my help come? / My help comes from the LORD, / who made heaven and earth.",
+   "refl": "Before any journey, worries come easily: the flight, the roads, the weather, the work waiting at the other end, the people we leave behind. The psalmist lifts his eyes to the hills and asks the honest question, “From whence does my help come?” Then he answers it: from the LORD, who made heaven and earth. The One who made every mountain, sea and city we will pass is not a stranger to any of them. So we begin these nine days by naming our worries and lifting our eyes to Him.",
+   "more": "Psalm 121 is one of the “Songs of Ascents” (Psalms 120–134), sung by pilgrims as they traveled up to Jerusalem for the great feasts. They walked rough roads through the hills, often for days, and they prayed as they went. Their song is a traveler’s prayer, and it can be ours on a highway, in an airport, on a ship at sea, or at a bus stop before dawn.",
+   "prayer": "Heavenly Father, we bring You this journey and every worry that comes with it. We lift our eyes to You, who made heaven and earth. Our help comes from You, not from our planning alone. Calm our anxious thoughts, and keep our hearts close to You from the first step to the last. Watch over all who travel today, and those who wait for them. Our Lady of Peace and Good Voyage, pray for us.",
+   "step": "Write down the journey you are praying for: who is going, where and when. Keep it with you through these nine days."
+  },
+  {
+   "title": "Going Out in Faith",
+   "ref": "Hebrews 11:8",
+   "verse": "By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go.",
+   "refl": "Abraham left his country, his kindred and his father’s house, and “he went out, not knowing where he was to go.” Many of us know a smaller version of that. We take a new job in another city, sign a contract overseas, move away to study, or simply board a plane to a place we have never seen. Leaving is hard, even when it is good. Faith does not erase the ache of goodbye. It lets us take the next step, trusting that God already knows where the road leads.",
+   "more": "St. Joseph knew a hurried leaving. Warned in a dream, “he rose and took the child and his mother by night, and departed to Egypt” (Matthew 2:14). There was no time for long farewells. He went to a foreign land, far from all he knew, to protect the ones he loved. Many who work far from home today make the same quiet sacrifice.",
+   "prayer": "Lord God, You called Abraham to go out, and he went, trusting You. Give us that same trust as we leave the familiar behind. Comfort us in our goodbyes, and comfort those who stay behind. When we do not know what lies ahead, let us know that You are already there. Bless every sacrifice made for the sake of others. St. Joseph, who left home in the night to keep Jesus and Mary safe, pray for us.",
+   "step": "Before you leave, take a moment to bless someone you are leaving behind, or ask them to bless you."
+  },
+  {
+   "title": "A Companion for the Road",
+   "ref": "Tobit 5:4–6",
+   "verse": "So he went to look for a man; and he found Raphael, who was an angel, but Tobias did not know it. Tobias said to him, “Can you go with me to Rages in Media? Are you acquainted with that region?” The angel replied, “I will go with you; I am familiar with the way, and I have stayed with our brother Gabael.”",
+   "refl": "Young Tobias had to make a long journey to a land he did not know, so he went looking for someone who knew the way. He found Raphael, “who was an angel, but Tobias did not know it.” The angel answered simply: “I will go with you; I am familiar with the way.” God often sends help in ordinary forms: a kind stranger, a helpful driver, a coworker in a new country. We do not always recognize them, but we are not left alone.",
+   "more": "Only at the end of the journey did Raphael reveal who he was: “I am Raphael, one of the seven holy angels who present the prayers of the saints” (Tobit 12:15). He had been beside Tobias every step of the way. The Church teaches that God gives each of us a guardian angel: “Beside each believer stands an angel as protector and shepherd leading him to life” (CCC 336, quoting St. Basil).",
+   "prayer": "Father, You sent Your angel Raphael to walk beside Tobias and guide him on his way. Send Your holy angels to go with us, and with all those we love who travel. Guard us from danger, guide our choices, and lead us to good people along the road. Open our eyes to the help You send, even when it comes in ordinary ways. St. Raphael, companion of travelers, pray for us.",
+   "step": "Pray the Angel of God prayer before you set out, and teach it to someone traveling with you."
+  },
+  {
+   "title": "He Walks With Us",
+   "ref": "Luke 24:15–16",
+   "verse": "While they were talking and discussing together, Jesus himself drew near and went with them. But their eyes were kept from recognizing him.",
+   "refl": "Two disciples walked away from Jerusalem, sad and confused after the cross. As they talked, “Jesus himself drew near and went with them.” They did not know Him, yet He walked the whole road at their pace and listened to their sorrow. Our journeys can feel lonely too: a long drive at night, a layover in a strange airport, a first week in a dormitory abroad. Jesus is closer than we know. He does not wait for us to arrive. He walks with us on the way.",
+   "more": "The two disciples recognized Jesus only when He sat at table with them, “took the bread and blessed, and broke it” (Luke 24:30–31). That same hour they hurried back the seven miles to Jerusalem to share the news. Wherever we travel, the Mass is the same Mass, and Jesus is truly present in the Eucharist. A church in a foreign city can feel like home the moment we kneel.",
+   "prayer": "Lord Jesus, You drew near to two tired travelers and walked with them all the way to Emmaus. Walk with us now. When the road is long and we feel alone, let us remember that You are beside us. Make our hearts burn within us as we hear Your word, and let us recognize You in the breaking of the bread, wherever we go. Stay with us, Lord, for You are our companion and our peace.",
+   "step": "Find a church near where you are going and look up its Mass times before you leave."
+  },
+  {
+   "title": "When Storms Come",
+   "ref": "Mark 4:39–40",
+   "verse": "And he awoke and rebuked the wind, and said to the sea, “Peace! Be still!” And the wind ceased, and there was a great calm. He said to them, “Why are you afraid? Have you no faith?”",
+   "refl": "The disciples were experienced fishermen, yet the storm terrified them, and Jesus was asleep in the stern. Every journey can have its storms: turbulence, a missed connection, a delay at immigration, rough seas, a phone call with bad news. Jesus does not mock their fear. He rises and speaks peace to the wind and the sea. His question, “Why are you afraid?”, is an invitation. Fear may come, but it does not have to steer the boat. He is in it with us.",
+   "more": "St. Frances Xavier Cabrini was afraid of water, yet she crossed the ocean again and again to serve immigrants in the Americas and Europe. She did not wait for her fear to disappear. She trusted the One who was in the boat with her and kept going where God sent her. For seafarers, crew members and anyone who dreads the journey, she is a gentle friend.",
+   "prayer": "Lord Jesus, You calmed the wind and the waves with a word. Speak Your peace into every storm we may meet on this journey, outside us and within us. When delays, dangers or fears rise up, keep us steady and remind us that You are with us. Protect seafarers, pilots, drivers and all who keep travelers safe. St. Frances Xavier Cabrini, who crossed the sea in spite of her fear, pray for us.",
+   "step": "When you feel anxious on the way, pray slowly, “Jesus, I trust in You,” and breathe deeply until your heart settles."
+  },
+  {
+   "title": "Far From Home",
+   "ref": "Jeremiah 29:7",
+   "verse": "But seek the welfare of the city where I have sent you into exile, and pray to the LORD on its behalf, for in its welfare you will find your welfare.",
+   "refl": "Jeremiah wrote these words to God’s people living as exiles in Babylon, far from home. They expected to go back soon, but God told them to build houses, plant gardens, and seek the good of the city where they lived. Many today live far from home for long years: working abroad, studying overseas, sending money home. God does not ask us to forget where we come from. He asks us to live faithfully where we are, to work honestly, to pray for the place, and to trust that He is there too.",
+   "more": "When St. Frances Xavier Cabrini arrived in New York in 1889, many of the immigrants she had come to serve were poor and far from home. With her sisters, she founded schools, orphanages and hospitals, and she later became an American citizen. She helped strangers in a new land find dignity, faith and a place to belong.",
+   "prayer": "Lord God, be close to all who live and work far from home. Give them just employers, fair pay, safe housing, and good friends in the faith. Protect them from abuse, from false promises and from loneliness. Help them to work with honesty and to bless the place where they live. Keep their families united in love across the miles. St. Frances Xavier Cabrini, mother of immigrants, pray for us.",
+   "step": "Pray today for the city or country where you or your loved one is going, and for the people who live there."
+  },
+  {
+   "title": "Absent in Body",
+   "ref": "Colossians 2:5",
+   "verse": "For though I am absent in body, yet I am with you in spirit, rejoicing to see your good order and the firmness of your faith in Christ.",
+   "refl": "Paul wrote to the Christians at Colossae from far away, yet he could say, “I am absent in body, yet I am with you in spirit.” Distance is one of the hardest parts of travel: birthdays missed, children growing up over video calls, a spouse carrying the home alone, parents growing older. Love does not stop at borders, and neither does prayer. When we pray for each other, we stand together before the same God, and He holds both ends of every long-distance call.",
+   "more": "In the Book of Tobit, while Raphael walked with Tobias, his mother Anna stayed home and worried. She “went out every day to the road by which they had left” (Tobit 10:7), watching for her son. Tobit had told her that a good angel would go with him, yet she could not stop watching the road. Those who wait at home carry a quiet cross of their own, and God sees it.",
+   "prayer": "Father, we pray for those who are apart: for those who travel and for those who wait. Keep our love faithful and our hearts close across the distance. Give strength to those carrying the home alone, and comfort to children who miss a parent. Help us to speak with kindness, to forgive quickly, and to keep praying for one another. St. Raphael, who watched over Tobias while his mother waited, pray for us.",
+   "step": "Choose a short prayer to pray at the same time each day with someone far away, even in different time zones."
+  },
+  {
+   "title": "The Road Home",
+   "ref": "Matthew 2:19–21",
+   "verse": "But when Herod died, behold, an angel of the Lord appeared in a dream to Joseph in Egypt, saying, “Rise, take the child and his mother, and go to the land of Israel, for those who sought the child’s life are dead.” And he rose and took the child and his mother, and went to the land of Israel.",
+   "refl": "Joseph waited in Egypt until God told him it was time, and then he took Mary and the Child home. Coming home is something many travelers dream about: the end of a contract, the first sight of a familiar airport, a long embrace at the gate. Some come back to joy; some come back to changes they did not expect; some cannot yet return. Joseph shows us how to wait patiently, to listen for God’s guidance, and to rise and go when the time comes.",
+   "more": "Even the return was not simple. When Joseph heard who ruled Judea, “he was afraid to go there,” and after another warning in a dream he settled in Nazareth (Matthew 2:22–23). God guided him step by step, not all at once. Our homecomings may also need patience, as we settle back in and learn to live together again.",
+   "prayer": "Lord God, You guided St. Joseph home from Egypt step by step. Guide us and those we love on the road home. Give patience to those who are still waiting to return, and peace to those who have no clear date yet. When we come back, help us to settle in gently, to forgive what has changed, and to love one another anew. Grant eternal rest to those who died far from home. St. Joseph, who brought the Holy Family safely home, pray for us.",
+   "step": "Pray for someone you know who is far from home and longs to return, and send them a message today."
+  },
+  {
+   "title": "Going Out and Coming In",
+   "ref": "Psalm 121:7–8",
+   "verse": "The LORD will keep you from all evil; / he will keep your life. / The LORD will keep your going out and your coming in / from this time forth and for evermore.",
+   "refl": "The psalm that began with a worried question ends with a blessing: “The LORD will keep your going out and your coming in.” Every departure and every return is held in His hands. This does not mean nothing hard will ever happen on the road. It means that nothing can take us out of God’s care, “from this time forth and for evermore.” So we thank Him for His company on every mile, and we entrust to Him the journeys still ahead, including our last journey home to Him.",
+   "more": "“For here we have no lasting city, but we seek the city which is to come” (Hebrews 13:14). Every trip on earth is a small picture of our whole life, a pilgrimage toward the Father’s house. Whatever this journey brought, smooth or difficult, we place it in God’s hands with thanks and trust that He will keep us on the way to Him.",
+   "prayer": "Lord, on this ninth day we thank You for being with us and those we love on every road, and we commend to Your mercy all whose journeys ended in sorrow. Thank you, Our Lady of Peace and Good Voyage, St. Raphael, St. Joseph and St. Frances Xavier Cabrini, for walking with us in prayer. We place every going out and coming in into Your hands. Whatever lies ahead, keep us faithful on the road, and bring us at last to our true home with You. Your will be done.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}
