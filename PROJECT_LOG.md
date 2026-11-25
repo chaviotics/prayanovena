@@ -303,7 +303,13 @@ Two phases, so the new name can go live before the domain exists:
 - Day pictures, none used elsewhere on the site: Friedrich, Molnár, Pollaiuolo, Führich, Delacroix (Walters), Alma-Tadema (stretch, Genesis 41), Sacchi, Tissot, Bouguereau (stretch, Tobit 11). PDF 5 pages. Independent Catholic review applied (`review.md`).
 - Learned: when the Commons API answers "too many requests", `commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=…` still lists file names, and upload.wikimedia.org downloads go through after a short wait.
 
-### 2026-11-25: Saved novenas (branch `claude/project-thread-kskd8d`, not pushed, awaiting Chav)
+### 2026-11-25 (Add to home screen)
+- Chav asked for an install button. The site was already an installable web app (manifest, icons, offline sw.js; Chrome reported no install errors); now people are told. One shared button, `templates/install.js`, inlined on every site page by `install_kit()` via `site_footer(install=True)` (site mode only; one-file previews untouched).
+- 3 places (Chav chose the quiet offer + FAQ, then the footer): a card under "Come back tomorrow for Day N." after a day is marked prayed (`INSTALL_OFFER`, outline button so "Day N prayed" stays primary, "Not now" hides it for good, key `novenas-install`); an "Add to home screen" pill in the footer of every page; FAQ "Can I put this on my home screen?" on the library.
+- Per device: Chrome/Edge/Samsung open their own install box (`beforeinstallprompt`, held back so Chrome's own bar never interrupts); iPhone/iPad get a 3-step Share > Add to Home Screen guide (note that iPhone keeps the home screen copy's progress separate, shown only if a novena was begun); Mac Safari File > Add to Dock; Messenger/Facebook browsers get Open in Chrome (Android) or Open in Safari steps. Everything hides when opened from the icon. On a first Chrome visit the button can take about 30 s to appear (Chrome's rule).
+- Manifest `theme_color` now cream (#FFFDF9). Privacy lists the "Not now" choice. New icons: export, plus-square, dots-three, dots-three-vertical.
+
+### 2026-11-25: Saved novenas (Chav approved, pushed live)
 
 - Chav asked for favorites so a returning visitor doesn't scroll through 19 novenas. Built as **Save** with a bookmark (not "Favorite" with a heart: odd on novenas for sickness, debt or sin, and Finding Love's card icon is already a heart). Favorite, pin and save are one action.
 - Library: a bookmark in each card's top corner (a sibling of the card's link, `button.save`, aria-pressed, "Save <title>"). Order on load: in progress first, then saved (newest saved first), then the rest. Saving from the library never reorders cards under the finger; the new order shows on the next visit. A **Saved** chip after All, with a count, shows only once something is saved (`#saved` link works). New Common question "How do I keep my novenas at the top?". Back from a novena page (bfcache) repaints progress and saves.

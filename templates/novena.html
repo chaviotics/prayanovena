@@ -564,6 +564,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
 <div class="todaystep"><p class="tslabel"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-footprints"/></svg>Today’s step</p><p id="dStep">{{DAY1_STEP}}</p></div>
         <button class="markdone" id="markBtn" type="button"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span id="markLabel">Mark Day 1 as prayed</span></button>
         <p class="donenote" id="doneNote" hidden></p>
+        {{INSTALL_OFFER}}
         <div class="daynav">
           <button type="button" id="prevBtn"><span aria-hidden="true">‹ </span>Day 0</button>
           <button type="button" id="nextBtn">Day 2<span aria-hidden="true"> ›</span></button>
@@ -790,6 +791,8 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     if (done && count === 9) msg = "All 9 days prayed. Thanks be to God.";
     else if (done && n !== null && sel === n && sel < 9) msg = "Come back tomorrow for Day " + (sel + 1) + ".";
     dn.textContent = msg; dn.hidden = !msg;
+    /* the "Add to home screen" offer rides with "Come back tomorrow" (templates/install.js decides if this browser can add it) */
+    var io = $("instOffer"); if (io){ io.setAttribute("data-on", done && n !== null && sel === n && sel < 9 && count < 9 ? "1" : ""); if (window.novenaInstall) novenaInstall.paint(); }
     chips.forEach(function(c){
       var k = +c.getAttribute("data-day"), j = k - 1, dn = isDone(k);
       c.classList.toggle("done", dn); c.classList.toggle("sel", k === sel); c.classList.toggle("now", k === n);
@@ -830,6 +833,11 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
 
   $("beginBtn").addEventListener("click", function(){ goPrayer(true); });
   if ($("homeLink").getAttribute("href") === "#top") $("homeLink").addEventListener("click", function(e){ e.preventDefault(); window.scrollTo({top:0, behavior: reduce ? "auto" : "smooth"}); });
+  if ($("instLater")) $("instLater").addEventListener("click", function(){
+    if (window.novenaInstall) novenaInstall.later();
+    toast("You can add it any time from the bottom of the page.", 3600);
+    try{ $("markBtn").focus({preventScroll: true}); }catch(e){}
+  });
   $("prevBtn").addEventListener("click", function(){ if (sel > 1){ choose(sel-1); goPrayer(false); } });
   $("nextBtn").addEventListener("click", function(){ if (sel < 9){ choose(sel+1); goPrayer(false); } });
   $("markBtn").addEventListener("click", function(){
