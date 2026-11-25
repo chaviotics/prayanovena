@@ -46,6 +46,11 @@ CATEGORIES = [
 ]
 CHIPS_MIN = 4    # show the filter chips once this many novenas are published
 SEARCH_MIN = 10  # show the search box once this many are published (chips are enough below that)
+SAVED_KEY = "novenas-saved"  # the novenas someone saved on this device: a list of slugs, newest first (cleared with the rest on /privacy/)
+# Save on a novena page's top bar (site only: the library is where saved novenas come first). One label, "Save this
+# novena", with aria-pressed for the state; the visible word turns to "Saved" from 601px, where words show.
+SAVE_BTN = ('<button class="iconbtn barsave" type="button" id="saveBtn" aria-pressed="false" aria-label="Save this novena" title="Save this novena">'
+            '<svg class="i" aria-hidden="true" focusable="false"><use href="#i-bookmark-simple"/></svg><span id="saveLabel" aria-hidden="true">Save</span></button>\n    ')
 
 
 def local_fonts(up):
@@ -321,11 +326,13 @@ def page(n, mode):
         "CLOSE_REF": esc(n["closingVerse"]["ref"]),
         "ICONS": json.dumps(n["icons"]), "KEY": json.dumps(n["storageKey"] + ("-artifact" if mode == "artifact" else "")),
         "DAYS": json.dumps(n["days"], ensure_ascii=False),
-        "SPRITE": sprite(BASE_ICONS + n["icons"] + (["arrows-out-simple"] if art_data(slug) else [])),
+        "SPRITE": sprite(BASE_ICONS + n["icons"] + (["arrows-out-simple"] if art_data(slug) else [])
+                         + (["bookmark-simple", "bookmark-simple-fill"] if mode == "site" else [])),
         "FONTS": local_fonts("../") if mode == "site" else GOOGLE_FONTS,
         "SW": sw_register("../") if mode == "site" else "",
         "SHARE": json.dumps(share(n), ensure_ascii=False),
         "PRINT_HOW": printing[0], "PRINT_SIDE": printing[1],
+        "SAVE_BTN": SAVE_BTN if mode == "site" else "", "SLUG": json.dumps(slug if mode == "site" else ""),
     }
     vals.update(art_parts(n, mode))
     t = read(os.path.join(ROOT, "templates", "novena.html"))
@@ -472,19 +479,26 @@ def library(novenas, search=None):
         blurb = re.sub(r"(\d) ", r"\1&nbsp;", esc(n["card"]))
         sl = n["slug"]
         cards.append(
-            '<li class="card" data-key="%s" data-cat="%s" data-search="%s"><a href="%s/index.html" aria-labelledby="t-%s p-%s">'
+            '<li class="card" data-key="%s" data-slug="%s" data-cat="%s" data-search="%s"><a href="%s/index.html" aria-labelledby="t-%s p-%s">'
             '<div class="top"><span class="ic" aria-hidden="true"><svg class="i"><use href="#i-%s"/></svg></span>'
             '<div class="faces" aria-hidden="true">%s</div></div>'
             '<h3 id="t-%s">%s</h3><p class="through">through %s</p>'
             '<p class="blurb">%s</p>'
             '<div class="foot"><p class="prog" id="p-%s"></p>'
-            '<span class="go" aria-hidden="true"><span>Pray</span><svg class="i"><use href="#i-arrow-right"/></svg></span></div></a></li>' % (
-                esc(n["storageKey"]), n["category"], esc(search_text(n, title)), sl, sl, sl, n.get("icon", "cross"), faces, sl, esc(title), through, blurb, sl))
+            '<span class="go" aria-hidden="true"><span>Pray</span><svg class="i"><use href="#i-arrow-right"/></svg></span></div></a>'
+            # Save sits beside the card's link, not inside it (a button can't live in a link)
+            '<button type="button" class="save" aria-pressed="false" aria-label="Save %s" title="Save this novena">'
+            '<svg class="i" aria-hidden="true" focusable="false"><use href="#i-bookmark-simple"/></svg></button></li>' % (
+                esc(n["storageKey"]), sl, n["category"], esc(search_text(n, title)), sl, sl, sl, n.get("icon", "cross"), faces, sl, esc(title), through, blurb, sl, esc(title)))
     used = [n["category"] for n in pub]
     chips = ""
     if len(pub) >= CHIPS_MIN and len(set(used)) > 1:
         btn = '<button type="button" class="chip" data-cat="%s" aria-pressed="%s">%s<span class="n"><span class="sr">, </span>%d<span class="sr"> novenas</span></span></button>'
-        chips = ('<div class="chips" id="chips" role="group" aria-label="Filter by intention">' + btn % ("all", "true", "All", len(pub))
+        # "Saved" shows only once something is saved on this device (the page's script reveals it and fills the count)
+        saved = ('<button type="button" class="chip chip-saved" data-cat="saved" aria-pressed="false" hidden>'
+                 '<svg class="i" aria-hidden="true" focusable="false"><use href="#i-bookmark-simple-fill"/></svg>'
+                 '<span class="lbl">Saved</span><span class="n"><span class="sr">, </span><span class="cnt">0</span><span class="sr"> novenas</span></span></button>')
+        chips = ('<div class="chips" id="chips" role="group" aria-label="Filter by intention">' + btn % ("all", "true", "All", len(pub)) + saved
                  + "".join(btn % (k, "false", esc(v), used.count(k)) for k, v in CATEGORIES if k in used) + "</div>")
     if search is None:
         search = len(pub) >= SEARCH_MIN
@@ -506,7 +520,7 @@ def library(novenas, search=None):
     t = t.replace("{{OG_VER}}", og_ver(os.path.join(ROOT, "site", "og.jpg")))
     t = t.replace("{{FONTS}}", local_fonts("")).replace("{{SW}}", sw_register(""))
     t = t.replace("{{FOOTER_CSS}}", FOOTER_CSS).replace("{{FOOTER}}", site_footer("", current="index.html"))
-    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-right", "hands-praying", "calendar-check", "church", "magnifying-glass", "x"] + icons))
+    t = t.replace("{{SPRITE}}", sprite(["logo", "cross", "sun", "moon", "text-aa", "arrow-right", "hands-praying", "calendar-check", "church", "magnifying-glass", "x", "bookmark-simple", "bookmark-simple-fill"] + icons))
     left = re.findall(r"\{\{[A-Z0-9_]+\}\}", t)
     assert not left, left
     return t

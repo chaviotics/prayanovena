@@ -104,6 +104,15 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
 .card .prog{margin:0;font-size:calc(15.5px * var(--scale));font-weight:600;letter-spacing:.02em;color:var(--gold-text)}
 .card .go{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:calc(16.5px * var(--scale));color:var(--wine);white-space:nowrap}
 .card .go .i{font-size:18px}
+/* Save: a bookmark in the card's top corner, beside (not inside) the card's link */
+.card{position:relative}
+.card .faces{margin-right:38px}
+.card .save{position:absolute;top:14px;right:8px;width:44px;height:44px;display:grid;place-items:center;border:0;border-radius:50%;background:none;color:var(--gold);font-size:22px;cursor:pointer;transition:background-color .15s,color .15s}
+.card.started .save{top:15px}
+.card .save[aria-pressed="true"]{color:var(--wine)}
+.card .save:focus-visible{border-radius:50%;outline-offset:0}
+@media (hover:hover){.card .save:hover{background:var(--wash)}}
+.card .save:active{background:var(--wash)}
 
 .how{list-style:none;margin:0;padding:0;display:grid;gap:14px}
 .how li{display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:start;align-content:start}
@@ -129,6 +138,9 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
 .chip:hover{border-color:var(--gold)}
 .chip[aria-pressed="true"]{background:var(--wine);border-color:var(--wine);color:var(--paper)}
 .chip[aria-pressed="true"] .n{color:inherit;opacity:.8}
+.chip[hidden]{display:none}
+.chip-saved>svg{font-size:17px;color:var(--wine)}
+.chip-saved[aria-pressed="true"]>svg{color:inherit}
 .search{position:relative;margin-bottom:12px}
 .search>svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);font-size:20px;color:var(--gold)}
 .search input{width:100%;height:50px;padding:0 48px 0 46px;border:1px solid var(--rule);border-radius:999px;background:var(--sheet);color:var(--ink);font:inherit;font-size:calc(17px * var(--scale));-webkit-appearance:none;appearance:none}
@@ -160,6 +172,9 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
   .cards{grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:20px}
   .card a{height:100%;display:flex;flex-direction:column;padding:20px 22px 16px}
   .card.started a{padding-top:18px}
+  .card .save{top:18px;right:12px}
+  .card.started .save{top:19px}
+  .card .faces{margin-right:40px}
   .card .blurb{margin-bottom:14px}
   .card .foot{margin-top:auto}
   .chips{flex-wrap:wrap;overflow:visible;margin:0;padding:2px 0 0;-webkit-mask-image:none;mask-image:none}
@@ -231,6 +246,7 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
   <h3 class="faq-h" id="faqHead">Common questions</h3>
   <div class="faq">
     <details><summary>Can I pray more than 1 novena at a time?</summary><p>Yes. You can pray 2&nbsp;novenas side by side, say one for healing and one for finances, and each keeps its own progress here. Keep to what you can pray with attention. Or pray one novena and bring both intentions to it.</p></details>
+    <details><summary>How do I keep my novenas at the top?</summary><p>Tap the bookmark on a novena’s card, or Save at the top of its page. Saved novenas come first here, after any novena you are praying now, and the Saved filter shows just those. Like your progress, they are kept only on this device.</p></details>
     <details><summary>What if I miss a day?</summary><p>Simply pick up where you left off. A novena is a devotion, not a test.</p></details>
     <details><summary>Where is my intention saved?</summary><p>Only on your phone or computer. Your progress, start date and intention are never uploaded, and there are no accounts. <a href="privacy/index.html">Privacy</a></p></details>
     <details><summary>Are we praying to the saints instead of God?</summary><p>No. We worship God alone. When we pray to a saint, we are asking that saint to pray for us, the way we ask a friend, because the saints are alive with God. <a href="about/index.html#saints">Why we ask the saints</a></p></details>
@@ -282,33 +298,42 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
   if (window.matchMedia){ var mq = matchMedia("(prefers-color-scheme: dark)"); if (mq.addEventListener) mq.addEventListener("change", paint); }
   paint();
 
+  /* saved novenas: slugs kept on this device only (key "novenas-saved", newest first); the novena pages share it */
+  var SAVEDKEY = "novenas-saved";
+  function savedList(){ try{ var v = JSON.parse(get(SAVEDKEY) || "[]"); return Array.isArray(v) ? v.filter(function(x){ return typeof x === "string"; }) : []; }catch(e){ return []; } }
+  function isSaved(c){ return savedList().indexOf(c.getAttribute("data-slug")) >= 0; }
+
   /* filters: intention chips (+ search box when present). The chip is kept in the address (#work-money) so it can be shared. */
   var cards = [].slice.call(document.querySelectorAll(".card")), chips = [].slice.call(document.querySelectorAll(".chip")),
       q = document.getElementById("q"), qClear = document.getElementById("qClear"), status = document.getElementById("filterStatus"),
-      empty = document.getElementById("empty"), cat = "all";
-  function norm(t){ return (t || "").toLowerCase().replace(/[\u2019']/g, "'").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim(); }
+      empty = document.getElementById("empty"), savedChip = document.querySelector(".chip-saved"), cat = "all";
+  var order = cards.slice();   /* the library's own order, before anything is moved to the top */
+  function norm(t){ return (t || "").toLowerCase().replace(/[’']/g, "'").normalize("NFD").replace(/[̀-ͯ]/g, "").trim(); }
+  function chipName(c){ var b = document.querySelector('.chip[data-cat="' + c + '"]'); return b ? (b.querySelector(".lbl") || b.firstChild).textContent : ""; }
   function apply(announce){
-    var words = q ? norm(q.value).split(/\s+/).filter(Boolean) : [], shown = 0;
+    var words = q ? norm(q.value).split(/\s+/).filter(Boolean) : [], shown = 0, saved = savedList();
     cards.forEach(function(c){
       var hay = norm(c.getAttribute("data-search"));
-      var ok = (cat === "all" || c.getAttribute("data-cat") === cat) && words.every(function(w){ return hay.indexOf(w) >= 0; });
+      var inCat = cat === "all" || (cat === "saved" ? saved.indexOf(c.getAttribute("data-slug")) >= 0 : c.getAttribute("data-cat") === cat);
+      var ok = inCat && words.every(function(w){ return hay.indexOf(w) >= 0; });
       c.hidden = !ok; if (ok) shown++;
     });
     chips.forEach(function(b){ b.setAttribute("aria-pressed", String(b.getAttribute("data-cat") === cat)); });
     if (qClear) qClear.hidden = !(q && q.value);
     if (empty){ empty.hidden = shown > 0; document.getElementById("emptyQ").textContent = q ? q.value : ""; }
     if (status && announce){
-      var label = cat === "all" ? "" : " for " + (document.querySelector('.chip[data-cat="' + cat + '"]').firstChild.textContent);
-      status.textContent = shown === 1 ? "1 novena" + label : shown + " novenas" + label;
+      var noun = shown === 1 ? "1 novena" : shown + " novenas";
+      status.textContent = cat === "saved" ? (shown === 1 ? "1 saved novena" : shown + " saved novenas") : noun + (cat === "all" ? "" : " for " + chipName(cat));
     }
   }
   function setCat(c, announce){
-    cat = chips.some(function(b){ return b.getAttribute("data-cat") === c; }) ? c : "all";
+    cat = chips.some(function(b){ return b.getAttribute("data-cat") === c && !b.hidden; }) ? c : "all";
     try{ history.replaceState(null, "", cat === "all" ? location.pathname + location.search : "#" + cat); }catch(e){}
     apply(announce);
   }
   chips.forEach(function(b){ b.addEventListener("click", function(){
     setCat(b.getAttribute("data-cat"), true);
+    paintSaved();   /* a Saved chip left at 0 hides once another filter is picked */
     try{ b.scrollIntoView({block:"nearest", inline:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}); }catch(e){}
   }); });
   if (q){
@@ -318,35 +343,75 @@ h1{font-family:var(--display);font-weight:700;color:var(--wine);font-size:clamp(
   }
   var showAll = document.getElementById("showAll");
   if (showAll) showAll.addEventListener("click", function(){ if (q) q.value = ""; setCat("all", true); });
-  if (chips.length && location.hash.length > 1){
-    setCat(location.hash.slice(1), false);
-    var on = document.querySelector('.chip[aria-pressed="true"]'); if (on && on.scrollIntoView) on.scrollIntoView({block:"nearest", inline:"nearest"});
-  } else if (q && q.value) apply(false);
+
+  /* the bookmark on each card, and the Saved chip's count. Saving never moves cards under the finger: the new order
+     shows on the next visit */
+  function paintSaved(){
+    var saved = savedList(), n = 0;
+    cards.forEach(function(c){
+      var on = saved.indexOf(c.getAttribute("data-slug")) >= 0, b = c.querySelector(".save");
+      if (on) n++;
+      if (!b) return;
+      b.setAttribute("aria-pressed", String(on));
+      b.title = on ? "Saved. Tap to remove" : "Save this novena";
+      b.firstElementChild.firstElementChild.setAttribute("href", on ? "#i-bookmark-simple-fill" : "#i-bookmark-simple");
+    });
+    if (savedChip){
+      savedChip.querySelector(".cnt").textContent = n;
+      savedChip.hidden = n === 0 && cat !== "saved";
+    }
+  }
+  cards.forEach(function(c){
+    var b = c.querySelector(".save"); if (!b) return;
+    b.addEventListener("click", function(){
+      var slug = c.getAttribute("data-slug"), list = savedList().filter(function(x){ return x !== slug; }), on = b.getAttribute("aria-pressed") !== "true";
+      if (on) list.unshift(slug);
+      set(SAVEDKEY, JSON.stringify(list));
+      paintSaved();
+      if (status) status.textContent = (on ? "Saved: " : "Removed from saved: ") + c.querySelector("h3").textContent;
+    });
+  });
 
   /* show where each novena stands, from what that novena saved on this phone */
   function today(){ var d = new Date(); d.setMinutes(d.getMinutes() - d.getTimezoneOffset()); return d.toISOString().slice(0,10); }
   function fmt(iso){ try{ return new Date(iso + "T00:00:00").toLocaleDateString("en-US", {weekday:"short", month:"short", day:"numeric"}); }catch(e){ return iso; } }
-  var started = [];
-  [].forEach.call(document.querySelectorAll(".card"), function(c){
-    var s = null; try{ s = JSON.parse(get(c.getAttribute("data-key")) || "null"); }catch(e){}
-    var p = c.querySelector(".prog"), go = c.querySelector(".go span");
-    if (!s || !p) return;
-    var list = Array.isArray(s.done) ? s.done : [], done = list.length, n = null, next = 9;
-    for (var k = 1; k <= 9; k++){ if (list.indexOf(k) < 0){ next = k; break; } }
-    if (s.start){ n = Math.round((new Date(today() + "T00:00:00") - new Date(s.start + "T00:00:00")) / 86400000) + 1; }
-    if (done >= 9){ p.textContent = "All 9 days prayed"; go.textContent = "Pray again"; return; }
-    if (n !== null && n > 9 && done === 0) return;
-    if (n !== null && n < 1){ p.textContent = "Begins " + fmt(s.start); return; }
-    if (done === 0 && n === null) return;
-    c.classList.add("started");
-    started.push(c);
-    var day = n !== null && n >= 1 && n <= 9 ? n : next;   /* the novena page opens this day */
-    p.textContent = done ? done + " of 9 prayed" : "Day " + n + " today";
-    go.textContent = list.indexOf(day) >= 0 ? "Done for today" : (done ? "Continue Day " : "Pray Day ") + day;
-  });
-  /* novenas in progress come first, so a returning visitor finds theirs at once */
-  var ul = document.getElementById("cards");
-  started.reverse().forEach(function(c){ ul.insertBefore(c, ul.firstChild); });
+  function paintCards(){
+    var started = [];
+    cards.forEach(function(c){
+      var p = c.querySelector(".prog"), go = c.querySelector(".go span");
+      c.classList.remove("started"); if (p) p.textContent = ""; if (go) go.textContent = "Pray";
+      var s = null; try{ s = JSON.parse(get(c.getAttribute("data-key")) || "null"); }catch(e){}
+      if (!s || !p) return;
+      var list = Array.isArray(s.done) ? s.done : [], done = list.length, n = null, next = 9;
+      for (var k = 1; k <= 9; k++){ if (list.indexOf(k) < 0){ next = k; break; } }
+      if (s.start){ n = Math.round((new Date(today() + "T00:00:00") - new Date(s.start + "T00:00:00")) / 86400000) + 1; }
+      if (done >= 9){ p.textContent = "All 9 days prayed"; go.textContent = "Pray again"; return; }
+      if (n !== null && n > 9 && done === 0) return;
+      if (n !== null && n < 1){ p.textContent = "Begins " + fmt(s.start); return; }
+      if (done === 0 && n === null) return;
+      c.classList.add("started");
+      started.push(c);
+      var day = n !== null && n >= 1 && n <= 9 ? n : next;   /* the novena page opens this day */
+      p.textContent = done ? done + " of 9 prayed" : "Day " + n + " today";
+      go.textContent = list.indexOf(day) >= 0 ? "Done for today" : (done ? "Continue Day " : "Pray Day ") + day;
+    });
+    /* first the novenas in progress, then the saved ones (newest saved first), then the rest in the library's order,
+       so a returning visitor finds theirs at once */
+    var saved = savedList(), ul = document.getElementById("cards");
+    var mine = order.filter(function(c){ return started.indexOf(c) < 0 && saved.indexOf(c.getAttribute("data-slug")) >= 0; })
+      .sort(function(a, b){ return saved.indexOf(a.getAttribute("data-slug")) - saved.indexOf(b.getAttribute("data-slug")); });
+    started.concat(mine, order.filter(function(c){ return started.indexOf(c) < 0 && mine.indexOf(c) < 0; }))
+      .forEach(function(c){ ul.appendChild(c); });
+  }
+  paintCards();
+  paintSaved();
+  if (chips.length && location.hash.length > 1){
+    setCat(location.hash.slice(1), false);
+    var on = document.querySelector('.chip[aria-pressed="true"]'); if (on && on.scrollIntoView) on.scrollIntoView({block:"nearest", inline:"nearest"});
+  } else if (q && q.value) apply(false);
+  /* back from a novena page (the browser may show this page from memory): bring progress and saves up to date */
+  window.addEventListener("pageshow", function(e){ if (e.persisted){ paintCards(); paintSaved(); apply(false); } });
+  window.addEventListener("storage", function(e){ if (e.key === SAVEDKEY || e.key === null) paintSaved(); });
 })();
 </script>
 {{SW}}

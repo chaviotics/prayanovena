@@ -65,6 +65,14 @@ section{padding:30px 0 8px}
 .bar .wrap{position:relative;display:flex;align-items:center;gap:12px;height:52px}
 .home{display:flex;align-items:center;gap:12px;flex:none;min-width:0;text-decoration:none;min-height:44px}
 .barshare{margin-left:auto}
+/* Save (site only): keeps this novena first in the library. Filled bookmark and a gold ring once saved */
+.barsave{margin-left:auto}
+.barsave+.barshare{margin-left:0}
+.barsave[aria-pressed="true"]{border-color:var(--gold)}
+.barsave[aria-pressed="true"] span,.barsave[aria-pressed="true"] svg{color:var(--wine)}
+.barsave[aria-pressed="true"] span{font-weight:600}
+/* tablets: Save and Share go icon-only (a bookmark and a paper plane read without words; "Aa" doesn't), so the title keeps its room */
+@media (min-width:601px) and (max-width:1099px){.barsave>span,.barshare>span{display:none}.barsave,.barshare{width:44px;padding:0}}
 .home .back-ic{font-size:16px;color:var(--gold);margin-right:-6px}
 .bar .mark{color:var(--wine);font-size:28px;line-height:1}
 .bar .name{font-family:var(--display);font-weight:600;font-size:18px;color:var(--wine);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -304,7 +312,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
   .home{gap:10px}
   .bar .name{display:none}
   .bar .mark{font-size:30px}
-  #sizeBtn>span,#themeLabel,.barshare>span{display:none}
+  #sizeBtn>span,#themeLabel,.barshare>span,.barsave>span{display:none}
   .bar .iconbtn{width:44px;min-width:44px;padding:0}
   .bar .iconbtn svg{font-size:21px}
   /* a shorter hero, so today's card and its button come into view sooner; the bar's arrow leads back */
@@ -321,6 +329,9 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
   .days .track{padding:5px 0 8px}
   .toast{bottom:calc(108px + env(safe-area-inset-bottom))}
 }
+/* with Save in the bar, "All novenas" no longer fits beside 4 buttons on narrow phones: the arrow and cross still lead
+   back, and the words stay for screen readers */
+@media (max-width:399px){.home .lbl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
 @media (max-width:420px){
   body{font-size:calc(17px * var(--scale))}
   .wrap{padding:0 16px}
@@ -417,7 +428,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
 <header class="bar">
   <div class="wrap">
     <a class="home" {{HOME_ATTRS}} id="homeLink">{{HOME_ARROW}}<svg class="i mark" aria-hidden="true" focusable="false"><use href="#i-logo"/></svg><span class="lbl">{{HOME_LABEL}}</span></a><span class="name"><span class="long">{{BAR_TITLE}}</span><span class="short">{{BAR_SHORT}}</span></span>
-    <button class="iconbtn barshare" type="button" data-share aria-label="Share this novena" title="Share this novena"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-paper-plane-tilt"/></svg><span>Share</span></button>
+    {{SAVE_BTN}}<button class="iconbtn barshare" type="button" data-share aria-label="Share this novena" title="Share this novena"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-paper-plane-tilt"/></svg><span>Share</span></button>
     <button class="iconbtn" id="sizeBtn" type="button" aria-expanded="false" aria-controls="sizer" aria-label="Text size" title="Text size"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-text-aa"/></svg><span>Text</span></button>
     <div class="sizer" id="sizer" role="group" aria-label="Text size">
       <button type="button" data-scale="1" aria-label="Normal text" style="font-size:15px">A</button>
@@ -623,6 +634,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
   var ART = {{ART}}; /* the day pictures (null for a plain day), or [] when the novena has none */
   var SHARE = {{SHARE}}; /* the novena's public link and a short message: never the intention or progress */
   var KEY = {{KEY}}, MODEKEY = "novenas-mode", canStore = true;
+  var SLUG = {{SLUG}}, SAVEDKEY = "novenas-saved"; /* saved novenas: slugs on this device only, newest first */
   function load(){ try{ var v = localStorage.getItem(KEY); return v ? JSON.parse(v) : {}; }catch(e){ canStore = false; return {}; } }
   function save(s){ if (!canStore) return; try{ localStorage.setItem(KEY, JSON.stringify(s)); }catch(e){ canStore = false; noteStore(); } }
   var state = load(); if (!state || typeof state !== "object") state = {};
@@ -786,6 +798,30 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
   function toast(msg, ms){ var el = $("toast"); el.textContent = msg; el.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(function(){ el.classList.remove("show"); }, ms || 2400); }
   /* move to the prayer and put focus on its heading, so keyboard and screen-reader users land where everyone else does */
   function goPrayer(smooth){ $("prayer").scrollIntoView({behavior: smooth && !reduce ? "smooth" : "auto"}); try{ $("prayHead").focus({preventScroll: true}); }catch(e){} }
+
+  /* Save: keeps this novena first in the library (All novenas), on this device only */
+  var saveBtn = $("saveBtn");
+  function savedList(){ try{ var v = JSON.parse(localStorage.getItem(SAVEDKEY) || "[]"); return Array.isArray(v) ? v.filter(function(x){ return typeof x === "string"; }) : []; }catch(e){ return []; } }
+  function paintSave(){
+    if (!saveBtn) return;
+    var on = savedList().indexOf(SLUG) >= 0;
+    saveBtn.setAttribute("aria-pressed", String(on));
+    saveBtn.firstElementChild.firstElementChild.setAttribute("href", on ? "#i-bookmark-simple-fill" : "#i-bookmark-simple");
+    $("saveLabel").textContent = on ? "Saved" : "Save";
+    saveBtn.title = on ? "Saved. Tap to remove" : "Save this novena";
+  }
+  if (saveBtn && SLUG){
+    saveBtn.addEventListener("click", function(){
+      var list = savedList().filter(function(x){ return x !== SLUG; }), on = saveBtn.getAttribute("aria-pressed") !== "true";
+      if (on) list.unshift(SLUG);
+      try{ localStorage.setItem(SAVEDKEY, JSON.stringify(list)); }catch(e){ toast("This browser cannot save here, so it can\u2019t keep this novena.", 4000); return; }
+      paintSave();
+      toast(on ? "Saved. It now comes first in All novenas." : "Removed from your saved novenas.", 3200);
+    });
+    window.addEventListener("storage", function(e){ if (e.key === SAVEDKEY || e.key === null) paintSave(); });
+    window.addEventListener("pageshow", function(e){ if (e.persisted) paintSave(); });
+    paintSave();
+  }
 
   $("beginBtn").addEventListener("click", function(){ goPrayer(true); });
   if ($("homeLink").getAttribute("href") === "#top") $("homeLink").addEventListener("click", function(e){ e.preventDefault(); window.scrollTo({top:0, behavior: reduce ? "auto" : "smooth"}); });

@@ -303,6 +303,14 @@ Two phases, so the new name can go live before the domain exists:
 - Day pictures, none used elsewhere on the site: Friedrich, Molnár, Pollaiuolo, Führich, Delacroix (Walters), Alma-Tadema (stretch, Genesis 41), Sacchi, Tissot, Bouguereau (stretch, Tobit 11). PDF 5 pages. Independent Catholic review applied (`review.md`).
 - Learned: when the Commons API answers "too many requests", `commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=…` still lists file names, and upload.wikimedia.org downloads go through after a short wait.
 
+### 2026-11-25: Saved novenas (branch `claude/project-thread-kskd8d`, not pushed, awaiting Chav)
+
+- Chav asked for favorites so a returning visitor doesn't scroll through 19 novenas. Built as **Save** with a bookmark (not "Favorite" with a heart: odd on novenas for sickness, debt or sin, and Finding Love's card icon is already a heart). Favorite, pin and save are one action.
+- Library: a bookmark in each card's top corner (a sibling of the card's link, `button.save`, aria-pressed, "Save <title>"). Order on load: in progress first, then saved (newest saved first), then the rest. Saving from the library never reorders cards under the finger; the new order shows on the next visit. A **Saved** chip after All, with a count, shows only once something is saved (`#saved` link works). New Common question "How do I keep my novenas at the top?". Back from a novena page (bfcache) repaints progress and saves.
+- Novena pages (site mode only): Save in the top bar before Share (`SAVE_BTN` in `tools/build.py`), toast "Saved. It now comes first in All novenas." Under 400px the bar's "All novenas" words become screen-reader only to fit 4 buttons; 601–1099px Save and Share are icon-only so the title keeps its room.
+- Storage: `novenas-saved` = JSON list of slugs on this device; Privacy's "Clear my data" already clears it (matches `/^novenas?-/`).
+- Preview https://claude.ai/artifact/JLqUmQbDW9Q9bNEukWUuDs. Open calls for Chav: wording/icon (Save + bookmark built) and whether to keep card bookmarks.
+
 ## Open items
 
 1. **Go live:** done (Netlify project linked to the repo; live at prayanovena.com).
