@@ -63,6 +63,7 @@ Two phases, so the new name can go live before the domain exists:
 | `talents` | Growing in Our Talents | Mary, Virgin Most Faithful, St. Benedict of Nursia, St. John Bosco, St. Paul (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 | `weary-servants` | Weary and Wounded Servants | Mary, Comforter of the Afflicted, St. Francis of Assisi, St. John of the Cross, St. Teresa of Calcutta (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
 | `spiritual-dryness` | When God Seems Silent | Our Lady of Solitude, St. Jane Frances de Chantal, St. Francis de Sales, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
+| `safe-travels` | Safe Travels | Our Lady of Peace and Good Voyage, St. Raphael, St. Joseph, St. Frances Xavier Cabrini (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
 
 ## Decisions and rules
 
@@ -295,6 +296,12 @@ Two phases, so the new name can go live before the domain exists:
 - Tested by Chav in Messenger on Android (deploy preview, PR #1): `intent:#Intent;action=SEND` ends on ERR_UNKNOWN_URL_SCHEME (dropped); Open in Chrome works; Telegram works (Messenger asks "You're leaving our app"); the Messenger button asks the same, with Messenger's error page behind it. Discord left out on purpose: it has no share link, so Copy link covers it.
 - Final pass (Chav approved going live after it): Android Chrome, iPhone Safari, Messenger, iPad (sheet centres from 601px), dark, largest text, keyboard (Tab stays in the sheet, Escape returns to Share), all 16 novena pages; the top-bar buttons' gold hover ring now applies only where there is a mouse (it stuck after a tap on phones).
 - Brand logos from Simple Icons (CC0) as `tools/icons/brand-*.svg`; `icon_symbol()` now reads each icon's own viewBox.
+
+### 2026-11-25 (safe travels novena)
+- **New novena `safe-travels`, "Novena for Safe Travels"** (Chav asked: for yourself or loved ones, business trips, vacations, OFWs). Category `travel` (first use of the chip), order 19, card icon `airplane-tilt` (new icons `airplane-tilt`, `suitcase-rolling`, `path`, `waves`, `buildings`). Intercessors: Our Lady of Peace and Good Voyage (the Antipolo title only; litany face is Mary from Murillo's *Rest on the Flight into Egypt*), St. Raphael and St. Joseph (portraits reused), St. Frances Xavier Cabrini (PD photo c. 1900). St. Christopher left out (legend uncertain). Never promises safe arrival; Day 9 thanks God "for His company on every mile" and commends journeys that ended in sorrow; Day 8 prays for those who died far from home. Tip "Working abroad" (licensed agency / DMW, passport, embassy).
+- Arc: Psalm 121:1–2, Hebrews 11:8 (Genesis 12:1 opens a quote closing at 12:3), Tobit 5:4–6, Luke 24:15–16, Mark 4:39–40, Jeremiah 29:7, Colossians 2:5, Matthew 2:19–21, Psalm 121:7–8; epigraph Psalm 91:11, closing Proverbs 3:5–6. Verified against the RSVCE files of `andrewheekin/obsidian-holy-bible` (`sources.md`).
+- Day pictures, none used elsewhere on the site: Friedrich, Molnár, Pollaiuolo, Führich, Delacroix (Walters), Alma-Tadema (stretch, Genesis 41), Sacchi, Tissot, Bouguereau (stretch, Tobit 11). PDF 5 pages. Independent Catholic review applied (`review.md`).
+- Learned: when the Commons API answers "too many requests", `commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=…` still lists file names, and upload.wikimedia.org downloads go through after a short wait.
 
 ## Open items
 
