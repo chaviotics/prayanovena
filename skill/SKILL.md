@@ -187,10 +187,17 @@ python3 tools/build.py                               # copies the PDF next to th
 2. Commit and push to `main`. Netlify builds nothing: it publishes `site/` (see `netlify.toml`), so always commit the built `site/`. If the site isn't linked to GitHub yet, deploy with the Netlify MCP `deploy-site` command instead (it may need the user's approval), or publish `site/` as a Claude artifact for review.
 3. Open the live page to confirm it works. Commit messages carry no Co-Authored-By trailer.
 4. Update `PROJECT_LOG.md`: add the novena to the table and move any finished open items out. Add a 3 to 5 line entry to this month's `log/YYYY-MM.md`.
+5. Set the novena's row in `log/novenas.csv` to `live` with the live date and `total_usd`, in the same commit, then refresh the dashboard and the cost report (Report, below).
 
 ## Report
 
-Keep the report short:
+Every preview message and the final report open with the link and the cost so far, for example "Preview: <link> · $6.96 so far".
+
+- **Reading the cost:** `get_session` with no session id gives this thread's usage, helpers included. It can lag a turn, so also read `total_cost_usd` on the newest `result` event of `list_events` (kinds `["result"]`) and use the larger. Never estimate a missing number; write nothing and the dashboard shows "not measured".
+- **Log it:** at the first preview, add the novena's row to `log/novenas.csv` (status `preview`, `to_preview_usd`; same columns as the other rows, or fill the row already there). Then refresh **Novena Admin** (https://claude.ai/artifact/9inRucFoDpdaf7mJoWDvMd): upload the CSV with the Artifact tool (`asset: true`) and point its `novenas` dataset at the new `/_blob/` url with an ArtifactData `update` (new `source.url` and `updated.at`). Do it again after publishing.
+- **Cost report:** after publishing, add one line to the `builds` list in `/mnt/project-files/token-test/novena-cost-report.html` (grep for it, copy the last line's shape) and republish it to https://claude.ai/artifact/V8qzCpGgibz24Rk5KU1FZN.
+
+Keep the rest of the report short:
 - the saints and why they were chosen
 - the live link and the PDF link
 - what the reviews changed
