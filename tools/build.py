@@ -801,3 +801,8 @@ if __name__ == "__main__":
     else:
         # --search / --no-search force the library search box on or off (default: on from SEARCH_MIN novenas)
         build_site(True if "--search" in sys.argv else False if "--no-search" in sys.argv else None)
+    # every session reads these two files first, so keep them small (see CLAUDE.md)
+    for name, limit in (("PROJECT_LOG.md", 20), ("CLAUDE.md", 3)):
+        kb = os.path.getsize(os.path.join(ROOT, name)) / 1024
+        if kb > limit:
+            print("WARNING: %s is %.0f KB (keep it under %d KB; move dated entries to log/)" % (name, kb, limit))
