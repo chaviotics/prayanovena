@@ -515,7 +515,8 @@ def last_changed(*paths):
 def build_seo(novenas, site):
     """site/sitemap.xml (published pages only), site/robots.txt pointing to it, site/_headers giving each PDF its page
     as canonical (so search results send people to the prayer page, which links the PDF), and site/_redirects
-    sending the free netlify.app address to prayanovena.com (one address in search results)"""
+    sending the free netlify.app address to prayanovena.com (one address in search results) and each renamed novena's
+    old slugs ("oldSlugs" in novena.json) to its new address"""
     pub = [n for n in novenas if n.get("status") == "published"]
     nov = lambda n: os.path.join(ROOT, "novenas", n["slug"])
     tmpl = lambda name: os.path.join(ROOT, "templates", name)
@@ -538,9 +539,15 @@ def build_seo(novenas, site):
             heads += ["/%s/%s" % (n["slug"], os.path.basename(p)), '  Link: <%s/%s/>; rel="canonical"' % (SITE_URL, n["slug"])]
     with open(os.path.join(site, "_headers"), "w", encoding="utf-8") as f:
         f.write("\n".join(heads) + "\n")
+    moves = []  # a renamed novena lists its old slugs in "oldSlugs"; old links (page, PDF, images) forward to the new address
+    for n in pub:
+        for old in n.get("oldSlugs", []):
+            moves += ["/%s/%s-novena.pdf /%s/%s-novena.pdf 301!" % (old, old, n["slug"], n["slug"]),
+                      "/%s /%s/ 301!" % (old, n["slug"]), "/%s/* /%s/:splat 301!" % (old, n["slug"])]
     with open(os.path.join(site, "_redirects"), "w", encoding="utf-8") as f:
-        f.write("# Made by tools/build.py (build_seo): the free Netlify address forwards to the real domain.\n"
-                "https://prayanovena.netlify.app/* %s/:splat 301!\n" % SITE_URL)
+        f.write("# Made by tools/build.py (build_seo): the free Netlify address forwards to the real domain,\n"
+                "# and renamed novenas forward from their old slugs (\"oldSlugs\" in novena.json).\n"
+                "https://prayanovena.netlify.app/* %s/:splat 301!\n" % SITE_URL + "".join(m + "\n" for m in moves))
     print("built sitemap.xml (%d pages), robots.txt, _headers, _redirects" % len(pages))
 
 

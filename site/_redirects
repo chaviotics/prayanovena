@@ -1,2 +1,6 @@
-# Made by tools/build.py (build_seo): the free Netlify address forwards to the real domain.
+# Made by tools/build.py (build_seo): the free Netlify address forwards to the real domain,
+# and renamed novenas forward from their old slugs ("oldSlugs" in novena.json).
 https://prayanovena.netlify.app/* https://prayanovena.com/:splat 301!
+/work-and-livelihood/work-and-livelihood-novena.pdf /strength-and-growth-at-work/strength-and-growth-at-work-novena.pdf 301!
+/work-and-livelihood /strength-and-growth-at-work/ 301!
+/work-and-livelihood/* /strength-and-growth-at-work/:splat 301!

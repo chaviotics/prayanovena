@@ -1,6 +1,6 @@
 # Day pictures (app only, all public domain)
 
-Made by `tools/art.py make work-and-livelihood` from `novenas/work-and-livelihood/art.json`.
+Made by `tools/art.py make strength-and-growth-at-work` from `novenas/strength-and-growth-at-work/art.json`.
 
 | Files | Used for | Work | Why public domain |
 |---|---|---|---|

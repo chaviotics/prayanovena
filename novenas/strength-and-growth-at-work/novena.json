@@ -1,5 +1,8 @@
 {
- "slug": "work-and-livelihood",
+ "slug": "strength-and-growth-at-work",
+ "oldSlugs": [
+  "work-and-livelihood"
+ ],
  "storageKey": "novena-work-and-livelihood",
  "status": "published",
  "order": 4,
