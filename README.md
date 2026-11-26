@@ -11,7 +11,8 @@ Live at https://prayanovena.com
 - `tools/check_print.py`: checks a print PDF has every word; `tools/print_fill.py`: fills the older Google Docs layout
 - `tools/shots.py`, `tools/og.py`: phone screenshots and link-preview images
 - `skill/SKILL.md`: the step-by-step guide for making a new novena
-- `PROJECT_LOG.md`: decisions, history and open items; read it first
+- `PROJECT_LOG.md`: current state, decisions and open items; read it first
+- `log/`: dated history, one file per month
 
 ## Older print docs (Google Drive, folder "[12] 🙏 Faith"; new novenas use the PDF instead)
 
