@@ -18,7 +18,7 @@ Every novena uses the same prayer structure and design. Only the content changes
 
 - **Repo:** `chaviotics/prayanovena` (branch `main`; Netlify deploys every push). Never push to `chaviotics/novena-finances`: it is the family's live debt novena.
 - **Netlify:** project `prayanovena` (id `3902d84c-0c49-48e4-a0ed-e1a0c45e5d75`). Never deploy to `novena-finances` unless the user asks.
-- **Read first, lean:** `PROJECT_LOG.md` (where things live, the novenas table, decisions and rules, open items). Dated history is in `log/`; grep it only when you need something specific. Then read ONE example, `novenas/habitual-sin/novena.json` (it follows the saints-per-day rule), and match its tone, lengths and polish. From this skill, read sections 1 to 5b now and the rest when you reach them.
+- **Read first, lean:** `PROJECT_LOG.md` (where things live, decisions and rules, open items; the novena list is `log/novenas.csv`). Dated history is in `log/`; grep it only when you need something specific. Then read ONE example, `novenas/habitual-sin/novena.json` (it follows the saints-per-day rule), and match its tone, lengths and polish. From this skill, read sections 1 to 5b now and the rest when you reach them.
 - **Tools:** `tools/build.py` (site and artifact), `tools/print_pdf.py` (printable PDF), `tools/check_print.py` (print text check), `tools/shots.py` (screenshots), `tools/og.py` (link-preview images), `tools/art.py` (day pictures), `tools/check_verses.py` (Scripture check). Read each one's docstring before using it.
 
 ## 0b. Work lean (usage)
@@ -186,7 +186,7 @@ python3 tools/build.py                               # copies the PDF next to th
 1. Set `"status": "published"`, then run `python3 tools/build.py`.
 2. Commit and push to `main`. Netlify builds nothing: it publishes `site/` (see `netlify.toml`), so always commit the built `site/`. If the site isn't linked to GitHub yet, deploy with the Netlify MCP `deploy-site` command instead (it may need the user's approval), or publish `site/` as a Claude artifact for review.
 3. Open the live page to confirm it works. Commit messages carry no Co-Authored-By trailer.
-4. Update `PROJECT_LOG.md`: add the novena to the table and move any finished open items out. Add a 3 to 5 line entry to this month's `log/YYYY-MM.md`.
+4. Update `PROJECT_LOG.md` if a rule or open item changed. Add a 3 to 5 line entry to this month's `log/YYYY-MM.md`.
 5. Set the novena's row in `log/novenas.csv` to `live` with the live date and `total_usd`, in the same commit, then refresh the dashboard and the cost report (Report, below).
 
 ## Report

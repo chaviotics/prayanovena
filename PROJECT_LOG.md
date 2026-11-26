@@ -2,7 +2,7 @@
 
 **Pray a Novena** (formerly Catholic Novenas; tagline "Catholic novenas for every intention") is a library of 9-day Catholic novenas. Each novena has a phone prayer page (light and dark, day-by-day progress) and a printable A4 PDF (up to 5 pages, the whole text) made from the same text. New novenas are made from just an intention with the **novena-maker** skill.
 
-This file is the present state: read it at the start of a work session. Dated history is in `log/` (one file per month, newest `log/2026-11.md`); grep it when you need something specific. At the end of a session that changed something, add a 3 to 5 line entry to this month's log file, update the table or rules here, and move finished items out of "Open items".
+This file is the present state: read it at the start of a work session. Dated history is in `log/` (one file per month, newest `log/2026-11.md`); grep it when you need something specific. At the end of a session that changed something, add a 3 to 5 line entry to this month's log file, update `log/novenas.csv` or the rules here, and move finished items out of "Open items".
 
 ## Where things live
 
@@ -18,26 +18,7 @@ This file is the present state: read it at the start of a work session. Dated hi
 
 ## Novenas in the library
 
-| Slug | Card title | Intercessors | Status | Print |
-|---|---|---|---|---|
-| `relief-from-debt` | Relief from Debt and Financial Hardship | St. Joseph, St. Rita of Cascia, St. Jude Thaddeus (Memorare to St. Joseph) | Published | PDF 5 pages; old Doc 4 pages, tab "With Intention" |
-| `healing` | Healing of the Sick | Our Lady of Lourdes, St. Raphael, St. Camillus de Lellis, St. Bernadette (Marian Memorare) | Published | PDF 5 pages; old Doc 4 pages |
-| `expectant-parents` | Expectant Parents | Our Lady of the Visitation, St. Gerard Majella, St. Elizabeth, St. Joseph (Marian Memorare) | Published 2026-11-21 | PDF 5 pages; no Google Doc |
-| `finding-love` | Finding Love | Mary, Mother of Fairest Love, St. Raphael, St. Louis Martin, St. Zélie Martin (Marian Memorare) | Published 2026-11-22 | PDF 5 pages |
-| `life-decisions` | Big Life Decisions | Our Lady of Good Counsel, St. Ignatius of Loyola, St. Francis Xavier, St. John Henry Newman (Marian Memorare) | Published 2026-11-22 | PDF 5 pages |
-| `unrequited-love` | When Love Is Not Returned | Our Lady of Sorrows, St. Pier Giorgio Frassati, St. Augustine of Hippo, St. Joseph (Marian Memorare) | Published 2026-11-22 | PDF 5 pages |
-| `finishing-a-thesis` | Finishing a Thesis | Our Lady, Seat of Wisdom, St. Thomas Aquinas, St. Albert the Great, St. Giuseppe Moscati (Marian Memorare) | Published 2026-11-22 | PDF 5 pages |
-| `friendship` | Genuine Friends and Community | Mary, Mother of the Church, St. Basil the Great, St. Gregory Nazianzen, St. Pier Giorgio Frassati (Marian Memorare) | Published 2026-11-22 | PDF 5 pages |
-| `longing-for-a-child` | Couples Longing for a Child | Our Lady of Hope, St. Joachim, St. Anne, St. Zechariah (Marian Memorare) | Published 2026-11-22 | PDF 5 pages |
-| `serving-in-ministry` | Serving in Ministry | Mary, Handmaid of the Lord, St. Martha, St. Cecilia, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
-| `habitual-sin` | Freedom from Habitual Sin | Mary, Refuge of Sinners, St. Augustine of Hippo, St. Monica, St. Charles de Foucauld (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
-| `talents` | Growing in Our Talents | Mary, Virgin Most Faithful, St. Benedict of Nursia, St. John Bosco, St. Paul (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
-| `weary-servants` | Weary and Wounded Servants | Mary, Comforter of the Afflicted, St. Francis of Assisi, St. John of the Cross, St. Teresa of Calcutta (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
-| `spiritual-dryness` | When God Seems Silent | Our Lady of Solitude, St. Jane Frances de Chantal, St. Francis de Sales, St. Thérèse of Lisieux (Marian Memorare) | Published 2026-11-24 | PDF 5 pages |
-| `safe-travels` | Safe Travels | Our Lady of Peace and Good Voyage, St. Raphael, St. Joseph, St. Frances Xavier Cabrini (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
-| `peace-in-the-family` | Peace in the Family | Our Lady, Queen of Families, St. Joseph, St. Monica, St. Rita of Cascia (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
-| `sick-pet` | A Sick Pet | Our Lady, Health of the Sick, St. Francis of Assisi, St. Anthony the Abbot, St. Martin de Porres (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
-| `grieving` | Those Grieving a Loved One | Our Lady of Sorrows, St. Martha, St. Augustine of Hippo, St. Elizabeth Ann Seton (Marian Memorare) | Published 2026-11-26 | PDF 5 pages |
+One row per novena in `log/novenas.csv` (slug, title, what it's for, intercessors, status, live date, link, cost to preview and total). The private **Novena Admin** dashboard (https://claude.ai/artifact/9inRucFoDpdaf7mJoWDvMd) is built from it. All novenas use the Marian Memorare except `relief-from-debt` (Memorare to St. Joseph); every one has a 5-page PDF, and debt and healing also have an old Google Doc (4 pages, IDs in `README.md`; debt uses the tab "With Intention").
 
 ## Decisions and rules
 
