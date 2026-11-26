@@ -11,8 +11,8 @@
  "barShort": "Job Novena",
  "kicker": "9 days of prayer for finding work",
  "card": "For anyone looking for a job: laid off, starting out, returning to work or seeking work abroad. 9 days of trust through the search.",
- "ogDescription": "9 days of prayer for finding a job, through Our Lady, St. Cajetan and St. John Bosco.",
- "description": "A 9-day Catholic novena for finding a job, for the unemployed, laid off, first-time job seekers and OFWs, through Our Lady, St. Cajetan and St. John Bosco.",
+ "ogDescription": "9 days of prayer for finding a job, through Our Lady, St. Joseph, St. Cajetan and St. John Bosco.",
+ "description": "A 9-day Catholic novena for finding a job, for the unemployed, first-time job seekers and OFWs, through Our Lady, St. Joseph, St. Cajetan and St. John Bosco.",
  "keywords": [
   "job",
   "finding a job",
@@ -42,7 +42,7 @@
   "our lady of providence"
  ],
  "ogSaints": [
-  "cajetan",
+  "joseph",
   "bosco"
  ],
  "epigraph": {
@@ -62,6 +62,16 @@
   "who are called according to his purpose."
  ],
  "saints": [
+  {
+   "id": "joseph",
+   "name": "St. Joseph",
+   "dates": "1st century",
+   "feast": "Feasts · Mar 19 & May 1",
+   "patron": "Patron of workers",
+   "bio": "Husband of Mary and foster-father of Jesus. A carpenter of Nazareth, he taught his trade to the One people called “the carpenter’s son.” Honored on May 1 as St. Joseph the Worker.",
+   "alt": "Painting: St. Joseph holding the Infant Jesus, by Guido Reni",
+   "openingRole": "who led the Holy Family to safety in Egypt"
+  },
   {
    "id": "cajetan",
    "name": "St. Cajetan",
@@ -89,6 +99,10 @@
    "text": "Mary, Mother of Divine Providence"
   },
   {
+   "img": "joseph",
+   "text": "St. Joseph"
+  },
+  {
    "img": "cajetan",
    "text": "St. Cajetan"
   },
@@ -97,7 +111,7 @@
    "text": "St. John Bosco"
   }
  ],
- "openingPrayer": "Heavenly Father, You know that we are looking for work, and You know what this search costs us: the applications that go unanswered, the worry about money, the people who depend on us, the quiet fear that we are not wanted. We bring it all to You and trust in Your providence. Open the right door at the right time, and give us courage while we wait. Today we ask Mary, Mother of Divine Providence; St. Cajetan, friend of all who seek work; and St. John Bosco, who went looking for work as a boy, to join their prayers with ours, through Christ our Lord.",
+ "openingPrayer": "Heavenly Father, You know that we are looking for work, and You know what this search costs us: the applications that go unanswered, the worry about money, the people who depend on us, the quiet fear that we are not wanted. We entrust it all to Your providence. Guide us to good work, and give us courage while we wait. Today we ask Mary, Mother of Divine Providence; St. Joseph, who led the Holy Family to safety in Egypt; St. Cajetan, friend of all who seek work; and St. John Bosco, who went looking for work as a boy, to join their prayers with ours, through Christ our Lord.",
  "closingPrayer": "Lord Jesus, You worked with Your own hands in Nazareth and know the worth of honest work. Stay with us in this search, guide our steps, and keep us trusting that our Father knows what we need.",
  "memorare": {
   "to": "Mary"
@@ -124,7 +138,7 @@
   "users",
   "sun-horizon"
  ],
- "credits": "Images: Andrea Vaccaro, <em>The Detachment of St Cajetan</em>, 17th century, Museo del Prado, Madrid · St. John Bosco, photograph attributed to Carlo Felice Deasti, Turin, 1880 · Scipione Pulzone, <em>Mater Divinae Providentiae</em>, c. 1580. Public domain, via Wikimedia Commons.",
+ "credits": "Images: Guido Reni, <em>St Joseph with the Infant Jesus</em>, c. 1635, Hermitage Museum · Andrea Vaccaro, <em>The Detachment of St Cajetan</em>, 17th century, Museo del Prado, Madrid · St. John Bosco, photograph attributed to Carlo Felice Deasti, Turin, 1880 · Scipione Pulzone, <em>Mater Divinae Providentiae</em>, c. 1580. Public domain, via Wikimedia Commons.",
  "days": [
   {
    "title": "Bringing Our Need to God",
@@ -185,8 +199,8 @@
    "ref": "Proverbs 14:15",
    "verse": "The simple believes everything, / but the prudent looks where he is going.",
    "refl": "Proverbs puts it simply: the simple believe everything, but the prudent look where they are going. When we badly need work, we are easy to fool. Offers of high pay for little work, recruiters who want large fees before anything is signed, lenders who make it easy to borrow for a placement fee: all of these prey on hope. Prudence is not a lack of trust in God; it is one of His gifts. Before we say yes, we can slow down, ask questions, and check what we are told.",
-   "more": "Scams aimed at people looking for work often share the same signs: a fee before any contract, pressure to decide at once, an employer no one can check, or pay far above what the work is worth. Prudence protects the vulnerable, ourselves included. Deciding whether to work abroad is part of this. We can weigh the real cost of leaving home alongside the pay, listen to those who have gone before, and pray it through.",
-   "prayer": "Father, give us the gift of prudence in this search. Open our eyes to false promises, fake job offers and anyone who would take advantage of our need. Keep us from shortcuts that lead into debt or danger. Help us weigh every decision, including whether to work far from home, with clear minds and honest counsel. Send Your Holy Spirit to counsel us, that we may look where we are going.",
+   "more": "When St. Joseph was warned in a dream, he rose, took the child and his mother by night, and went to Egypt (Matthew 2:13–14). He took the warning seriously and acted to protect those in his care. Scams aimed at people looking for work often share the same signs: a fee before any contract, pressure to decide at once, an employer no one can check, or pay far above what the work is worth.",
+   "prayer": "Father, give us the gift of prudence in this search. Open our eyes to false promises, fake job offers and anyone who would take advantage of our need. Keep us from shortcuts that lead into debt or danger. Help us weigh every decision, including whether to work far from home, with clear minds and honest counsel. St. Joseph, who heeded God’s warning and acted wisely, pray for us, that we may look where we are going.",
    "step": "Before you accept any offer or pay any fee, check that the employer or agency is real and licensed, and ask one experienced person what they think."
   },
   {
@@ -203,8 +217,8 @@
    "ref": "1 Thessalonians 5:16–18",
    "verse": "Rejoice always, pray constantly, give thanks in all circumstances; for this is the will of God in Christ Jesus for you.",
    "refl": "Paul asks us to give thanks in all circumstances, not only after good news. That can seem impossible when the search is long. But gratitude is not pretending. It is noticing how God has been with us through these nine days: a kind word, a new lead, an unexpected peace, the strength to keep going. Whether the work we hoped for has come or we are still waiting, we place our search in God’s hands, trusting that His will for us is good and that He will not stop caring for us.",
-   "more": "We thank Mary, Mother of Divine Providence, who brings our needs to her Son; St. Cajetan, friend of all who seek work; and St. John Bosco, who knew humble work and helped young people find theirs. We keep praying, keep searching and keep trusting. And when the right work comes, may we remember to give thanks, and to help someone else who is still looking, as others have helped us.",
-   "prayer": "Father, we thank You for walking with us through these nine days. Thank You for every grace we noticed, and for those we did not see. We place our search, our future and those who depend on us in Your hands, trusting that You know what we need. Mary, Mother of Divine Providence, St. Cajetan and St. John Bosco, pray for us. Whatever comes, keep us grateful, faithful and at peace, and let our work one day serve Your glory and the good of others.",
+   "more": "We thank Mary, Mother of Divine Providence, who brings our needs to her Son; St. Joseph, who kept the Holy Family safe; St. Cajetan, friend of all who seek work; and St. John Bosco, who knew humble work and helped young people find theirs. We keep praying, keep searching and keep trusting. And when the right work comes, may we remember to give thanks, and to help someone else who is still looking.",
+   "prayer": "Father, we thank You for walking with us through these nine days. Thank You for every grace we noticed, and for those we did not see. We place our search, our future and those who depend on us in Your hands, trusting that You know what we need. Mary, Mother of Divine Providence, St. Joseph, St. Cajetan and St. John Bosco, pray for us. Whatever comes, keep us grateful, faithful and at peace, and let our work one day serve Your glory and the good of others.",
    "step": "Write down three graces you noticed during these nine days, and thank God for them together."
   }
  ]

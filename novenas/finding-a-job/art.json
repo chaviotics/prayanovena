@@ -110,23 +110,22 @@
       "license": "13th-century work; faithful photo of a 2D work (Commons: public domain)"
     },
     {
-      "file": "The parable of the wise and foolish virgins (SM 895).png",
-      "width": 1280,
+      "file": "Adam Elsheimer - Die Flucht nach Ägypten (Alte Pinakothek).jpg",
+      "width": 1920,
       "crop": [
-        0.58,
-        0.2,
-        0.98,
-        0.6243
+        0.3,
+        0.6411,
+        0.62,
+        0.97
       ],
-      "kind": "stretch",
-      "passage": "Matthew 25",
-      "artist": "Friedrich Wilhelm Schadow",
-      "title": "The Parable of the Wise and Foolish Virgins",
-      "year": "",
-      "place": "Städel Museum, Frankfurt",
-      "alt": "Young women stand at a doorway holding lit lamps, with Saint Peter beside them holding his keys.",
-      "look": "Look again at the lamps, and at who has come prepared. What one careful question could you ask before you say yes?",
-      "license": "Artist died 1862; faithful photo of a 2D work (Commons: Public Domain Mark, Städel Museum)"
+      "kind": "saint",
+      "artist": "Adam Elsheimer",
+      "title": "The Flight into Egypt",
+      "year": "1609",
+      "place": "Alte Pinakothek, Munich",
+      "alt": "By night, Joseph walks beside the donkey, holding out a small torch to the child, whom Mary carries on the donkey.",
+      "look": "Look again at Joseph and his small torch in the dark, choosing each step with Mary and the child. What would you check about this path or offer before you step into it?",
+      "license": "Artist died 1610; faithful photo of a 2D work (Commons: public domain)"
     },
     {
       "file": "Aquila en zijn vrouw Priscillia, St.Paulus te Corinthe bij de tentmaker.jpg",

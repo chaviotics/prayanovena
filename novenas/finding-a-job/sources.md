@@ -27,6 +27,7 @@ All texts come from the RSVCE chapter files of `andrewheekin/obsidian-holy-bible
 - "learned the secret of facing plenty and hunger, abundance and want" (Philippians 4:12)
 - "They have no wine" (John 2:3); "Do whatever he tells you" (John 2:5)
 - "The LORD has forsaken me" (Isaiah 49:14)
+- Day 7: St. Joseph warned in a dream, rose, took the child and his mother by night and went to Egypt (Matthew 2:13–14; 2:14 "And he rose and took the child and his mother by night, and departed to Egypt"), paraphrased; checked against the same source files 2026-11-26.
 - Day 5 prayer alludes to Luke 2:19 (Mary "kept all these things, pondering them in her heart"), paraphrased.
 
 **Permission limits:** 18 verses in total (2 + 16). No whole book, no book beyond 25%.
@@ -35,6 +36,9 @@ All texts come from the RSVCE chapter files of `andrewheekin/obsidian-holy-bible
 
 ### Mary, Mother of Divine Providence (litany only, no saint card)
 No saint fact is stated in the text. Day 2 uses only the Cana account (John 2:1–11, Scripture). The title's legend (St. Philip Benizi) is not used. For the picture: Scipione Pulzone, *Mater Divinae Providentiae*, c. 1580, honored by the Barnabites at San Carlo ai Catinari, Rome (https://en.wikipedia.org/wiki/Our_Lady_of_Providence).
+
+### St. Joseph (saints[] entry reused from work-and-livelihood; openingRole "who led the Holy Family to safety in Egypt")
+- Scripture only: Matthew 2:13–14 (flight into Egypt), used on Day 7 and in the opening prayer; thanked on Day 9. No facts about his life in Egypt. Portrait and credit as in work-and-livelihood (Guido Reni).
 
 ### St. Cajetan (saints[] entry reused from work-and-livelihood)
 - Dates, feast, Theatines, Naples: https://www.newadvent.org/cathen/03145a.htm ; https://en.wikipedia.org/wiki/Saint_Cajetan. HISTORICAL.
@@ -50,3 +54,6 @@ No saint fact is stated in the text. Day 2 uses only the Cana account (John 2:1�
 
 ## Church teaching
 No CCC numbers cited (not verified).
+
+## Review 2 (2026-11-26, St. Joseph added)
+Fresh reviewer checked the Joseph additions: Matthew 2:13-14 moment accurate, nothing invented about Egypt. Applied: descriptions name Joseph; Day 7 prayer "heeded God’s warning"; Day 7 picture alt corrected and sharper 1920 px source; opening prayer asks again for good work.
