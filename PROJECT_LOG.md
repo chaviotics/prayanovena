@@ -59,8 +59,4 @@ Dated entries are in `log/YYYY-MM.md`, one file per month, newest at the bottom.
 
 ## Ideas to weigh (not decided)
 
-- SEO next steps from the plan above: a custom 404, feast-timed lines on existing novenas, a Pentecost novena.
-
-- From the audit: a priest review of the new prayers (then update the About disclosure), an "add to calendar" reminder for the 9 days, novenas timed to feast days.
-- When the family finishes their current round, point novena-finances to the library's debt novena so there is one version to maintain.
-- Next intentions to consider: see the roadmap doc (https://claude.ai/artifact/Nuhwhpne8JEqxcwkwA9nDA). Print: every novena now has its PDF.
+In `docs/research/ideas.md` (one row per idea, Chav's call per row); products looked at are in `docs/research/landscape.md`. `/scout <idea>` researches one; `/ship <idea>` builds one (see "Shipping" in `CLAUDE.md`).
