@@ -9,8 +9,9 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "SAMEORIGIN"
-    # Only this site's own files may load, so the "nothing leaves your device" promise holds even if a third-party script is ever pasted in.
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'"
+    # Only this site's own files may load, plus Cloudflare Web Analytics (its beacon script and where it reports page counts),
+    # so the "nothing leaves your device" promise holds even if another third-party script is ever pasted in.
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'"
 
 # Pages always revalidate, so family see corrections right away.
 [[headers]]

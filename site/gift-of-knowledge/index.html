@@ -1226,5 +1226,6 @@ if ("serviceWorker" in navigator && window.isSecureContext){
   try{ navigator.serviceWorker.register("../sw.js").then(function(){ return navigator.serviceWorker.ready; }).then(function(){ var n = document.getElementById("offlineNote"); if (n) n.hidden = false; }).catch(function(){}); }catch(e){}
 }
 </script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "679f03b6bba14b3f9eec5d3d4714f4b8", "spa": false}'></script>
 </body>
 </html>

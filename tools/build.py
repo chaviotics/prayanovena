@@ -60,11 +60,26 @@ def local_fonts(up):
             '<link rel="stylesheet" href="{0}fonts/fonts.css?v=2">').format(up)
 
 
+# Cloudflare Web Analytics (Chav, 2026-11-26): cookieless page counts. The site is DNS-only at Cloudflare and served by
+# Netlify, so the beacon is added by hand; netlify.toml's CSP allows its two hosts and the Privacy page says what it sees.
+# "spa": false so the library's filter chips (they rewrite the address) don't count as extra page views. Empty = no beacon.
+CF_ANALYTICS_TOKEN = "679f03b6bba14b3f9eec5d3d4714f4b8"
+
+
+def analytics():
+    """the Cloudflare Web Analytics beacon (site pages only). The service worker ignores other sites' requests, so it
+    never caches or blocks it; a page opened offline simply isn't counted"""
+    if not CF_ANALYTICS_TOKEN:
+        return ""
+    return ('\n<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" '
+            'data-cf-beacon=\'{"token": "%s", "spa": false}\'></script>' % CF_ANALYTICS_TOKEN)
+
+
 def sw_register(up):
-    """register the service worker, and say so once the library is saved on this device"""
+    """register the service worker, and say so once the library is saved on this device; then the analytics beacon"""
     return ('<script>\nif ("serviceWorker" in navigator && window.isSecureContext){\n'
             '  try{ navigator.serviceWorker.register("%ssw.js").then(function(){ return navigator.serviceWorker.ready; })'
-            '.then(function(){ var n = document.getElementById("offlineNote"); if (n) n.hidden = false; }).catch(function(){}); }catch(e){}\n}\n</script>') % up
+            '.then(function(){ var n = document.getElementById("offlineNote"); if (n) n.hidden = false; }).catch(function(){}); }catch(e){}\n}\n</script>') % up + analytics()
 
 
 RSV_NOTICE = ("Scripture quotations are from The Catholic Edition of the Revised Standard Version of the Bible, copyright © 1965, 1966 "
