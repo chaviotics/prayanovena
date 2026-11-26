@@ -44,6 +44,7 @@ CATEGORIES = [
     ("departed", "The departed"),
     ("seasons", "Seasons & feasts"),
 ]
+START_HINT = "Begin on any day. Each day takes about 10 minutes."  # hero line before Day 1; "startHint" in novena.json overrides it
 CHIPS_MIN = 4    # show the filter chips once this many novenas are published
 SEARCH_MIN = 10  # show the search box once this many are published (chips are enough below that)
 SAVED_KEY = "novenas-saved"  # the novenas someone saved on this device: a list of slugs, newest first (cleared with the rest on /privacy/)
@@ -401,6 +402,9 @@ def page(n, mode):
                 i, i, n["icons"][i - 1], i, esc(d["title"]), esc(d["ref"])) for i, d in enumerate(n["days"], 1)),
         "DAY1_MORE": esc(n["days"][0].get("more", "")), "DAY1_PRAYER": esc(n["days"][0]["prayer"]), "DAY1_STEP": esc(n["days"][0].get("step", "")), "OPENING_PRAYER": esc(n["openingPrayer"]),
         "INTENT_PH": esc(n.get("intentionPlaceholder", "Write the intention you are praying for.")),
+        # "startHint": a novena tied to dates (Christmas, Dec 16–24) says when to begin instead of "Begin on any day."
+        "START_HINT": esc(n.get("startHint", START_HINT)).replace(" 10 minutes", " 10&nbsp;minutes"),
+        "START_HINT_JS": json.dumps(n.get("startHint", START_HINT), ensure_ascii=False),
         "LITANY": litany, "CLOSING_PRAYER": esc(n["closingPrayer"]), "MEMORARE_TITLE": esc(mem_title),
         "MEMORARE_TEXT": esc(mem_text), "HOW_MEMORARE": how_mem, "TIPS": tips,
         "SAINTS_HEAD": NUMWORD[len(n["saints"])], "SAINTS": saints, "CLOSE_TEXT": scripture(n["closingVerse"]["text"]),

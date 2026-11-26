@@ -1,0 +1,230 @@
+{
+ "slug": "christmas",
+ "storageKey": "novena-christmas",
+ "status": "published",
+ "order": 23,
+ "category": "seasons",
+ "title": "Novena for Christmas",
+ "cardTitle": "Christmas, with Simbang Gabi",
+ "icon": "star",
+ "barTitle": "Christmas Novena",
+ "barShort": "Christmas",
+ "kicker": "9 days to Christmas, Dec 16 to 24",
+ "card": "For the 9 days before Christmas, Dec 16 to 24: a novena that walks beside the Simbang Gabi Masses and opens each day’s Gospel.",
+ "ogDescription": "9 days of prayer to prepare for Christmas, through Our Lady, St. Joseph, St. John the Baptist and St. Francis.",
+ "description": "A 9-day Catholic novena for Christmas, Dec 16 to 24, to pray beside Simbang Gabi with each day’s Gospel, through Our Lady, St. Joseph and St. John the Baptist.",
+ "keywords": [
+  "christmas novena",
+  "christmas",
+  "advent",
+  "simbang gabi",
+  "misa de gallo",
+  "misa de aguinaldo",
+  "dawn mass",
+  "december 16",
+  "nine days before christmas",
+  "preparing for christmas",
+  "o antiphons",
+  "rorate caeli",
+  "our lady of the expectation",
+  "nativity",
+  "confession before christmas",
+  "greccio",
+  "nativity scene",
+  "pasko",
+  "paskong pinoy",
+  "simbang gabi novena",
+  "belen",
+  "parol",
+  "nobena",
+  "st. joseph",
+  "st. john the baptist",
+  "st. francis of assisi"
+ ],
+ "ogSaints": [
+  "joseph",
+  "francis"
+ ],
+ "epigraph": {
+  "text": "The people who walked in darkness have seen a great light; those who dwelt in a land of deep darkness, on them has light shined.",
+  "ref": "Isaiah 9:2"
+ },
+ "closingVerse": {
+  "text": "And the Word became flesh and dwelt among us, full of grace and truth; we have beheld his glory, glory as of the only Son from the Father.",
+  "ref": "John 1:14"
+ },
+ "printTitle": [
+  "Novena",
+  "for Christmas"
+ ],
+ "printClosing": [
+  "And the Word became flesh and dwelt among us, full of grace and truth;",
+  "we have beheld his glory, glory as of the only Son from the Father."
+ ],
+ "saints": [
+  {
+   "id": "joseph",
+   "name": "St. Joseph",
+   "dates": "1st century",
+   "feast": "Feasts · Mar 19 & May 1",
+   "patron": "Patron of the Church & of families",
+   "bio": "A just man of Nazareth, betrothed to Mary. When his plans were overturned, he trusted the word God sent him in a dream, and became Mary’s husband and the foster father of Jesus.",
+   "alt": "Painting: St. Joseph holding the Infant Jesus, by Guido Reni",
+   "openingRole": "who trusted You in the dark"
+  },
+  {
+   "id": "john",
+   "name": "St. John the Baptist",
+   "dates": "1st century",
+   "feast": "Feasts · Jun 24 & Aug 29",
+   "patron": "Forerunner of the Lord",
+   "bio": "Son of the priest Zechariah and of Elizabeth, he leapt in the womb at Mary’s greeting. He preached repentance at the Jordan, baptized Jesus, and was beheaded under Herod Antipas.",
+   "alt": "Painting: St. John the Baptist, from the Ghent Altarpiece by Jan van Eyck",
+   "openingRole": "who prepared the way"
+  },
+  {
+   "id": "francis",
+   "name": "St. Francis of Assisi",
+   "dates": "c. 1181–1226",
+   "feast": "Feast · Oct 4",
+   "patron": "Patron of Italy & ecology",
+   "bio": "A cloth merchant’s son who gave up everything to follow Christ in poverty and founded the Franciscans. An early life tells how he kept Christmas at Greccio with a manger, an ox and a donkey.",
+   "alt": "Painting: St. Francis of Assisi in his hooded habit, looking upward, by Zurbarán",
+   "openingRole": "who honored the poor Child of Bethlehem at Greccio"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Our Lady of the Expectation"
+  },
+  {
+   "img": "joseph",
+   "text": "St. Joseph"
+  },
+  {
+   "img": "john",
+   "text": "St. John the Baptist"
+  },
+  {
+   "img": "francis",
+   "text": "St. Francis of Assisi"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You promised a Savior, and You kept Your word. In these days before Christmas we come to You with hearts that long for Him: tired of waiting, pulled by the rush of the season, and in need of Your mercy. Prepare us to receive Your Son. Today we ask Our Lady of the Expectation, who waited for Jesus as no one else ever has; St. Joseph, who trusted You in the dark; St. John the Baptist, who prepared the way; and St. Francis of Assisi, who honored the poor Child of Bethlehem at Greccio, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, Dawn from on high, shine on all who sit in darkness. Make our hearts a place where You are welcome, and let Your light reach the poor, the lonely and all who are waiting for You.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside Simbang Gabi",
+   "p": "Simbang Gabi is a Filipino custom from the Spanish era: 9 Masses from Dec 16 to 24, traditionally before dawn so farmers could attend before work, now also in the evening. Keep the novena by date (Day&nbsp;1 is Dec 16); on the Sunday, Mass has the Sunday readings. If your evening Mass uses the next day’s readings, pray the next day of the novena with it. The novena walks beside the Mass, never in its place. If you can, go to Confession before Christmas and do one work of charity. If you cannot attend, pray it anyway."
+  },
+  {
+   "h": "Not a bargain",
+   "p": "Some say that completing all 9 Masses wins a wish. A Manila bishop has called that a wrong belief: Simbang Gabi, like this novena, is preparation for Christmas and thanks for the gift of faith. Bring God every intention freely, and trust His will."
+  }
+ ],
+ "startHint": "Begin on December 16 to end on Christmas Eve. Each day takes about 10 minutes.",
+ "intentionPlaceholder": "Write what you bring to Jesus this Christmas, or the people you are praying for.",
+ "icons": [
+  "drop",
+  "tree",
+  "moon",
+  "hourglass-medium",
+  "hands-praying",
+  "footprints",
+  "hand-heart",
+  "pen-nib",
+  "sun-horizon"
+ ],
+ "credits": "Images: Piero della Francesca, <em>Madonna del Parto</em> (detail), 1467 · Guido Reni, <em>St Joseph with the Infant Jesus</em>, c. 1635, Hermitage Museum · Jan van Eyck, <em>The Ghent Altarpiece</em> (detail: John the Baptist), 1432 · Francisco de Zurbarán, <em>Saint Francis of Assisi according to Pope Nicholas V’s Vision</em> (detail), c. 1640, Museu Nacional d’Art de Catalunya. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Shower, O Heavens",
+   "ref": "Isaiah 45:8",
+   "verse": "Shower, O heavens, from above, / and let the skies rain down righteousness; / let the earth open, that salvation may sprout forth, / and let it cause righteousness to spring up also; / I the LORD have created it.",
+   "refl": "Through Isaiah, God speaks as if the whole world were dry ground waiting for rain: “Shower, O heavens, from above.” He commands heaven to pour down righteousness and the earth to open and let salvation sprout. In Latin the verse begins “Rorate caeli,” and the Church has sung it through Advent for centuries. We begin these nine days the same way: not pretending all is well, but naming the dry places in us and in our world, and asking God to come down into them.",
+   "more": "Even John the Baptist knew this kind of waiting. From Herod’s prison he sent two disciples to ask Jesus, “Are you he who is to come, or shall we look for another?” (Luke 7:19). Jesus did not scold him. He sent back what they had seen: the blind receive their sight, and the poor have good news preached to them. John’s honest question was answered with signs that God was already at work. Our questions are welcome too.",
+   "prayer": "Heavenly Father, like dry ground we wait for You. Rain down Your righteousness on our hearts and on our troubled world. Where we have grown tired of waiting, keep our longing alive; where we doubt, let us bring our questions to Jesus, as John did. St. John the Baptist, pray for us. Open our hearts in these nine days, so that when Christ comes, He may find room in us and not a closed door.",
+   "step": "Look up the Simbang Gabi or daily Mass times near you, and choose the ones you can attend. If you cannot go, choose a quiet time each day to pray."
+  },
+  {
+   "title": "A Real Family Tree",
+   "ref": "Matthew 1:1",
+   "verse": "The book of the genealogy of Jesus Christ, the son of David, the son of Abraham.",
+   "refl": "In today’s first reading, old Jacob blesses his son Judah: “The scepter shall not depart from Judah” (Genesis 49:10). The Gospel (Matthew 1:1–17) shows God keeping that promise through three times fourteen generations. Look closely, and the list is not tidy. Matthew names Tamar, Rahab, Ruth and the wife of Uriah, stories of deceit, of foreigners and of grave sin, alongside kings both faithful and faithless. God wrote salvation through a real, wounded history. He can write it through ours too, whatever we would rather leave out.",
+   "more": "The long list ends quietly: “Jacob the father of Joseph the husband of Mary, of whom Jesus was born” (Matthew 1:16). Joseph is the last link, the one through whom Jesus was counted a son of David. Today the Church also begins the O Antiphons at Evening Prayer, calling on Christ by His ancient titles. The first is “O Wisdom.” The Wisdom that orders all things was willing to enter a history like ours.",
+   "prayer": "God of our fathers, You kept Your promise through every generation, through faithful hearts and broken ones. We bring You our own history, with its wounds, its secrets and the names we find hard to pray for. Write Your mercy into it, as You wrote it into the line of David. St. Joseph, last link in that long line, pray for us. Teach us that no story is beyond Your grace, and let Christ, the Wisdom of God, be born in ours.",
+   "step": "Pray by name for one person in your family’s story, living or departed, whose life is painful or hard for you to understand."
+  },
+  {
+   "title": "Joseph’s Dream",
+   "ref": "Matthew 1:20–21",
+   "verse": "But as he considered this, behold, an angel of the Lord appeared to him in a dream, saying, “Joseph, son of David, do not fear to take Mary your wife, for that which is conceived in her is of the Holy Spirit; she will bear a son, and you shall call his name Jesus, for he will save his people from their sins.”",
+   "refl": "Through Jeremiah, God promised to raise up for David “a righteous Branch” (Jeremiah 23:5), a king who would save His people. In today’s Gospel (Matthew 1:18–25), that great promise comes down to one troubled man. Joseph had resolved to send Mary away quietly. Then, in a dream, the angel told him not to fear: the child is of the Holy Spirit, and His name will be Jesus. Joseph was not given the whole picture, only the next step. When he woke, he did as the angel commanded.",
+   "more": "For St. Joseph, trust was not a single moment. When Herod sought the child’s life, another dream sent him into exile, and “he rose and took the child and his mother by night” (Matthew 2:14). Each time he obeyed before he understood. An ancient feast, begun in Spain, set December 18 aside for Our Lady of the Expectation, Mary awaiting her Child; Joseph waited beside her. When our own plans fall apart, we can wait with them.",
+   "prayer": "Lord God, when our plans fall apart and we cannot see the way ahead, give us the trust of St. Joseph, who woke and did as You asked. Quiet our fears in the dark. Show us the next step, and give us the courage to take it without the whole picture. St. Joseph and Our Lady of the Expectation, pray for us. Help us to welcome Jesus, who saves His people from their sins, into our lives as they are now.",
+   "step": "Name one situation where you cannot see the whole picture. Ask God only for the next right step, and take it this week."
+  },
+  {
+   "title": "Fulfilled in Their Time",
+   "ref": "Luke 1:19–20",
+   "verse": "And the angel answered him, “I am Gabriel, who stand in the presence of God; and I was sent to speak to you, and to bring you this good news. And behold, you will be silent and unable to speak until the day that these things come to pass, because you did not believe my words, which will be fulfilled in their time.”",
+   "refl": "Today’s readings (Judges 13; Luke 1:5–25) tell of two childless couples: Manoah and his wife, and the elderly Zechariah and Elizabeth. To each, an angel brings word of a son. “Your prayer is heard,” Gabriel tells Zechariah, but the answer comes so late that he cannot believe it, and he is struck silent until it comes to pass. Many of us carry a prayer that seems unanswered. God has not forgotten it. His time is not ours, and His answer may not look like what we asked.",
+   "more": "Zechariah’s silence was a correction, but it was also a time of waiting. For months he could not explain or argue; he could only watch the promise grow in Elizabeth, who hid herself for five months (Luke 1:24). Advent invites us into a little of that silence. Instead of filling every hour with words and noise, we can let God speak, and rest our unanswered prayer quietly in His hands.",
+   "prayer": "Faithful God, You heard the prayer of Zechariah and Elizabeth, though the answer came late and in a way they did not expect. We bring You the prayers we have carried for a long time, and the weariness of waiting. When our faith grows tired, do not let us stop praying. Teach us to be still, to trust Your timing, and to receive what You give with open hands. Remember all who wait this Christmas for a child, a healing or a homecoming.",
+   "step": "Bring one long-unanswered prayer to God, then sit in silence with Him for five minutes and leave it in His hands."
+  },
+  {
+   "title": "Let It Be",
+   "ref": "Luke 1:38",
+   "verse": "And Mary said, “Behold, I am the handmaid of the Lord; let it be to me according to your word.” And the angel departed from her.",
+   "refl": "In today’s Gospel (Luke 1:26–38), the angel Gabriel comes to a virgin of Nazareth. Long before, Isaiah had spoken of a sign: a child to be called Emmanuel, God with us (Isaiah 7:14; Matthew 1:23). She asks one honest question, “How can this be?” Then she gives herself: “Let it be to me according to your word.” The Church calls this the obedience of faith (CCC 494). Our yes is smaller, but God still waits on it: in a hard duty, a needed Confession, a person we would rather avoid.",
+   "more": "Mary’s yes did not end her waiting; it began it. For nine months she carried the Son of God in quiet, through ordinary days of work and prayer and a long journey to Bethlehem. That is why she is honored as Our Lady of the Expectation: no one has ever waited for Jesus as she did. Our Advent waiting is a small share in hers, and she is near us in it.",
+   "prayer": "Heavenly Father, You chose Mary and waited for her free answer. Give us hearts like hers, ready to say yes to You even when we do not understand. Where we are holding back from You, in a habit, a grudge or a fear, give us the grace to let go. Our Lady of the Expectation, pray for us. Let Your word take flesh in our ordinary days, so that Christ, Emmanuel, may find a home in us.",
+   "step": "Say Mary’s words slowly once today, “Let it be to me according to your word,” and offer God the one thing you find hardest to give Him."
+  },
+  {
+   "title": "In Haste to Serve",
+   "ref": "Luke 1:39–40",
+   "verse": "In those days Mary arose and went with haste into the hill country, to a city of Judah, and she entered the house of Zechariah and greeted Elizabeth.",
+   "refl": "Today’s first reading sings, “Behold, he comes, leaping upon the mountains” (Song of Solomon 2:8), or, in the other choice, “The LORD your God is in your midst” (Zephaniah 3:17). In the Gospel (Luke 1:39–45), Mary carries that God through the hill country to her kinswoman. At her greeting, the child in Elizabeth’s womb leaps for joy, and Elizabeth calls Mary blessed because she believed (Luke 1:41–45). Real joy goes out in haste to serve.",
+   "more": "Before he could speak, St. John the Baptist was already pointing to Christ. His leap in Elizabeth’s womb was his first witness, the start of a life spent preparing the way. Today’s O Antiphon calls on Christ as “O Dawn,” asking Him to shine on those who sit in darkness. This Christmas many are far from the people they love, and Christ goes with them too.",
+   "prayer": "Lord Jesus, Mary carried You in haste to Elizabeth, and John leapt for joy at Your coming. Make us bearers of that joy. Show us who needs a visit, a call or a helping hand this week, and send us without delay. Be close to all who are far from home this Christmas, to workers abroad and to families apart. Our Lady of the Expectation and St. John the Baptist, pray for us, that Your light may reach them through us.",
+   "step": "Visit, call or message someone who is lonely or far from home this Christmas, and listen more than you speak."
+  },
+  {
+   "title": "He Lifts the Lowly",
+   "ref": "Luke 1:51–53",
+   "verse": "He has shown strength with his arm, / he has scattered the proud in the imagination of their hearts, / he has put down the mighty from their thrones, / and exalted those of low degree; / he has filled the hungry with good things, / and the rich he has sent empty away.",
+   "refl": "In today’s first reading (1 Samuel 1:24–28), Hannah, who had begged God for a child, brings the boy Samuel to the house of the Lord at Shiloh and gives him back to God. Mary’s song in the Gospel (Luke 1:46–56) echoes hers. God scatters the proud, puts down the mighty and fills the hungry with good things. Mary sings not of the world as it looks, but of the world as God is turning it. Christmas, for all its lights and gifts, belongs first to the lowly and the hungry.",
+   "more": "St. Francis of Assisi took Mary’s song at its word. A cloth merchant’s son, he gave up everything to follow Christ in poverty: the Christ who was born to a poor family and laid in a manger (CCC 525). Most of us are not called to give up everything. But this week we can give something real, not only to those we exchange gifts with, but to someone who cannot give anything back.",
+   "prayer": "God of the lowly, You fill the hungry with good things and lift up those of low degree. Free us from pride and from clinging to what we have. Open our eyes to the poor near us, the hungry, the lonely and the forgotten, and open our hands to them this Christmas. St. Francis of Assisi, who became poor for love of Christ, pray for us. Let our joy in this season make room for those who have little.",
+   "step": "Give something real this week to someone who cannot repay you: food, a gift or your time, through your parish or directly to a neighbor in need."
+  },
+  {
+   "title": "His Name Is John",
+   "ref": "Luke 1:63–64",
+   "verse": "And he asked for a writing tablet, and wrote, “His name is John.” And they all marveled. And immediately his mouth was opened and his tongue loosed, and he spoke, blessing God.",
+   "refl": "In today’s first reading, God promises, “Behold, I send my messenger to prepare the way before me” (Malachi 3:1). In the Gospel (Luke 1:57–66), the messenger is born. The neighbors want to name the boy after his father, but Zechariah, silent since the Temple, writes, “His name is John,” the name the angel gave. In that act of obedience his tongue is loosed, and his first words bless God. When we finally say yes to what God has asked of us, something in us that was bound is set free.",
+   "more": "St. John the Baptist grew up to prepare the way for Jesus by calling people to repentance. Crowds came to him at the Jordan and were baptized, “confessing their sins” (Matthew 3:6). Confession before Christmas is our way of making that same preparation. We name our sins, and the Lord loosens what was bound and gives us back our voice to praise Him. No sin is too great or too old to bring.",
+   "prayer": "Merciful Father, You loosed the tongue of Zechariah when he obeyed Your word, and You sent John to prepare the way for Your Son. Prepare the way in us. Give us honest hearts to name our sins, and the courage to bring them to Confession before Christmas. Where we are bound, set us free; where we have been silent, open our lips to bless You. St. John the Baptist, pray for us, that our hearts may be ready for Christ.",
+   "step": "Go to Confession before Christmas if you can; look up the times today. If you cannot go, make a quiet examination of conscience and an act of contrition."
+  },
+  {
+   "title": "The Dawn from on High",
+   "ref": "Luke 1:76–79",
+   "verse": "And you, child, will be called the prophet of the Most High; / for you will go before the Lord to prepare his ways, / to give knowledge of salvation to his people / in the forgiveness of their sins, / through the tender mercy of our God, / when the day shall dawn upon us from on high / to give light to those who sit in darkness and in the shadow of death, / to guide our feet into the way of peace.",
+   "refl": "At the Mass on the morning of December 24, the first reading recalls God’s promise to David: “your throne shall be established for ever” (2 Samuel 7:16). In the Gospel (Luke 1:67–79), Zechariah, filled with the Holy Spirit, sings that the promise is being kept: God “has visited and redeemed his people.” Through His tender mercy the day will dawn upon us from on high, to give light to those who sit in darkness. On this ninth day we look back with thanks. God keeps His promises, and the Light is near.",
+   "more": "Thomas of Celano, who wrote an early life of St. Francis, tells how Francis kept Christmas at Greccio. He asked Giovanni, a noble there, to prepare a manger with hay, an ox and a donkey, so that people could recall the Child born in Bethlehem. Mass was celebrated over the manger. Tradition remembers it as the first Christmas crib. Every belen we see this Christmas carries the same invitation: come and see how small God became for us.",
+   "prayer": "Lord, on this ninth day we thank You for keeping Your promises, for every grace of these nine days, seen and unseen, and for the Light that dawns on us in Jesus. Thank you, Our Lady of the Expectation, St. Joseph, St. John the Baptist and St. Francis of Assisi, for waiting and praying with us. We place our hopes, our unanswered prayers and all we carry into Your hands. Come, Lord Jesus, be born in us, and let Your will be done.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}

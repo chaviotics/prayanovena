@@ -464,7 +464,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
       <div class="daynum" id="tNum">1<small>OF 9</small></div>
       <div>
         <p class="ttl" id="tTitle">{{DAY1_TITLE}}</p>
-        <p class="status" id="tStatus" aria-live="polite">Begin on any day. Each day takes about 10&nbsp;minutes.</p>
+        <p class="status" id="tStatus" aria-live="polite">{{START_HINT}}</p>
       </div>
     </div>
     <ol class="track grid9" id="track2" aria-label="The 9 days"></ol>
@@ -763,7 +763,7 @@ dialog.sheet::backdrop{background:rgb(8 10 16 / .5)}
     else if (n !== null && n < 1) st = "Your novena begins on " + fmt(state.start) + ".";
     else if (n !== null && sel === n && !done && firstOpen() < n) st = "Today is Day " + n + ". Pray it today, or catch up on Day " + firstOpen() + " first. Either is fine.";
     else if (n !== null && sel === n) st = (done ? "Today’s prayer is done. " : "Today is Day " + n + ". ") + count + " of 9 days prayed.";
-    else if (!count && n === null) st = "Begin on any day. Each day takes about 10 minutes.";
+    else if (!count && n === null) st = {{START_HINT_JS}};
     else st = (done ? "Prayed. " : "") + count + " of 9 days prayed.";
     $("tStatus").textContent = st;
     $("beginLabel").textContent = done ? "Pray Day " + sel + " again" : "Pray Day " + sel;

@@ -1,0 +1,167 @@
+{
+ "days": [
+  {
+   "file": "Jesaja (Michelangelo).jpg",
+   "width": 0,
+   "crop": [
+    0,
+    0,
+    1,
+    0.516
+   ],
+   "kind": "saint",
+   "artist": "Michelangelo",
+   "title": "The Prophet Isaiah (Sistine Chapel ceiling)",
+   "year": "1508–12",
+   "place": "",
+   "alt": "Isaiah, in a rose robe and green mantle, sits with one hand raised and a closed book under the other, while a child angel peers over his shoulder.",
+   "look": "Look again at Isaiah’s raised hand as he turns from his book toward the angels. What are you asking heaven to send down into your waiting?",
+   "license": "Artist died 1564; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Tree of Jesse (Rijksmuseum Twenthe)-WUS-00852.jpg",
+   "width": 1920,
+   "crop": [
+    0.33,
+    0.07,
+    0.67,
+    0.454
+   ],
+   "kind": "names",
+   "artist": "Anonymous Netherlandish painter",
+   "title": "The Tree of Jesse",
+   "year": "c. 1500",
+   "place": "Rijksmuseum Twenthe",
+   "alt": "Crowned kings and ancestors sit among the carved, curling branches of a tree, holding sceptres and books.",
+   "look": "Look again at the kings seated among the climbing branches, each one holding something handed down to him. Who handed the faith down to you?",
+   "license": "Anonymous work c. 1500; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Philippe de Champaigne (1602-1674) - The Dream of Saint Joseph - NG6276 - National Gallery.jpg",
+   "width": 1280,
+   "crop": [
+    0,
+    0.12,
+    1,
+    0.673
+   ],
+   "kind": "scene",
+   "artist": "Philippe de Champaigne",
+   "title": "The Dream of Saint Joseph",
+   "year": "1642–43",
+   "place": "National Gallery, London",
+   "alt": "Joseph sleeps in his chair with his head on his hand, while an angel floats down beside him and points.",
+   "look": "Look again at Joseph asleep, and at the angel pointing the way. What would it cost you to trust before you can see?",
+   "license": "Artist died 1674; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Angel Appearing to Zacharias.jpg",
+   "width": 0,
+   "crop": [
+    0.28,
+    0.3,
+    0.68,
+    0.751
+   ],
+   "kind": "scene",
+   "artist": "Domenico Ghirlandaio",
+   "title": "The Angel Appears to Zechariah",
+   "year": "c. 1486–90",
+   "place": "Tornabuoni Chapel, Santa Maria Novella, Florence",
+   "alt": "An angel in a golden robe stands at the altar and speaks to Zechariah in the Temple, who stands on the other side in a red robe.",
+   "look": "Look again at the angel at the altar and the quiet watching crowd. What have you prayed for so long that you have almost stopped asking?",
+   "license": "Artist died 1494; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Bartolomé Esteban Perez Murillo - Annunciation - WGA16375.jpg",
+   "width": 1280,
+   "crop": [
+    0,
+    0.3,
+    1,
+    0.92
+   ],
+   "kind": "scene",
+   "artist": "Bartolomé Esteban Murillo",
+   "title": "The Annunciation",
+   "year": "c. 1660",
+   "place": "",
+   "alt": "The angel Gabriel kneels with one hand raised, and Mary, in blue, crosses her hands on her chest, while a dove and cherubs gather in the light above.",
+   "look": "Look again at Mary’s folded hands and her lowered eyes. What is God asking you to say yes to?",
+   "license": "Artist died 1682; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Pontormo-visitation-after-restorationRGB.jpg",
+   "width": 1280,
+   "crop": [
+    0.1,
+    0.07,
+    0.9,
+    0.522
+   ],
+   "kind": "scene",
+   "artist": "Jacopo Pontormo",
+   "title": "The Visitation",
+   "year": "c. 1528",
+   "place": "",
+   "alt": "Mary, in blue, and Elizabeth embrace in the street, with two women waiting behind them.",
+   "look": "Look again at the two women holding each other close. Whom could you go to see in haste today?",
+   "license": "Artist died 1557; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Sandro Botticelli - Madonna del Magnificat - Google Art Project.jpg",
+   "width": 1280,
+   "crop": [
+    0.36,
+    0.08,
+    0.81,
+    0.4175
+   ],
+   "kind": "scene",
+   "artist": "Sandro Botticelli",
+   "title": "Madonna of the Magnificat",
+   "year": "1483",
+   "place": "Uffizi, Florence",
+   "alt": "Mary looks down with a lowered face, her head covered with a striped veil, while hands lift a crown of stars above her.",
+   "look": "Look again at Mary’s lowered face and the crown held above her head. Whom does God lift up that the world passes by?",
+   "license": "Artist died 1510; faithful photo of a 2D work (Commons: public domain)"
+  },
+  {
+   "file": "Nativity and Naming of St. John the Baptist (SM 878a).png",
+   "width": 1280,
+   "crop": [
+    0.09,
+    0.49,
+    0.91,
+    0.869
+   ],
+   "kind": "scene",
+   "artist": "Dutch master after Rogier van der Weyden",
+   "title": "The Birth and Naming of St John the Baptist",
+   "year": "c. 1510",
+   "place": "Städel Museum, Frankfurt",
+   "alt": "A woman in dark blue holds the newborn John on a white cloth, while Zechariah, in a green robe, sits beside her writing on a tablet.",
+   "look": "Look again at Zechariah’s tablet and the newborn child held close. What do you need to obey before you can speak freely again?",
+   "license": "Painted c. 1510; released by the Städel Museum with the Public Domain Mark"
+  },
+  {
+   "file": "Correggio - The Holy Night - Google Art Project.jpg",
+   "width": 1280,
+   "crop": [
+    0.15,
+    0.28,
+    0.85,
+    0.665
+   ],
+   "kind": "stretch",
+   "artist": "Correggio",
+   "title": "The Holy Night",
+   "year": "c. 1528–30",
+   "place": "",
+   "alt": "In the dark stable a glowing child lies on the straw, lighting Mary’s face and the shepherds kneeling beside her.",
+   "look": "Look again at the light that comes from the child and falls on every face. Where in your life do you most need that dawn?",
+   "license": "Artist died 1534; faithful photo of a 2D work (Commons: public domain)",
+   "passage": "Luke 2:8–20"
+  }
+ ]
+}

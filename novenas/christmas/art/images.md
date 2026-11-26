@@ -1,0 +1,15 @@
+# Day pictures (app only, all public domain)
+
+Made by `tools/art.py make christmas` from `novenas/christmas/art.json`.
+
+| Files | Used for | Work | Why public domain |
+|---|---|---|---|
+| day1.webp, day1_full.webp | Day 1 (saint) | Michelangelo, *The Prophet Isaiah (Sistine Chapel ceiling)*, 1508–12. Commons `Jesaja (Michelangelo).jpg`, original file; day crop [0, 0, 1, 0.516] | Artist died 1564; faithful photo of a 2D work (Commons: public domain) |
+| day2.webp, day2_full.webp | Day 2 (names) | Anonymous Netherlandish painter, *The Tree of Jesse*, c. 1500, Rijksmuseum Twenthe. Commons `Tree of Jesse (Rijksmuseum Twenthe)-WUS-00852.jpg`, 1920px thumbnail; day crop [0.33, 0.07, 0.67, 0.454] | Anonymous work c. 1500; faithful photo of a 2D work (Commons: public domain) |
+| day3.webp, day3_full.webp | Day 3 (scene) | Philippe de Champaigne, *The Dream of Saint Joseph*, 1642–43, National Gallery, London. Commons `Philippe de Champaigne (1602-1674) - The Dream of Saint Joseph - NG6276 - National Gallery.jpg`, 1280px thumbnail; day crop [0, 0.12, 1, 0.673] | Artist died 1674; faithful photo of a 2D work (Commons: public domain) |
+| day4.webp, day4_full.webp | Day 4 (scene) | Domenico Ghirlandaio, *The Angel Appears to Zechariah*, c. 1486–90, Tornabuoni Chapel, Santa Maria Novella, Florence. Commons `Angel Appearing to Zacharias.jpg`, original file; day crop [0.28, 0.3, 0.68, 0.751] | Artist died 1494; faithful photo of a 2D work (Commons: public domain) |
+| day5.webp, day5_full.webp | Day 5 (scene) | Bartolomé Esteban Murillo, *The Annunciation*, c. 1660. Commons `Bartolomé Esteban Perez Murillo - Annunciation - WGA16375.jpg`, 1280px thumbnail; day crop [0, 0.3, 1, 0.92] | Artist died 1682; faithful photo of a 2D work (Commons: public domain) |
+| day6.webp, day6_full.webp | Day 6 (scene) | Jacopo Pontormo, *The Visitation*, c. 1528. Commons `Pontormo-visitation-after-restorationRGB.jpg`, 1280px thumbnail; day crop [0.1, 0.07, 0.9, 0.522] | Artist died 1557; faithful photo of a 2D work (Commons: public domain) |
+| day7.webp, day7_full.webp | Day 7 (scene) | Sandro Botticelli, *Madonna of the Magnificat*, 1483, Uffizi, Florence. Commons `Sandro Botticelli - Madonna del Magnificat - Google Art Project.jpg`, 1280px thumbnail; day crop [0.36, 0.08, 0.81, 0.417] | Artist died 1510; faithful photo of a 2D work (Commons: public domain) |
+| day8.webp, day8_full.webp | Day 8 (scene) | Dutch master after Rogier van der Weyden, *The Birth and Naming of St John the Baptist*, c. 1510, Städel Museum, Frankfurt. Commons `Nativity and Naming of St. John the Baptist (SM 878a).png`, 1280px thumbnail; day crop [0.09, 0.49, 0.91, 0.869] | Painted c. 1510; released by the Städel Museum with the Public Domain Mark |
+| day9.webp, day9_full.webp | Day 9 (stretch) | Correggio, *The Holy Night*, c. 1528–30 (Luke 2:8–20). Commons `Correggio - The Holy Night - Google Art Project.jpg`, 1280px thumbnail; day crop [0.15, 0.28, 0.85, 0.665] | Artist died 1534; faithful photo of a 2D work (Commons: public domain) |
