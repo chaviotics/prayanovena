@@ -66,6 +66,7 @@ Two phases, so the new name can go live before the domain exists:
 | `safe-travels` | Safe Travels | Our Lady of Peace and Good Voyage, St. Raphael, St. Joseph, St. Frances Xavier Cabrini (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
 | `peace-in-the-family` | Peace in the Family | Our Lady, Queen of Families, St. Joseph, St. Monica, St. Rita of Cascia (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
 | `sick-pet` | A Sick Pet | Our Lady, Health of the Sick, St. Francis of Assisi, St. Anthony the Abbot, St. Martin de Porres (Marian Memorare) | Published 2026-11-25 | PDF 5 pages |
+| `grieving` | Those Grieving a Loved One | Our Lady of Sorrows, St. Martha, St. Augustine of Hippo, St. Elizabeth Ann Seton (Marian Memorare) | Published 2026-11-26 | PDF 5 pages |
 
 ## Decisions and rules
 
@@ -333,6 +334,10 @@ Two phases, so the new name can go live before the domain exists:
 ### 2026-11-25 (peace in the family novena)
 - **New novena `peace-in-the-family`, "Novena for Peace in the Family"** (marriage, parents and children, siblings, reconciliation). Category `family`, order 21, card icon `users-three`. Intercessors: Our Lady, Queen of Families (John Paul II, 1995; litany face reused from safe-travels), St. Joseph, St. Monica, St. Rita (portraits reused). Rita's family story framed as tradition. Tip "If home is not safe" (CCC 2383; no couples counseling where there is abuse); Retrouvaille for marriages in trouble. 9 new day pictures (3 stretches + 1 parable stretch). PDF 5 pages, 9.35pt.
 - Built as lean token test #2 (Sonnet facts + pictures, Opus writer at medium, one Opus review with 18 fixes): $6.96 to preview vs Sick Pet $8.11.
+
+### 2026-11-26 (grieving novena)
+- **New novena `grieving`, "Novena for Those Grieving a Loved One"** (any loss: spouse, parent, child, sibling, friend; prayer for the one who died). Category `departed` (first novena in that chip), order 22, card icon `heart-break`. Intercessors: Our Lady of Sorrows (Sassoferrato face reused), St. Martha (John 11), St. Augustine (grief for Monica, Confessions IX), St. Elizabeth Ann Seton (widowed at 29, buried two daughters; new portrait, Saint-Mémin 1797). No promised reunion: commends the dead to God's mercy, names purgatory and Masses for the dead (CCC 958, 1030–1032); gentle words on suicide (CCC 2283), child loss (CCC 1261), guilt and hard relationships; crisis-line pointer. Day pictures on all 9 days; PDF 5 pages, 9.17pt.
+- Built as lean token test #3: $8.23 to reviewed preview (Opus $5.96, Sonnet $2.11); the 5-hour limit was hit mid-review (started at 56%). Chav approved 2026-11-26.
 
 ## Open items
 
