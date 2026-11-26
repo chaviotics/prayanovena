@@ -1,168 +1,168 @@
 {
- "days": [
-  {
-   "file": "Jean-François Millet - The Angelus - Google Art Project.jpg",
-   "width": 960,
-   "crop": [
-    0,
-    0.05,
-    1,
-    0.95226
-   ],
-   "kind": "practice",
-   "artist": "Jean-François Millet",
-   "title": "The Angelus",
-   "year": "1857–1859",
-   "place": "Musée d'Orsay, Paris",
-   "alt": "At dusk in a wide field, a farmer and his wife stand with heads bowed in prayer, a fork and a basket at their feet.",
-   "look": "Look again at the two workers, heads bowed, their tools set down. What would you lay down before Christ today?",
-   "license": "Artist died 1875; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "A Vaccaro Desinterés de San Cayetano Lienzo. 123 x 76 cm. Museo del Prado.jpg",
-   "width": 960,
-   "crop": [
-    0,
-    0.28,
-    1,
-    0.72637
-   ],
-   "kind": "saint",
-   "artist": "Andrea Vaccaro",
-   "title": "Saint Cajetan Refuses Offerings",
-   "year": "17th century",
-   "place": "Museo del Prado, Madrid",
-   "alt": "A priest in black raises his hands to refuse a platter of coins that a nobleman in a red cloak offers, while a page holds the platter.",
-   "look": "Look again at the saint’s open hands, turning the coins away. Where are you tempted to trust your own effort more than God’s care?",
-   "license": "Artist died 1670; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "Annibale Carracci, Cristo e la Cananea, 1595, Parma.jpg",
-   "width": 960,
-   "crop": [
-    0,
-    0.12,
-    1,
-    0.70776
-   ],
-   "kind": "stretch",
-   "artist": "Annibale Carracci",
-   "title": "Christ and the Canaanite Woman",
-   "year": "1590s",
-   "place": "Parma",
-   "passage": "Matthew 15",
-   "alt": "A woman kneels and reaches toward Christ, who turns to her with his hand outstretched.",
-   "look": "Look again at the woman’s reaching hand and her eyes on Christ. What is the one thing you most want to ask?",
-   "license": "Artist died 1609; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "Saint joseph.jpg",
-   "width": 500,
-   "crop": [
-    0,
-    0.12,
-    1,
-    0.66985
-   ],
-   "kind": "saint",
-   "artist": "Workshop of Robert Campin",
-   "title": "Saint Joseph in His Workshop (Mérode Altarpiece)",
-   "year": "c. 1427–1432",
-   "place": "The Cloisters, The Metropolitan Museum of Art, New York",
-   "alt": "Joseph, in a red robe and blue cap, sits in his workshop and bores a hole in a board with a hand drill.",
-   "look": "Look again at Joseph’s hands at their quiet task. How might your own work be a way of caring for what God has given?",
-   "license": "Artist died 1444; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "Giovanni Battista Moroni - The Tailor ('Il Tagliapanni') - Google Art Project.jpg",
-   "width": 960,
-   "crop": [
-    0,
-    0.42,
-    1,
-    0.99098
-   ],
-   "kind": "names",
-   "artist": "Giovanni Battista Moroni",
-   "title": "The Tailor (Il Tagliapanni)",
-   "year": "c. 1565–1570",
-   "place": "National Gallery, London",
-   "alt": "A tailor in a pale doublet stands at his cutting table with shears resting on a length of dark cloth.",
-   "look": "Look again at the tailor’s steady hands and the cloth before him. What skill has God put in your hands?",
-   "license": "Artist died 1578; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "Pieter de Hooch (1629 - in oder nach 1679) - Woman weighing Gold - 1401B - Gemäldegalerie.jpg",
-   "width": 960,
-   "crop": [
-    0.2,
-    0.22,
-    1.0,
-    0.75039
-   ],
-   "kind": "names",
-   "artist": "Pieter de Hooch",
-   "title": "Woman Weighing Gold",
-   "year": "1659",
-   "place": "Gemäldegalerie, Berlin",
-   "alt": "A woman in a blue jacket and grey head covering stands by a window and holds a small balance over a box of coins.",
-   "look": "Look again at the woman holding the balance, her eyes on the scale. Where in your work would you want your scales to be just?",
-   "license": "Artist died 1684; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "Giotto di Bondone - No. 20 Scenes from the Life of Christ - 4. Flight into Egypt - WGA09198.jpg",
-   "width": 960,
-   "crop": [
-    0,
-    0.1,
-    1,
-    0.82727
-   ],
-   "kind": "saint",
-   "artist": "Giotto",
-   "title": "The Flight into Egypt",
-   "year": "c. 1304–1306",
-   "place": "Scrovegni Chapel, Padua",
-   "alt": "Joseph walks beside a donkey carrying Mary and the swaddled child, a small angel in the sky above them.",
-   "look": "Look again at Joseph, walking beside the donkey. When a decision is hard, whose guidance are you waiting for?",
-   "license": "Artist died 1337; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "Brooklyn Museum - The Widow's Mite (Le denier de la veuve) - James Tissot.jpg",
-   "width": 0,
-   "crop": [
-    0.138,
-    0,
-    1.0,
-    0.99987
-   ],
-   "kind": "stretch",
-   "artist": "James Tissot",
-   "title": "The Widow's Mite",
-   "year": "c. 1886–1894",
-   "place": "Brooklyn Museum, New York",
-   "passage": "Mark 12",
-   "alt": "A widow in a grey robe and pale veil, carrying a small child, walks out of the temple courtyard past seated onlookers.",
-   "look": "Look again at the widow walking away with her child, having given all she had. What could you share, even when little is left?",
-   "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)"
-  },
-  {
-   "file": "Jean Siméon Chardin - The Prayer before Meal - WGA04768.jpg",
-   "width": 960,
-   "crop": [
-    0,
-    0.28,
-    1,
-    0.85692
-   ],
-   "kind": "practice",
-   "artist": "Jean-Baptiste-Siméon Chardin",
-   "title": "The Prayer Before the Meal",
-   "year": "before 1740",
-   "place": "",
-   "alt": "A mother sets the table while the small child before her folds its hands to say grace.",
-   "look": "Look again at the little one’s folded hands before the meal. What is one thing you can thank God for tonight?",
-   "license": "Artist died 1779; faithful photo of a 2D work (Commons: public domain)"
-  }
- ]
+  "days": [
+    {
+      "file": "Jean-François Millet - The Angelus - Google Art Project.jpg",
+      "width": 960,
+      "crop": [
+        0,
+        0.05,
+        1,
+        0.95226
+      ],
+      "kind": "practice",
+      "artist": "Jean-François Millet",
+      "title": "The Angelus",
+      "year": "1857–1859",
+      "place": "Musée d'Orsay, Paris",
+      "alt": "At dusk in a wide field, a farmer and his wife stand with heads bowed in prayer, a fork and a basket at their feet.",
+      "look": "Look again at the two workers, heads bowed, their tools set down. What would you lay down before Christ today?",
+      "license": "Artist died 1875; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "A Vaccaro Desinterés de San Cayetano Lienzo. 123 x 76 cm. Museo del Prado.jpg",
+      "width": 960,
+      "crop": [
+        0,
+        0.28,
+        1,
+        0.72637
+      ],
+      "kind": "saint",
+      "artist": "Andrea Vaccaro",
+      "title": "Saint Cajetan Refuses Offerings",
+      "year": "17th century",
+      "place": "Museo del Prado, Madrid",
+      "alt": "A priest in black raises his hands to refuse a platter of coins that a nobleman in a red cloak offers, while a page holds the platter.",
+      "look": "Look again at the saint’s open hands, turning the coins away. Where are you tempted to trust your own effort more than God’s care?",
+      "license": "Artist died 1670; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "025.Jacob and Esau Meet.jpg",
+      "width": 1920,
+      "crop": [
+        0.339,
+        0.442,
+        0.755,
+        0.694
+      ],
+      "kind": "stretch",
+      "artist": "Gustave Doré",
+      "title": "Jacob and Esau Meet",
+      "year": "1866",
+      "place": "",
+      "alt": "Two brothers, Esau and Jacob, hold each other in a long embrace on the road while their families stand quietly around them.",
+      "look": "Look again at the two brothers embracing after years apart. What one step toward peace at work is yours to take?",
+      "license": "Artist died 1883; engraving published 1866 (Commons: public domain)",
+      "passage": "Genesis 33"
+    },
+    {
+      "file": "Saint joseph.jpg",
+      "width": 500,
+      "crop": [
+        0,
+        0.12,
+        1,
+        0.66985
+      ],
+      "kind": "saint",
+      "artist": "Workshop of Robert Campin",
+      "title": "Saint Joseph in His Workshop (Mérode Altarpiece)",
+      "year": "c. 1427–1432",
+      "place": "The Cloisters, The Metropolitan Museum of Art, New York",
+      "alt": "Joseph, in a red robe and blue cap, sits in his workshop and bores a hole in a board with a hand drill.",
+      "look": "Look again at Joseph’s hands at their quiet task. How might your own work be a way of caring for what God has given?",
+      "license": "Artist died 1444; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Giovanni Battista Moroni - The Tailor ('Il Tagliapanni') - Google Art Project.jpg",
+      "width": 960,
+      "crop": [
+        0,
+        0.42,
+        1,
+        0.99098
+      ],
+      "kind": "names",
+      "artist": "Giovanni Battista Moroni",
+      "title": "The Tailor (Il Tagliapanni)",
+      "year": "c. 1565–1570",
+      "place": "National Gallery, London",
+      "alt": "A tailor in a pale doublet stands at his cutting table with shears resting on a length of dark cloth.",
+      "look": "Look again at the tailor’s steady hands and the cloth before him. What skill has God put in your hands?",
+      "license": "Artist died 1578; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Pieter de Hooch (1629 - in oder nach 1679) - Woman weighing Gold - 1401B - Gemäldegalerie.jpg",
+      "width": 960,
+      "crop": [
+        0.2,
+        0.22,
+        1.0,
+        0.75039
+      ],
+      "kind": "names",
+      "artist": "Pieter de Hooch",
+      "title": "Woman Weighing Gold",
+      "year": "1659",
+      "place": "Gemäldegalerie, Berlin",
+      "alt": "A woman in a blue jacket and grey head covering stands by a window and holds a small balance over a box of coins.",
+      "look": "Look again at the woman holding the balance, her eyes on the scale. Where in your work would you want your scales to be just?",
+      "license": "Artist died 1684; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Giotto di Bondone - No. 20 Scenes from the Life of Christ - 4. Flight into Egypt - WGA09198.jpg",
+      "width": 960,
+      "crop": [
+        0,
+        0.1,
+        1,
+        0.82727
+      ],
+      "kind": "saint",
+      "artist": "Giotto",
+      "title": "The Flight into Egypt",
+      "year": "c. 1304–1306",
+      "place": "Scrovegni Chapel, Padua",
+      "alt": "Joseph walks beside a donkey carrying Mary and the swaddled child, a small angel in the sky above them.",
+      "look": "Look again at Joseph, walking beside the donkey. When a decision is hard, whose guidance are you waiting for?",
+      "license": "Artist died 1337; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Brooklyn Museum - The Widow's Mite (Le denier de la veuve) - James Tissot.jpg",
+      "width": 0,
+      "crop": [
+        0.138,
+        0,
+        1.0,
+        0.99987
+      ],
+      "kind": "stretch",
+      "artist": "James Tissot",
+      "title": "The Widow's Mite",
+      "year": "c. 1886–1894",
+      "place": "Brooklyn Museum, New York",
+      "passage": "Mark 12",
+      "alt": "A widow in a grey robe and pale veil, carrying a small child, walks out of the temple courtyard past seated onlookers.",
+      "look": "Look again at the widow walking away with her child, having given all she had. What could you share, even when little is left?",
+      "license": "Artist died 1902; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Jean Siméon Chardin - The Prayer before Meal - WGA04768.jpg",
+      "width": 960,
+      "crop": [
+        0,
+        0.28,
+        1,
+        0.85692
+      ],
+      "kind": "practice",
+      "artist": "Jean-Baptiste-Siméon Chardin",
+      "title": "The Prayer Before the Meal",
+      "year": "before 1740",
+      "place": "",
+      "alt": "A mother sets the table while the small child before her folds its hands to say grace.",
+      "look": "Look again at the little one’s folded hands before the meal. What is one thing you can thank God for tonight?",
+      "license": "Artist died 1779; faithful photo of a 2D work (Commons: public domain)"
+    }
+  ]
 }

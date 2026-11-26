@@ -14,7 +14,7 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 | Closing verse | Philippians 1:6 | And I am sure that he who began a good work in you will bring it to completion at the day of Jesus Christ. | https://www.biblegateway.com/passage/?search=Philippians+1:6&version=RSVCE (RSVCE) |
 | Day 1 | Matthew 11:28 | Come to me, all who labor and are heavy laden, and I will give you rest. | https://www.biblegateway.com/verse/en/Matthew%2011:28 |
 | Day 2 | Psalm 127:2 | It is in vain that you rise up early and go late to rest, / eating the bread of anxious toil; / for he gives to his beloved sleep. | https://www.biblegateway.com/verse/en/Psalm%20127:2 (RSVCE); https://www.biblegateway.com/passage/?search=Psalm%20127%3A1-2&version=RSVCE (lineation; footnote marker after "for" omitted) |
-| Day 3 | Matthew 7:7–8 | Ask, and it will be given you; seek, and you will find; knock, and it will be opened to you. For every one who asks receives, and he who seeks finds, and to him who knocks it will be opened. | v.7 https://www.biblegateway.com/verse/en/Matthew%207:7 ; v.8 https://www.biblegateway.com/passage/?search=Matthew%207%3A7-8&version=RSVCE |
+| Day 3 | Romans 12:18 | If possible, so far as it depends upon you, live peaceably with all. | `tools/check_verses.py` against the RSVCE chapter file of andrewheekin/obsidian-holy-bible, OK, 2026-11-26 |
 | Day 4 | Genesis 2:15 | The LORD God took the man and put him in the garden of Eden to till it and keep it. | https://www.biblegateway.com/verse/en/Genesis%202:15 ; https://www.biblestudytools.com/rsv/genesis/2-15.html ("LORD") |
 | Day 5 | Sirach 38:31 | All these rely upon their hands, and each is skilful in his own work. | https://www.biblegateway.com/passage/?search=Sirach%2038%3A31-34&version=RSVCE |
 | Day 6 | Proverbs 11:1 | A false balance is an abomination to the LORD, but a just weight is his delight. | https://www.biblegateway.com/verse/en/Proverbs%2011:1 ; https://www.biblestudytools.com/rsv/proverbs/11-1.html ("LORD") |
@@ -25,7 +25,7 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 ## Range checks
 
 - No passage starts or ends in the middle of a quotation, and each ends at the end of a sentence.
-  - Matthew 7:7–8 is two full sentences inside the Sermon on the Mount; the RSV prints the sermon without enclosing quote marks, so no quote mark dangles.
+  - Romans 12:18 is one full sentence with no quote marks (replaced Matthew 7:7–8 on 2026-11-26, when the novena became "Strength and Growth at Work" and job seekers moved to finding-a-job).
   - Acts 20:35 was considered for Day 8 and dropped: it ends inside Paul's speech (’”), a dangling quote. Ephesians 4:28 replaced it.
   - 1 Peter 4:10 was considered for Day 5 and dropped: it ends with a colon, mid-sentence. Sirach 38:31 replaced it.
 - No overlap with the debt novena's Scripture (1 Peter 5:7, Matthew 6:33, Matthew 6:31–32, Luke 1:38, Psalm 128:1–2, Luke 14:28, Lamentations 3:25–26, Colossians 3:14–15, Philippians 4:6–7, Romans 13:8, 1 Thessalonians 5:16–18).
@@ -33,7 +33,7 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
   - "all who labor and are heavy laden" (Matthew 11:28), "the bread of anxious toil" (Psalm 127:2).
   - "the carpenter’s son" (Matthew 13:55, first sentence: "Is not this the carpenter’s son?"), verified at https://www.biblegateway.com/passage/?search=Matthew%2013%3A55&version=RSVCE
   - "their prayer is in the practice of their trade" (Sirach 38:34: "But they keep stable the fabric of the world, and their prayer is in the practice of their trade."), verified at https://www.biblegateway.com/passage/?search=Sirach%2038%3A31-34&version=RSVCE and https://www.biblegateway.com/verse/en/Sirach%2038:34
-- Permission limits: 12 verses in total (2 + 10). No whole book is quoted, and no book beyond 25%.
+- Permission limits: 11 verses in total (2 + 9). No whole book is quoted, and no book beyond 25%.
 
 ## Church teaching cited
 
@@ -51,3 +51,6 @@ All texts are RSV-CE. Checked word for word on 2026-11-20 with WebFetch.
 ## Review
 
 An independent Catholic review (review.md) found 2 errors and 4 improvements, applied 2026-11-20: Homobonus bio no longer claims he was "among the first" lay saints; the Naples monte di pietà claim for St. Cajetan is replaced by his hospital for incurables at Vicenza; the "(Day 3)" pointer in the tip moved; "long invoked" softened; Theatine poverty wording sharpened. Psalm 127:2 and Ephesians 4:28 were not re-fetched in the review (web budget); they were verified when written.
+
+## 2026-11-26: refocused on people already at work
+Title now "Novena for Strength and Growth at Work". Day 3 is "Trouble at Work" (Romans 12:18, checked by script, OK). Quotations added and checked against the same RSVCE source files: "tell him his fault, between you and him alone" (Matthew 18:15, Day 3); "rejoice with those who rejoice" (Romans 12:15, Day 5). The San Cayetano paragraph was removed. No new saint facts; no new CCC numbers.

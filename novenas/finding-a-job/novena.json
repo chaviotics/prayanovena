@@ -1,0 +1,211 @@
+{
+ "slug": "finding-a-job",
+ "storageKey": "novena-finding-a-job",
+ "status": "draft",
+ "order": 24,
+ "category": "work-money",
+ "title": "Novena for Finding a Job",
+ "cardTitle": "Finding a Job",
+ "icon": "door-open",
+ "barTitle": "Finding a Job",
+ "barShort": "Job Novena",
+ "kicker": "9 days of prayer for finding work",
+ "card": "For anyone looking for a job: laid off, starting out, returning to work or seeking work abroad. 9 days of trust through the search.",
+ "ogDescription": "9 days of prayer for finding a job, through Our Lady, St. Cajetan and St. John Bosco.",
+ "description": "A 9-day Catholic novena for finding a job, for the unemployed, laid off, first-time job seekers and OFWs, through Our Lady, St. Cajetan and St. John Bosco.",
+ "keywords": [
+  "job",
+  "finding a job",
+  "job search",
+  "job hunting",
+  "looking for work",
+  "employment",
+  "unemployed",
+  "unemployment",
+  "laid off",
+  "layoff",
+  "first job",
+  "returning to work",
+  "job interview",
+  "job application",
+  "OFW",
+  "abroad",
+  "working abroad",
+  "recruitment agency",
+  "trabaho",
+  "hanap trabaho",
+  "naghahanap ng trabaho",
+  "st. cajetan",
+  "san cayetano",
+  "st. john bosco",
+  "mother of divine providence",
+  "our lady of providence"
+ ],
+ "ogSaints": [
+  "cajetan",
+  "bosco"
+ ],
+ "epigraph": {
+  "text": "Commit your way to the LORD; trust in him, and he will act.",
+  "ref": "Psalm 37:5"
+ },
+ "closingVerse": {
+  "text": "We know that in everything God works for good with those who love him, who are called according to his purpose.",
+  "ref": "Romans 8:28"
+ },
+ "printTitle": [
+  "Novena for",
+  "Finding a Job"
+ ],
+ "printClosing": [
+  "We know that in everything God works for good with those who love him,",
+  "who are called according to his purpose."
+ ],
+ "saints": [
+  {
+   "id": "cajetan",
+   "name": "St. Cajetan",
+   "dates": "1480–1547",
+   "feast": "Feast · Aug 7",
+   "patron": "Patron of the unemployed & job seekers",
+   "bio": "Priest from Vicenza who co-founded the Theatines in 1524 to renew the clergy. He cared for the sick and the poor, trusted in God’s providence, and died in Naples.",
+   "alt": "Painting: St. Cajetan in a black cassock, by Andrea Vaccaro",
+   "openingRole": "friend of all who seek work"
+  },
+  {
+   "id": "bosco",
+   "name": "St. John Bosco",
+   "dates": "1815–1888",
+   "feast": "Feast · Jan 31",
+   "patron": "Patron of young people & apprentices",
+   "bio": "Farm boy from Piedmont who became a priest in Turin. He gathered poor boys, taught them trades and music, and founded the Salesians to educate the young with reason, religion and loving kindness.",
+   "alt": "Photograph: St. John Bosco in his cassock, hands folded, Turin, 1880",
+   "openingRole": "who went looking for work as a boy"
+  }
+ ],
+ "litany": [
+  {
+   "img": "mary",
+   "text": "Mary, Mother of Divine Providence"
+  },
+  {
+   "img": "cajetan",
+   "text": "St. Cajetan"
+  },
+  {
+   "img": "bosco",
+   "text": "St. John Bosco"
+  }
+ ],
+ "openingPrayer": "Heavenly Father, You know that we are looking for work, and You know what this search costs us: the applications that go unanswered, the worry about money, the people who depend on us, the quiet fear that we are not wanted. We bring it all to You and trust in Your providence. Open the right door at the right time, and give us courage while we wait. Today we ask Mary, Mother of Divine Providence; St. Cajetan, friend of all who seek work; and St. John Bosco, who went looking for work as a boy, to join their prayers with ours, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, You worked with Your own hands in Nazareth and know the worth of honest work. Stay with us in this search, guide our steps, and keep us trusting that our Father knows what we need.",
+ "memorare": {
+  "to": "Mary"
+ },
+ "tips": [
+  {
+   "h": "Praying with others",
+   "p": "One person leads each part; all respond <span class=\"resp\">pray for us</span> and <span class=\"resp\">Amen</span>, and say the closing prayers together. The prayers say “we”; if you pray alone, say “I”."
+  },
+  {
+   "h": "Alongside prayer",
+   "p": "If you can, go to Confession and attend Mass during these 9 days. Pair prayer with one prudent step: set hours for your search (Day&nbsp;3), update your CV, or ask people you know (Day&nbsp;8), or a parish or school job office. Check that any recruitment agency is licensed (in the Philippines, with the Department of Migrant Workers). Never pay illegal placement fees, and beware of fake job offers and pay that sounds too good to be true (Day&nbsp;7). Hoping to grow where you already work, or running a business? Pray the <a href=\"/work-and-livelihood/\">Novena for Strength and Growth at Work</a>."
+  }
+ ],
+ "intentionPlaceholder": "Write the work you are looking for, or the person you are praying for.",
+ "icons": [
+  "hands-praying",
+  "bird",
+  "door-open",
+  "heart",
+  "hourglass-medium",
+  "leaf",
+  "shield-check",
+  "users",
+  "sun-horizon"
+ ],
+ "credits": "Images: Andrea Vaccaro, <em>The Detachment of St Cajetan</em>, 17th century, Museo del Prado, Madrid · St. John Bosco, photograph attributed to Carlo Felice Deasti, Turin, 1880 · Scipione Pulzone, <em>Mater Divinae Providentiae</em>, c. 1580. Public domain, via Wikimedia Commons.",
+ "days": [
+  {
+   "title": "Bringing Our Need to God",
+   "ref": "Philippians 4:6–7",
+   "verse": "Have no anxiety about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which passes all understanding, will keep your hearts and your minds in Christ Jesus.",
+   "refl": "St. Paul wrote these words from prison, not from a comfortable life. He does not ask us to pretend we are fine. He asks us to bring everything to God, with prayer and with thanksgiving. Looking for work can fill the mind with questions: How long will the money last? What will people think? What if nothing comes? We begin these nine days by naming our need plainly, without shame. God already knows it. He promises us not a quick answer but His peace, which will keep our hearts and minds.",
+   "more": "Paul knew want as well as plenty: he writes that he has “learned the secret of facing plenty and hunger, abundance and want” (Philippians 4:12). Being without work is not a failure of faith, and a long search is never a sign that God has stepped away. When worry comes back, as it will, we can turn it into a short prayer and thank God for one thing He has already given.",
+   "prayer": "Heavenly Father, You know our need before we speak it. We bring You our search for work, our worry about money, the bills that wait, and those who depend on us. We bring You, too, the shame we sometimes feel and the fear that nothing will come. Teach us to turn each anxious thought into prayer, with thanksgiving for what we already have. Guard our hearts and minds with Your peace, which passes all understanding, and keep us close to You in Christ Jesus.",
+   "step": "Write down plainly what you need: the kind of work, the income, the timing. Offer the page to God, then thank Him for one thing you already have."
+  },
+  {
+   "title": "Our Daily Bread",
+   "ref": "Matthew 6:31–33",
+   "verse": "Therefore do not be anxious, saying, ‘What shall we eat?’ or ‘What shall we drink?’ or ‘What shall we wear?’ For the Gentiles seek all these things; and your heavenly Father knows that you need them all. But seek first his kingdom and his righteousness, and all these things shall be yours as well.",
+   "refl": "Jesus does not scold us for needing food, drink and clothing. He says plainly that our heavenly Father knows we need them all. What He frees us from is the anxious chasing after them, as if everything depended on us alone. When the income stops, it is natural to count every coin and dread the end of the month. Jesus invites us to seek first God’s kingdom, to remember that we are in a Father’s care, and to ask Him each day, as He taught us, for our daily bread.",
+   "more": "At the wedding in Cana, Mary noticed the need before anyone asked. She simply told her Son, “They have no wine” (John 2:3), and told the servants, “Do whatever he tells you” (John 2:5). She did not tell Jesus how to solve it; she brought it to Him and trusted Him. We can bring our need to her in the same way, and she will point us back to Him.",
+   "prayer": "Heavenly Father, You know that we need food, a roof over our heads, and the means to care for those who depend on us. Free us from the anxiety that makes everything rest on us alone, and help us seek first Your kingdom. Give us this day our daily bread. Mary, Mother of Divine Providence, you saw the need at Cana before anyone asked; tell your Son what we lack, and teach us to do whatever He tells us.",
+   "step": "Before each meal today, thank God for that day’s food, and pray the Our Father slowly once, pausing at “Give us this day our daily bread.”"
+  },
+  {
+   "title": "Not Losing Heart",
+   "ref": "Luke 18:1",
+   "verse": "And he told them a parable, to the effect that they ought always to pray and not lose heart.",
+   "refl": "Jesus told the parable of the widow and the unjust judge for one reason: so that we would always pray and not lose heart. The widow kept coming back until she was heard. A job search can feel like knocking on doors that never open: applications sent into silence, interviews that lead nowhere, the same polite refusal. It is easy to give up, on the search and on prayer. Jesus knows that temptation. He asks us to keep going and keep praying, because our Father is far kinder than any judge.",
+   "more": "St. Cajetan is invoked by many people looking for work. Every August 7, his feast day, crowds come to the shrine of San Cayetano in Buenos Aires to ask for bread and work. Like the widow in the parable, they keep asking. Searching for work is tiring and humbling, but it is never wasted. Each application, each follow-up call and each prayer is one more way of knocking again, and God sees every one.",
+   "prayer": "Father, Your Son taught us always to pray and not lose heart. When our applications go unanswered and our efforts seem wasted, keep us from discouragement and bitterness. Give us the persistence of the widow who kept coming back, and the humility to try again tomorrow. St. Cajetan, friend of all who seek work, pray for us, that we may keep knocking with patience and hope, trusting that You hear every prayer we make.",
+   "step": "Set a regular time for your search each day this week, and begin it with a short prayer: “Lord, guide my work today.”"
+  },
+  {
+   "title": "Never Forgotten",
+   "ref": "Isaiah 49:15",
+   "verse": "Can a woman forget her sucking child, / that she should have no compassion on the son of her womb? / Even these may forget, / yet I will not forget you.",
+   "refl": "God’s people, worn down by exile, said, “The LORD has forsaken me” (Isaiah 49:14). God answered with the tenderest image He could find: can a mother forget her nursing child? Even if she could, He will not forget us. Rejection hurts, especially when it comes again and again, or when we hear nothing at all. It can make us feel invisible, unwanted, worth less than others. But God sees us. We are not forgotten, and no rejection has the last word on who we are.",
+   "more": "Our worth was never given to us by a job title, a salary or an employer, so losing them cannot take it away. We are made in God’s image and loved by Him before we do anything at all, whether we are working or not. Being out of work can bring shame, pressure from others, even depression. If the weight grows heavy, it is right to tell a doctor or someone we trust.",
+   "prayer": "Father, You promised that You will never forget us, not even when others overlook us. When rejection comes again, or when no answer comes at all, heal the hurt it leaves, and keep us from believing that we are worth less. Remind us that our dignity comes from You and not from a job title or a salary. Help us see ourselves as You see us, and treat others with the same respect, especially those who are struggling as we are.",
+   "step": "Write Isaiah 49:15 on a card and keep it where you will see it. Read it whenever a rejection, or a long silence, comes."
+  },
+  {
+   "title": "The Long Wait",
+   "ref": "Psalm 27:14",
+   "verse": "Wait for the LORD; / be strong, and let your heart take courage; / yea, wait for the LORD!",
+   "refl": "The psalmist wrote this psalm with enemies around him, and still he tells himself twice: wait for the LORD. Waiting is often the hardest part of a job search: days without a reply, an interview with no news, a visa or an agency that keeps saying “next month.” Waiting can feel like doing nothing. But the waiting the psalm speaks of is not idle. It is strong, courageous trust that God is at work even when we see nothing happen. We can wait and still take heart.",
+   "more": "While we wait, the silence fills easily with our worst guesses: they did not like me; it will never happen. We do not have to believe every thought. We can do the next small thing, keep praying, and rest when we are tired. For those waiting on an agency or a visa to work abroad, the wait can stretch for months. Patience means letting God carry what we cannot hurry.",
+   "prayer": "Lord, You know how long we have been waiting, and how hard the silence is. When no reply comes, keep our hearts from fear and our minds from imagining the worst. Make us strong, and let our hearts take courage. Mary, who kept all these things and pondered them in her heart, teach us to wait with patience and trust, and to keep doing the next good thing while we wait for Your time.",
+   "step": "Choose one useful thing to do while you wait, such as learning a skill, volunteering or helping someone, and give it some time today."
+  },
+  {
+   "title": "Any Honest Work",
+   "ref": "Ruth 2:2",
+   "verse": "And Ruth the Moabitess said to Naomi, “Let me go to the field, and glean among the ears of grain after him in whose sight I shall find favor.” And she said to her, “Go, my daughter.”",
+   "refl": "Ruth was a foreigner in Bethlehem, a widow with nothing, caring for her mother-in-law Naomi. She did not wait for a perfect opening. She asked to go into the fields and gather the grain the harvesters left behind, about the humblest work there was. In that field she met Boaz, and her whole story changed. Sometimes the first work we find is not the work we hoped for. Honest work, however humble, has its own dignity, and God can use a small beginning to lead somewhere we cannot yet see.",
+   "more": "St. John Bosco knew humble beginnings. When he was about eleven, his mother sent him to look for work as a farmhand, and he worked on the Moglia family farm for nearly three years. As a student in Chieri, he later wrote, he worked as a waiter and bartender to pay his way. None of it was the priesthood he longed for, yet God was at work in all of it.",
+   "prayer": "Lord, You gave Ruth the courage to go out and glean in a stranger’s field. Give us the humility to accept honest work, even when it is not what we hoped for, and the courage to take the first step wherever a door opens. For those who seek work far from home, give wisdom to choose well. St. John Bosco, who worked on a farm as a boy and waited on tables as a student, pray for us.",
+   "step": "Apply today for one honest job you might have passed over, or ask someone you know whether they need help with any work."
+  },
+  {
+   "title": "Prudence, Not Shortcuts",
+   "ref": "Proverbs 14:15",
+   "verse": "The simple believes everything, / but the prudent looks where he is going.",
+   "refl": "Proverbs puts it simply: the simple believe everything, but the prudent look where they are going. When we badly need work, we are easy to fool. Offers of high pay for little work, recruiters who want large fees before anything is signed, lenders who make it easy to borrow for a placement fee: all of these prey on hope. Prudence is not a lack of trust in God; it is one of His gifts. Before we say yes, we can slow down, ask questions, and check what we are told.",
+   "more": "Scams aimed at people looking for work often share the same signs: a fee before any contract, pressure to decide at once, an employer no one can check, or pay far above what the work is worth. Prudence protects the vulnerable, ourselves included. Deciding whether to work abroad is part of this. We can weigh the real cost of leaving home alongside the pay, listen to those who have gone before, and pray it through.",
+   "prayer": "Father, give us the gift of prudence in this search. Open our eyes to false promises, fake job offers and anyone who would take advantage of our need. Keep us from shortcuts that lead into debt or danger. Help us weigh every decision, including whether to work far from home, with clear minds and honest counsel. Send Your Holy Spirit to counsel us, that we may look where we are going.",
+   "step": "Before you accept any offer or pay any fee, check that the employer or agency is real and licensed, and ask one experienced person what they think."
+  },
+  {
+   "title": "We Do Not Search Alone",
+   "ref": "Acts 18:1–3",
+   "verse": "After this he left Athens and went to Corinth. And he found a Jew named Aquila, a native of Pontus, lately come from Italy with his wife Priscilla, because Claudius had commanded all the Jews to leave Rome. And he went to see them; and because he was of the same trade he stayed with them, and they worked, for by trade they were tentmakers.",
+   "refl": "Paul arrived in Corinth as a newcomer, with a living to earn. There he found Aquila and Priscilla, who had themselves been forced to leave Rome, and because they shared a trade, he stayed and worked with them. God often provides through people: a friend who passes on our name, a former teacher, a parish group, someone from back home. Asking for help can feel humbling, but it is not weakness. We do not have to search alone, and one day we may open a door for someone else.",
+   "more": "St. John Bosco did more than teach his boys a trade. From 1851 on, he drew up written apprenticeship contracts with the employers who took them on, setting out fair pay and the terms of the work. One contract from November 1851 carries four signatures: the employer’s, the boy’s, his family’s and Don Bosco’s own. He would not leave the young people in his care to face the world of work alone.",
+   "prayer": "Lord, You led St. Paul to Aquila and Priscilla, and through them gave him work and friendship in a new city. Lead us to the people who can help us, and give us the humility to ask. Bless everyone who has passed on our name, offered advice or opened a door. St. John Bosco, who stood by young workers, pray for us. When our turn comes, make us generous in helping others find honest work.",
+   "step": "Tell three people you trust what kind of work you are looking for, and ask whether they know anyone you could talk to."
+  },
+  {
+   "title": "Gratitude & Trust in God’s Will",
+   "ref": "1 Thessalonians 5:16–18",
+   "verse": "Rejoice always, pray constantly, give thanks in all circumstances; for this is the will of God in Christ Jesus for you.",
+   "refl": "Paul asks us to give thanks in all circumstances, not only after good news. That can seem impossible when the search is long. But gratitude is not pretending. It is noticing how God has been with us through these nine days: a kind word, a new lead, an unexpected peace, the strength to keep going. Whether the work we hoped for has come or we are still waiting, we place our search in God’s hands, trusting that His will for us is good and that He will not stop caring for us.",
+   "more": "We thank Mary, Mother of Divine Providence, who brings our needs to her Son; St. Cajetan, friend of all who seek work; and St. John Bosco, who knew humble work and helped young people find theirs. We keep praying, keep searching and keep trusting. And when the right work comes, may we remember to give thanks, and to help someone else who is still looking, as others have helped us.",
+   "prayer": "Father, we thank You for walking with us through these nine days. Thank You for every grace we noticed, and for those we did not see. We place our search, our future and those who depend on us in Your hands, trusting that You know what we need. Mary, Mother of Divine Providence, St. Cajetan and St. John Bosco, pray for us. Whatever comes, keep us grateful, faithful and at peace, and let our work one day serve Your glory and the good of others.",
+   "step": "Write down three graces you noticed during these nine days, and thank God for them together."
+  }
+ ]
+}

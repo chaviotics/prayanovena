@@ -4,26 +4,32 @@
  "status": "published",
  "order": 4,
  "category": "work-money",
- "title": "Novena for Work and Livelihood",
- "cardTitle": "Work and Livelihood",
- "barTitle": "Novena for Work & Livelihood",
- "barShort": "Work Novena",
+ "title": "Novena for Strength and Growth at Work",
+ "cardTitle": "Strength and Growth at Work",
+ "barTitle": "Strength & Growth at Work",
+ "barShort": "Growth at Work",
  "kicker": "9 days of offering our work to God",
- "card": "For anyone looking for a job, seeking better work or running a business: 9 days of honest work, trust and generosity.",
- "ogDescription": "9 days of prayer for work and livelihood, through St. Joseph, St. Cajetan and St. Homobonus.",
- "description": "A 9-day Catholic novena for finding a job, seeking better work or running a business, through St. Joseph, St. Cajetan and St. Homobonus.",
+ "card": "For anyone tired, facing trouble at work, hoping for a promotion or running a business: 9 days of bringing it all to God.",
+ "ogDescription": "9 days of prayer for strength and growth at work, through St. Joseph, St. Cajetan and St. Homobonus.",
+ "description": "A 9-day Catholic novena for anyone tired or troubled at work, hoping for a promotion or running a business, through St. Joseph, St. Cajetan and St. Homobonus.",
  "keywords": [
-  "job",
   "work",
   "trabaho",
   "hanapbuhay",
   "kabuhayan",
   "negosyo",
-  "job search",
-  "unemployed",
   "business",
   "livelihood",
   "career",
+  "career growth",
+  "promotion",
+  "raise",
+  "burnout",
+  "stress at work",
+  "trouble at work",
+  "difficult boss",
+  "coworkers",
+  "workplace",
   "st. joseph the worker"
  ],
  "epigraph": {
@@ -53,7 +59,7 @@
    "patron": "Patron of the unemployed & job seekers",
    "bio": "Priest from Vicenza who co-founded the Theatines in 1524 to renew the clergy. He cared for the sick and the poor, trusted in God’s providence, and died in Naples.",
    "alt": "Painting: St. Cajetan in a black cassock, by Andrea Vaccaro",
-   "openingRole": "friend of all who seek work"
+   "openingRole": "servant of the sick and the poor"
   },
   {
    "id": "homobonus",
@@ -84,8 +90,8 @@
    "text": "St. Homobonus"
   }
  ],
- "openingPrayer": "Heavenly Father, You made us in Your image and gave us work to do in Your world. You know the needs we bring today: the search for a job, the hope of better and fairer work, the cares of a business and of everyone who depends on it. We trust in Your providence more than in our own anxious efforts. Today we ask St. Joseph, carpenter of Nazareth; St. Cajetan, friend of all who seek work; and St. Homobonus, honest merchant of Cremona, to join their prayers with ours before Your throne, through Christ our Lord.",
- "closingPrayer": "Lord Jesus, who worked with Your hands at Nazareth, bless our work and our search for work. Make us honest, diligent and generous, provide what we and those in our care need, and let Your holy will be done.",
+ "openingPrayer": "Heavenly Father, You made us in Your image and gave us work to do in Your world. You know the needs we bring today: the weariness and troubles of our work, the hope of growing and using our gifts well, the cares of a business and of everyone who depends on it. We trust in Your providence more than in our own anxious efforts. Today we ask St. Joseph, carpenter of Nazareth; St. Cajetan, servant of the sick and the poor; and St. Homobonus, honest merchant of Cremona, to join their prayers with ours before Your throne, through Christ our Lord.",
+ "closingPrayer": "Lord Jesus, who worked with Your hands at Nazareth, bless our work. Make us honest, diligent and generous, provide what we and those in our care need, and let Your holy will be done.",
  "memorare": {
   "to": "Mary"
  },
@@ -96,14 +102,14 @@
   },
   {
    "h": "Alongside prayer",
-   "p": "If you can, go to Confession and attend Mass during these 9 days, and keep Sunday as a day of rest. Pair prayer with one prudent step (Day&nbsp;3): update your CV, ask someone you trust for advice, or talk honestly with your staff. Beware of false shortcuts: illegal recruiters, placement-fee scams and “get rich quick” schemes."
+   "p": "If you can, go to Confession and attend Mass during these 9 days, and keep Sunday as a day of rest. Pair prayer with one prudent step (Day&nbsp;5): talk with a manager or mentor about how you can grow, ask someone you trust for advice, or talk honestly with your staff. Beware of false shortcuts such as “get rich quick” schemes. Looking for a job? Pray the <a href=\"/finding-a-job/\">Novena for Finding a Job</a>."
   }
  ],
- "intentionPlaceholder": "Write the job search, work or business you are praying for.",
+ "intentionPlaceholder": "Write the work, workplace or business you are praying for.",
  "icons": [
   "hands-praying",
   "moon",
-  "footprints",
+  "chats",
   "hammer",
   "gift",
   "scales",
@@ -117,9 +123,9 @@
    "title": "All Who Labor",
    "ref": "Matthew 11:28",
    "verse": "Come to me, all who labor and are heavy laden, and I will give you rest.",
-   "refl": "Jesus calls “all who labor and are heavy laden,” and that includes every kind of weariness about work. Some of us are looking for a job and hearing nothing back. Some are stuck in work that is unfair, unsafe or wrong for us. Some carry a business, with wages to pay and customers to keep, and lie awake over it. Jesus does not ask us to pretend things are fine. He asks us to come to Him just as we are, and He promises rest.",
-   "more": "Losing work, or fearing to lose it, touches more than our income. It can shake our sense of who we are and what we are worth. But our dignity does not come from a job title, a salary or a sales report; it comes from being made in God’s image and loved by Him. St. Joseph knew the plain, hardworking life of a village craftsman. We can tell him, and Jesus, exactly where we are.",
-   "prayer": "Heavenly Father, You see the work we have, the work we lack and the work we long for. You know the worry that follows us home and the questions that keep us awake. We come to Jesus as we are, tired and unsure. Through the prayers of St. Joseph, give us rest in Your presence, the courage to face our situation honestly, and the trust that You have not forgotten us.",
+   "refl": "Jesus calls “all who labor and are heavy laden,” and that includes every kind of weariness about work. Some of us are worn out by long hours or a job that drains us. Some are stuck, facing trouble at work, or in work that is unfair, unsafe or wrong for us. Some carry a business, with wages to pay and customers to keep, and lie awake over it. Jesus does not ask us to pretend things are fine. He asks us to come to Him just as we are, and He promises rest.",
+   "more": "Trouble at work, or fear for our job, touches more than our income. It can shake our sense of who we are and what we are worth. But our dignity does not come from a job title, a salary or a sales report; it comes from being made in God’s image and loved by Him. St. Joseph knew the hardworking life of a village craftsman. We can tell him, and Jesus, exactly where we are.",
+   "prayer": "Heavenly Father, You see the work we do, the weight we carry and the growth we long for. You know the worry that follows us home and the questions that keep us awake. We come to Jesus as we are, tired and unsure. Through the prayers of St. Joseph, give us rest in Your presence, the courage to face our situation honestly, and the trust that You have not forgotten us.",
    "step": "Write a few honest lines about your work situation (what you have, what you need, what you fear) and offer them to God."
   },
   {
@@ -127,18 +133,18 @@
    "ref": "Psalm 127:2",
    "verse": "It is in vain that you rise up early and go late to rest, / eating the bread of anxious toil; / for he gives to his beloved sleep.",
    "refl": "The psalm does not praise laziness. It warns against work that trusts only in itself: rising earlier, staying later, eating “the bread of anxious toil,” as if everything depended on us. St. Cajetan is remembered as a saint of Providence. His Theatine priests owned nothing and did not even beg, trusting God to provide. We still work hard, and we still plan. But we can lay our heads down at night, because the outcome rests in God’s hands.",
-   "more": "The Church asks us to keep Sunday for worship and to set aside work that keeps us from it, remembering that we are more than what we produce (CCC 2184–2185). For the overworked, that can feel impossible; for those without work, Sunday can feel empty. Yet the Lord’s Day is a gift to both: a reminder that our worth is not measured by output, and that the Father holds what we cannot.",
+   "more": "The Church asks us to keep Sunday for worship and to set aside work that keeps us from it, remembering that we are more than what we produce (CCC 2184–2185). For the overworked, that can feel impossible; for the anxious, work follows them home on Sunday. Yet the Lord’s Day is a gift to all of us: a reminder that our worth is not measured by output, and that the Father holds what we cannot.",
    "prayer": "Lord God, You give sleep to those You love. Free us from the anxious toil that trusts only in our own effort, and from the fear that keeps us working long past what is wise. Through the prayers of St. Cajetan, who trusted in Your providence, and of Our Mother of Perpetual Help, teach us to work hard and rest well, to keep Your day holy, and to leave tomorrow in Your hands.",
-   "step": "This Sunday, go to Mass and set aside some time for real rest, without job listings, work emails or business accounts."
+   "step": "This Sunday, go to Mass and set aside some time for real rest, without work emails or business accounts."
   },
   {
-   "title": "Ask, Seek, Knock",
-   "ref": "Matthew 7:7–8",
-   "verse": "Ask, and it will be given you; seek, and you will find; knock, and it will be opened to you. For every one who asks receives, and he who seeks finds, and to him who knocks it will be opened.",
-   "refl": "Jesus tells us to ask, to seek and to knock, and to keep on doing it. He does not promise that the first door will open, or that every door will. He promises that the Father hears us and gives what is good. Looking for work can mean many silent applications and interviews that lead nowhere. Each one can be offered as a prayer. St. Cajetan, invoked by so many people looking for work, reminds us that we never knock alone.",
-   "more": "Every August 7, crowds line up at the shrine of San Cayetano in Buenos Aires to ask for bread and work. Their faith is simple and persevering. Searching for work is itself work, and it can be tiring and humbling. It helps to treat it like a job: a set time each day, honest follow-up, and a short prayer before each application, interview or sales call. Rejection is not the last word on our worth.",
-   "prayer": "Father, Your Son told us to ask, to seek and to knock. We ask You for honest, fairly paid work, for customers and good opportunities, and for the right people to cross our path. When we hear nothing back, keep us from discouragement and bitterness. Through the prayers of St. Cajetan, friend of all who look for work, help us keep knocking with patience, humility and hope.",
-   "step": "Take one concrete step today: update your CV, send one application, or ask someone you trust about openings or new customers."
+   "title": "Trouble at Work",
+   "ref": "Romans 12:18",
+   "verse": "If possible, so far as it depends upon you, live peaceably with all.",
+   "refl": "St. Paul knew that peace is not always in our power, so he asks only for what is: “so far as it depends upon you.” Work can bring a difficult boss, a coworker who undermines us, gossip, unfair blame, or credit taken by someone else. We cannot control how others act, but we can choose how we answer: without revenge, without joining the gossip, and without letting bitterness settle in our hearts. Peace at work begins with the part that is ours to do.",
+   "more": "Living peaceably does not mean staying silent about everything. Jesus taught that when someone wrongs us, we should “tell him his fault, between you and him alone” (Matthew 18:15). Some things are better borne with patience; others need to be named calmly. Abuse, harassment and unsafe conditions are different: we need not face them alone or in silence; it is right to report them to HR or the proper authority and protect ourselves and others.",
+   "prayer": "Lord Jesus, You know the tensions of our workplace: the people who are hard to work with, the words that hurt, the treatment that feels unfair. Give us patience with others and honesty about ourselves. Keep us from gossip, revenge and bitterness. Give us the wisdom to know when to bear a wrong quietly and when to speak up, and the courage to seek help when we must. So far as it depends on us, make us people of peace.",
+   "step": "Pray by name for one person you find difficult at work, and choose one small way to treat them fairly. If someone is mistreating you, tell a person you trust."
   },
   {
    "title": "Work Made Holy",
@@ -150,12 +156,12 @@
    "step": "Do one ordinary task today with extra care, and offer it to God for someone who is looking for work."
   },
   {
-   "title": "Work That Fits Our Gifts",
+   "title": "Room to Grow",
    "ref": "Sirach 38:31",
    "verse": "All these rely upon their hands, and each is skilful in his own work.",
-   "refl": "Sirach looks at the farmer, the craftsman, the smith and the potter, and sees that each has his own skill. Then he adds something beautiful: “their prayer is in the practice of their trade.” God gives each of us gifts, and work is one of the places where they grow and serve others. Some of us are in jobs that waste our gifts, pay unfairly or wear us down. It is right to ask God for better work, and to seek it wisely.",
-   "more": "The Church teaches that a just wage is the legitimate fruit of work, and that refusing or withholding it can be a grave injustice (CCC 2434). Wanting fair pay, safe conditions and an employer who treats people with respect is not ingratitude. Still, a change of work needs discernment: talking it over with people we trust, weighing what it will cost those who depend on us, and asking where our gifts are truly needed.",
-   "prayer": "Father, You have given each of us gifts to use for others. Lead us to work that fits those gifts, pays fairly, keeps us safe and treats us with respect. Where we must stay for now, give us patience, and courage to speak up for what is right. Through the prayers of Our Mother of Perpetual Help, guide our choices and open the way You know is best.",
+   "refl": "Sirach looks at the farmer, the craftsman, the smith and the potter, and sees that each has his own skill. Then he adds something beautiful: “their prayer is in the practice of their trade.” God gives each of us gifts, and work is one of the places where they grow and serve others. Some of us want to grow in skill and responsibility; some hope for a promotion or a raise; some are in jobs that waste our gifts or pay unfairly. It is right to ask God for growth, and to seek it wisely.",
+   "more": "The Church teaches that a just wage is the legitimate fruit of work, and that refusing or withholding it can be a grave injustice (CCC 2434). Asking humbly and honestly for a promotion or a raise is not ingratitude. Growth means becoming more skilled and more useful to others, not simply richer. And when a colleague moves ahead of us, Scripture asks us to “rejoice with those who rejoice” (Romans 12:15), not to envy them.",
+   "prayer": "Father, You have given each of us gifts to use for others. Help us grow in skill and responsibility, and give us the humility and honesty to ask for what is fair, whether a promotion, a raise or better conditions. Free us from envy when others move ahead of us. Where we must wait, give us patience and courage. Through the prayers of Our Mother of Perpetual Help, guide our choices and open the way You know is best.",
    "step": "List three gifts or skills that others have thanked you for, and ask God how they might serve in your work."
   },
   {
@@ -189,15 +195,15 @@
    "title": "Gratitude & Trust in God’s Will",
    "ref": "Colossians 3:17",
    "verse": "And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.",
-   "refl": "St. Paul asks us to do everything in the name of Jesus, giving thanks. We end these nine days not by demanding an outcome, but by giving thanks, because God has heard every prayer and answers in the way that is truly best. Some of us may have found work; some are still waiting; some face a business that may not survive. With St. Joseph, St. Cajetan and St. Homobonus, we place our work and our future in the hands of a faithful Father.",
-   "more": "A closed door, a long search or a business that fails is never a sign that God has abandoned us or that our faith was too weak. The Cross looked like failure too. Looking back over these nine days, we may notice small graces: a kind word, a helpful contact, a clearer mind, a little more peace. Trusting God’s will means we keep praying and working, in peace.",
-   "prayer": "Lord, on this ninth day we thank You for Your faithfulness and for every grace, seen and unseen, that You have given us. Thank you, Our Mother of Perpetual Help, St. Joseph, St. Cajetan and St. Homobonus, for carrying our prayers before Jesus. We entrust our work, our search, our business and all who depend on us to Your loving will, trusting that You will give what is truly good for us.",
+   "refl": "St. Paul asks us to do everything in the name of Jesus, giving thanks. We end these nine days not by demanding an outcome, but by giving thanks, because God has heard every prayer and answers in the way that is truly best. Some of us are in a hard season at work; some hope for a promotion that has not come; some face a business that may not survive. With St. Joseph, St. Cajetan and St. Homobonus, we place our work and our future in the hands of a faithful Father.",
+   "more": "A closed door, a promotion that goes to someone else or a business that fails is never a sign that God has abandoned us or that our faith was too weak. The Cross looked like failure too. Looking back over these nine days, we may notice small graces: a kind word, a helpful contact, a clearer mind, a little more peace. Trusting God’s will means we keep praying and working, in peace.",
+   "prayer": "Lord, on this ninth day we thank You for Your faithfulness and for every grace, seen and unseen, that You have given us. Thank you, Our Mother of Perpetual Help, St. Joseph, St. Cajetan and St. Homobonus, for carrying our prayers before Jesus. We entrust our work, our hopes, our business and all who depend on us to Your loving will, trusting that You will give what is truly good for us.",
    "step": "Write down three graces you noticed during these nine days, and thank God for them together."
   }
  ],
  "printTitle": [
-  "Novena for Work",
-  "and Livelihood"
+  "Novena for Strength",
+  "and Growth at Work"
  ],
  "printClosing": [
   "And I am sure that he who began a good work in you",

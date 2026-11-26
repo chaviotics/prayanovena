@@ -1,0 +1,168 @@
+{
+  "days": [
+    {
+      "file": "Rembrandt St. Paul in Prison.jpg",
+      "width": 1280,
+      "crop": [
+        0.2,
+        0.15,
+        0.95,
+        0.6124
+      ],
+      "kind": "saint",
+      "artist": "Rembrandt",
+      "title": "Saint Paul in Prison",
+      "year": "1627",
+      "place": "Staatsgalerie, Stuttgart",
+      "alt": "The aged Paul sits in a stone cell, one hand at his chin and the other on a book, in a shaft of light from a high window.",
+      "look": "Look again at Paul in his cell, in the light from the window. What would you tell God about this search, in your own words?",
+      "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Carl Bloch - The Sermon on the Mount.jpg",
+      "width": 1280,
+      "crop": [
+        0.25,
+        0.1,
+        0.95,
+        0.581
+      ],
+      "kind": "scene",
+      "artist": "Carl Bloch",
+      "title": "The Sermon on the Mount",
+      "year": "1877",
+      "place": "Frederiksborg Museum, Hillerød",
+      "alt": "Listeners in robes and headscarves sit close together on the hillside, their faces turned up toward Jesus as he teaches.",
+      "look": "Look again at the listeners with their faces turned to him. What are you most afraid you will lack?",
+      "license": "Artist died 1890; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Gelijkenis van de rechter die wordt lastiggevallen door een klagende vrouw, RP-P-OB-46.028.jpg",
+      "width": 960,
+      "crop": [
+        0.2,
+        0.08,
+        0.95,
+        0.815
+      ],
+      "kind": "scene",
+      "artist": "Jan Luyken",
+      "title": "The Parable of the Unjust Judge",
+      "year": "1712",
+      "place": "Rijksmuseum, Amsterdam",
+      "alt": "In an engraving, a woman in a long cloak comes forward to the seated judge and his court, with a town behind them.",
+      "look": "Look again at the woman who keeps coming forward. Where are you tempted to stop asking?",
+      "license": "Artist died 1712; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "Vladimirskaya.jpg",
+      "width": 0,
+      "crop": [
+        0,
+        0.1,
+        1,
+        0.6022
+      ],
+      "kind": "names",
+      "artist": "Byzantine icon (Our Lady of Vladimir)",
+      "title": "Our Lady of Vladimir",
+      "year": "12th century",
+      "place": "",
+      "alt": "In a gold-ground icon, Mary holds her child close, his cheek pressed against hers, and looks out with a tender, sorrowful gaze.",
+      "look": "Look again at the child’s cheek pressed to his mother’s. What would it mean to rest in a love that does not forget you?",
+      "license": "12th-century icon; Commons: public domain"
+    },
+    {
+      "file": "Simeon in the temple, by Rembrandt van Rijn.jpg",
+      "width": 1920,
+      "crop": [
+        0.275,
+        0.594,
+        0.725,
+        0.85612
+      ],
+      "kind": "stretch",
+      "artist": "Rembrandt",
+      "title": "Simeon’s Song of Praise",
+      "year": "1631",
+      "place": "Mauritshuis, The Hague",
+      "alt": "In a dim temple, the old man Simeon holds the swaddled Christ child in a pool of light, with Mary and Joseph beside him.",
+      "look": "Look again at the light falling on the old man and the child. What are you still waiting for God to show you?",
+      "license": "Artist died 1669; faithful photo of a 2D work (Commons: public domain)",
+      "passage": "Luke 2"
+    },
+    {
+      "file": "William de Brailes - Top - Ruth Meets Boaz as she gleans (Ruth 2 -4-16) - Walters W10618R - Full Page.jpg",
+      "width": 1280,
+      "crop": [
+        0.07,
+        0.12,
+        0.72,
+        0.4774
+      ],
+      "kind": "scene",
+      "artist": "William de Brailes",
+      "title": "Ruth Meets Boaz as She Gleans",
+      "year": "c. 1250",
+      "place": "Walters Art Museum",
+      "alt": "Ruth bends over the field gathering ears of grain behind the reapers, while Boaz speaks to her.",
+      "look": "Look again at Ruth stooping to gather what the reapers leave. What honest work could you take up today, however small?",
+      "license": "13th-century work; faithful photo of a 2D work (Commons: public domain)"
+    },
+    {
+      "file": "The parable of the wise and foolish virgins (SM 895).png",
+      "width": 1280,
+      "crop": [
+        0.58,
+        0.2,
+        0.98,
+        0.6243
+      ],
+      "kind": "stretch",
+      "passage": "Matthew 25",
+      "artist": "Friedrich Wilhelm Schadow",
+      "title": "The Parable of the Wise and Foolish Virgins",
+      "year": "",
+      "place": "Städel Museum, Frankfurt",
+      "alt": "Young women stand at a doorway holding lit lamps, with Saint Peter beside them holding his keys.",
+      "look": "Look again at the lamps, and at who has come prepared. What one careful question could you ask before you say yes?",
+      "license": "Artist died 1862; faithful photo of a 2D work (Commons: Public Domain Mark, Städel Museum)"
+    },
+    {
+      "file": "Aquila en zijn vrouw Priscillia, St.Paulus te Corinthe bij de tentmaker.jpg",
+      "width": 0,
+      "crop": [
+        0.02,
+        0.35,
+        0.62,
+        0.8799
+      ],
+      "kind": "scene",
+      "artist": "Raphael Sadeler I, after Joos van Winghe",
+      "title": "Aquila and Priscilla Receive Paul at Corinth",
+      "year": "1588–89",
+      "place": "",
+      "alt": "Paul works at a table beside Priscilla at her spinning wheel, in a busy workshop at Corinth.",
+      "look": "Look again at Paul at work beside Priscilla in the busy workshop. Whom could you ask for help, or an introduction, this week?",
+      "license": "Late 16th-century print; Commons: public domain"
+    },
+    {
+      "file": "Nicolaes Maes - Old Woman Saying Grace - WGA13820.jpg",
+      "width": 960,
+      "crop": [
+        0.05,
+        0.12,
+        0.95,
+        0.6757
+      ],
+      "kind": "practice",
+      "artist": "Nicolaes Maes",
+      "title": "Old Woman Saying Grace",
+      "year": "c. 1656",
+      "place": "Rijksmuseum, Amsterdam",
+      "alt": "An old woman sits at a simple table with folded hands and bowed head, giving thanks before her meal.",
+      "look": "Look again at the old woman’s folded hands over her plain meal. What can you thank God for today, before the answer comes?",
+      "license": "Artist died 1693; faithful photo of a 2D work (Commons: public domain, Web Gallery of Art)"
+    }
+  ]
+}
