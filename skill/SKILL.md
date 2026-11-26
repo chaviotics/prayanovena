@@ -18,8 +18,24 @@ Every novena uses the same prayer structure and design. Only the content changes
 
 - **Repo:** `chaviotics/prayanovena` (branch `main`; Netlify deploys every push). Never push to `chaviotics/novena-finances`: it is the family's live debt novena.
 - **Netlify:** project `prayanovena` (id `3902d84c-0c49-48e4-a0ed-e1a0c45e5d75`). Never deploy to `novena-finances` unless the user asks.
-- **Read first:** `PROJECT_LOG.md` (decisions, history, open items), then `novenas/relief-from-debt/novena.json` and `novenas/healing/novena.json`. They are the approved examples: match their tone, lengths and polish.
-- **Tools:** `tools/build.py` (site and artifact), `tools/print_pdf.py` (printable PDF), `tools/check_print.py` (print text check), `tools/shots.py` (screenshots), `tools/og.py` (link-preview images), `tools/wm_images.py` (Wikimedia images). Read each one's docstring before using it.
+- **Read first, lean:** the top of `PROJECT_LOG.md` (where things live, the novenas table, decisions and rules) and its open items, not the dated log: `sed -n '1,/^## Log/p' PROJECT_LOG.md; sed -n '/^## Open items/,$p' PROJECT_LOG.md`. Grep the dated log only when you need something specific. Then read ONE example, `novenas/habitual-sin/novena.json` (it follows the saints-per-day rule), and match its tone, lengths and polish. From this skill, read sections 1 to 5b now and the rest when you reach them.
+- **Tools:** `tools/build.py` (site and artifact), `tools/print_pdf.py` (printable PDF), `tools/check_print.py` (print text check), `tools/shots.py` (screenshots), `tools/og.py` (link-preview images), `tools/art.py` (day pictures), `tools/check_verses.py` (Scripture check). Read each one's docstring before using it.
+
+## 0b. Work lean (usage)
+
+Measured on 15 builds (Nov 2026): most of a build's usage is the coordinating thread re-reading its own memory on every step, so a small memory and fewer steps save more than anything else. The leanest so far (Peace in the Family, $6.96 to a reviewed preview) ran in a fresh thread whose memory stayed at 159k tokens; the same setup run from a long thread (296k) cost $8.11. The Opus review caught real slips every time, so it is never skipped.
+
+- **One fresh thread per novena.** Don't build a novena in a thread that already carries other work.
+- **Check the limit meter before you start.** Start only when the 5-hour meter is under about 40%; running out mid-build stalls the work and makes every helper store its memory again.
+- **The thread coordinates: it decides and waits.** It picks the intercessors and the 9 verses itself (section 1 and the verse list from the research helper), briefs the helpers, applies small fixes, and takes the final look. It does not write the 9 days itself and never reads helper transcripts; while helpers run, it ends its turn. Novena threads run at **medium** effort.
+- **Keep the main memory small:** write each helper's brief to a file; never print a whole file or a long output (`sed -n`, `grep`, `python3 -c`); batch independent commands into one step; look at contact sheets, not single images. Helpers reply in 15 lines or fewer.
+- **Helpers (Agent tool):**
+  - **Saint facts and verse candidates:** one helper (`model: "sonnet"`) writes a notes file: each fact with its source and a HISTORICAL / EARLY BIOGRAPHY / LEGEND label, and candidate RSV-CE passages with exact text, marked clean, archaic or dangling-quote.
+  - **Pictures:** one helper (`model: "sonnet"`) does all image work (portraits, sections 5 and 5b). Reuse a saint's portrait from another novena when one exists (the grieving novena reused 3 of 4), and give it the list of image files other novenas already use. It saves its own JSON (no shared scratch scripts) and returns ONE contact sheet. Send it later work and review fixes with SendMessage, so it keeps its context.
+  - **Writer:** one fresh helper (`model: "opus"`, medium effort) reads sections 1 to 4, one example novena and the notes, writes `novena.json` and `sources.md`, and runs the verse check and build. Send it the review fixes with SendMessage.
+  - **Review:** one fresh helper (`model: "opus"`, high effort) checks text and pictures in one pass, before the first preview (section 8), and writes `review.md` plus `review-fixes.json` (exact old/new text per file), which the main thread applies by script instead of waking the writer again.
+- **Scripts for the mechanics:** verses (`tools/check_verses.py`, section 4), `tools/art.py`, and build, link preview, PDF, text check and the artifact in one step with a short summary (sections 6 and 7). If Python Playwright is missing (cloud), make the link preview with `python3 tools/og.py --html DIR <slug>` then `node tools/og_render.js DIR`, and take screenshots with a short Node Playwright script.
+- **Previews:** ask the user to send all changes for a preview in one message. A thread left idle for over an hour must store its whole memory again.
 
 ## 1. Intention → saints
 
@@ -98,8 +114,8 @@ Each day has these fields:
 
 ## 4. Verify every Scripture text (RSV-CE, word for word)
 
-- Fetch each passage, including the epigraph and closing verse, from BibleGateway with WebFetch: `https://www.biblegateway.com/passage/?search=<Book+c:v-v>&version=RSVCE`. Ask for the exact text with no verse numbers, footnote letters or headings.
-- A URL you build yourself may need the user's approval to fetch. If nobody is there to approve, run WebSearch first (for example "Mark 2:3-5 RSVCE") and fetch only URLs that appear in its results. BibleGateway's verse pages (`/verse/en/<ref>`) list the RSVCE text, and EWTN's online Bible is labeled RSV-CE. For the Old Testament (except the deuterocanonical books), `biblestudytools.com/rsv/...` has the same text as RSV-CE. The New Testament has Catholic Edition changes, so use an RSVCE source there.
+- **Check by script, not by fetching each verse into your memory:** `python3 tools/check_verses.py novenas/<slug>/novena.json` compares every passage, including the epigraph and closing verse, with the RSVCE chapter files of `andrewheekin/obsidian-holy-bible` (a sparse git clone into `/tmp/ohb`, only the chapters needed) and flags thee/thou. It prints OK or DIFF per passage; DIFFs from the source's footnote letters or continuing-speech quote marks are expected, anything else is a real mismatch. BibleGateway is blocked from scripts in the cloud.
+- For a second source or a passage the script can't settle, a helper can read BibleGateway (`/passage/?search=<Book+c:v-v>&version=RSVCE`) and answer MATCH or MISMATCH (it rate-limits and quotes only short text). For the Old Testament (except the deuterocanonical books), `biblestudytools.com/rsv/...` has the same text as RSV-CE; the New Testament has Catholic Edition changes, so use an RSVCE source there.
 - **No thee/thou verses.** Choose passages whose RSV-CE text has no archaic address to God ("thee", "thou", "thy", "thine", "hast", "didst", "art" as a verb, "doth"); if the verse you want has them, pick another RSV-CE verse on the same theme (Chav, 2026-11-21: they feel off to younger readers). Never modernize the words yourself: the RSV-CE permission requires the text unchanged. The traditional prayers (Hail Mary, Memorare) keep their own wording.
 - Copy punctuation exactly, including "LORD". Check the verse range: the passage must not start or end in the middle of a quotation (a dangling quote mark means choose a different range).
 - If a fetch looks paraphrased or partial, fetch it again or use a second RSV-CE source. Record what you verified in `novenas/<slug>/sources.md`.
@@ -108,18 +124,15 @@ Each day has these fields:
 ## 5. Images (public domain only)
 
 - Use Wikimedia Commons: paintings, sculpture, mosaics or icons by artists who died more than 100 years ago, and photos of such 2D works or 19th-century photographs. Avoid modern devotional art and recent photographs.
-- **Getting the files.** The workspace can't reach Wikimedia, so let Google fetch them, using `tools/wm_images.py`:
-  1. Add a scratch tab to any working Doc (`addDocumentTab`; the "Novena scratch doc" in the Faith folder is meant for this).
-  2. `python3 tools/wm_images.py requests <tabId> "File_A.jpg" "File_B.jpg"` prints Docs requests that insert Wikimedia thumbnails. Send them with `update_doc`. Wikimedia serves only standard thumbnail widths, so keep the default 960. If an image fails, its original is narrower: use `--width 500`, or insert the original file URL.
-  3. Export the Doc with Drive `download_file_content`, `exportMimeType: "application/zip"`, then `python3 tools/wm_images.py unzip <zip> <dir>` (files come out in insertion order).
-  4. Delete the scratch tab.
-- **Crop** with PIL: portrait `img/<id>.jpg` at 480×600 with the face in the upper third, and face `img/<id>_face.jpg` at 112×112, tight on the face. Use JPEG quality 85. For a litany-only image, such as a Marian title that isn't a saint card, make just `<id>_face.jpg`. Look at every crop, and leave out anything immodest or distracting next to the saint. Record sources in `novenas/<slug>/images.md`.
+- **Getting the files.** The cloud reaches Wikimedia directly (since 2026-11-22): use `tools/art.py meta` for the licence and details and fetch with curl. Wikimedia rate-limits the shared address: the 960 and 1280 px thumbnails usually come through when originals and the API answer 429, so back off instead of retrying in a loop. (`tools/wm_images.py`, the old route through a Google Doc, is only a fallback.)
+- **Credits come only from the Commons page** (author, title, date, institution fields), never from the file name or the uploader's guess. Leave a museum or date out rather than guess it.
+- **Crop** with PIL: portrait `img/<id>.jpg` at 480×600 with the face in the upper third, and face `img/<id>_face.jpg` at 112×112, tight on the face. Use JPEG quality 85. For a litany-only image, such as a Marian title that isn't a saint card, make just `<id>_face.jpg`. Look at every crop (on one contact sheet), and leave out anything immodest or distracting next to the saint, in the crop and in the whole picture. Record sources in `novenas/<slug>/images.md`.
 
 ## 5b. Day pictures (app only, never in the PDF)
 
 Every day gets a public-domain picture under its verse, plus a "Look again" line after the reflection. Both live in `novenas/<slug>/art.json`, made with `tools/art.py`. The print PDF never reads this file.
 
-- **Choose honestly, in this order:** (1) the scene itself; (2) what the verse names (the sky for Ps 19, a vine for Jn 15); (3) a saint moment tied to the verse (Augustine reading Rom 13:14); (4) what the verse asks us to do (a confession for Jas 5:16). (5) If none of these fit, a **stretch** is allowed: another passage that shows the same truth, with `"kind": "stretch"` and `"passage"` naming it, which then shows in the caption ("Raphael, *The Liberation of Saint Peter* (Acts 12), 1514"). **Never use a mood picture** that is merely pretty, with no link to the verse. If an honest search finds nothing, leave the day `null`, which is rare.
+- **Choose honestly, in this order:** (1) the scene itself; (2) what the verse names (the sky for Ps 19, a vine for Jn 15); (3) a saint moment tied to the verse (Augustine reading Rom 13:14); (4) what the verse asks us to do (a confession for Jas 5:16). (5) If none of these fit, a **stretch** is allowed: another passage that shows the same truth (the same message, not just the same image: a barren fig tree under threat of being cut down is the wrong picture for Habakkuk's trust "though the fig tree do not blossom"), with `"kind": "stretch"` and `"passage"` naming it, which then shows in the caption ("Raphael, *The Liberation of Saint Peter* (Acts 12), 1514"). **Never use a mood picture** that is merely pretty, with no link to the verse. If an honest search finds nothing, leave the day `null`, which is rare.
 - **Modesty:** this is prayer. Leave out bare bodies and anything that distracts, in the crop and in the whole picture (the whole picture shows when someone taps). This is stricter in novenas about chastity or habits.
 - **Public domain:** the artist died more than 100 years ago, and the file is a faithful photo of a 2D work, or a pre-1926 photograph. Check the license with `python3 tools/art.py meta "File.jpg"`, which also gives the date. Fill in `year` and `place` (museum) when they're known. Leave them `""` rather than guess.
 - **Crop:** 4:3, as fractions of the downloaded image, on exactly the detail the "Look again" line names. Faces must not be cut.
@@ -156,13 +169,14 @@ python3 tools/build.py                               # copies the PDF next to th
 
 ## 8. Review before publishing
 
-- Run a Catholic content review, using the catholic-guide skill or a fresh subagent with no stake in the draft. It checks:
+- Run a Catholic content review **before the first preview**, using a fresh helper with no stake in the draft (`model: "opus"`, high effort; it may use the catholic-guide skill). Text and pictures go in **one** pass, so a second round isn't needed. It checks:
   - doctrine
   - saints' facts and dates
   - no superstition or guarantees
   - fitting sacraments
   - kindness to those who are not cured
   - correct titles
+  - each picture: honest to its verse, modest in the crop and the whole picture, credits and museum as stated on its Commons page, crop not too dark
 - Fix what holds up, rebuild, and check again. Note the changes in `sources.md`.
 
 ## 9. Publish
