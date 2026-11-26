@@ -28,13 +28,13 @@ Measured on 15 builds (Nov 2026): most of a build's usage is the coordinating th
 - **One fresh thread per novena.** Don't build a novena in a thread that already carries other work.
 - **Check the limit meter before you start.** Start only when the 5-hour meter is under about 40%; running out mid-build stalls the work and makes every helper store its memory again.
 - **The thread coordinates: it decides and waits.** It picks the intercessors and the 9 verses itself (section 1 and the verse list from the research helper), briefs the helpers, applies small fixes, and takes the final look. It does not write the 9 days itself and never reads helper transcripts; while helpers run, it ends its turn. Novena threads run at **medium** effort.
-- **Keep the main memory small:** write each helper's brief to a file; never print a whole file or a long output (`sed -n`, `grep`, `python3 -c`); batch independent commands into one step; look at contact sheets, not single images. Helpers reply in 15 lines or fewer.
+- **Keep the main memory small:** the standing briefs are in `skill/briefs/` (see its README): write only this novena's decisions to `out/brief/<slug>/plan.md` and start each helper with one line pointing to its brief and the plan; never print a whole file or a long output (`sed -n`, `grep`, `python3 -c`); batch independent commands into one step; look at contact sheets, not single images. Helpers reply in 15 lines or fewer.
 - **Helpers (Agent tool):**
   - **Saint facts and verse candidates:** one helper (`model: "sonnet"`) writes a notes file: each fact with its source and a HISTORICAL / EARLY BIOGRAPHY / LEGEND label, and candidate RSV-CE passages with exact text, marked clean, archaic or dangling-quote.
   - **Pictures:** one helper (`model: "sonnet"`) does all image work (portraits, sections 5 and 5b). Reuse a saint's portrait from another novena when one exists (the grieving novena reused 3 of 4), and give it the list of image files other novenas already use. It saves its own JSON (no shared scratch scripts) and returns ONE contact sheet. Send it later work and review fixes with SendMessage, so it keeps its context.
-  - **Writer:** one fresh helper (`model: "opus"`, medium effort) reads sections 1 to 4, one example novena and the notes, writes `novena.json` and `sources.md`, and runs the verse check and build. Send it the review fixes with SendMessage.
+  - **Writer:** one fresh helper (`model: "opus"`, medium effort) reads sections 1 to 4, one example novena and the notes, writes `novena.json` and `sources.md`, and runs the verse check (the thread builds with make.py). Review fixes are applied by script (below); message the writer only for a rewrite a script can't do.
   - **Review:** one fresh helper (`model: "opus"`, high effort) checks text and pictures in one pass, before the first preview (section 8), and writes `review.md` plus `review-fixes.json` (exact old/new text per file), which the main thread applies by script instead of waking the writer again.
-- **Scripts for the mechanics:** verses (`tools/check_verses.py`, section 4), `tools/art.py`, and build, link preview, PDF, text check and the artifact in one step with a short summary (sections 6 and 7). If Python Playwright is missing (cloud), make the link preview with `python3 tools/og.py --html DIR <slug>` then `node tools/og_render.js DIR`, and take screenshots with a short Node Playwright script.
+- **Scripts for the mechanics:** `tools/art.py` for pictures, and `python3 tools/make.py <slug>` for everything else in one step (verses, link preview, PDF and text check, site, artifact, screenshots; about 1 minute, about 15 lines of output, Node fallbacks built in). Then look at its sheets: `out/make/<slug>/shots.jpg`, `pdf.jpg`, `art.jpg`. Apply the reviewer's fixes with `--fixes out/brief/<slug>/review-fixes.json` (misses are listed for you to fix by hand); use `--skip` for steps whose inputs didn't change.
 - **Previews:** ask the user to send all changes for a preview in one message. A thread left idle for over an hour must store its whole memory again.
 
 ## 1. Intention → saints
@@ -141,11 +141,13 @@ Every day gets a public-domain picture under its verse, plus a "Look again" line
 
 ## 6. Build and check the app
 
+`python3 tools/make.py <slug>` runs this section and section 7 in one step. The single commands, for when you need one:
+
 ```
 python3 tools/build.py                    # site/ (library + all novenas)
 python3 tools/build.py --artifact <slug>  # out/<slug>.html, one self-contained file
 python3 tools/og.py <slug>                # link-preview image (og.jpg), then build again. Optional "ogSaints": [left, right] in novena.json so both portraits face inward
-python3 tools/shots.py <slug>             # phone screenshots, light and dark, into out/shots/
+python3 tools/shots.py <slug>             # phone screenshots, light and dark, into out/shots/ (node tools/shots.js <slug> without Python Playwright)
 ```
 
 - Look at the screenshots: the hero (names should fit on 2 lines), Day 1, a poetry day, Day 9 and the closing.

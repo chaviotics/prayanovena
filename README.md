@@ -9,7 +9,9 @@ Live at https://prayanovena.com
 - `tools/build.py`: builds `site/` (what Netlify serves), or one self-contained HTML file with `--artifact <slug>`
 - `tools/print_pdf.py`, `templates/print-flow4.html` (+ `tools/print_render.js`): the printable A4 PDF of each novena (`novenas/<slug>/<slug>-novena.pdf`), made from novena.json
 - `tools/check_print.py`: checks a print PDF has every word; `tools/print_fill.py`: fills the older Google Docs layout
-- `tools/shots.py`, `tools/og.py`: phone screenshots and link-preview images
+- `tools/shots.py` (or `tools/shots.js` without Python Playwright), `tools/og.py`: phone screenshots and link-preview images
+- `tools/make.py <slug>`: verses, link preview, PDF and text check, site, artifact and screenshots for one novena in one step, with contact sheets; `--fixes` applies a reviewer's replacements
+- `skill/briefs/`: standing briefs for the novena helpers
 - `skill/SKILL.md`: the step-by-step guide for making a new novena
 - `PROJECT_LOG.md`: current state, decisions and open items; read it first
 - `log/`: dated history, one file per month

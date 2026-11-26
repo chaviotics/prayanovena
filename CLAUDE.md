@@ -15,7 +15,7 @@ After Karpathy's coding-agent rules, adapted to threads Chav checks hours later.
 1. **Think first.** State your reading of the ask. Ask once only if the answer changes Chav's goal or the step can't be undone; otherwise take the likeliest reading and say which.
 2. **Simplest change that works.** No new scripts, options or abstractions for a one-off; extend the existing tool. If a simpler way exists, say so and push back.
 3. **Surgical.** Touch only what the ask needs. Don't reword other novenas, tidy neighbouring code, or regenerate every PDF, picture or link preview when one slug changed. Mention unrelated problems; don't fix them unasked.
-4. **Know the check before you start, then run only that:** build.py warnings, `check_verses.py`, `check_print.py`, or `shots.py <slug>` for the page you changed. After a failure, re-run only what failed.
+4. **Know the check before you start, then run only that:** build.py warnings, `check_verses.py`, `check_print.py`, or `shots.py <slug>` for the page you changed; `tools/make.py <slug>` runs them all for one novena (add `--skip pdf,og` when the words didn't change). After a failure, re-run only what failed.
 
 ## Logging
 
